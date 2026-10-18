@@ -15,19 +15,52 @@ Rules
   derived     a calculated figure keeps its formula, inputs and source URL
   source      seed figures must still equal the PRS rows they were copied from (never corrected here)
   missing     pilot states without an RE or actual are listed
+  disbursed   a benefits-disbursed figure needs basis 'actuals', a source URL, reporting period and
+              as-of date; otherwise it is reported and not shown
 """
 from __future__ import annotations
 
-from .prs import EXP_INCL_DEBT, EXP_STD, OWN_TAX
+from .prs import EXP_INCL_DEBT, EXP_STD, OWN_TAX, SW_NUTRITION, SW_NUTRITION_ROW
 
 RATIO_RANGE = (0.60, 1.20)      # full-year actual / revised estimate
 HEADS_TOL = (2.0, 0.001)        # ₹ crore absolute, or 0.1 % – PRS rounds to whole crores
-PRS_ROW = {EXP_STD: "Net Expenditure (E)", EXP_INCL_DEBT: "Total Expenditure", OWN_TAX: "State's Own Tax"}
+PRS_ROW = {EXP_STD: "Net Expenditure (E)", EXP_INCL_DEBT: "Total Expenditure", OWN_TAX: "State's Own Tax",
+           SW_NUTRITION: SW_NUTRITION_ROW}
 FIGURES = ("budget", "expenditure", "tax", "beneficiary_announced", "budget_actual", "tax_actual")
 
 
 def _issue(issues, code, field, level, detail):
     issues.append({"state": code, "field": field, "level": level, "detail": detail})
+
+
+DISBURSEMENT_FIELDS = ("url", "period", "as_of")
+
+
+def _disb_src(fig: dict | None) -> dict:
+    """A disbursement's provenance: a scheme's `despatched_source`, or a state figure's own fields."""
+    if not isinstance(fig, dict):
+        return {}
+    return {"url": (fig.get("source") or {}).get("url", fig.get("url")), "period": fig.get("period"),
+            "as_of": fig.get("as_of"), "basis": fig.get("basis")}
+
+
+def disbursement_ok(fig: dict | None) -> bool:
+    """Benefits disbursed are shown only with a source URL, reporting period and as-of date, and only
+    as actual transfers – never a budget allocation."""
+    src = _disb_src(fig)
+    return bool(src) and all(src.get(k) for k in DISBURSEMENT_FIELDS) and src.get("basis") in (None, "actuals")
+
+
+def check_disbursements(states: list[dict], schemes: list[dict], fy: str, issues: list) -> None:
+    for st in states:
+        fig = st.get("beneficiary_despatched")
+        if fig is not None and not disbursement_ok(fig):
+            _issue(issues, st["code"], "beneficiary_despatched", "error",
+                   "disbursed: needs basis 'actuals', source URL, period and as-of date – not shown")
+    for s in schemes:
+        if s.get("fy") == fy and s.get("despatched") is not None and not disbursement_ok(s.get("despatched_source")):
+            _issue(issues, s["state"], f"scheme {s['name']}", "error",
+                   "disbursed: needs despatched_source with URL, period and as-of date – not shown")
 
 
 def compare(st: dict, actual_key: str, estimate_key: str, fy: str, issues: list) -> float | None:
@@ -70,19 +103,18 @@ def check_figures(st: dict, fy: str, issues: list) -> None:
             continue
         if not fig.get("basis"):
             _issue(issues, code, key, "error", "basis: figure does not say whether it is BE, RE or actuals")
-        if key != "beneficiary_announced":
-            if not fig.get("fy"):
-                _issue(issues, code, key, "error", "fy: figure has no financial year")
-            elif fig["fy"] != fy:
-                _issue(issues, code, key, "error", f"fy: {fig['fy']} but the site reports {fy}")
-            if not fig.get("definition"):
-                _issue(issues, code, key, "error", "definition: figure has no definition")
+        if not fig.get("fy"):
+            _issue(issues, code, key, "error", "fy: figure has no financial year")
+        elif fig["fy"] != fy:
+            _issue(issues, code, key, "error", f"fy: {fig['fy']} but the site reports {fy}")
+        if not fig.get("definition"):
+            _issue(issues, code, key, "error", "definition: figure has no definition")
         d = fig.get("derived")
         if key.endswith("_actual") and not (d and d.get("formula") and d.get("inputs") and d.get("source_url")):
             _issue(issues, code, key, "error", "derived: calculated figure without formula / inputs / source URL")
     # Source preservation: hand-entered seed figures must still equal the PRS rows they came from.
     rows = (st.get("prs_table") or {}).get("rows", {})
-    for key in ("budget", "tax", "expenditure"):
+    for key in ("budget", "tax", "expenditure", "beneficiary_announced"):
         fig = st.get(key)
         row = rows.get(PRS_ROW.get((fig or {}).get("definition"), ""))
         if fig and row and fig.get("basis") == "RE" and fig["value"] != row["RE"]:
@@ -93,9 +125,10 @@ def check_figures(st: dict, fy: str, issues: list) -> None:
                 _issue(issues, code, key, "missing", "no figure")
 
 
-def run(states: list[dict], fy: str) -> tuple[dict[str, dict], list[dict]]:
+def run(states: list[dict], fy: str, schemes: list[dict] = ()) -> tuple[dict[str, dict], list[dict]]:
     """{code: {'budget': pct|None, 'tax': pct|None}} and the list of issues."""
     issues, comparisons = [], {}
+    check_disbursements(states, list(schemes), fy, issues)
     for st in states:
         check_figures(st, fy, issues)
         comparisons[st["code"]] = {"budget": compare(st, "budget_actual", "expenditure", fy, issues),

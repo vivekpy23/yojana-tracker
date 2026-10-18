@@ -87,6 +87,43 @@ cag:
     JK: "Jammu and Kashmir UT (31-Oct-2019 Onwards)"
     PY: Pondicherry
 
+# PRS state budget analyses. The analysis of next year's budget carries this FY's revised estimates
+# (budget, own tax, Social Welfare & Nutrition). States without a slug have no PRS analysis.
+prs:
+  url: "https://prsindia.org/budgets/states/{slug}-budget-analysis-{year}"
+  slugs:
+    MH: maharashtra
+    UP: uttar-pradesh
+    TN: tamil-nadu
+    KA: karnataka
+    RJ: rajasthan
+    AP: andhra-pradesh
+    AR: arunachal-pradesh
+    AS: assam
+    BR: bihar
+    CG: chhattisgarh
+    GA: goa
+    GJ: gujarat
+    HR: haryana
+    HP: himachal-pradesh
+    JH: jharkhand
+    KL: kerala
+    MP: madhya-pradesh
+    MN: manipur
+    ML: meghalaya
+    MZ: mizoram
+    NL: nagaland
+    OD: odisha
+    PB: punjab
+    SK: sikkim
+    TS: telangana
+    TR: tripura
+    UK: uttarakhand
+    WB: west-bengal
+    DL: delhi
+    JK: jammu-and-kashmir
+    # PY: no PRS analysis for Puducherry
+
 # Pilot jurisdictions processed by the daily run.
 pilot_states: [MH, UP, TN, KA, RJ]
 

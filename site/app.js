@@ -17,6 +17,18 @@
   function val(fig) { return fig && typeof fig.value === "number" ? fig.value : null; }
   var DASH = '<span class="dash" aria-label="not yet available">—</span>';
   function cell(fig) { var v = val(fig); return v === null ? DASH : cr(v); }
+  // Benefits disbursed: "Partial" when only some of a state's schemes have a published figure.
+  function disbCell(fig) {
+    if (val(fig) === null) return DASH;
+    var partial = fig.coverage === "partial";
+    return cr(fig.value) + (partial ? ' <span class="tag" title="' + esc(fig.label || "Not all schemes covered") + '">Partial</span>' : "");
+  }
+  function disbScheme(sc) {
+    if (sc.despatched == null) return DASH;
+    var src = sc.despatched_source || {};
+    return '<a href="' + esc(src.url) + '" target="_blank" rel="noopener" title="' +
+      esc([src.title, src.period, "as of " + src.as_of].filter(Boolean).join(" · ")) + '">' + cr(sc.despatched) + "</a>";
+  }
   var BADGE = {
     verified: ["verified", "Verified"],
     secondary: ["secondary", "Budget docs (via PRS)"],
@@ -123,7 +135,7 @@
             '<td><a class="state-link" href="#/state/' + s.code + '">' + esc(s.name) + "</a>" + (s.ut ? ' <span class="hint">UT</span>' : "") + "</td>" +
             '<td class="num">' + cell(s.budget) + "</td>" +
             '<td class="num">' + cell(s.beneficiary_announced) + "</td>" +
-            '<td class="num">' + cell(s.beneficiary_despatched) + "</td>" +
+            '<td class="num">' + disbCell(s.beneficiary_despatched) + "</td>" +
             '<td class="num">' + cell(s.tax) + "</td></tr>";
         }).join("") +
         "</tbody></table></div>" +
@@ -176,7 +188,7 @@
           ? '<div class="table-box"><table><thead><tr><th>#</th><th>Yojana</th><th class="num">Announced ▼</th><th class="num">Disbursed</th><th>Status</th></tr></thead><tbody>' +
             top.map(function (sc, i) {
               return "<tr><td class=\"rank\">" + (i + 1) + "</td><td>" + esc(sc.name) + (sc.note ? '<div class="hint">' + esc(sc.note) + "</div>" : "") + "</td>" +
-                '<td class="num">' + cr(sc.announced) + '</td><td class="num">' + (sc.despatched == null ? DASH : cr(sc.despatched)) +
+                '<td class="num">' + cr(sc.announced) + '</td><td class="num">' + disbScheme(sc) +
                 "</td><td>" + badge(sc.status) + "</td></tr>";
             }).join("") + '</tbody></table></div><p class="hint" style="margin:0">— Not yet available.</p>'
           : '<div class="table-box"><p class="empty">No schemes collected for ' + esc(s.name) + " yet. The daily run will add them as they are found and verified.</p></div>") +

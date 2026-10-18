@@ -199,7 +199,7 @@ def main(argv=None) -> int:
 
     upgraded = confirm_seed(fetcher, cfg)
     seed = load(SEED, {})
-    prs_problems = prs.update_reference(fetcher, seed, fy, today())
+    prs_problems = prs.update_reference(fetcher, seed, fy, today(), cfg)
     actuals = cag.update_actuals(fetcher, cfg, seed, fy, today())
     save(SEED, seed)
     for code, why in prs_problems.items():

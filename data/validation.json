@@ -36,6 +36,72 @@
       "field": "budget_actual/expenditure",
       "level": "blocked",
       "detail": "heads: BE 2025-26 differs – CAG 394,797.86 vs PRS 379,617 (+4.0%), so the sources group heads differently"
+    },
+    {
+      "state": "AP",
+      "field": "tax_actual/tax",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 125,765.81 vs PRS 109,007 (+15.4%), so the sources group heads differently"
+    },
+    {
+      "state": "AR",
+      "field": "tax_actual/tax",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 1,883.96 vs PRS 3,396 (-44.5%), so the sources group heads differently"
+    },
+    {
+      "state": "BR",
+      "field": "tax_actual/tax",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 100,901.86 vs PRS 59,520 (+69.5%), so the sources group heads differently"
+    },
+    {
+      "state": "GJ",
+      "field": "budget_actual/expenditure",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 351,036.49 vs PRS 332,150 (+5.7%), so the sources group heads differently"
+    },
+    {
+      "state": "HR",
+      "field": "budget_actual/expenditure",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 179,750.84 vs PRS 169,229 (+6.2%), so the sources group heads differently"
+    },
+    {
+      "state": "HP",
+      "field": "budget_actual/expenditure",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 64,657.08 vs PRS 52,708 (+22.7%), so the sources group heads differently"
+    },
+    {
+      "state": "HP",
+      "field": "tax_actual/tax",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 13,947.51 vs PRS 16,101 (-13.4%), so the sources group heads differently"
+    },
+    {
+      "state": "JH",
+      "field": "budget_actual/expenditure",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 140,255.83 vs PRS 136,653 (+2.6%), so the sources group heads differently"
+    },
+    {
+      "state": "JH",
+      "field": "tax_actual/tax",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 42,020.27 vs PRS 35,199 (+19.4%), so the sources group heads differently"
+    },
+    {
+      "state": "NL",
+      "field": "tax_actual/tax",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 4,246.12 vs PRS 1,878 (+126.1%), so the sources group heads differently"
+    },
+    {
+      "state": "TS",
+      "field": "tax_actual/tax",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 154,124.18 vs PRS 145,420 (+6.0%), so the sources group heads differently"
     }
   ]
 }

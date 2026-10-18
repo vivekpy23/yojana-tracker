@@ -18,6 +18,24 @@ def test_prs_rows_rajasthan():
     assert rows["(-) Repayment of debt"] == {"BE": 157452, "RE": 199124}
     assert rows["Net Expenditure (E)"] == {"BE": 379617, "RE": 359472}
     assert rows["State's Own Tax"] == {"BE": 142743, "RE": 138539}
+    # Sector table uses '2025-26 BE' / '2025-26 RE' headers instead of 'Budgeted' / 'Revised'.
+    assert rows["Social Welfare and Nutrition"] == {"BE": 26639, "RE": 24034}
+
+
+def test_prs_reference_creates_missing_figures_for_other_states():
+    cfg = {"prs": {"url": "https://prsindia.org/budgets/states/{slug}-budget-analysis-{year}",
+                   "slugs": {"RJ": "rajasthan"}}}
+    st = {"code": "RJ", "name": "Rajasthan"}           # a state with no figures entered yet
+    seed = {"states": [st, {"code": "PY", "name": "Puducherry"}]}
+    probs = prs.update_reference(FakeFetcher((S / "prs_rj_tables.html").read_bytes()), seed, FY, "2026-10-18", cfg)
+    assert probs == {}
+    assert st["source"]["url"] == "https://prsindia.org/budgets/states/rajasthan-budget-analysis-2026-27"
+    assert st["source"]["title"] == "PRS – Rajasthan Budget Analysis 2026-27"
+    sw = st["beneficiary_announced"]
+    assert sw["value"] == 24034 and sw["basis"] == "RE" and sw["fy"] == FY and sw["definition"] == prs.SW_NUTRITION
+    assert sw["source_row"] == "Social Welfare and Nutrition" and sw["status"] == "secondary"
+    assert st["budget"]["value"] == 558596 and st["tax"]["value"] == 138539 and st["expenditure"]["value"] == 359472
+    assert "prs_table" not in seed["states"][1]       # no PRS analysis: nothing invented
 
 
 def test_prs_rows_need_the_right_fy_columns():
@@ -39,7 +57,10 @@ def test_update_reference_keeps_originals_and_adds_standard_figure():
           "tax": {"value": 226181, "basis": "RE", "status": "secondary"},
           "source": {"title": "PRS", "url": "https://prsindia.org/budgets/states/uttar-pradesh-budget-analysis-2026-27"}}
     seed = {"states": [st]}
-    assert prs.update_reference(FakeFetcher((S / "prs_up_tables.html").read_bytes()), seed, FY, "2026-10-18") == {}
+    probs = prs.update_reference(FakeFetcher((S / "prs_up_tables.html").read_bytes()), seed, FY, "2026-10-18")
+    # This sample has no sector table: the missing row is reported and nothing is filled in.
+    assert probs == {"UP": ["PRS row 'Social Welfare and Nutrition' for 2025-26 not found"]}
+    assert "beneficiary_announced" not in st
     assert st["budget"]["value"] == 716231 and st["budget"]["definition"] == prs.EXP_INCL_DEBT  # untouched, labelled
     assert st["tax"]["definition"] == prs.OWN_TAX and st["tax"]["fy"] == FY
     assert st["expenditure"]["value"] == 674755 and st["expenditure"]["definition"] == prs.EXP_STD
@@ -143,3 +164,53 @@ def test_run_returns_comparisons_per_state():
     comparisons, issues = validate.run([rj(), {"code": "GA", "name": "Goa"}], FY)
     assert comparisons == {"RJ": {"budget": None, "tax": 82.0}, "GA": {"budget": None, "tax": None}}
     assert [i["field"] for i in issues] == ["budget_actual/expenditure"]
+
+
+# ---------------------------------------------------------------- benefits disbursed
+SRC = {"url": "https://example.gov.in/report.pdf", "title": "Dept report", "period": "April 2025 – March 2026",
+       "as_of": "2026-05-31"}
+
+
+def scheme(name, despatched=None, source=SRC, status="verified"):
+    return {"state": "MH", "fy": FY, "name": name, "announced": 100, "status": status,
+            "despatched": despatched, "despatched_source": source if despatched is not None else None}
+
+
+def test_disbursement_needs_url_period_and_date():
+    assert validate.disbursement_ok(SRC)
+    for k in ("url", "period", "as_of"):
+        assert not validate.disbursement_ok({**SRC, k: None})
+    assert not validate.disbursement_ok(None)
+
+
+def test_budget_allocation_is_never_a_disbursement():
+    fig = {"value": 36000, "basis": "RE", "source": {"url": SRC["url"]}, "period": SRC["period"], "as_of": SRC["as_of"]}
+    assert not validate.disbursement_ok(fig)
+    assert validate.disbursement_ok({**fig, "basis": "actuals"})
+
+
+def test_disbursed_complete_partial_and_none():
+    from scraper import build
+    two = [scheme("A", 40), scheme("B", 10)]
+    assert build.disbursed({}, two)["coverage"] == "complete" and build.disbursed({}, two)["value"] == 50
+    part = build.disbursed({}, [scheme("A", 40), scheme("B")])
+    assert part["coverage"] == "partial" and part["value"] == 40 and part["schemes_covered"] == 1
+    assert build.disbursed({}, [scheme("A"), scheme("B")]) is None                       # shown as "—"
+    assert build.disbursed({}, [scheme("A", 40, source={**SRC, "as_of": None})]) is None  # no date: ignored
+
+
+def test_state_level_disbursement_figure_keeps_provenance():
+    from scraper import build
+    st = {"beneficiary_despatched": {"value": 900, "basis": "actuals", "status": "verified",
+                                     "source": {"url": SRC["url"], "title": "t"}, "period": SRC["period"],
+                                     "as_of": SRC["as_of"], "coverage": "partial"}}
+    out = build.disbursed(st, [])
+    assert out["value"] == 900 and out["coverage"] == "partial"
+    assert out["source"]["url"] == SRC["url"] and out["period"] == SRC["period"] and out["as_of"] == SRC["as_of"]
+
+
+def test_unsourced_disbursements_are_reported():
+    issues = []
+    validate.check_disbursements([{"code": "MH", "beneficiary_despatched": {"value": 5, "basis": "actuals"}}],
+                                 [scheme("A", 40, source={"url": SRC["url"]})], FY, issues)
+    assert [(i["field"], i["level"]) for i in issues] == [("beneficiary_despatched", "error"), ("scheme A", "error")]

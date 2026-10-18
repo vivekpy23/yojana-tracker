@@ -5,7 +5,7 @@ A lightweight static site showing central and state beneficiary schemes (yojanas
 - **Home:** central schemes total and gross tax collected, two charts (where the centre spends, top 5 central schemes), and a states table (top 5 by schemes announced, "show all", search; "—" = not yet available). Methodology sits in a "How we calculate" panel in the footer.
 - **State page:** state budget and own tax revenue (each with the CAG provisional actual and % of the revised estimate underneath), schemes announced, and the state's top 5 yojanas with a status badge each.
 
-Pilot coverage: the centre + Maharashtra, Uttar Pradesh, Tamil Nadu, Karnataka, Rajasthan. The other 26 states/UTs appear as "Coming soon".
+Pilot coverage (schemes, news verification): the centre + Maharashtra, Uttar Pradesh, Tamil Nadu, Karnataka, Rajasthan. Budget, own tax and Schemes announced come from PRS for every state/UT PRS analyses (all but Puducherry); CAG actuals for every state that publishes a March report.
 
 ## How data flows
 
@@ -35,7 +35,7 @@ Status badges on the site:
 | Figure | Source | Notes |
 |---|---|---|
 | Central schemes, gross tax, charts | PRS analysis of the Union Budget; confirmed against indiabudget.gov.in | `data/seed.json → central` |
-| State budget, own tax revenue, Social Welfare & Nutrition (RE 2025-26) | PRS state budget analyses (pilot states) | Badge "Budget docs (via PRS)". `scraper/prs.py` re-reads PRS's key-figure tables each run and stores the BE/RE rows as printed under `prs_table` |
+| State budget, own tax revenue, Social Welfare & Nutrition (RE 2025-26) | PRS state budget analyses of 2026-27 – every state/UT PRS covers (30 of 31; not Puducherry) | Badge "Budget docs (via PRS)". `scraper/prs.py` reads PRS's key-figure, receipts and sector tables each run and stores the BE/RE rows as printed under `prs_table`. The five pilot states' hand-entered figures are kept and checked against these rows; for the other states the figures are created from them. A row PRS doesn't print stays empty (Arunachal Pradesh and J&K have no Social Welfare & Nutrition row) |
 | **Actual spending and own tax collected (2025-26)** | **CAG, state accounts → Monthly Key Indicators**, March 2026 report ([cag.gov.in](https://cag.gov.in/en/state-accounts-report)) | `scraper/cag.py`; stored as `budget_actual` / `tax_actual`, basis "provisional actuals" |
 | Scheme announcements | PIB + national news RSS, verified against state budget documents | `scraper/news.py`, `scraper/verify.py` |
 
@@ -68,7 +68,26 @@ It also reports errors – a figure without basis / FY / definition, a derived f
 **Checked but not usable yet (October 2026):**
 
 - *RBI, State Finances: A Study of Budgets* – the latest edition (Jan 2026) covers 2023-24 Accounts, 2024-25 RE and 2025-26 **BE**; RE 2025-26 will first appear in the next edition. rbidocs.rbi.org.in also answers automated downloads with a CAPTCHA page, so its XLSX/PDF files can't be fetched by the daily job.
-- *DBT Bharat* – state dashboards show only a cumulative total and the current year (2026-27); there is no scheme-wise or year-wise breakdown and no downloadable data. Scheme-wise DBT for 2025-26 is not available there.
+- *DBT Bharat* – state dashboards show only a cumulative total and the current year (2026-27) and ignore year parameters. The home page has year-wise data back to 2019-20 (2025-26: ₹7,51,902 Cr), but only nationally and by central scheme group, not by state. The state cumulative totals are clearly incomplete (UP and TN ₹0, Karnataka ₹2.7 Cr).
+
+**Benefits disbursed – sources checked (18 Oct 2026), none usable for 2025-26:**
+
+| Source | Result |
+|---|---|
+| MahaDBT (mahadbtmahait.gov.in) | TLS certificate not valid for the hostname – not fetched |
+| Ladki Bahin portal (ladakibahin.maharashtra.gov.in) | 403 Forbidden |
+| DBT UP (dbtup.upsdc.gov.in) | JavaScript-only shell, no data |
+| Kanya Sumangala (mksy.up.gov.in) | "KPI" / "Quick Stats" pages return the home page; scheme rules only |
+| UP pensions (sspy-up.gov.in) | TLS certificate expired – not fetched |
+| DBT Tamil Nadu (dbt.tn.gov.in) | An internal payment-processing console (approval actions, beneficiary names and mobile numbers), not a public disclosure – deliberately not used |
+| KMUT (kmut.tn.gov.in) | TLS certificate expired – not fetched |
+| DBT Karnataka (dbtkarnataka.gov.in) | No response |
+| Jan Aadhaar, Rajasthan | DBT dashboard's app script 404s; e-Transaction app disallowed by robots.txt; latest administrative report is Jan 2024 |
+| Web search for official scheme reports | Only budget allocations, news and aggregator figures that contradict each other |
+
+TLS errors are never bypassed: a figure fetched that way can't be shown to come from the government site. State budget documents report actuals two years later, so 2025-26 scheme actuals first appear with the 2027-28 budgets.
+
+**How a disbursement figure gets on the site.** A scheme's `despatched` amount counts only with `despatched_source` = {`url`, `title`, `period`, `as_of`}; a state-level `beneficiary_despatched` needs `basis: "actuals"`, `source.url`, `period` and `as_of`. A state total covering only some of its counted schemes is labelled **Partial**; with no figure the cell shows "—". Budget allocations are never used. Figures missing provenance are reported in `data/validation.json` and not shown.
 
 ## Repository layout
 
@@ -128,7 +147,7 @@ cd site && python -m http.server    # open http://localhost:8000
 
 - **Government source pages** in `scraper/config.yaml` are each state finance department's home page. Check once that they lead to the 2025-26 budget documents; if a state hosts them elsewhere, add the exact page or PDF under `direct_docs`.
 - **Scanned PDFs**: text is read from the PDF text layer. Scanned budget documents yield little text, so those schemes stay "Unverified" until an OCR step (e.g. `ocrmypdf`) is added.
-- **Benefits disbursed** (`beneficiary_despatched` in the data) is empty everywhere: DBT Bharat publishes no scheme-wise 2025-26 state figures (see *Data sources*). State DBT portals (e.g. mahadbtmahait.gov.in) are the next place to look.
+- **Benefits disbursed** (`beneficiary_despatched` in the data) is empty everywhere: no checked source publishes verified 2025-26 transfers (see *Data sources*). Options: RTI requests to the scheme departments, re-checking the portals once their certificates are fixed, or the 2027-28 budget documents (2025-26 actuals).
 - **CAG actuals** are Pending for Assam, Kerala, Meghalaya, Sikkim, Tripura (expenditure) and Uttarakhand because their reports fail the arithmetic check or are scanned; Goa, Mizoram, Delhi and Puducherry have no March 2026 report on cag.gov.in.
-- **Schemes announced** (`beneficiary_announced` in the data) for states currently uses each state's *Social Welfare & Nutrition* sector spend (RE 2025-26) as an interim total, until scheme-level totals are verified.
+- **Schemes announced** (`beneficiary_announced` in the data) for states currently uses each state's *Social Welfare & Nutrition* sector spend (RE 2025-26) as an interim total, until scheme-level totals are verified. States classify welfare differently, so this isn't fully comparable across states: Andhra Pradesh, for example, books ₹41,705 Cr under "Welfare of SC, ST, OBC and Minorities" and only ₹7,290 Cr under Social Welfare & Nutrition.
 - News outlets' RSS feeds only carry recent articles. Because FY 2025-26 budgets were presented in early 2025, the hand-collected seed in `data/schemes.json` covers the pilot states; the daily run mainly keeps verifying those and picks up new announcements.

@@ -90,7 +90,9 @@
         "value": 81015,
         "basis": "RE",
         "status": "secondary",
-        "label": "Social Welfare & Nutrition sector"
+        "label": "Social Welfare & Nutrition sector",
+        "definition": "sw_nutrition",
+        "fy": "2025-26"
       },
       "beneficiary_despatched": null,
       "tax": {
@@ -111,8 +113,8 @@
         },
         "fy": "2025-26",
         "columns": {
-          "BE": "2025-26 Budgeted",
-          "RE": "2025-26 Revised"
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
         },
         "rows": {
           "Total Expenditure": {
@@ -126,6 +128,10 @@
           "Net Expenditure (E)": {
             "BE": 700020.0,
             "RE": 755920.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 58363.0,
+            "RE": 81015.0
           },
           "State's Own Tax": {
             "BE": 387544.0,
@@ -251,7 +257,9 @@
         "value": 36580,
         "basis": "RE",
         "status": "secondary",
-        "label": "Social Welfare & Nutrition sector"
+        "label": "Social Welfare & Nutrition sector",
+        "definition": "sw_nutrition",
+        "fy": "2025-26"
       },
       "beneficiary_despatched": null,
       "tax": {
@@ -272,8 +280,8 @@
         },
         "fy": "2025-26",
         "columns": {
-          "BE": "2025-26 Budgeted",
-          "RE": "2025-26 Revised"
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
         },
         "rows": {
           "Total Expenditure": {
@@ -287,6 +295,10 @@
           "Net Expenditure (E)": {
             "BE": 757333.0,
             "RE": 674755.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 36897.0,
+            "RE": 36580.0
           },
           "State's Own Tax": {
             "BE": 295000.0,
@@ -412,7 +424,9 @@
         "value": 40891,
         "basis": "RE",
         "status": "secondary",
-        "label": "Social Welfare & Nutrition sector"
+        "label": "Social Welfare & Nutrition sector",
+        "definition": "sw_nutrition",
+        "fy": "2025-26"
       },
       "beneficiary_despatched": null,
       "tax": {
@@ -433,8 +447,8 @@
         },
         "fy": "2025-26",
         "columns": {
-          "BE": "2025-26 Budgeted",
-          "RE": "2025-26 Revised"
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
         },
         "rows": {
           "Total Expenditure": {
@@ -448,6 +462,10 @@
           "Net Expenditure (E)": {
             "BE": 439293.0,
             "RE": 435470.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 38096.0,
+            "RE": 40891.0
           },
           "State's Own Tax": {
             "BE": 220895.0,
@@ -573,7 +591,9 @@
         "value": 46372,
         "basis": "RE",
         "status": "secondary",
-        "label": "Social Welfare & Nutrition sector"
+        "label": "Social Welfare & Nutrition sector",
+        "definition": "sw_nutrition",
+        "fy": "2025-26"
       },
       "beneficiary_despatched": null,
       "tax": {
@@ -594,8 +614,8 @@
         },
         "fy": "2025-26",
         "columns": {
-          "BE": "2025-26 Budgeted",
-          "RE": "2025-26 Revised"
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
         },
         "rows": {
           "Total Expenditure": {
@@ -609,6 +629,10 @@
           "Net Expenditure (E)": {
             "BE": 383075.0,
             "RE": 368833.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 46397.0,
+            "RE": 46372.0
           },
           "State's Own Tax": {
             "BE": 208100.0,
@@ -734,7 +758,9 @@
         "value": 24034,
         "basis": "RE",
         "status": "secondary",
-        "label": "Social Welfare & Nutrition sector"
+        "label": "Social Welfare & Nutrition sector",
+        "definition": "sw_nutrition",
+        "fy": "2025-26"
       },
       "beneficiary_despatched": null,
       "tax": {
@@ -755,8 +781,8 @@
         },
         "fy": "2025-26",
         "columns": {
-          "BE": "2025-26 Budgeted",
-          "RE": "2025-26 Revised"
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
         },
         "rows": {
           "Total Expenditure": {
@@ -770,6 +796,10 @@
           "Net Expenditure (E)": {
             "BE": 379617.0,
             "RE": 359472.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 26639.0,
+            "RE": 24034.0
           },
           "State's Own Tax": {
             "BE": 142743.0,
@@ -965,6 +995,101 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-Mar-P-2026-069fc787b59f333-66693265.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Andhra Pradesh Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Andhra Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 322359.0,
+            "RE": 300535.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 24430.0,
+            "RE": 23015.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 297929.0,
+            "RE": 277519.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 9071.0,
+            "RE": 7290.0
+          },
+          "State's Own Tax": {
+            "BE": 109007.0,
+            "RE": 98025.0
+          },
+          "Share in Central Taxes": {
+            "BE": 57566.0,
+            "RE": 56741.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 300535.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Andhra Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 98025.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Andhra Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 7290.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Andhra Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 277519.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Andhra Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
@@ -1052,11 +1177,184 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-S-2026-06a3a1a7aaa2e29-26798231.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Arunachal Pradesh Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/arunachal-pradesh-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Arunachal Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/arunachal-pradesh-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 39842.0,
+            "RE": 39442.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 1034.0,
+            "RE": 953.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 38809.0,
+            "RE": 38489.0
+          },
+          "State's Own Tax": {
+            "BE": 3396.0,
+            "RE": 3249.0
+          },
+          "Share in Central Taxes": {
+            "BE": 24992.0,
+            "RE": 24475.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 39442.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Arunachal Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/arunachal-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 3249.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Arunachal Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/arunachal-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "expenditure": {
+        "value": 38489.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Arunachal Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/arunachal-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
       "code": "AS",
-      "name": "Assam"
+      "name": "Assam",
+      "source": {
+        "title": "PRS – Assam Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/assam-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Assam Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/assam-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 155985.0,
+            "RE": 200782.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 9343.0,
+            "RE": 30843.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 146642.0,
+            "RE": 169939.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 13482.0,
+            "RE": 19286.0
+          },
+          "State's Own Tax": {
+            "BE": 34823.0,
+            "RE": 34610.0
+          },
+          "Share in Central Taxes": {
+            "BE": 44494.0,
+            "RE": 43572.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 200782.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Assam Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/assam-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 34610.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Assam Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/assam-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 19286.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Assam Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/assam-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 169939.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Assam Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/assam-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      }
     },
     {
       "code": "BR",
@@ -1143,6 +1441,101 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MARCH-SY-2026-06a4743b2781360-98512970.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Bihar Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/bihar-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Bihar Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/bihar-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 316895.0,
+            "RE": 423284.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 22820.0,
+            "RE": 22820.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 294075.0,
+            "RE": 400465.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 15012.0,
+            "RE": 51374.0
+          },
+          "State's Own Tax": {
+            "BE": 59520.0,
+            "RE": 59520.0
+          },
+          "Share in Central Taxes": {
+            "BE": 138516.0,
+            "RE": 143069.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 423284.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Bihar Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/bihar-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 59520.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Bihar Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/bihar-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 51374.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Bihar Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/bihar-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 400465.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Bihar Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/bihar-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
@@ -1230,11 +1623,201 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-13th-Acc-2026-06a5a1ed99ae218-50846145.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Chhattisgarh Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/chhattisgarh-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Chhattisgarh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/chhattisgarh-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 176337.0,
+            "RE": 167337.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 11337.0,
+            "RE": 11337.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 165000.0,
+            "RE": 156000.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 10710.0,
+            "RE": 13231.0
+          },
+          "State's Own Tax": {
+            "BE": 54000.0,
+            "RE": 45500.0
+          },
+          "Share in Central Taxes": {
+            "BE": 50000.0,
+            "RE": 48000.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 167337.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Chhattisgarh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/chhattisgarh-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 45500.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Chhattisgarh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/chhattisgarh-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 13231.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Chhattisgarh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/chhattisgarh-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 156000.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Chhattisgarh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/chhattisgarh-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
       "code": "GA",
-      "name": "Goa"
+      "name": "Goa",
+      "source": {
+        "title": "PRS – Goa Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/goa-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Goa Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/goa-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 28162.0,
+            "RE": 29275.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 2523.0,
+            "RE": 2660.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 25639.0,
+            "RE": 26615.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 1097.0,
+            "RE": 1112.0
+          },
+          "State's Own Tax": {
+            "BE": 9743.0,
+            "RE": 9435.0
+          },
+          "Share in Central Taxes": {
+            "BE": 5491.0,
+            "RE": 5412.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 29275.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Goa Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/goa-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 9435.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Goa Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/goa-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 1112.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Goa Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/goa-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 26615.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Goa Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/goa-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      }
     },
     {
       "code": "GJ",
@@ -1321,6 +1904,101 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-2026-with-loan-data-06a47501e5749d8-31012251.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Gujarat Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Gujarat Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 365747.0,
+            "RE": 352538.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 33596.0,
+            "RE": 34027.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 332150.0,
+            "RE": 318511.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 12971.0,
+            "RE": 20695.0
+          },
+          "State's Own Tax": {
+            "BE": 158482.0,
+            "RE": 154950.0
+          },
+          "Share in Central Taxes": {
+            "BE": 49401.0,
+            "RE": 48386.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 352538.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Gujarat Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 154950.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Gujarat Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 20695.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Gujarat Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 318511.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Gujarat Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
@@ -1408,6 +2086,101 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-03-2026-Supplemenatry-06a4c8c2f68a1e8-80003520.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Haryana Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/haryana-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Haryana Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/haryana-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 240017.0,
+            "RE": 237817.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 70789.0,
+            "RE": 70893.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 169229.0,
+            "RE": 166923.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 19828.0,
+            "RE": 17812.0
+          },
+          "State's Own Tax": {
+            "BE": 92144.0,
+            "RE": 94250.0
+          },
+          "Share in Central Taxes": {
+            "BE": 15547.0,
+            "RE": 15225.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 237817.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Haryana Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/haryana-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 94250.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Haryana Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/haryana-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 17812.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Haryana Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/haryana-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 166923.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Haryana Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/haryana-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
@@ -1495,6 +2268,101 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-2026-Sy-English-06a48a930e2d1b9-26676456.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Himachal Pradesh Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Himachal Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 58514.0,
+            "RE": 96661.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 5806.0,
+            "RE": 32004.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 52708.0,
+            "RE": 64657.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 3158.0,
+            "RE": 4975.0
+          },
+          "State's Own Tax": {
+            "BE": 16101.0,
+            "RE": 13948.0
+          },
+          "Share in Central Taxes": {
+            "BE": 11806.0,
+            "RE": 11562.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 96661.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Himachal Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 13948.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Himachal Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 4975.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Himachal Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 64657.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Himachal Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
@@ -1582,11 +2450,201 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-SY-06a4dec986728e9-28162441.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Jharkhand Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Jharkhand Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 145400.0,
+            "RE": 150275.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 8747.0,
+            "RE": 8747.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 136653.0,
+            "RE": 141529.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 23914.0,
+            "RE": 25694.0
+          },
+          "State's Own Tax": {
+            "BE": 35199.0,
+            "RE": 41929.0
+          },
+          "Share in Central Taxes": {
+            "BE": 47041.0,
+            "RE": 46066.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 150275.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Jharkhand Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 41929.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Jharkhand Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 25694.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Jharkhand Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 141529.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Jharkhand Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
       "code": "KL",
-      "name": "Kerala"
+      "name": "Kerala",
+      "source": {
+        "title": "PRS – Kerala Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/kerala-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Kerala Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/kerala-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 313543.0,
+            "RE": 312907.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 114961.0,
+            "RE": 120451.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 198582.0,
+            "RE": 192456.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 16054.0,
+            "RE": 16306.0
+          },
+          "State's Own Tax": {
+            "BE": 91515.0,
+            "RE": 83731.0
+          },
+          "Share in Central Taxes": {
+            "BE": 28617.0,
+            "RE": 27382.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 312907.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Kerala Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/kerala-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 83731.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Kerala Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/kerala-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 16306.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Kerala Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/kerala-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 192456.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Kerala Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/kerala-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      }
     },
     {
       "code": "MP",
@@ -1673,6 +2731,101 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MP-March-Sup-2025-26-06a4647f7b4d5e1-91145452.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Madhya Pradesh Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Madhya Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 405315.0,
+            "RE": 379839.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 29980.0,
+            "RE": 25952.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 375335.0,
+            "RE": 353887.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 34580.0,
+            "RE": 32930.0
+          },
+          "State's Own Tax": {
+            "BE": 109157.0,
+            "RE": 100020.0
+          },
+          "Share in Central Taxes": {
+            "BE": 111662.0,
+            "RE": 109351.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 379839.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Madhya Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 100020.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Madhya Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 32930.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Madhya Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 353887.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Madhya Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
@@ -1760,15 +2913,300 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-SY-2026-06a6337e54f0a57-87246912.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Manipur Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/manipur-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Manipur Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/manipur-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 29988.0,
+            "RE": 32463.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 6449.0,
+            "RE": 6430.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 23539.0,
+            "RE": 26033.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 1692.0,
+            "RE": 1959.0
+          },
+          "State's Own Tax": {
+            "BE": 1901.0,
+            "RE": 1934.0
+          },
+          "Share in Central Taxes": {
+            "BE": 10185.0,
+            "RE": 10039.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 32463.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Manipur Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/manipur-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 1934.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Manipur Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/manipur-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 1959.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Manipur Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/manipur-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 26033.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Manipur Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/manipur-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
       "code": "ML",
-      "name": "Meghalaya"
+      "name": "Meghalaya",
+      "source": {
+        "title": "PRS – Meghalaya Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/meghalaya-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Meghalaya Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/meghalaya-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 30003.0,
+            "RE": 30003.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 2405.0,
+            "RE": 2405.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 27598.0,
+            "RE": 27598.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 1066.0,
+            "RE": 1066.0
+          },
+          "State's Own Tax": {
+            "BE": 4226.0,
+            "RE": 4226.0
+          },
+          "Share in Central Taxes": {
+            "BE": 10910.0,
+            "RE": 10684.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 30003.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Meghalaya Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/meghalaya-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 4226.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Meghalaya Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/meghalaya-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 1066.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Meghalaya Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/meghalaya-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 27598.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Meghalaya Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/meghalaya-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      }
     },
     {
       "code": "MZ",
-      "name": "Mizoram"
+      "name": "Mizoram",
+      "source": {
+        "title": "PRS – Mizoram Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/mizoram-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Mizoram Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/mizoram-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 15043.0,
+            "RE": 17127.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 419.0,
+            "RE": 419.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 14624.0,
+            "RE": 16708.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 400.0,
+            "RE": 563.0
+          },
+          "State's Own Tax": {
+            "BE": 1478.0,
+            "RE": 1536.0
+          },
+          "Share in Central Taxes": {
+            "BE": 7112.0,
+            "RE": 6965.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 17127.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Mizoram Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/mizoram-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 1536.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Mizoram Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/mizoram-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 563.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Mizoram Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/mizoram-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 16708.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Mizoram Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/mizoram-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      }
     },
     {
       "code": "NL",
@@ -1855,6 +3293,101 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-Report-March-2026-06a0559ec9f7f10-48044467.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Nagaland Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/nagaland-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Nagaland Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/nagaland-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 24699.0,
+            "RE": 27728.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 4603.0,
+            "RE": 7716.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 20096.0,
+            "RE": 20012.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 529.0,
+            "RE": 635.0
+          },
+          "State's Own Tax": {
+            "BE": 1878.0,
+            "RE": 1836.0
+          },
+          "Share in Central Taxes": {
+            "BE": 8094.0,
+            "RE": 7926.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 27728.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Nagaland Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/nagaland-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 1836.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Nagaland Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/nagaland-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 635.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Nagaland Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/nagaland-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 20012.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Nagaland Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/nagaland-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
@@ -1942,6 +3475,101 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-TREND-3-2026-merged-069f34fa395fb70-90490099.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Odisha Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/odisha-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Odisha Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/odisha-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 290000.0,
+            "RE": 290000.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 23200.0,
+            "RE": 23200.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 266800.0,
+            "RE": 266800.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 29627.0,
+            "RE": 29390.0
+          },
+          "State's Own Tax": {
+            "BE": 66000.0,
+            "RE": 66000.0
+          },
+          "Share in Central Taxes": {
+            "BE": 64408.0,
+            "RE": 63074.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 290000.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Odisha Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/odisha-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 66000.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Odisha Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/odisha-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 29390.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Odisha Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/odisha-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 266800.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Odisha Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/odisha-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
@@ -2029,11 +3657,201 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-Monthly-Key-indicator-for-the-month-of-March-English-2026-06a04682b13edf1-51182858.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Punjab Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/punjab-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Punjab Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/punjab-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 236081.0,
+            "RE": 253601.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 89449.0,
+            "RE": 98199.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 146632.0,
+            "RE": 155402.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 9501.0,
+            "RE": 11290.0
+          },
+          "State's Own Tax": {
+            "BE": 63250.0,
+            "RE": 61700.0
+          },
+          "Share in Central Taxes": {
+            "BE": 25704.0,
+            "RE": 25171.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 253601.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Punjab Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/punjab-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 61700.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Punjab Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/punjab-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 11290.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Punjab Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/punjab-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 155402.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Punjab Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/punjab-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
       "code": "SK",
-      "name": "Sikkim"
+      "name": "Sikkim",
+      "source": {
+        "title": "PRS – Sikkim Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/sikkim-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Sikkim Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/sikkim-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 16196.0,
+            "RE": 14396.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 661.0,
+            "RE": 661.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 15535.0,
+            "RE": 13735.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 511.0,
+            "RE": 476.0
+          },
+          "State's Own Tax": {
+            "BE": 2076.0,
+            "RE": 2076.0
+          },
+          "Share in Central Taxes": {
+            "BE": 5519.0,
+            "RE": 5405.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 14396.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Sikkim Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/sikkim-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 2076.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Sikkim Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/sikkim-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 476.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Sikkim Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/sikkim-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 13735.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Sikkim Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/sikkim-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      }
     },
     {
       "code": "TS",
@@ -2120,6 +3938,97 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MARCH-P-2026-06a0470ccbc2882-44923651.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Telangana Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/telangana-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Telangana Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/telangana-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 304965.0,
+            "RE": 281339.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 284837.0,
+            "RE": 261211.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 23158.0,
+            "RE": 22419.0
+          },
+          "State's Own Tax": {
+            "BE": 145420.0,
+            "RE": 134020.0
+          },
+          "Share in Central Taxes": {
+            "BE": 29900.0,
+            "RE": 29471.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 281339.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Telangana Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/telangana-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 134020.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Telangana Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/telangana-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 22419.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Telangana Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/telangana-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 261211.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Telangana Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/telangana-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
@@ -2160,11 +4069,201 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-Mar-Sy-2026-06a507ca96d1b28-57967171.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Tripura Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/tripura-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Tripura Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/tripura-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 32423.0,
+            "RE": 32995.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 1012.0,
+            "RE": 967.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 31412.0,
+            "RE": 32028.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 2139.0,
+            "RE": 1911.0
+          },
+          "State's Own Tax": {
+            "BE": 4010.0,
+            "RE": 3860.0
+          },
+          "Share in Central Taxes": {
+            "BE": 11153.0,
+            "RE": 11153.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 32995.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Tripura Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/tripura-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 3860.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Tripura Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/tripura-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 1911.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Tripura Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/tripura-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 32028.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Tripura Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/tripura-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
       "code": "UK",
-      "name": "Uttarakhand"
+      "name": "Uttarakhand",
+      "source": {
+        "title": "PRS – Uttarakhand Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/uttarakhand-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Uttarakhand Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/uttarakhand-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 101175.0,
+            "RE": 101611.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 26006.0,
+            "RE": 26006.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 75170.0,
+            "RE": 75605.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 4509.0,
+            "RE": 4677.0
+          },
+          "State's Own Tax": {
+            "BE": 24015.0,
+            "RE": 23680.0
+          },
+          "Share in Central Taxes": {
+            "BE": 15903.0,
+            "RE": 15573.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 101611.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Uttarakhand Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/uttarakhand-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 23680.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Uttarakhand Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/uttarakhand-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 4677.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Uttarakhand Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/uttarakhand-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 75605.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Uttarakhand Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/uttarakhand-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      }
     },
     {
       "code": "WB",
@@ -2251,12 +4350,198 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-approved-MKI-06a4e3fabe74598-09516166.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – West Bengal Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/west-bengal-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – West Bengal Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/west-bengal-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 389194.0,
+            "RE": 356692.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 47732.0,
+            "RE": 43795.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 341462.0,
+            "RE": 312897.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 47234.0,
+            "RE": 53696.0
+          },
+          "State's Own Tax": {
+            "BE": 112544.0,
+            "RE": 111737.0
+          },
+          "Share in Central Taxes": {
+            "BE": 106999.0,
+            "RE": 107266.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 356692.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – West Bengal Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/west-bengal-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 111737.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – West Bengal Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/west-bengal-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 53696.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – West Bengal Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/west-bengal-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 312897.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – West Bengal Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/west-bengal-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {
       "code": "DL",
       "name": "Delhi",
-      "ut": true
+      "ut": true,
+      "source": {
+        "title": "PRS – Delhi Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/delhi-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Delhi Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/delhi-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 100000.0,
+            "RE": 99310.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 4642.0,
+            "RE": 4642.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 95358.0,
+            "RE": 94668.0
+          },
+          "Social Welfare and Nutrition": {
+            "BE": 10232.0,
+            "RE": 4760.0
+          },
+          "State's Own Tax": {
+            "BE": 68700.0,
+            "RE": 65700.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 99310.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Delhi Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/delhi-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 65700.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Delhi Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/delhi-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "beneficiary_announced": {
+        "value": 4760.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "sw_nutrition",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector",
+        "source": {
+          "title": "PRS – Delhi Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/delhi-budget-analysis-2026-27"
+        },
+        "source_row": "Social Welfare and Nutrition"
+      },
+      "expenditure": {
+        "value": 94668.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Delhi Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/delhi-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      }
     },
     {
       "code": "JK",
@@ -2344,6 +4629,80 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-P-2026-069fdc3b2819e24-71587720.pdf"
         }
+      },
+      "source": {
+        "title": "PRS – Jammu & Kashmir Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/jammu-and-kashmir-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Jammu & Kashmir Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/jammu-and-kashmir-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 BE",
+          "RE": "2025-26 RE"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 112310.0,
+            "RE": 111376.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 5669.0,
+            "RE": 6141.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 106641.0,
+            "RE": 105235.0
+          },
+          "State's Own Tax": {
+            "BE": 21550.0,
+            "RE": 20590.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "budget": {
+        "value": 111376.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_incl_debt",
+        "status": "secondary",
+        "label": "Total expenditure incl. debt repayment",
+        "source": {
+          "title": "PRS – Jammu & Kashmir Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/jammu-and-kashmir-budget-analysis-2026-27"
+        },
+        "source_row": "Total Expenditure"
+      },
+      "tax": {
+        "value": 20590.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "own_tax",
+        "status": "secondary",
+        "label": "State's own tax revenue",
+        "source": {
+          "title": "PRS – Jammu & Kashmir Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/jammu-and-kashmir-budget-analysis-2026-27"
+        },
+        "source_row": "State's Own Tax"
+      },
+      "expenditure": {
+        "value": 105235.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Jammu & Kashmir Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/jammu-and-kashmir-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
       }
     },
     {

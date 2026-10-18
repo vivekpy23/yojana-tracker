@@ -22,12 +22,29 @@ def public(fig: dict | None) -> dict | None:
     return out
 
 
+def disbursed(st: dict, counted: list[dict]) -> dict | None:
+    """Benefits disbursed for a state: a sourced state-level figure, else the sum of schemes with a
+    sourced disbursement ('partial' when only some counted schemes have one), else None ("—").
+    Never derived from budget allocations."""
+    fig = st.get("beneficiary_despatched")
+    if validate.disbursement_ok(fig):
+        return {**public(fig), "coverage": fig.get("coverage", "complete"),
+                "period": fig["period"], "as_of": fig["as_of"]}
+    have = [s for s in counted if s.get("despatched") is not None and validate.disbursement_ok(s.get("despatched_source"))]
+    if not have:
+        return None
+    return {"value": sum(s["despatched"] for s in have), "basis": "actuals", "status": "verified",
+            "coverage": "complete" if len(have) == len(counted) else "partial",
+            "schemes_covered": len(have), "schemes_counted": len(counted),
+            "label": f"Sum of {len(have)} of {len(counted)} schemes with a published disbursement figure"}
+
+
 def build(out: Path = OUT, validation_out: Path | None = VALIDATION) -> dict:
     seed = load(SEED, {})
     schemes = load(SCHEMES, [])
     fy = seed["fy"]
     fy_schemes = [s for s in schemes if s["fy"] == fy]
-    comparisons, issues = validate.run(seed["states"], fy)
+    comparisons, issues = validate.run(seed["states"], fy, schemes)
 
     states = []
     for st in seed["states"]:
@@ -35,10 +52,7 @@ def build(out: Path = OUT, validation_out: Path | None = VALIDATION) -> dict:
                       key=lambda s: s["announced"] or 0, reverse=True)
         # Unverified schemes are listed but never counted in totals.
         counted = [s for s in mine if s["status"] != "unverified"]
-        despatched = st.get("beneficiary_despatched")
-        if despatched is None and counted and all(s.get("despatched") is not None for s in counted):
-            despatched = {"value": sum(s["despatched"] for s in counted), "basis": "provisional",
-                          "status": "verified"}
+        despatched = disbursed(st, counted)
         states.append({
             "code": st["code"], "name": st["name"], "ut": st.get("ut", False),
             "pilot": st.get("pilot", False),
@@ -48,7 +62,10 @@ def build(out: Path = OUT, validation_out: Path | None = VALIDATION) -> dict:
             "beneficiary_despatched": despatched, "tax": public(st.get("tax")), "source": st.get("source"),
             "budget_actual": public(st.get("budget_actual")), "tax_actual": public(st.get("tax_actual")),
             "vs_re": comparisons[st["code"]],
-            "schemes": [{k: s.get(k) for k in ("name", "announced", "despatched", "status", "sources", "note")}
+            "schemes": [{**{k: s.get(k) for k in ("name", "announced", "status", "sources", "note")},
+                         # a disbursement without source, period and date is not shown
+                         "despatched": s.get("despatched") if validate.disbursement_ok(s.get("despatched_source")) else None,
+                         "despatched_source": s.get("despatched_source")}
                         for s in mine],
         })
 
