@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "state": "RJ",
+    "name": "Interest subsidy on farm loans",
+    "news_amount": 768,
+    "news_source": {
+      "kind": "news",
+      "title": "Drishti IAS – Rajasthan Budget 2025-26",
+      "url": "https://www.drishtiias.com/state-pcs-current-affairs/rajasthan-budget-2025-26"
+    },
+    "govt_amount": 1000.0,
+    "govt_url": "https://finance.rajasthan.gov.in/docs/budget/statebudget/2026-2027/pressnoteng2026-27.pdf",
+    "match_score": 80,
+    "govt_snippet": "d. Against the resolution of providing 4 lac jobs to the youth, we have given more than one lac appointments in the government sector and created more than 2 lac opportunities in private sector. Presently, recruitment of 1 lac 43 thousand posts is under process and we have issued examination calenda",
+    "news_sentence": "",
+    "queued_on": "2026-10-18",
+    "decision": null,
+    "use_amount": null
+  }
+]

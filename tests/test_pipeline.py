@@ -106,7 +106,7 @@ def test_review_decisions(tmp_data):
 
 def test_build_excludes_nothing_but_counts_status(tmp_path):
     from scraper import build
-    site = build.build(tmp_path / "site.json")
+    site = build.build(tmp_path / "site.json", tmp_path / "validation.json")
     assert site["fy"] == "2025-26"
     mh = next(s for s in site["states"] if s["code"] == "MH")
     assert mh["schemes"][0]["status"] == "unverified"

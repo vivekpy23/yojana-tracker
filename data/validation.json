@@ -1,0 +1,41 @@
+{
+  "fy": "2025-26",
+  "issues": [
+    {
+      "state": "MH",
+      "field": "budget_actual/expenditure",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 844,811.63 vs PRS 700,020 (+20.7%), so the sources group heads differently"
+    },
+    {
+      "state": "UP",
+      "field": "budget_actual/expenditure",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 781,829.88 vs PRS 757,333 (+3.2%), so the sources group heads differently"
+    },
+    {
+      "state": "UP",
+      "field": "tax_actual/tax",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 369,287.19 vs PRS 295,000 (+25.2%), so the sources group heads differently"
+    },
+    {
+      "state": "TN",
+      "field": "budget_actual/expenditure",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 487,720.40 vs PRS 439,293 (+11.0%), so the sources group heads differently"
+    },
+    {
+      "state": "KA",
+      "field": "tax_actual/tax",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 223,277.35 vs PRS 208,100 (+7.3%), so the sources group heads differently"
+    },
+    {
+      "state": "RJ",
+      "field": "budget_actual/expenditure",
+      "level": "blocked",
+      "detail": "heads: BE 2025-26 differs – CAG 394,797.86 vs PRS 379,617 (+4.0%), so the sources group heads differently"
+    }
+  ]
+}

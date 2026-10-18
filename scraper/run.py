@@ -14,7 +14,10 @@ Order of work:
        review    -> queued for a human (fuzzy name match / several numbers nearby)
        not_found -> kept as 'unverified' (shown with a badge, excluded from totals)
  5. try to confirm headline seed figures against their govt_check documents
- 6. write data/*.json and site/data/site.json
+ 6. PRS key-figure tables (reference BE/RE rows) and CAG Monthly Key Indicators (March report ->
+    provisional actuals per state) – scraper/prs.py, scraper/cag.py
+ 7. write data/*.json and site/data/site.json; data-integrity rules (scraper/validate.py) decide
+    which comparisons are valid and write data/validation.json
 """
 from __future__ import annotations
 
@@ -27,6 +30,7 @@ from pathlib import Path
 import yaml
 
 from . import build as build_mod
+from . import cag, prs
 from .extract import Candidate
 from .fetch import Fetcher, doc_links, is_govt, to_text
 from .news import discover
@@ -165,7 +169,7 @@ def main(argv=None) -> int:
         build_mod.build()
         return 0
 
-    cfg = yaml.safe_load(CONFIG.read_text())
+    cfg = yaml.safe_load(CONFIG.read_text(encoding="utf-8"))
     fy = cfg["fy"]
     h = cfg["http"]
     fetcher = Fetcher(h["user_agent"], h["timeout_s"], h["delay_s"])
@@ -194,6 +198,14 @@ def main(argv=None) -> int:
             tally[outcome] = tally.get(outcome, 0) + 1
 
     upgraded = confirm_seed(fetcher, cfg)
+    seed = load(SEED, {})
+    prs_problems = prs.update_reference(fetcher, seed, fy, today())
+    actuals = cag.update_actuals(fetcher, cfg, seed, fy, today())
+    save(SEED, seed)
+    for code, why in prs_problems.items():
+        log.warning("PRS %s: %s", code, "; ".join(why))
+    for code, why in actuals["unreadable"].items():
+        log.info("CAG %s: %s", code, why)
     save(SCHEMES, schemes)
     save(REVIEW, queue)
     site = build_mod.build()
@@ -201,6 +213,12 @@ def main(argv=None) -> int:
     summary = (f"### Yojana Tracker run {today()}\n\n"
                f"- Candidates processed: {sum(tally.values())} {tally}\n"
                f"- Headline figures confirmed against govt documents: {upgraded}\n"
+               f"- CAG provisional actuals ({fy}, March report): {len(actuals['filled'])} states/UTs filled; "
+               f"no March report: {', '.join(actuals['no_report']) or 'none'}; "
+               f"left Pending (failed cross-check / unreadable): {', '.join(actuals['unreadable']) or 'none'}\n"
+               f"- PRS reference tables: {'problems in ' + ', '.join(prs_problems) if prs_problems else 'all read and consistent'}\n"
+               f"- Validation (data/validation.json): {site['validation']['error']} errors, "
+               f"{site['validation']['blocked']} comparisons shown as N/A, {site['validation']['missing']} missing\n"
                f"- Waiting for your review: {len(queue)}\n"
                f"- Schemes by status: {site['counts']}\n")
     print(summary)
@@ -208,7 +226,8 @@ def main(argv=None) -> int:
         Path(os.environ["GITHUB_STEP_SUMMARY"]).write_text(summary)
     if os.environ.get("GITHUB_OUTPUT"):
         with open(os.environ["GITHUB_OUTPUT"], "a") as f:
-            f.write(f"needs_review={'true' if queue else 'false'}\n")
+            # Data-integrity errors (not mere N/A comparisons) also need a human before publishing.
+            f.write(f"needs_review={'true' if queue or site['validation']['error'] else 'false'}\n")
     return 0
 
 

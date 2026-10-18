@@ -7,7 +7,7 @@
 <meta name="description" content="Central and state beneficiary schemes, budgets and tax collections, checked against government documents.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231F3A5F'/%3E%3Ctext x='16' y='22' font-size='17' text-anchor='middle' fill='white' font-family='sans-serif'%3E%E2%82%B9%3C/text%3E%3C/svg%3E">
 </head>
@@ -25,8 +25,20 @@
   </header>
   <main id="app" aria-live="polite"></main>
   <footer class="site-foot">
-    <p>Schemes are discovered in PIB and national news, then matched against government (.gov.in / .nic.in) documents. Where the two differ, the government figure is shown. <strong>RE</strong> = revised estimates.</p>
-    <p>Figures marked “Budget docs (via PRS)” are taken from PRS Legislative Research’s analysis of the official budget documents and are upgraded to “Verified” once matched in the government document itself.</p>
+    <p>Sources: <a href="https://prsindia.org/budgets/states" target="_blank" rel="noopener">PRS Legislative Research</a> ·
+      <a href="https://cag.gov.in/en/state-accounts-report" target="_blank" rel="noopener">CAG state accounts</a> ·
+      <a href="https://pib.gov.in/" target="_blank" rel="noopener">PIB</a> · state budget documents (.gov.in / .nic.in)</p>
+    <details class="method">
+      <summary>How we calculate</summary>
+      <ul class="notes">
+        <li><strong>Budget</strong> is total expenditure excluding debt repayment (revenue + capital outlay + loans &amp; advances); <strong>tax</strong> is the state’s own tax revenue. Both are revised estimates (RE).</li>
+        <li><strong>Schemes announced</strong> uses each state’s Social Welfare &amp; Nutrition sector spend (RE) until scheme-level totals are verified.</li>
+        <li><strong>Benefits disbursed</strong> stays empty until a public source gives state scheme-wise transfers for the year.</li>
+        <li><strong>Actually spent / collected</strong> on a state’s page comes from CAG’s provisional accounts (March report, full year). It is compared with the revised estimate only when both use the same definition, year and accounting heads; otherwise the comparison shows N/A.</li>
+        <li>Schemes are found in PIB and national news, then matched against government documents. Where the two differ, the government figure is shown. News-only figures are marked “Unverified” and never added to totals.</li>
+        <li>“Budget docs (via PRS)” figures come from PRS Legislative Research’s analysis of the official budget and become “Verified” once matched in the government document itself.</li>
+      </ul>
+    </details>
   </footer>
 </div>
 <noscript><p class="wrap">This site needs JavaScript to load its data.</p></noscript>

@@ -7,7 +7,10 @@
       "basis": "RE",
       "label": "Central sector schemes (16,37,156) + centrally sponsored schemes (4,20,078)",
       "status": "secondary",
-      "source": {"title": "PRS – Analysis of Expenditure, Union Budget 2026-27 (Table 3)", "url": "https://prsindia.org/files/budget/budget_parliament/2026/Analysis_of_Expenditure_2026-27.pdf"},
+      "source": {
+        "title": "PRS – Analysis of Expenditure, Union Budget 2026-27 (Table 3)",
+        "url": "https://prsindia.org/files/budget/budget_parliament/2026/Analysis_of_Expenditure_2026-27.pdf"
+      },
       "govt_check": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf"
     },
     "gross_tax": {
@@ -15,82 +18,2338 @@
       "basis": "RE",
       "label": "Gross tax revenue, before devolution to states",
       "status": "secondary",
-      "source": {"title": "PRS – Analysis of Expenditure, Union Budget 2026-27 (Table 2)", "url": "https://prsindia.org/files/budget/budget_parliament/2026/Analysis_of_Expenditure_2026-27.pdf"},
+      "source": {
+        "title": "PRS – Analysis of Expenditure, Union Budget 2026-27 (Table 2)",
+        "url": "https://prsindia.org/files/budget/budget_parliament/2026/Analysis_of_Expenditure_2026-27.pdf"
+      },
       "govt_check": "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf"
     },
     "total_expenditure": 4964842,
     "spend_areas": [
-      {"name": "Interest payments", "value": 1274338},
-      {"name": "Defence", "value": 732512},
-      {"name": "Road transport & highways", "value": 287142},
-      {"name": "Railways", "value": 255466},
-      {"name": "Home affairs", "value": 241485}
+      {
+        "name": "Interest payments",
+        "value": 1274338
+      },
+      {
+        "name": "Defence",
+        "value": 732512
+      },
+      {
+        "name": "Road transport & highways",
+        "value": 287142
+      },
+      {
+        "name": "Railways",
+        "value": 255466
+      },
+      {
+        "name": "Home affairs",
+        "value": 241485
+      }
     ],
     "top_schemes": [
-      {"name": "Food subsidy (PMGKAY free foodgrains)", "value": 228154},
-      {"name": "MGNREGS", "value": 88000},
-      {"name": "PM-KISAN", "value": 63500},
-      {"name": "Samagra Shiksha", "value": 38000},
-      {"name": "National Health Mission", "value": 37100}
+      {
+        "name": "Food subsidy (PMGKAY free foodgrains)",
+        "value": 228154
+      },
+      {
+        "name": "MGNREGS",
+        "value": 88000
+      },
+      {
+        "name": "PM-KISAN",
+        "value": 63500
+      },
+      {
+        "name": "Samagra Shiksha",
+        "value": 38000
+      },
+      {
+        "name": "National Health Mission",
+        "value": 37100
+      }
     ],
-    "charts_source": {"title": "PRS – Analysis of Expenditure, Union Budget 2026-27 (Tables 4–6)", "url": "https://prsindia.org/files/budget/budget_parliament/2026/Analysis_of_Expenditure_2026-27.pdf"}
+    "charts_source": {
+      "title": "PRS – Analysis of Expenditure, Union Budget 2026-27 (Tables 4–6)",
+      "url": "https://prsindia.org/files/budget/budget_parliament/2026/Analysis_of_Expenditure_2026-27.pdf"
+    }
   },
   "states": [
-    {"code": "MH", "name": "Maharashtra", "pilot": true,
-     "budget": {"value": 813476, "basis": "RE", "status": "secondary"},
-     "beneficiary_announced": {"value": 81015, "basis": "RE", "status": "secondary", "label": "Social Welfare & Nutrition sector"},
-     "beneficiary_despatched": null,
-     "tax": {"value": 409440, "basis": "RE", "status": "secondary"},
-     "source": {"title": "PRS – Maharashtra Budget Analysis 2026-27", "url": "https://prsindia.org/budgets/states/maharashtra-budget-analysis-2026-27"}},
-    {"code": "UP", "name": "Uttar Pradesh", "pilot": true,
-     "budget": {"value": 716231, "basis": "RE", "status": "secondary"},
-     "beneficiary_announced": {"value": 36580, "basis": "RE", "status": "secondary", "label": "Social Welfare & Nutrition sector"},
-     "beneficiary_despatched": null,
-     "tax": {"value": 226181, "basis": "RE", "status": "secondary"},
-     "source": {"title": "PRS – Uttar Pradesh Budget Analysis 2026-27", "url": "https://prsindia.org/budgets/states/uttar-pradesh-budget-analysis-2026-27"}},
-    {"code": "TN", "name": "Tamil Nadu", "pilot": true,
-     "budget": {"value": 482793, "basis": "RE", "status": "secondary"},
-     "beneficiary_announced": {"value": 40891, "basis": "RE", "status": "secondary", "label": "Social Welfare & Nutrition sector"},
-     "beneficiary_despatched": null,
-     "tax": {"value": 206540, "basis": "RE", "status": "secondary"},
-     "source": {"title": "PRS – Tamil Nadu Budget Analysis 2026-27", "url": "https://prsindia.org/budgets/states/tamil-nadu-budget-analysis-2026-27"}},
-    {"code": "KA", "name": "Karnataka", "pilot": true,
-     "budget": {"value": 395307, "basis": "RE", "status": "secondary"},
-     "beneficiary_announced": {"value": 46372, "basis": "RE", "status": "secondary", "label": "Social Welfare & Nutrition sector"},
-     "beneficiary_despatched": null,
-     "tax": {"value": 193100, "basis": "RE", "status": "secondary"},
-     "source": {"title": "PRS – Karnataka Budget Analysis 2026-27", "url": "https://prsindia.org/budgets/states/karnataka-budget-analysis-2026-27"}},
-    {"code": "RJ", "name": "Rajasthan", "pilot": true,
-     "budget": {"value": 558596, "basis": "RE", "status": "secondary"},
-     "beneficiary_announced": {"value": 24034, "basis": "RE", "status": "secondary", "label": "Social Welfare & Nutrition sector"},
-     "beneficiary_despatched": null,
-     "tax": {"value": 138539, "basis": "RE", "status": "secondary"},
-     "source": {"title": "PRS – Rajasthan Budget Analysis 2026-27", "url": "https://prsindia.org/budgets/states/rajasthan-budget-analysis-2026-27"}},
-    {"code": "AP", "name": "Andhra Pradesh"},
-    {"code": "AR", "name": "Arunachal Pradesh"},
-    {"code": "AS", "name": "Assam"},
-    {"code": "BR", "name": "Bihar"},
-    {"code": "CG", "name": "Chhattisgarh"},
-    {"code": "GA", "name": "Goa"},
-    {"code": "GJ", "name": "Gujarat"},
-    {"code": "HR", "name": "Haryana"},
-    {"code": "HP", "name": "Himachal Pradesh"},
-    {"code": "JH", "name": "Jharkhand"},
-    {"code": "KL", "name": "Kerala"},
-    {"code": "MP", "name": "Madhya Pradesh"},
-    {"code": "MN", "name": "Manipur"},
-    {"code": "ML", "name": "Meghalaya"},
-    {"code": "MZ", "name": "Mizoram"},
-    {"code": "NL", "name": "Nagaland"},
-    {"code": "OD", "name": "Odisha"},
-    {"code": "PB", "name": "Punjab"},
-    {"code": "SK", "name": "Sikkim"},
-    {"code": "TS", "name": "Telangana"},
-    {"code": "TR", "name": "Tripura"},
-    {"code": "UK", "name": "Uttarakhand"},
-    {"code": "WB", "name": "West Bengal"},
-    {"code": "DL", "name": "Delhi", "ut": true},
-    {"code": "JK", "name": "Jammu & Kashmir", "ut": true},
-    {"code": "PY", "name": "Puducherry", "ut": true}
+    {
+      "code": "MH",
+      "name": "Maharashtra",
+      "pilot": true,
+      "budget": {
+        "value": 813476,
+        "basis": "RE",
+        "status": "secondary",
+        "definition": "exp_incl_debt",
+        "fy": "2025-26"
+      },
+      "beneficiary_announced": {
+        "value": 81015,
+        "basis": "RE",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector"
+      },
+      "beneficiary_despatched": null,
+      "tax": {
+        "value": 409440,
+        "basis": "RE",
+        "status": "secondary",
+        "definition": "own_tax",
+        "fy": "2025-26"
+      },
+      "source": {
+        "title": "PRS – Maharashtra Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/maharashtra-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Maharashtra Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/maharashtra-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 Budgeted",
+          "RE": "2025-26 Revised"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 757576.0,
+            "RE": 813476.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 57556.0,
+            "RE": 57556.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 700020.0,
+            "RE": 755920.0
+          },
+          "State's Own Tax": {
+            "BE": 387544.0,
+            "RE": 409440.0
+          },
+          "Share in Central Taxes": {
+            "BE": 89856.0,
+            "RE": 88057.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "expenditure": {
+        "value": 755920.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Maharashtra Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/maharashtra-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "budget_actual": {
+        "value": 672868.41,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Maharashtra Monthly Key Indicators, March, 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MAH-March-2026-English-06a054f7898b698-61601599.pdf"
+        },
+        "report": "March, 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=79",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "(4) Revenue Expenditure (a)+(b)+(c)+(d)+(e)",
+              "be": 708910.83,
+              "actual": 573896.76
+            },
+            "capital_outlay": {
+              "row": "(5) Capital Expenditure (a)+(b)",
+              "be": 114204.44,
+              "actual": 87733.33
+            },
+            "loans_and_advances": {
+              "row": "(8) Loans and Advances Disbursed",
+              "be": 21696.36,
+              "actual": 11238.32
+            },
+            "printed_total": {
+              "row": "(7) Total Expenditure (4)+(5)",
+              "be": 823115.27,
+              "actual": 661630.09
+            }
+          },
+          "be": 844811.63,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MAH-March-2026-English-06a054f7898b698-61601599.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 381196.91,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Maharashtra Monthly Key Indicators, March, 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MAH-March-2026-English-06a054f7898b698-61601599.pdf"
+        },
+        "report": "March, 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=79",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue (i)+(ii)+(iii)+(iv)+(v)+(vi)+(vii)",
+              "be": 477400.02,
+              "actual": 469190.88
+            },
+            "union_share": {
+              "row": "(vi) State’s Share of Union Taxes",
+              "be": 89855.8,
+              "actual": 87993.97
+            }
+          },
+          "be": 387544.22,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MAH-March-2026-English-06a054f7898b698-61601599.pdf"
+        }
+      }
+    },
+    {
+      "code": "UP",
+      "name": "Uttar Pradesh",
+      "pilot": true,
+      "budget": {
+        "value": 716231,
+        "basis": "RE",
+        "status": "secondary",
+        "definition": "exp_incl_debt",
+        "fy": "2025-26"
+      },
+      "beneficiary_announced": {
+        "value": 36580,
+        "basis": "RE",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector"
+      },
+      "beneficiary_despatched": null,
+      "tax": {
+        "value": 226181,
+        "basis": "RE",
+        "status": "secondary",
+        "definition": "own_tax",
+        "fy": "2025-26"
+      },
+      "source": {
+        "title": "PRS – Uttar Pradesh Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/uttar-pradesh-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Uttar Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/uttar-pradesh-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 Budgeted",
+          "RE": "2025-26 Revised"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 808736.0,
+            "RE": 716231.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 51403.0,
+            "RE": 41476.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 757333.0,
+            "RE": 674755.0
+          },
+          "State's Own Tax": {
+            "BE": 295000.0,
+            "RE": 226181.0
+          },
+          "Share in Central Taxes": {
+            "BE": 255172.0,
+            "RE": 249885.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "expenditure": {
+        "value": 674755.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Uttar Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/uttar-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "budget_actual": {
+        "value": 610121.11,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Uttar Pradesh Monthly Key Indicators, March(Pre), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-Pre-2026-06a0457c25a92c3-32540965.pdf"
+        },
+        "report": "March(Pre), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=90",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4 Revenue Expenditure (a+b+c+d+e)",
+              "be": 601543.87,
+              "actual": 486870.06
+            },
+            "capital_outlay": {
+              "row": "5 Capital Expenditure (a+b)",
+              "be": 170806.12,
+              "actual": 114641.28
+            },
+            "loans_and_advances": {
+              "row": "8 Loans and Advances Disbursed",
+              "be": 9479.89,
+              "actual": 8609.77
+            },
+            "printed_total": {
+              "row": "7 Total Expenditure",
+              "be": 772349.99,
+              "actual": 601511.34
+            }
+          },
+          "be": 781829.88,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-Pre-2026-06a0457c25a92c3-32540965.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 291861.05,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Uttar Pradesh Monthly Key Indicators, March(Pre), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-Pre-2026-06a0457c25a92c3-32540965.pdf"
+        },
+        "report": "March(Pre), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=90",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue (i to vii)",
+              "be": 550172.21,
+              "actual": 471781.82
+            },
+            "union_share": {
+              "row": "(vi) State share of Union Taxes",
+              "be": 180885.02,
+              "actual": 179920.77
+            }
+          },
+          "be": 369287.19,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-Pre-2026-06a0457c25a92c3-32540965.pdf"
+        }
+      }
+    },
+    {
+      "code": "TN",
+      "name": "Tamil Nadu",
+      "pilot": true,
+      "budget": {
+        "value": 482793,
+        "basis": "RE",
+        "status": "secondary",
+        "definition": "exp_incl_debt",
+        "fy": "2025-26"
+      },
+      "beneficiary_announced": {
+        "value": 40891,
+        "basis": "RE",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector"
+      },
+      "beneficiary_despatched": null,
+      "tax": {
+        "value": 206540,
+        "basis": "RE",
+        "status": "secondary",
+        "definition": "own_tax",
+        "fy": "2025-26"
+      },
+      "source": {
+        "title": "PRS – Tamil Nadu Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/tamil-nadu-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Tamil Nadu Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/tamil-nadu-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 Budgeted",
+          "RE": "2025-26 Revised"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 486332.0,
+            "RE": 482793.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 47040.0,
+            "RE": 47323.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 439293.0,
+            "RE": 435470.0
+          },
+          "State's Own Tax": {
+            "BE": 220895.0,
+            "RE": 206540.0
+          },
+          "Share in Central Taxes": {
+            "BE": 58022.0,
+            "RE": 56819.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "expenditure": {
+        "value": 435470.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Tamil Nadu Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/tamil-nadu-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "budget_actual": {
+        "value": 426644.8,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Tamil Nadu Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-S-2026-06a4742978edaa9-60878946.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=88",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "(4) Revenue Expenditure",
+              "be": 412344.44,
+              "actual": 368623.52
+            },
+            "capital_outlay": {
+              "row": "(5) Capital Expenditure",
+              "be": 62226.58,
+              "actual": 51224.89
+            },
+            "loans_and_advances": {
+              "row": "(8) Loans and Advances Disbursed",
+              "be": 13149.38,
+              "actual": 6796.39
+            },
+            "printed_total": {
+              "row": "(7) Total Expenditure",
+              "be": 474571.02,
+              "actual": 419848.41
+            }
+          },
+          "be": 487720.4,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-S-2026-06a4742978edaa9-60878946.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 192493.13,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Tamil Nadu Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-S-2026-06a4742978edaa9-60878946.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=88",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue (i+ii+iii+iv+v+vi+vii)",
+              "be": 278916.07,
+              "actual": 249312.36
+            },
+            "union_share": {
+              "row": "(vi) State`s share of Union Taxes",
+              "be": 58021.5,
+              "actual": 56819.23
+            }
+          },
+          "be": 220894.57,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-S-2026-06a4742978edaa9-60878946.pdf"
+        }
+      }
+    },
+    {
+      "code": "KA",
+      "name": "Karnataka",
+      "pilot": true,
+      "budget": {
+        "value": 395307,
+        "basis": "RE",
+        "status": "secondary",
+        "definition": "exp_incl_debt",
+        "fy": "2025-26"
+      },
+      "beneficiary_announced": {
+        "value": 46372,
+        "basis": "RE",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector"
+      },
+      "beneficiary_despatched": null,
+      "tax": {
+        "value": 193100,
+        "basis": "RE",
+        "status": "secondary",
+        "definition": "own_tax",
+        "fy": "2025-26"
+      },
+      "source": {
+        "title": "PRS – Karnataka Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/karnataka-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Karnataka Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/karnataka-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 Budgeted",
+          "RE": "2025-26 Revised"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 409549.0,
+            "RE": 395307.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 26474.0,
+            "RE": 26474.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 383075.0,
+            "RE": 368833.0
+          },
+          "State's Own Tax": {
+            "BE": 208100.0,
+            "RE": 193100.0
+          },
+          "Share in Central Taxes": {
+            "BE": 51877.0,
+            "RE": 50802.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "expenditure": {
+        "value": 368833.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Karnataka Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/karnataka-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "budget_actual": {
+        "value": 373920.6,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Karnataka Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-for-MARCH-S-1-2026-06a3cc35179dbd7-36040846.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=76",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4 Revenue Expenditure (a+b+c+d+e)",
+              "be": 311738.73,
+              "actual": 302335.88
+            },
+            "capital_outlay": {
+              "row": "5 Capital Expenditure (a+b)",
+              "be": 68172.24,
+              "actual": 67808.86
+            },
+            "loans_and_advances": {
+              "row": "8 Loans and Advances Disbursed",
+              "be": 3163.8,
+              "actual": 3775.86
+            },
+            "printed_total": {
+              "row": "7 Total Expenditure (4+ 5)",
+              "be": 379910.97,
+              "actual": 370144.74
+            }
+          },
+          "be": 383074.77,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-for-MARCH-S-1-2026-06a3cc35179dbd7-36040846.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 208354.76,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Karnataka Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-for-MARCH-S-1-2026-06a3cc35179dbd7-36040846.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=76",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue (i+ii+iii+iv+v+vi+vii)",
+              "be": 259976.54,
+              "actual": 244866.23
+            },
+            "union_share": {
+              "row": "(vi) State’s Share of Union Taxes",
+              "be": 36699.19,
+              "actual": 36511.47
+            }
+          },
+          "be": 223277.35,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-for-MARCH-S-1-2026-06a3cc35179dbd7-36040846.pdf"
+        }
+      }
+    },
+    {
+      "code": "RJ",
+      "name": "Rajasthan",
+      "pilot": true,
+      "budget": {
+        "value": 558596,
+        "basis": "RE",
+        "status": "secondary",
+        "definition": "exp_incl_debt",
+        "fy": "2025-26"
+      },
+      "beneficiary_announced": {
+        "value": 24034,
+        "basis": "RE",
+        "status": "secondary",
+        "label": "Social Welfare & Nutrition sector"
+      },
+      "beneficiary_despatched": null,
+      "tax": {
+        "value": 138539,
+        "basis": "RE",
+        "status": "secondary",
+        "definition": "own_tax",
+        "fy": "2025-26"
+      },
+      "source": {
+        "title": "PRS – Rajasthan Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/rajasthan-budget-analysis-2026-27"
+      },
+      "prs_table": {
+        "source": {
+          "title": "PRS – Rajasthan Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/rajasthan-budget-analysis-2026-27"
+        },
+        "fy": "2025-26",
+        "columns": {
+          "BE": "2025-26 Budgeted",
+          "RE": "2025-26 Revised"
+        },
+        "rows": {
+          "Total Expenditure": {
+            "BE": 537069.0,
+            "RE": 558596.0
+          },
+          "(-) Repayment of debt": {
+            "BE": 157452.0,
+            "RE": 199124.0
+          },
+          "Net Expenditure (E)": {
+            "BE": 379617.0,
+            "RE": 359472.0
+          },
+          "State's Own Tax": {
+            "BE": 142743.0,
+            "RE": 138539.0
+          },
+          "Share in Central Taxes": {
+            "BE": 85716.0,
+            "RE": 83940.0
+          }
+        },
+        "checked_on": "2026-10-18"
+      },
+      "expenditure": {
+        "value": 359472.0,
+        "basis": "RE",
+        "fy": "2025-26",
+        "definition": "exp_std",
+        "status": "secondary",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "source": {
+          "title": "PRS – Rajasthan Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/rajasthan-budget-analysis-2026-27"
+        },
+        "source_row": "Net Expenditure (E)",
+        "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "budget_actual": {
+        "value": 306614.26,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Rajasthan Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-13-06a5dade0212ba6-15147954.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=86",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4. Revenue Expenditure (a+b+c+d+e)",
+              "be": 337150.29,
+              "actual": 279821.82
+            },
+            "capital_outlay": {
+              "row": "5. Capital Expenditure (a + b)",
+              "be": 56327.33,
+              "actual": 26573.1
+            },
+            "loans_and_advances": {
+              "row": "8. Loans and Advances Disbursed",
+              "be": 1320.24,
+              "actual": 219.34
+            },
+            "printed_total": {
+              "row": "7. Total Expenditure (4 + 5)",
+              "be": 393477.62,
+              "actual": 306394.92
+            }
+          },
+          "be": 394797.86,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-13-06a5dade0212ba6-15147954.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 113539.89,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Rajasthan Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-13-06a5dade0212ba6-15147954.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=86",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue",
+              "be": 228459.87,
+              "actual": 197480.34
+            },
+            "union_share": {
+              "row": "(vi) State's Share of Union Taxes",
+              "be": 85716.48,
+              "actual": 83940.45
+            }
+          },
+          "be": 142743.39,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-13-06a5dade0212ba6-15147954.pdf"
+        }
+      }
+    },
+    {
+      "code": "AP",
+      "name": "Andhra Pradesh",
+      "budget_actual": {
+        "value": 259684.14,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Andhra Pradesh Monthly Key Indicators, March, 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-Mar-P-2026-069fc787b59f333-66693265.pdf"
+        },
+        "report": "March, 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=64",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4 Revenue Expenditure (a+b+c+d+e)",
+              "be": 251162.5,
+              "actual": 226808.6
+            },
+            "capital_outlay": {
+              "row": "5 Capital Expenditure (a+b)",
+              "be": 40635.72,
+              "actual": 26864.91
+            },
+            "loans_and_advances": {
+              "row": "8 Loans and Advances disbursed",
+              "be": 6130.95,
+              "actual": 6010.63
+            },
+            "printed_total": {
+              "row": "7 TOTAL EXPENDITURE [4+5]",
+              "be": 291798.22,
+              "actual": 253673.51
+            }
+          },
+          "be": 297929.17,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-Mar-P-2026-069fc787b59f333-66693265.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 102339.09,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Andhra Pradesh Monthly Key Indicators, March, 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-Mar-P-2026-069fc787b59f333-66693265.pdf"
+        },
+        "report": "March, 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=64",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "a) Tax Revenue (i + ii + iii + iv + v + vi + vii)",
+              "be": 166573.09,
+              "actual": 142926.19
+            },
+            "union_share": {
+              "row": "vi) State’s share of Union Taxes($)",
+              "be": 40807.28,
+              "actual": 40587.1
+            }
+          },
+          "be": 125765.81,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-Mar-P-2026-069fc787b59f333-66693265.pdf"
+        }
+      }
+    },
+    {
+      "code": "AR",
+      "name": "Arunachal Pradesh",
+      "budget_actual": {
+        "value": 33168.99,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Arunachal Pradesh Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-S-2026-06a3a1a7aaa2e29-26798231.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=65",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4 Revenue Expenditure (a+b+c+d+e)",
+              "be": 29963.33,
+              "actual": 23217.4
+            },
+            "capital_outlay": {
+              "row": "5 Capital Expenditure (a+b)",
+              "be": 8842.37,
+              "actual": 9949.48
+            },
+            "loans_and_advances": {
+              "row": "8 Loans and Advances Disbursed",
+              "be": 3.02,
+              "actual": 2.11
+            },
+            "printed_total": {
+              "row": "7 Total Expenditure (4+ 5)",
+              "be": 38805.7,
+              "actual": 33166.88
+            }
+          },
+          "be": 38808.72,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-S-2026-06a3a1a7aaa2e29-26798231.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 3160.77,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Arunachal Pradesh Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-S-2026-06a3a1a7aaa2e29-26798231.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=65",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue (i+ii+iii+iv+v+vi+vii)",
+              "be": 28387.99,
+              "actual": 27635.28
+            },
+            "union_share": {
+              "row": "(vi) State’s Share of Union Taxes",
+              "be": 26504.03,
+              "actual": 24474.51
+            }
+          },
+          "be": 1883.96,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-S-2026-06a3a1a7aaa2e29-26798231.pdf"
+        }
+      }
+    },
+    {
+      "code": "AS",
+      "name": "Assam"
+    },
+    {
+      "code": "BR",
+      "name": "Bihar",
+      "budget_actual": {
+        "value": 297875.34,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Bihar Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MARCH-SY-2026-06a4743b2781360-98512970.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=67",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4. Revenue Expenditure (a+b+c+d+e)",
+              "be": 252000.26,
+              "actual": 258747.76
+            },
+            "capital_outlay": {
+              "row": "5. Capital Expenditure (a+b)",
+              "be": 41972.79,
+              "actual": 36589.51
+            },
+            "loans_and_advances": {
+              "row": "8. Loans and Advances Disbursed",
+              "be": 102.1,
+              "actual": 2538.07
+            },
+            "printed_total": {
+              "row": "7. Total Expenditure (4+ 5)",
+              "be": 293973.05,
+              "actual": 295337.27
+            }
+          },
+          "be": 294075.15,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MARCH-SY-2026-06a4743b2781360-98512970.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 94220.83,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Bihar Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MARCH-SY-2026-06a4743b2781360-98512970.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=67",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue",
+              "be": 198035.85,
+              "actual": 195091.9
+            },
+            "union_share": {
+              "row": "(vi) State’s Share of Union Taxes",
+              "be": 97133.99,
+              "actual": 100871.07
+            }
+          },
+          "be": 100901.86,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MARCH-SY-2026-06a4743b2781360-98512970.pdf"
+        }
+      }
+    },
+    {
+      "code": "CG",
+      "name": "Chhattisgarh",
+      "budget_actual": {
+        "value": 150021.54,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Chhattisgarh Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-13th-Acc-2026-06a5a1ed99ae218-50846145.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=68",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4. Revenue Expenditure (a+b+c+d+e)",
+              "be": 138196.0,
+              "actual": 135479.49
+            },
+            "capital_outlay": {
+              "row": "5. Capital Expenditure (a+b)",
+              "be": 26341.0,
+              "actual": 14475.03
+            },
+            "loans_and_advances": {
+              "row": "8. Loans and Advances Disbursed",
+              "be": 463.0,
+              "actual": 67.02
+            },
+            "printed_total": {
+              "row": "7. Total Expenditure (4+ 5)",
+              "be": 164537.0,
+              "actual": 149954.52
+            }
+          },
+          "be": 165000.0,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-13th-Acc-2026-06a5a1ed99ae218-50846145.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 43623.71,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Chhattisgarh Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-13th-Acc-2026-06a5a1ed99ae218-50846145.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=68",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue (i+ii+iii+iv+v+vi+vii)",
+              "be": 104000.0,
+              "actual": 91082.22
+            },
+            "union_share": {
+              "row": "(vi) State’s Share of Union Taxes",
+              "be": 49999.64,
+              "actual": 47458.51
+            }
+          },
+          "be": 54000.36,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-13th-Acc-2026-06a5a1ed99ae218-50846145.pdf"
+        }
+      }
+    },
+    {
+      "code": "GA",
+      "name": "Goa"
+    },
+    {
+      "code": "GJ",
+      "name": "Gujarat",
+      "budget_actual": {
+        "value": 300691.23,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Gujarat Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-2026-with-loan-data-06a47501e5749d8-31012251.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=71",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4 Revenue Expenditure (a+b+c+d+e)",
+              "be": 248834.62,
+              "actual": 218781.34
+            },
+            "capital_outlay": {
+              "row": "5 Capital Expenditure (a+b)",
+              "be": 97373.2,
+              "actual": 78387.57
+            },
+            "loans_and_advances": {
+              "row": "8 Loans and Advances Disbursed",
+              "be": 4828.67,
+              "actual": 3522.32
+            },
+            "printed_total": {
+              "row": "7 Total Expenditure (4+ 5)",
+              "be": 346207.82,
+              "actual": 297168.91
+            }
+          },
+          "be": 351036.49,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-2026-with-loan-data-06a47501e5749d8-31012251.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 152526.23,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Gujarat Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-2026-with-loan-data-06a47501e5749d8-31012251.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=71",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue",
+              "be": 207883.3,
+              "actual": 200973.8
+            },
+            "union_share": {
+              "row": "(vi) State’s Share of Union Taxes*",
+              "be": 49472.62,
+              "actual": 48447.57
+            }
+          },
+          "be": 158410.68,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-2026-with-loan-data-06a47501e5749d8-31012251.pdf"
+        }
+      }
+    },
+    {
+      "code": "HR",
+      "name": "Haryana",
+      "budget_actual": {
+        "value": 158847.07,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Haryana Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-03-2026-Supplemenatry-06a4c8c2f68a1e8-80003520.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=72",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4 Revenue Expenditure (a+b+c+d+e)",
+              "be": 155519.64,
+              "actual": 134496.48
+            },
+            "capital_outlay": {
+              "row": "5 Capital Expenditure (a+b)",
+              "be": 18672.37,
+              "actual": 19201.53
+            },
+            "loans_and_advances": {
+              "row": "8 Loans and Advances Disbursed",
+              "be": 5558.83,
+              "actual": 5149.06
+            },
+            "printed_total": {
+              "row": "7 Total Expenditure (4+ 5)",
+              "be": 174192.01,
+              "actual": 153698.01
+            }
+          },
+          "be": 179750.84,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-03-2026-Supplemenatry-06a4c8c2f68a1e8-80003520.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 91641.29,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Haryana Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-03-2026-Supplemenatry-06a4c8c2f68a1e8-80003520.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=72",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue",
+              "be": 107691.04,
+              "actual": 106866.47
+            },
+            "union_share": {
+              "row": "(vi) State’s Share of Union Taxes",
+              "be": 15547.32,
+              "actual": 15225.18
+            }
+          },
+          "be": 92143.72,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-03-2026-Supplemenatry-06a4c8c2f68a1e8-80003520.pdf"
+        }
+      }
+    },
+    {
+      "code": "HP",
+      "name": "Himachal Pradesh",
+      "budget_actual": {
+        "value": 61069.5,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Himachal Pradesh Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-2026-Sy-English-06a48a930e2d1b9-26676456.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=73",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4 Revenue Expenditure (a+b+c+d+e)",
+              "be": 54349.12,
+              "actual": 51117.45
+            },
+            "capital_outlay": {
+              "row": "5 Capital Expenditure (a+b)",
+              "be": 10228.79,
+              "actual": 9893.69
+            },
+            "loans_and_advances": {
+              "row": "8 Loans and Advances Disbursed",
+              "be": 79.17,
+              "actual": 58.36
+            },
+            "printed_total": {
+              "row": "7 Total Expenditure (4+ 5 + 8)",
+              "be": 64657.08,
+              "actual": 61069.5
+            }
+          },
+          "be": 64657.08,
+          "checks": [
+            "printed Total Expenditure = 4+5+loans",
+            "loans row: in printed total"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-2026-Sy-English-06a48a930e2d1b9-26676456.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 13857.58,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Himachal Pradesh Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-2026-Sy-English-06a48a930e2d1b9-26676456.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=73",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue (i+ii+iii+iv+v+vi+vii)",
+              "be": 25509.17,
+              "actual": 24740.83
+            },
+            "union_share": {
+              "row": "(vi) State’s Share of Union Taxes",
+              "be": 11561.66,
+              "actual": 10883.25
+            }
+          },
+          "be": 13947.51,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-2026-Sy-English-06a48a930e2d1b9-26676456.pdf"
+        }
+      }
+    },
+    {
+      "code": "JH",
+      "name": "Jharkhand",
+      "budget_actual": {
+        "value": 116434.12,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Jharkhand Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-SY-06a4dec986728e9-28162441.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=75",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4. Revenue Expenditure (a+b+c+d+e)",
+              "be": 115634.7,
+              "actual": 94408.39
+            },
+            "capital_outlay": {
+              "row": "5. Capital Expenditure (a+b)",
+              "be": 20804.62,
+              "actual": 18802.8
+            },
+            "loans_and_advances": {
+              "row": "8. Loans and Advances Disbursed",
+              "be": 3816.51,
+              "actual": 3222.93
+            },
+            "printed_total": {
+              "row": "7. Total Expenditure (4+ 5)",
+              "be": 136439.32,
+              "actual": 113211.19
+            }
+          },
+          "be": 140255.83,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-SY-06a4dec986728e9-28162441.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 37163.91,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Jharkhand Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-SY-06a4dec986728e9-28162441.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=75",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue",
+              "be": 89061.65,
+              "actual": 83229.46
+            },
+            "union_share": {
+              "row": "(vi) State’s Share of Union Taxes",
+              "be": 47041.38,
+              "actual": 46065.55
+            }
+          },
+          "be": 42020.27,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-SY-06a4dec986728e9-28162441.pdf"
+        }
+      }
+    },
+    {
+      "code": "KL",
+      "name": "Kerala"
+    },
+    {
+      "code": "MP",
+      "name": "Madhya Pradesh",
+      "budget_actual": {
+        "value": 341930.73,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Madhya Pradesh Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MP-March-Sup-2025-26-06a4647f7b4d5e1-91145452.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=78",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4. Revenue Expenditure (a+b+c+d+e)",
+              "be": 290261.07,
+              "actual": 263901.94
+            },
+            "capital_outlay": {
+              "row": "5. Capital Expenditure (a+b)",
+              "be": 82513.41,
+              "actual": 70815.76
+            },
+            "loans_and_advances": {
+              "row": "8. Loans and Advances Disbursed",
+              "be": 2562.71,
+              "actual": 7213.03
+            },
+            "printed_total": {
+              "row": "7. Total Expenditure (4+ 5)",
+              "be": 372774.48,
+              "actual": 334717.7
+            }
+          },
+          "be": 375337.19,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MP-March-Sup-2025-26-06a4647f7b4d5e1-91145452.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 96825.85,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Madhya Pradesh Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MP-March-Sup-2025-26-06a4647f7b4d5e1-91145452.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=78",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue (i+ii+iii+iv+v+vi+vii)",
+              "be": 220818.9,
+              "actual": 206174.06
+            },
+            "union_share": {
+              "row": "(vi) State’s Share of Union Taxes",
+              "be": 111661.87,
+              "actual": 109348.21
+            }
+          },
+          "be": 109157.03,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MP-March-Sup-2025-26-06a4647f7b4d5e1-91145452.pdf"
+        }
+      }
+    },
+    {
+      "code": "MN",
+      "name": "Manipur",
+      "budget_actual": {
+        "value": 19690.72,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Manipur Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-SY-2026-06a6337e54f0a57-87246912.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=80",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4. Revenue Expenditure (a+b+c+d+e)",
+              "be": 19495.85,
+              "actual": 16599.77
+            },
+            "capital_outlay": {
+              "row": "5. Capital Expenditure (a+b)",
+              "be": 4040.0,
+              "actual": 3090.7
+            },
+            "loans_and_advances": {
+              "row": "8. Loans and Advances disbursed",
+              "be": 2.8,
+              "actual": 0.25
+            },
+            "printed_total": {
+              "row": "7. Total Expenditure (4+5)+(8)",
+              "be": 23538.65,
+              "actual": 19690.72
+            }
+          },
+          "be": 23538.65,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: in printed total"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-SY-2026-06a6337e54f0a57-87246912.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 1905.2,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Manipur Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-SY-2026-06a6337e54f0a57-87246912.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=80",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue",
+              "be": 12085.47,
+              "actual": 11303.07
+            },
+            "union_share": {
+              "row": "(vi) State's Share of Union Taxes",
+              "be": 10184.7,
+              "actual": 9397.87
+            }
+          },
+          "be": 1900.77,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-SY-2026-06a6337e54f0a57-87246912.pdf"
+        }
+      }
+    },
+    {
+      "code": "ML",
+      "name": "Meghalaya"
+    },
+    {
+      "code": "MZ",
+      "name": "Mizoram"
+    },
+    {
+      "code": "NL",
+      "name": "Nagaland",
+      "budget_actual": {
+        "value": 19513.45,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Nagaland Monthly Key Indicators, March(Pre), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-Report-March-2026-06a0559ec9f7f10-48044467.pdf"
+        },
+        "report": "March(Pre), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=83",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4 Revenue Expenditure (a+b+c+d+e)",
+              "be": 17126.53,
+              "actual": 15352.46
+            },
+            "capital_outlay": {
+              "row": "5 Capital Expenditure (a+b)",
+              "be": 2969.26,
+              "actual": 4160.99
+            },
+            "loans_and_advances": {
+              "row": "7 Loans and Advances Disbursed",
+              "be": 0.57,
+              "actual": 0.0
+            },
+            "printed_total": {
+              "row": "9 Total Expenditure (4+ 5+7+8)",
+              "be": 20096.36,
+              "actual": 19513.45
+            }
+          },
+          "be": 20096.36,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: in printed total"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-Report-March-2026-06a0559ec9f7f10-48044467.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 2154.18,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Nagaland Monthly Key Indicators, March(Pre), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-Report-March-2026-06a0559ec9f7f10-48044467.pdf"
+        },
+        "report": "March(Pre), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=83",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue (i+ii+iii+iv+v+vi+vii…+ xii)",
+              "be": 9972.12,
+              "actual": 3070.56
+            },
+            "union_share": {
+              "row": "(vi) State’s Share of Union Taxes",
+              "be": 5726.0,
+              "actual": 916.38
+            }
+          },
+          "be": 4246.12,
+          "checks": [
+            "12 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-Report-March-2026-06a0559ec9f7f10-48044467.pdf"
+        }
+      }
+    },
+    {
+      "code": "OD",
+      "name": "Odisha",
+      "budget_actual": {
+        "value": 220375.09,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Odisha Monthly Key Indicators, March(Pre), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-TREND-3-2026-merged-069f34fa395fb70-90490099.pdf"
+        },
+        "report": "March(Pre), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=84",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4. Revenue Expenditure (a + b + c + d + e )",
+              "be": 200200.0,
+              "actual": 173728.76
+            },
+            "capital_outlay": {
+              "row": "5. Capital Expenditure (a + b)",
+              "be": 65012.0,
+              "actual": 42831.36
+            },
+            "loans_and_advances": {
+              "row": "8. Loan and Advances Disbursed",
+              "be": 1588.0,
+              "actual": 3814.97
+            },
+            "printed_total": {
+              "row": "7. Total Expenditure ( 4 + 5 )",
+              "be": 265212.0,
+              "actual": 216560.12
+            }
+          },
+          "be": 266800.0,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-TREND-3-2026-merged-069f34fa395fb70-90490099.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 57023.37,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Odisha Monthly Key Indicators, March(Pre), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-TREND-3-2026-merged-069f34fa395fb70-90490099.pdf"
+        },
+        "report": "March(Pre), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=84",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue ( i + ii + iii + iv + v + vi + vii )",
+              "be": 130408.27,
+              "actual": 120097.07
+            },
+            "union_share": {
+              "row": "(vi)State's Share of Union Taxes",
+              "be": 64408.27,
+              "actual": 63073.7
+            }
+          },
+          "be": 66000.0,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-TREND-3-2026-merged-069f34fa395fb70-90490099.pdf"
+        }
+      }
+    },
+    {
+      "code": "PB",
+      "name": "Punjab",
+      "budget_actual": {
+        "value": 138520.78,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Punjab Monthly Key Indicators, March, 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-Monthly-Key-indicator-for-the-month-of-March-English-2026-06a04682b13edf1-51182858.pdf"
+        },
+        "report": "March, 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=85",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4. Revenue Expenditure (a+b+c+d+e)",
+              "be": 135697.6,
+              "actual": 129545.98
+            },
+            "capital_outlay": {
+              "row": "5. Capital Expenditure (a+b)",
+              "be": 10301.65,
+              "actual": 8811.64
+            },
+            "loans_and_advances": {
+              "row": "8. Loans and Advances Disbursed",
+              "be": 632.43,
+              "actual": 163.16
+            },
+            "printed_total": {
+              "row": "7. Total Expenditure (4+ 5)",
+              "be": 145999.25,
+              "actual": 138357.62
+            }
+          },
+          "be": 146631.68,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-Monthly-Key-indicator-for-the-month-of-March-English-2026-06a04682b13edf1-51182858.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 58277.15,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Punjab Monthly Key Indicators, March, 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-Monthly-Key-indicator-for-the-month-of-March-English-2026-06a04682b13edf1-51182858.pdf"
+        },
+        "report": "March, 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=85",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue (i+ii+iii+iv+v+vi+vii)",
+              "be": 88953.57,
+              "actual": 83448.12
+            },
+            "union_share": {
+              "row": "(vi) State’s Share of Union Taxes",
+              "be": 25666.53,
+              "actual": 25170.97
+            }
+          },
+          "be": 63287.04,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-Monthly-Key-indicator-for-the-month-of-March-English-2026-06a04682b13edf1-51182858.pdf"
+        }
+      }
+    },
+    {
+      "code": "SK",
+      "name": "Sikkim"
+    },
+    {
+      "code": "TS",
+      "name": "Telangana",
+      "budget_actual": {
+        "value": 260007.65,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Telangana Monthly Key Indicators, March, 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MARCH-P-2026-06a0470ccbc2882-44923651.pdf"
+        },
+        "report": "March, 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=93",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4 Revenue Expenditure (a + b + c + d + e)",
+              "be": 226982.28,
+              "actual": 191045.59
+            },
+            "capital_outlay": {
+              "row": "5 Capital Expenditure ( a + b )",
+              "be": 36504.45,
+              "actual": 53873.31
+            },
+            "loans_and_advances": {
+              "row": "8 Loans and Advances disbursed",
+              "be": 21350.55,
+              "actual": 15088.75
+            },
+            "printed_total": {
+              "row": "7 TOTAL EXPENDITURE [4+5] (****)(***)",
+              "be": 263486.73,
+              "actual": 244918.9
+            }
+          },
+          "be": 284837.28,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MARCH-P-2026-06a0470ccbc2882-44923651.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 131320.09,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Telangana Monthly Key Indicators, March, 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MARCH-P-2026-06a0470ccbc2882-44923651.pdf"
+        },
+        "report": "March, 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=93",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "a) Tax Revenue",
+              "be": 175319.36,
+              "actual": 152400.91
+            },
+            "union_share": {
+              "row": "vi) State's Share of Union Taxes (*)",
+              "be": 21195.18,
+              "actual": 21080.82
+            }
+          },
+          "be": 154124.18,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MARCH-P-2026-06a0470ccbc2882-44923651.pdf"
+        }
+      }
+    },
+    {
+      "code": "TR",
+      "name": "Tripura",
+      "tax_actual": {
+        "value": 3596.2,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Tripura Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-Mar-Sy-2026-06a507ca96d1b28-57967171.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=89",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue (i+ii+iii+iv+v+vi+vii)",
+              "be": 15162.75,
+              "actual": 13458.45
+            },
+            "union_share": {
+              "row": "(vi) State’s Share of Union Taxes",
+              "be": 11152.75,
+              "actual": 9862.25
+            }
+          },
+          "be": 4010.0,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-Mar-Sy-2026-06a507ca96d1b28-57967171.pdf"
+        }
+      }
+    },
+    {
+      "code": "UK",
+      "name": "Uttarakhand"
+    },
+    {
+      "code": "WB",
+      "name": "West Bengal",
+      "budget_actual": {
+        "value": 299735.37,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – West Bengal Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-approved-MKI-06a4e3fabe74598-09516166.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=92",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4Revenue Expenditure (a+b+c+d+e)",
+              "be": 301375.37,
+              "actual": 279885.01
+            },
+            "capital_outlay": {
+              "row": "5Capital Expenditure (a+b)",
+              "be": 39337.74,
+              "actual": 19416.05
+            },
+            "loans_and_advances": {
+              "row": "8Loans and Advances Disbursed",
+              "be": 748.9,
+              "actual": 434.31
+            },
+            "printed_total": {
+              "row": "7Total Expenditure (4+ 5)",
+              "be": 340713.11,
+              "actual": 299301.06
+            }
+          },
+          "be": 341462.01,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-approved-MKI-06a4e3fabe74598-09516166.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 102756.31,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – West Bengal Monthly Key Indicators, March(Sup), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-approved-MKI-06a4e3fabe74598-09516166.pdf"
+        },
+        "report": "March(Sup), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=92",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue (i+ii+iii+iv+v+vi+vii)",
+              "be": 219542.44,
+              "actual": 207549.51
+            },
+            "union_share": {
+              "row": "(vi) State’s Share of Union Taxes",
+              "be": 106998.64,
+              "actual": 104793.2
+            }
+          },
+          "be": 112543.8,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-approved-MKI-06a4e3fabe74598-09516166.pdf"
+        }
+      }
+    },
+    {
+      "code": "DL",
+      "name": "Delhi",
+      "ut": true
+    },
+    {
+      "code": "JK",
+      "name": "Jammu & Kashmir",
+      "ut": true,
+      "budget_actual": {
+        "value": 87480.2,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Jammu and Kashmir UT (31-Oct-2019 Onwards) Monthly Key Indicators, March(Pre), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-P-2026-069fdc3b2819e24-71587720.pdf"
+        },
+        "report": "March(Pre), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=380&show_ut_only=1",
+        "checked_on": "2026-10-18",
+        "definition": "exp_std",
+        "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
+        "derived": {
+          "formula": "Revenue Expenditure (4) + Capital Expenditure (5) + Loans and Advances Disbursed",
+          "inputs": {
+            "revenue_expenditure": {
+              "row": "4. Revenue Expenditure (a + b + c + d + e)",
+              "be": 79703.0,
+              "actual": 73114.32
+            },
+            "capital_outlay": {
+              "row": "5. Capital Expenditure (a + b)",
+              "be": 26836.0,
+              "actual": 14297.36
+            },
+            "loans_and_advances": {
+              "row": "8. Loans and Advances Disbursed",
+              "be": 102.0,
+              "actual": 68.52
+            },
+            "printed_total": {
+              "row": "7. Total Expenditure (4 + 5)",
+              "be": 106539.0,
+              "actual": 87411.68
+            }
+          },
+          "be": 106641.0,
+          "checks": [
+            "printed Total Expenditure = 4+5",
+            "loans row: % column consistent"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-P-2026-069fdc3b2819e24-71587720.pdf"
+        }
+      },
+      "tax_actual": {
+        "value": 13938.14,
+        "basis": "provisional actuals",
+        "fy": "2025-26",
+        "period": "April 2025 – March 2026",
+        "status": "verified",
+        "source": {
+          "title": "CAG – Jammu and Kashmir UT (31-Oct-2019 Onwards) Monthly Key Indicators, March(Pre), 2026 (Accounts at a Glance)",
+          "url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-P-2026-069fdc3b2819e24-71587720.pdf"
+        },
+        "report": "March(Pre), 2026",
+        "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=380&show_ut_only=1",
+        "checked_on": "2026-10-18",
+        "definition": "own_tax",
+        "label": "Own tax revenue",
+        "derived": {
+          "formula": "(a) Tax Revenue − (vi) State's share of Union taxes",
+          "inputs": {
+            "tax_revenue": {
+              "row": "(a) Tax Revenue",
+              "be": 21550.0,
+              "actual": 13938.14
+            },
+            "union_share": {
+              "row": "(vi) State’s Share of Union Taxes",
+              "be": 0.0,
+              "actual": 0.0
+            }
+          },
+          "be": 21550.0,
+          "checks": [
+            "7 tax items add up to the tax revenue row"
+          ],
+          "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-P-2026-069fdc3b2819e24-71587720.pdf"
+        }
+      }
+    },
+    {
+      "code": "PY",
+      "name": "Puducherry",
+      "ut": true
+    }
   ]
 }

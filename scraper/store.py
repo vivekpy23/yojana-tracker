@@ -22,11 +22,11 @@ def today() -> str:
 
 
 def load(path: Path, default):
-    return json.loads(path.read_text()) if path.exists() else default
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else default
 
 
 def save(path: Path, obj) -> None:
-    path.write_text(json.dumps(obj, indent=2, ensure_ascii=False) + "\n")
+    path.write_text(json.dumps(obj, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
 def find_existing(schemes: list[dict], state: str, name: str, fy: str, min_score: float = 88) -> dict | None:

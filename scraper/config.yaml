@@ -46,6 +46,47 @@ match:
   amount_tolerance: 0.005    # 0.5 % – rounding differences between news and documents
   window_chars: 400          # how far from the scheme name to look for an amount
 
+# CAG state accounts – 'Monthly Key Indicators' (Accounts at a Glance). The March report of the FY
+# is the full-year provisional actual. PDFs are served from CAG's CDN, so only links found on the
+# cag.gov.in state pages and hosted on `pdf_hosts` are accepted.
+cag:
+  index_pages:
+    - "https://cag.gov.in/en/state-accounts-report"
+    - "https://cag.gov.in/en/state-accounts-report?show_ut_only=1"
+  pdf_hosts: ["d7i5wg8xwe4hf.cloudfront.net"]
+  state_names:   # seed.json code -> link text on the CAG index pages
+    MH: Maharashtra
+    UP: Uttar Pradesh
+    TN: Tamil Nadu
+    KA: Karnataka
+    RJ: Rajasthan
+    AP: Andhra Pradesh
+    AR: Arunachal Pradesh
+    AS: Assam
+    BR: Bihar
+    CG: Chhattisgarh
+    GA: Goa
+    GJ: Gujarat
+    HR: Haryana
+    HP: Himachal Pradesh
+    JH: Jharkhand
+    KL: Kerala
+    MP: Madhya Pradesh
+    MN: Manipur
+    ML: Meghalaya
+    MZ: Mizoram
+    NL: Nagaland
+    OD: Odisha
+    PB: Punjab
+    SK: Sikkim
+    TS: Telangana
+    TR: Tripura
+    UK: Uttarakhand
+    WB: West Bengal
+    DL: Delhi
+    JK: "Jammu and Kashmir UT (31-Oct-2019 Onwards)"
+    PY: Pondicherry
+
 # Pilot jurisdictions processed by the daily run.
 pilot_states: [MH, UP, TN, KA, RJ]
 

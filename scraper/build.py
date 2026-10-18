@@ -5,16 +5,29 @@ import datetime as dt
 import json
 from pathlib import Path
 
-from .store import DATA, ROOT, SCHEMES, SEED, load
+from . import validate
+from .store import DATA, ROOT, SCHEMES, SEED, load, save
 
 OUT = ROOT / "site" / "data" / "site.json"
+VALIDATION = DATA / "validation.json"
 
 
-def build(out: Path = OUT) -> dict:
+def public(fig: dict | None) -> dict | None:
+    """What the site needs from a figure; inputs, BE anchors and checks stay in data/."""
+    if not isinstance(fig, dict):
+        return fig
+    out = {k: fig[k] for k in ("value", "basis", "status", "label", "source") if k in fig}
+    if fig.get("derived"):
+        out["derived"] = True
+    return out
+
+
+def build(out: Path = OUT, validation_out: Path | None = VALIDATION) -> dict:
     seed = load(SEED, {})
     schemes = load(SCHEMES, [])
     fy = seed["fy"]
     fy_schemes = [s for s in schemes if s["fy"] == fy]
+    comparisons, issues = validate.run(seed["states"], fy)
 
     states = []
     for st in seed["states"]:
@@ -29,8 +42,12 @@ def build(out: Path = OUT) -> dict:
         states.append({
             "code": st["code"], "name": st["name"], "ut": st.get("ut", False),
             "pilot": st.get("pilot", False),
-            "budget": st.get("budget"), "beneficiary_announced": st.get("beneficiary_announced"),
-            "beneficiary_despatched": despatched, "tax": st.get("tax"), "source": st.get("source"),
+            # Site 'budget' is total expenditure on the standard definition (excl. debt repayment);
+            # the seed's original 'budget' (incl. debt repayment, as published) is kept in data/ only.
+            "budget": public(st.get("expenditure")), "beneficiary_announced": st.get("beneficiary_announced"),
+            "beneficiary_despatched": despatched, "tax": public(st.get("tax")), "source": st.get("source"),
+            "budget_actual": public(st.get("budget_actual")), "tax_actual": public(st.get("tax_actual")),
+            "vs_re": comparisons[st["code"]],
             "schemes": [{k: s.get(k) for k in ("name", "announced", "despatched", "status", "sources", "note")}
                         for s in mine],
         })
@@ -48,7 +65,10 @@ def build(out: Path = OUT) -> dict:
         },
     }
     out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(site, ensure_ascii=False, separators=(",", ":")))
+    out.write_text(json.dumps(site, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+    if validation_out:
+        save(validation_out, {"fy": fy, "issues": issues})
+    site["validation"] = {lvl: sum(i["level"] == lvl for i in issues) for lvl in ("error", "blocked", "missing")}
     return site
 
 
