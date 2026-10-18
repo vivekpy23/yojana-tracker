@@ -1,0 +1,56 @@
+# Yojana Tracker – scraper configuration
+# Financial year the site reports on (last completed FY).
+fy: "2025-26"
+# News articles are only considered if published in this window
+# (budgets for FY 2025-26 were presented Feb–Mar 2025; RE and accounts follow later).
+news_window: {from: "2025-01-15", to: "2026-09-30"}
+
+# Step 1 – discovery: PIB + major national outlets (RSS).
+news_feeds:
+  - {name: "PIB (English releases)", url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3", govt: true}
+  - {name: "The Hindu – National", url: "https://www.thehindu.com/news/national/feeder/default.rss"}
+  - {name: "Indian Express – India", url: "https://indianexpress.com/section/india/feed/"}
+  - {name: "Business Standard – Economy", url: "https://www.business-standard.com/rss/economy-102.rss"}
+  - {name: "Hindustan Times – India", url: "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml"}
+
+# Step 2 – verification: only documents on these domains count as government sources.
+govt_domains: [".gov.in", ".nic.in"]
+
+# Where to look for each jurisdiction's official documents.
+# `index_pages` are crawled one level deep for budget PDFs/HTML whose link text or URL
+# matches `doc_keywords`. Confirm these URLs once — department sites move around.
+govt_sources:
+  CENTRE:
+    index_pages:
+      - "https://www.indiabudget.gov.in/"
+      - "https://www.indiabudget.gov.in/budget2026-27/"
+    direct_docs:
+      - "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf"
+  MH:
+    index_pages: ["https://finance.maharashtra.gov.in/"]
+  UP:
+    index_pages: ["https://budget.up.nic.in/"]
+  TN:
+    index_pages: ["https://www.tnbudget.tn.gov.in/"]
+  KA:
+    index_pages: ["https://finance.karnataka.gov.in/"]
+  RJ:
+    index_pages: ["https://finance.rajasthan.gov.in/"]
+
+doc_keywords: ["budget", "speech", "2025-26", "2025-2026", "demand", "estimates", "glance", "highlights"]
+
+# Matching thresholds (rapidfuzz partial_ratio, 0–100)
+match:
+  verified_min_score: 90     # name match at/above this + amount found → verified
+  review_min_score: 72       # between review_min and verified_min → review queue
+  amount_tolerance: 0.005    # 0.5 % – rounding differences between news and documents
+  window_chars: 400          # how far from the scheme name to look for an amount
+
+# Pilot jurisdictions processed by the daily run.
+pilot_states: [MH, UP, TN, KA, RJ]
+
+http:
+  user_agent: "YojanaTrackerBot/0.1 (+https://github.com/<you>/yojana-tracker; public-interest research)"
+  timeout_s: 30
+  delay_s: 2.0               # polite pause between requests to the same host
+  max_docs_per_source: 25

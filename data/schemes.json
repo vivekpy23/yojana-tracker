@@ -1,0 +1,308 @@
+[
+  {
+    "id": "MH-ladki-bahin-yojana",
+    "state": "MH",
+    "fy": "2025-26",
+    "name": "Mukhyamantri Majhi Ladki Bahin Yojana",
+    "announced": 36000,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "Outlook – Maharashtra Budget: Rs 36,000 crore for Ladki Behen scheme",
+        "url": "https://www.outlookindia.com/amp/story/national/maharashtra-budget-rs-36000-crore-for-ladki-behen-scheme-mumbai-to-have-third-airport-by-2030-says-ajit-pawar"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "KA-five-guarantee-schemes",
+    "state": "KA",
+    "fy": "2025-26",
+    "name": "Five guarantee schemes (Gruha Lakshmi, Gruha Jyothi, Shakti, Anna Bhagya, Yuva Nidhi)",
+    "announced": 51034,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "Tribune – Karnataka allocates Rs 51,034 cr for guarantee schemes",
+        "url": "https://www.tribuneindia.com/news/business/karnataka-allocates-rs-51034-cr-for-guarantee-schemes-and-rs-51339-cr-for-agriculture-sector-in-state-budget-2025-26/amp"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "TN-kalaignar-magalir-urimai-thogai",
+    "state": "TN",
+    "fy": "2025-26",
+    "name": "Kalaignar Magalir Urimai Thogai",
+    "announced": 13807,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "The News Minute – TN Budget 2025: schemes for women, trans persons, SC/ST communities",
+        "url": "https://www.thenewsminute.com/tamil-nadu/tn-budget-2025-schemes-for-women-trans-persons-scst-communities"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "TN-integrated-child-development-scheme",
+    "state": "TN",
+    "fy": "2025-26",
+    "name": "Integrated Child Development Scheme",
+    "announced": 3676,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "The News Minute – TN Budget 2025: schemes for women, trans persons, SC/ST communities",
+        "url": "https://www.thenewsminute.com/tamil-nadu/tn-budget-2025-schemes-for-women-trans-persons-scst-communities"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "TN-vidiyal-payanam",
+    "state": "TN",
+    "fy": "2025-26",
+    "name": "Vidiyal Payanam (free bus travel for women)",
+    "announced": 3600,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "The News Minute – TN Budget 2025: schemes for women, trans persons, SC/ST communities",
+        "url": "https://www.thenewsminute.com/tamil-nadu/tn-budget-2025-schemes-for-women-trans-persons-scst-communities"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "TN-chief-ministers-breakfast-scheme",
+    "state": "TN",
+    "fy": "2025-26",
+    "name": "Chief Minister's Breakfast Scheme (expansion)",
+    "announced": 600,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "The News Minute – TN Budget 2025: schemes for women, trans persons, SC/ST communities",
+        "url": "https://www.thenewsminute.com/tamil-nadu/tn-budget-2025-schemes-for-women-trans-persons-scst-communities"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "TN-pudhumai-penn-thittam",
+    "state": "TN",
+    "fy": "2025-26",
+    "name": "Pudhumai Penn Thittam",
+    "announced": 420,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "The News Minute – TN Budget 2025: schemes for women, trans persons, SC/ST communities",
+        "url": "https://www.thenewsminute.com/tamil-nadu/tn-budget-2025-schemes-for-women-trans-persons-scst-communities"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "UP-destitute-women-pension-scheme",
+    "state": "UP",
+    "fy": "2025-26",
+    "name": "Destitute Women Pension Scheme",
+    "announced": 2980,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "Adda247 – Uttar Pradesh Budget 2025-26 key highlights",
+        "url": "https://currentaffairs.adda247.com/uttar-pradesh-budget-2025-26-key-highlights-and-summary/"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "UP-disabled-maintenance-grant-scheme",
+    "state": "UP",
+    "fy": "2025-26",
+    "name": "Disabled Maintenance Grant Scheme",
+    "announced": 1424,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "Adda247 – Uttar Pradesh Budget 2025-26 key highlights",
+        "url": "https://currentaffairs.adda247.com/uttar-pradesh-budget-2025-26-key-highlights-and-summary/"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "UP-farmer-welfare-fund",
+    "state": "UP",
+    "fy": "2025-26",
+    "name": "Farmer Welfare Fund",
+    "announced": 1050,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "Adda247 – Uttar Pradesh Budget 2025-26 key highlights",
+        "url": "https://currentaffairs.adda247.com/uttar-pradesh-budget-2025-26-key-highlights-and-summary/"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "UP-kanya-sumangala-yojana",
+    "state": "UP",
+    "fy": "2025-26",
+    "name": "Mukhyamantri Kanya Sumangala Yojana",
+    "announced": 700,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "Adda247 – Uttar Pradesh Budget 2025-26 key highlights",
+        "url": "https://currentaffairs.adda247.com/uttar-pradesh-budget-2025-26-key-highlights-and-summary/"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "UP-mass-marriage-scheme",
+    "state": "UP",
+    "fy": "2025-26",
+    "name": "Mukhyamantri Samuhik Vivah Yojana (mass marriage)",
+    "announced": 550,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "Adda247 – Uttar Pradesh Budget 2025-26 key highlights",
+        "url": "https://currentaffairs.adda247.com/uttar-pradesh-budget-2025-26-key-highlights-and-summary/"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "RJ-maa-fund",
+    "state": "RJ",
+    "fy": "2025-26",
+    "name": "MAA Fund (free tests and medicines)",
+    "announced": 3500,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "Drishti IAS – Rajasthan Budget 2025-26",
+        "url": "https://www.drishtiias.com/state-pcs-current-affairs/rajasthan-budget-2025-26"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "RJ-micro-irrigation",
+    "state": "RJ",
+    "fy": "2025-26",
+    "name": "Micro-irrigation subsidy (drip & sprinkler)",
+    "announced": 1250,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "Drishti IAS – Rajasthan Budget 2025-26",
+        "url": "https://www.drishtiias.com/state-pcs-current-affairs/rajasthan-budget-2025-26"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "RJ-farm-ponds-wells-solar-pumps",
+    "state": "RJ",
+    "fy": "2025-26",
+    "name": "Farm ponds, wells & solar pumps",
+    "announced": 900,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "Drishti IAS – Rajasthan Budget 2025-26",
+        "url": "https://www.drishtiias.com/state-pcs-current-affairs/rajasthan-budget-2025-26"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "RJ-farm-loan-interest-subsidy",
+    "state": "RJ",
+    "fy": "2025-26",
+    "name": "Interest subsidy on farm loans",
+    "announced": 768,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "Drishti IAS – Rajasthan Budget 2025-26",
+        "url": "https://www.drishtiias.com/state-pcs-current-affairs/rajasthan-budget-2025-26"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  },
+  {
+    "id": "RJ-vivekanand-employment-assistance-fund",
+    "state": "RJ",
+    "fy": "2025-26",
+    "name": "Vivekanand Employment Assistance Fund",
+    "announced": 500,
+    "despatched": null,
+    "status": "unverified",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "Drishti IAS – Rajasthan Budget 2025-26",
+        "url": "https://www.drishtiias.com/state-pcs-current-affairs/rajasthan-budget-2025-26"
+      }
+    ],
+    "first_seen": "2026-10-18",
+    "last_checked": "2026-10-18"
+  }
+]
