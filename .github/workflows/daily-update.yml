@@ -38,8 +38,11 @@ jobs:
       - name: Unit tests
         run: python -m pytest -q
 
-      - name: Scrape, verify, build
+      - name: Discover, verify, build
         id: run
+        env:
+          # Optional: authorised myScheme API access. Without it, myScheme discovery is skipped (logged).
+          MYSCHEME_API_KEY: ${{ secrets.MYSCHEME_API_KEY }}
         run: python -m scraper.run
 
       # Nothing uncertain: publish straight to main.

@@ -23,9 +23,10 @@ def test_extracts_state_scheme_amount():
     assert c[0].confidence == 0.9
 
 
-def test_skips_other_financial_years():
+def test_other_financial_year_is_tagged_not_dropped():
     text = "Maharashtra allocated Rs 26,500 crore for Ladki Bahin Yojana in 2026-27."
-    assert extract_candidates(text, title="Maharashtra budget", fy="2025-26") == []
+    (c,) = extract_candidates(text, title="Maharashtra budget", fy="2025-26")
+    assert c.fy == "2026-27" and c.amount == 26500
 
 
 def test_sentence_level_state_overrides_article():
@@ -65,7 +66,7 @@ def test_indian_number_format():
 def test_slug_and_fuzzy_merge():
     assert slugify("Mukhyamantri Majhi Ladki Bahin Yojana") == "majhi-ladki-bahin"
     recs = [{"id": "MH-x", "state": "MH", "fy": "2025-26", "name": "Mukhyamantri Majhi Ladki Bahin Yojana",
-             "announced": 36000, "status": "unverified", "sources": []}]
+             "announced": None, "reported_amount": 36000, "status": "reported", "sources": []}]
     assert store.find_existing(recs, "MH", "Majhi Ladki Bahin Yojana", "2025-26") is recs[0]
     assert store.find_existing(recs, "MH", "Namo Shetkari Mahasanman Nidhi", "2025-26") is None
 
@@ -74,7 +75,7 @@ def test_upsert_never_downgrades_verified():
     recs = []
     src = {"kind": "news", "title": "t", "url": "u1"}
     store.upsert(recs, state="TN", name="Pudhumai Penn Thittam", fy="2025-26", amount=420, status="verified", source=src)
-    store.upsert(recs, state="TN", name="Pudhumai Penn Thittam", fy="2025-26", amount=999, status="unverified",
+    store.upsert(recs, state="TN", name="Pudhumai Penn Thittam", fy="2025-26", amount=999, status="reported",
                  source={"kind": "news", "title": "t2", "url": "u2"})
     assert recs[0]["announced"] == 420 and recs[0]["status"] == "verified" and len(recs[0]["sources"]) == 2
 
@@ -109,5 +110,7 @@ def test_build_excludes_nothing_but_counts_status(tmp_path):
     site = build.build(tmp_path / "site.json", tmp_path / "validation.json")
     assert site["fy"] == "2025-26"
     mh = next(s for s in site["states"] if s["code"] == "MH")
-    assert mh["schemes"][0]["status"] == "unverified"
+    assert mh["schemes"][0]["status"] == "reported"
+    assert mh["schemes"][0]["announced"] is None          # a news figure is never shown
+    assert "reported_amount" not in mh["schemes"][0] and "reports" not in mh["schemes"][0]
     assert len(site["states"]) == 31

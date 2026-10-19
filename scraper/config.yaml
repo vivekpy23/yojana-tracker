@@ -1,17 +1,118 @@
 # Yojana Tracker – scraper configuration
 # Financial year the site reports on (last completed FY).
 fy: "2025-26"
-# News articles are only considered if published in this window
-# (budgets for FY 2025-26 were presented Feb–Mar 2025; RE and accounts follow later).
-news_window: {from: "2025-01-15", to: "2026-09-30"}
 
-# Step 1 – discovery: PIB + major national outlets (RSS).
+# Step 1a – scheme discovery (data/catalog.json). myScheme is the primary source, searched per State/UT;
+# the National Portal of India is secondary. Neither supplies amounts.
+myscheme:
+  # Search API behind myscheme.gov.in/search. Called only when MYSCHEME_API_KEY holds a key issued to this
+  # project (API Setu / myScheme team); otherwise the step is skipped and logged.
+  search_api: "https://api.myscheme.gov.in/search/v4/schemes"
+  api_key_env: MYSCHEME_API_KEY
+  page_size: 50
+  max_per_state: 1000
+  cache_h: 144                 # re-list each state at most every 6 days
+  state_names:                 # where myScheme spells a State/UT differently from seed.json
+    JK: "Jammu and Kashmir"
+
+national_portal:
+  cache_h: 144
+  # Listing pages read for scheme links, per State/UT or CENTRE. india.gov.in refused this crawler
+  # (Access Denied) in Oct 2026 – confirm the URLs once access works, and add state pages.
+  pages:
+    CENTRE: ["https://www.india.gov.in/my-government/schemes"]
+
+discovery:
+  max_allocation_reviews_per_state: 10   # catalog schemes found in govt documents, queued per run
+
+# Step 1b – news discovery. Every article becomes a report on its scheme (new / existing / revised allocation /
+# disbursement update). Only the link, headline, date and extracted facts are stored, never article text.
+# The FY of a story is the one it names, else the FY of its date (the coming FY for a Jan–Mar budget story);
+# only stories about the site's FY are verified for the site, the rest are kept as reports for their own FY.
+# `fetch_article: false` reads just the RSS headline + summary (for outlets whose terms don't allow fetching).
+# `state` is a hint for state-desk feeds. Google News RSS is not used: its robots.txt disallows /rss.
 news_feeds:
   - {name: "PIB (English releases)", url: "https://pib.gov.in/RssMain.aspx?ModId=6&Lang=1&Regid=3", govt: true}
+  # national
   - {name: "The Hindu – National", url: "https://www.thehindu.com/news/national/feeder/default.rss"}
+  - {name: "The Hindu – Economy", url: "https://www.thehindu.com/business/Economy/feeder/default.rss"}
+  - {name: "The Hindu – Other States", url: "https://www.thehindu.com/news/national/other-states/feeder/default.rss"}
   - {name: "Indian Express – India", url: "https://indianexpress.com/section/india/feed/"}
   - {name: "Business Standard – Economy", url: "https://www.business-standard.com/rss/economy-102.rss"}
   - {name: "Hindustan Times – India", url: "https://www.hindustantimes.com/feeds/rss/india-news/rssfeed.xml"}
+  # state desks
+  - {name: "The Hindu – Tamil Nadu", url: "https://www.thehindu.com/news/national/tamil-nadu/feeder/default.rss", state: TN}
+  - {name: "The Hindu – Karnataka", url: "https://www.thehindu.com/news/national/karnataka/feeder/default.rss", state: KA}
+  - {name: "Indian Express – Mumbai", url: "https://indianexpress.com/section/cities/mumbai/feed/", state: MH}
+  # regional languages
+  - {name: "Dainik Bhaskar – Desh", url: "https://www.bhaskar.com/rss-v1--category-1061.xml", lang: hi}
+  - {name: "Amar Ujala – India", url: "https://www.amarujala.com/rss/india-news.xml", lang: hi}
+  - {name: "NDTV Khabar", url: "https://feeds.feedburner.com/ndtvkhabar-latest", lang: hi}
+  - {name: "Oneindia Hindi", url: "https://hindi.oneindia.com/rss/feeds/hindi-news-fb.xml", lang: hi}
+  - {name: "ABP Majha – Maharashtra", url: "https://marathi.abplive.com/news/maharashtra/feed", lang: mr, state: MH}
+  - {name: "Oneindia Marathi", url: "https://marathi.oneindia.com/rss/feeds/marathi-news-fb.xml", lang: mr}
+  - {name: "Oneindia Tamil", url: "https://tamil.oneindia.com/rss/feeds/tamil-news-fb.xml", lang: ta}
+  - {name: "Oneindia Kannada", url: "https://kannada.oneindia.com/rss/feeds/kannada-news-fb.xml", lang: kn}
+
+# State government announcements: press-release index pages, read one level deep for links matching
+# `announcement_keywords` (government domains only). Confirm these URLs once – department sites move.
+announcement_pages:
+  - {name: "Maharashtra DGIPR", url: "https://dgipr.maharashtra.gov.in/", state: MH}
+  - {name: "UP Information Department", url: "https://information.up.gov.in/", state: UP}
+  - {name: "Tamil Nadu DIPR", url: "https://www.tndipr.gov.in/", state: TN}
+  - {name: "Karnataka DIPR", url: "https://dipr.karnataka.gov.in/", state: KA}
+  - {name: "Rajasthan DIPR", url: "https://dipr.rajasthan.gov.in/", state: RJ}
+announcement_keywords: ["press", "release", "yojana", "scheme", "प्रेस", "विज्ञप्ति", "योजना", "செய்தி", "ಪತ್ರಿಕಾ"]
+
+# Funding type of each scheme (catalog.py). A name matching one of these patterns is a Centrally Sponsored
+# Scheme (Centre + state share): the umbrella schemes in the Union Budget's statement of Centrally Sponsored
+# Schemes. Review when a new Union Budget changes the list.
+funding:
+  centrally_sponsored:
+    - 'MGNREG|Mahatma Gandhi National Rural Employment'
+    - 'National Social Assistance|\bNSAP\b|Indira Gandhi National (Old Age|Widow|Disability) Pension'
+    - 'Pradhan Mantri Awas|\bPMAY|PM Awas'
+    - 'Pradhan Mantri Gram Sadak|\bPMGSY\b'
+    - 'Jal Jeevan Mission'
+    - 'Swachh Bharat Mission'
+    - 'National Health Mission|\bNHM\b'
+    - 'Samagra Shiksha'
+    - 'PM POSHAN|Mid[- ]Day Meal'
+    - 'Integrated Child Development|\bICDS\b|Saksham Anganwadi|Poshan 2\.0'
+    - 'Mission Shakti|Mission Vatsalya|Matru Vandana'
+    - 'Ayushman Bharat|PM-?JAY\b'
+    - 'National Rural Livelihood|DAY-NRLM|Deendayal Antyodaya'
+    - 'Rashtriya Krishi Vikas'
+    - 'Pradhan Mantri Krishi Sinchai|\bPMKSY\b|Per Drop More Crop'
+    - '\bAMRUT\b|Atal Mission for Rejuvenation'
+    - 'PM SHRI|PM-USHA|Rashtriya Uchchatar Shiksha'
+    - 'Post[- ]Matric Scholarship'
+    - 'PM-?AJAY|Anusuchit Jaati Abhyuday'
+    - 'Matsya Sampada|National Livestock Mission|Rashtriya Gokul'
+  # Set by hand where the sources are clear; key = scheme / catalog id.
+  overrides:
+    KA-five-guarantee-schemes: {funding: state, evidence: "Karnataka's own guarantee schemes, funded from the state budget"}
+    TN-kalaignar-magalir-urimai-thogai: {funding: state, evidence: "Tamil Nadu's own scheme, funded from the state budget"}
+    TN-vidiyal-payanam: {funding: state, evidence: "Tamil Nadu's own scheme, funded from the state budget"}
+    TN-pudhumai-penn-thittam: {funding: state, evidence: "Tamil Nadu's own scheme, funded from the state budget"}
+
+# Other names the same scheme appears under (English spellings, regional-language names), so reports of it
+# deduplicate. Canonical name first.
+scheme_aliases:
+  MH:
+    "Mukhyamantri Majhi Ladki Bahin Yojana": ["Ladki Bahin Yojana", "Ladki Behen Yojana", "Ladki Bahin scheme",
+                                              "Ladki Behen scheme", "माझी लाडकी बहीण योजना", "लाडकी बहीण योजना"]
+  TN:
+    "Kalaignar Magalir Urimai Thogai": ["Kalaignar Magalir Urimai Thogai Thittam", "Magalir Urimai Thogai", "KMUT",
+                                        "கலைஞர் மகளிர் உரிமைத் திட்டம்", "கலைஞர் மகளிர் உரிமைத் தொகை திட்டம்"]
+    "Vidiyal Payanam (free bus travel for women)": ["Vidiyal Payanam", "விடியல் பயணம் திட்டம்"]
+    "Pudhumai Penn Thittam": ["Pudhumai Penn scheme", "புதுமைப் பெண் திட்டம்"]
+    "Chief Minister's Breakfast Scheme (expansion)": ["CM Breakfast Scheme", "முதலமைச்சரின் காலை உணவுத் திட்டம்"]
+  KA:
+    "Five guarantee schemes (Gruha Lakshmi, Gruha Jyothi, Shakti, Anna Bhagya, Yuva Nidhi)": ["guarantee schemes", "five guarantees"]
+  UP:
+    "Mukhyamantri Kanya Sumangala Yojana": ["Kanya Sumangala Yojana", "मुख्यमंत्री कन्या सुमंगला योजना", "कन्या सुमंगला योजना"]
+    "Mukhyamantri Samuhik Vivah Yojana (mass marriage)": ["Samuhik Vivah Yojana", "मुख्यमंत्री सामूहिक विवाह योजना"]
 
 # Step 2 – verification: only documents on these domains count as government sources.
 govt_domains: [".gov.in", ".nic.in"]
@@ -26,6 +127,7 @@ govt_sources:
       - "https://www.indiabudget.gov.in/budget2026-27/"
     direct_docs:
       - "https://www.indiabudget.gov.in/doc/Budget_at_Glance/bag1.pdf"
+  # `notification_pages` (optional): government-order, gazette or departmental-report listings, read like index_pages.
   MH:
     index_pages: ["https://finance.maharashtra.gov.in/"]
   UP:
@@ -37,7 +139,8 @@ govt_sources:
   RJ:
     index_pages: ["https://finance.rajasthan.gov.in/"]
 
-doc_keywords: ["budget", "speech", "2025-26", "2025-2026", "demand", "estimates", "glance", "highlights"]
+doc_keywords: ["budget", "speech", "2025-26", "2025-2026", "demand", "estimates", "glance", "highlights",
+               "notification", "government order", "annual report", "outcome budget"]
 
 # Matching thresholds (rapidfuzz partial_ratio, 0–100)
 match:
@@ -130,5 +233,7 @@ pilot_states: [MH, UP, TN, KA, RJ]
 http:
   user_agent: "YojanaTrackerBot/0.1 (+https://github.com/<you>/yojana-tracker; public-interest research)"
   timeout_s: 30
-  delay_s: 2.0               # polite pause between requests to the same host
+  delay_s: 2.0               # polite pause between requests to the same host (robots.txt Crawl-delay wins if longer)
   max_docs_per_source: 25
+  max_articles_per_source: 40   # articles read per feed / announcement page per run
+  max_requests_per_host: 300    # network requests to one host per run (cache hits don't count)

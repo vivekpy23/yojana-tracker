@@ -17,6 +17,8 @@ Rules
   missing     pilot states without an RE or actual are listed
   disbursed   a benefits-disbursed figure needs basis 'actuals', a source URL, reporting period and
               as-of date; otherwise it is reported and not shown
+  schemes     a scheme amount (`announced`) needs status verified (with a government source) or secondary;
+              a 'reported' scheme carries no amount; funding type and news-report types are from the known set
 """
 from __future__ import annotations
 
@@ -61,6 +63,31 @@ def check_disbursements(states: list[dict], schemes: list[dict], fy: str, issues
         if s.get("fy") == fy and s.get("despatched") is not None and not disbursement_ok(s.get("despatched_source")):
             _issue(issues, s["state"], f"scheme {s['name']}", "error",
                    "disbursed: needs despatched_source with URL, period and as-of date – not shown")
+
+
+SCHEME_STATUSES = ("verified", "secondary", "reported")
+FUNDING_TYPES = ("state", "centrally_sponsored", "central", "unknown")
+REPORT_KINDS = ("new_scheme", "existing_scheme", "revised_allocation", "disbursement_update")
+
+
+def check_schemes(schemes: list[dict], fy: str, issues: list) -> None:
+    for s in schemes:
+        if s.get("fy") != fy:
+            continue
+        field, status = f"scheme {s['name']}", s.get("status")
+        if status not in SCHEME_STATUSES:
+            _issue(issues, s["state"], field, "error", f"schemes: unknown status {status!r}")
+        elif s.get("announced") is not None:
+            if status == "reported":
+                _issue(issues, s["state"], field, "error",
+                       "schemes: amount on a reported scheme – only officially verified amounts are shown")
+            elif status == "verified" and not any(x.get("kind") == "govt" for x in s.get("sources", [])):
+                _issue(issues, s["state"], field, "error", "schemes: verified amount without a government source")
+        if s.get("funding") is not None and s["funding"] not in FUNDING_TYPES:
+            _issue(issues, s["state"], field, "error", f"schemes: unknown funding type {s['funding']!r}")
+        for r in s.get("reports", []):
+            if r.get("kind") not in REPORT_KINDS:
+                _issue(issues, s["state"], field, "error", f"schemes: unknown report type {r.get('kind')!r}")
 
 
 def compare(st: dict, actual_key: str, estimate_key: str, fy: str, issues: list) -> float | None:
@@ -129,6 +156,7 @@ def run(states: list[dict], fy: str, schemes: list[dict] = ()) -> tuple[dict[str
     """{code: {'budget': pct|None, 'tax': pct|None}} and the list of issues."""
     issues, comparisons = [], {}
     check_disbursements(states, list(schemes), fy, issues)
+    check_schemes(list(schemes), fy, issues)
     for st in states:
         check_figures(st, fy, issues)
         comparisons[st["code"]] = {"budget": compare(st, "budget_actual", "expenditure", fy, issues),

@@ -4,9 +4,10 @@
     "state": "MH",
     "fy": "2025-26",
     "name": "Mukhyamantri Majhi Ladki Bahin Yojana",
-    "announced": 36000,
+    "announced": null,
+    "reported_amount": 36000,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -15,16 +16,20 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "catalog_id": "MH-majhi-ladki-bahin",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
   },
   {
     "id": "KA-five-guarantee-schemes",
     "state": "KA",
     "fy": "2025-26",
     "name": "Five guarantee schemes (Gruha Lakshmi, Gruha Jyothi, Shakti, Anna Bhagya, Yuva Nidhi)",
-    "announced": 51034,
+    "announced": null,
+    "reported_amount": 51034,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -33,16 +38,20 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "catalog_id": "KA-five-guarantee-schemes",
+    "funding": "state",
+    "funding_evidence": "Karnataka's own guarantee schemes, funded from the state budget"
   },
   {
     "id": "TN-kalaignar-magalir-urimai-thogai",
     "state": "TN",
     "fy": "2025-26",
     "name": "Kalaignar Magalir Urimai Thogai",
-    "announced": 13807,
+    "announced": null,
+    "reported_amount": 13807,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -51,16 +60,20 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "catalog_id": "TN-kalaignar-magalir-urimai-thogai",
+    "funding": "state",
+    "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget"
   },
   {
     "id": "TN-integrated-child-development-scheme",
     "state": "TN",
     "fy": "2025-26",
     "name": "Integrated Child Development Scheme",
-    "announced": 3676,
+    "announced": null,
+    "reported_amount": 3676,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -69,16 +82,19 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Integrated Child Development|\\bICDS\\b|Saksham Anganwadi|Poshan 2\\.0)"
   },
   {
     "id": "TN-vidiyal-payanam",
     "state": "TN",
     "fy": "2025-26",
     "name": "Vidiyal Payanam (free bus travel for women)",
-    "announced": 3600,
+    "announced": null,
+    "reported_amount": 3600,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -87,16 +103,20 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "catalog_id": "TN-vidiyal-payanam",
+    "funding": "state",
+    "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget"
   },
   {
     "id": "TN-chief-ministers-breakfast-scheme",
     "state": "TN",
     "fy": "2025-26",
     "name": "Chief Minister's Breakfast Scheme (expansion)",
-    "announced": 600,
+    "announced": null,
+    "reported_amount": 600,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -105,16 +125,20 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "catalog_id": "TN-breakfast",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
   },
   {
     "id": "TN-pudhumai-penn-thittam",
     "state": "TN",
     "fy": "2025-26",
     "name": "Pudhumai Penn Thittam",
-    "announced": 420,
+    "announced": null,
+    "reported_amount": 420,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -123,16 +147,20 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "catalog_id": "TN-pudhumai-penn-thittam",
+    "funding": "state",
+    "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget"
   },
   {
     "id": "UP-destitute-women-pension-scheme",
     "state": "UP",
     "fy": "2025-26",
     "name": "Destitute Women Pension Scheme",
-    "announced": 2980,
+    "announced": null,
+    "reported_amount": 2980,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -141,16 +169,19 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "funding": "unknown",
+    "funding_evidence": ""
   },
   {
     "id": "UP-disabled-maintenance-grant-scheme",
     "state": "UP",
     "fy": "2025-26",
     "name": "Disabled Maintenance Grant Scheme",
-    "announced": 1424,
+    "announced": null,
+    "reported_amount": 1424,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -159,16 +190,19 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "funding": "unknown",
+    "funding_evidence": ""
   },
   {
     "id": "UP-farmer-welfare-fund",
     "state": "UP",
     "fy": "2025-26",
     "name": "Farmer Welfare Fund",
-    "announced": 1050,
+    "announced": null,
+    "reported_amount": 1050,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -177,16 +211,19 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "funding": "unknown",
+    "funding_evidence": ""
   },
   {
     "id": "UP-kanya-sumangala-yojana",
     "state": "UP",
     "fy": "2025-26",
     "name": "Mukhyamantri Kanya Sumangala Yojana",
-    "announced": 700,
+    "announced": null,
+    "reported_amount": 700,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -195,16 +232,20 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "catalog_id": "UP-kanya-sumangala",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
   },
   {
     "id": "UP-mass-marriage-scheme",
     "state": "UP",
     "fy": "2025-26",
     "name": "Mukhyamantri Samuhik Vivah Yojana (mass marriage)",
-    "announced": 550,
+    "announced": null,
+    "reported_amount": 550,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -213,16 +254,20 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "catalog_id": "UP-samuhik-vivah",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
   },
   {
     "id": "RJ-maa-fund",
     "state": "RJ",
     "fy": "2025-26",
     "name": "MAA Fund (free tests and medicines)",
-    "announced": 3500,
+    "announced": null,
+    "reported_amount": 3500,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -231,16 +276,19 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "funding": "unknown",
+    "funding_evidence": ""
   },
   {
     "id": "RJ-micro-irrigation",
     "state": "RJ",
     "fy": "2025-26",
     "name": "Micro-irrigation subsidy (drip & sprinkler)",
-    "announced": 1250,
+    "announced": null,
+    "reported_amount": 1250,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -249,16 +297,19 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "funding": "unknown",
+    "funding_evidence": ""
   },
   {
     "id": "RJ-farm-ponds-wells-solar-pumps",
     "state": "RJ",
     "fy": "2025-26",
     "name": "Farm ponds, wells & solar pumps",
-    "announced": 900,
+    "announced": null,
+    "reported_amount": 900,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -267,16 +318,19 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "funding": "unknown",
+    "funding_evidence": ""
   },
   {
     "id": "RJ-farm-loan-interest-subsidy",
     "state": "RJ",
     "fy": "2025-26",
     "name": "Interest subsidy on farm loans",
-    "announced": 768,
+    "announced": null,
+    "reported_amount": 768,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -285,16 +339,19 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "funding": "unknown",
+    "funding_evidence": ""
   },
   {
     "id": "RJ-vivekanand-employment-assistance-fund",
     "state": "RJ",
     "fy": "2025-26",
     "name": "Vivekanand Employment Assistance Fund",
-    "announced": 500,
+    "announced": null,
+    "reported_amount": 500,
     "despatched": null,
-    "status": "unverified",
+    "status": "reported",
     "sources": [
       {
         "kind": "news",
@@ -303,6 +360,8 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-18"
+    "last_checked": "2026-10-18",
+    "funding": "unknown",
+    "funding_evidence": ""
   }
 ]

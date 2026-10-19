@@ -32,11 +32,20 @@
   var BADGE = {
     verified: ["verified", "Verified"],
     secondary: ["secondary", "Budget docs (via PRS)"],
-    unverified: ["unverified", "Unverified · not in totals"]
+    reported: ["unverified", "Reported — awaiting official verification"]
   };
   function badge(status) {
-    var b = BADGE[status] || BADGE.unverified;
+    var b = BADGE[status] || BADGE.reported;
     return '<span class="badge ' + b[0] + '">' + b[1] + "</span>";
+  }
+  var FUNDING = { state: "State scheme", centrally_sponsored: "Centrally sponsored (Centre + state)", central: "Central scheme" };
+  // Scheme name (linked to its official page) with funding type, department and note underneath.
+  function schemeCell(sc) {
+    var name = sc.official_url
+      ? '<a href="' + esc(sc.official_url) + '" target="_blank" rel="noopener"' + (sc.description ? ' title="' + esc(sc.description) + '"' : "") + ">" + esc(sc.name) + "</a>"
+      : esc(sc.name);
+    var meta = [FUNDING[sc.funding], sc.department].filter(Boolean).join(" · ");
+    return name + (meta ? '<div class="hint">' + esc(meta) + "</div>" : "") + (sc.note ? '<div class="hint">' + esc(sc.note) + "</div>" : "");
   }
   function sourceLink(src) {
     return src && src.url ? '<a href="' + esc(src.url) + '" target="_blank" rel="noopener">' + esc(src.title || "Source") + "</a>" : "";
@@ -114,7 +123,7 @@
 
     app.innerHTML =
       '<section class="grid2">' +
-        statCard("Central govt · schemes announced", c.schemes_announced, esc(c.schemes_announced.label) + " · " + sourceLink(c.schemes_announced.source), "welfare") +
+        statCard("Central govt · scheme allocations", c.schemes_announced, esc(c.schemes_announced.label) + " · " + sourceLink(c.schemes_announced.source), "welfare") +
         statCard("Central govt · gross tax collected", c.gross_tax, esc(c.gross_tax.label) + " · " + sourceLink(c.gross_tax.source)) +
       "</section>" +
       '<section class="stack"><div class="grid2">' +
@@ -183,14 +192,14 @@
         statCard("Schemes announced", s.beneficiary_announced, s.beneficiary_announced ? esc(s.beneficiary_announced.label || "") : "", "welfare") +
       "</section>" +
       '<section class="states">' +
-        "<h2>Top 5 yojanas by amount announced</h2>" +
+        "<h2>Top 5 yojanas by allocation</h2>" +
         (top.length
-          ? '<div class="table-box"><table><thead><tr><th>#</th><th>Yojana</th><th class="num">Announced ▼</th><th class="num">Disbursed</th><th>Status</th></tr></thead><tbody>' +
+          ? '<div class="table-box"><table><thead><tr><th>#</th><th>Yojana</th><th class="num">Allocation ▼</th><th class="num">Disbursed</th><th>Status</th></tr></thead><tbody>' +
             top.map(function (sc, i) {
-              return "<tr><td class=\"rank\">" + (i + 1) + "</td><td>" + esc(sc.name) + (sc.note ? '<div class="hint">' + esc(sc.note) + "</div>" : "") + "</td>" +
-                '<td class="num">' + cr(sc.announced) + '</td><td class="num">' + disbScheme(sc) +
+              return "<tr><td class=\"rank\">" + (i + 1) + "</td><td>" + schemeCell(sc) + "</td>" +
+                '<td class="num">' + (sc.announced == null ? DASH : cr(sc.announced)) + '</td><td class="num">' + disbScheme(sc) +
                 "</td><td>" + badge(sc.status) + "</td></tr>";
-            }).join("") + '</tbody></table></div><p class="hint" style="margin:0">— Not yet available.</p>'
+            }).join("") + '</tbody></table></div><p class="hint" style="margin:0">— Not yet available. Amounts appear only once confirmed in an official source.</p>'
           : '<div class="table-box"><p class="empty">No schemes collected for ' + esc(s.name) + " yet. The daily run will add them as they are found and verified.</p></div>") +
         (sources.length ? '<ul class="notes">' + sources.map(function (x) { return "<li>" + (x.kind === "govt" ? "Govt: " : "News: ") + sourceLink(x) + "</li>"; }).join("") + "</ul>" : "") +
       "</section>";

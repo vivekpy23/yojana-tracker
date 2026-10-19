@@ -1,0 +1,186 @@
+[
+  {
+    "id": "KA-five-guarantee-schemes",
+    "state": "KA",
+    "name": "Five guarantee schemes (Gruha Lakshmi, Gruha Jyothi, Shakti, Anna Bhagya, Yuva Nidhi)",
+    "aliases": [
+      "guarantee schemes",
+      "five guarantees"
+    ],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "config"
+    ],
+    "meta_from": "config",
+    "first_seen": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "funding": "state",
+    "funding_evidence": "Karnataka's own guarantee schemes, funded from the state budget"
+  },
+  {
+    "id": "MH-majhi-ladki-bahin",
+    "state": "MH",
+    "name": "Mukhyamantri Majhi Ladki Bahin Yojana",
+    "aliases": [
+      "Ladki Bahin Yojana",
+      "Ladki Behen Yojana",
+      "Ladki Bahin scheme",
+      "Ladki Behen scheme",
+      "माझी लाडकी बहीण योजना",
+      "लाडकी बहीण योजना"
+    ],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "config"
+    ],
+    "meta_from": "config",
+    "first_seen": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "TN-breakfast",
+    "state": "TN",
+    "name": "Chief Minister's Breakfast Scheme (expansion)",
+    "aliases": [
+      "CM Breakfast Scheme",
+      "முதலமைச்சரின் காலை உணவுத் திட்டம்"
+    ],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "config"
+    ],
+    "meta_from": "config",
+    "first_seen": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "TN-kalaignar-magalir-urimai-thogai",
+    "state": "TN",
+    "name": "Kalaignar Magalir Urimai Thogai",
+    "aliases": [
+      "Kalaignar Magalir Urimai Thogai Thittam",
+      "Magalir Urimai Thogai",
+      "KMUT",
+      "கலைஞர் மகளிர் உரிமைத் திட்டம்",
+      "கலைஞர் மகளிர் உரிமைத் தொகை திட்டம்"
+    ],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "config"
+    ],
+    "meta_from": "config",
+    "first_seen": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "funding": "state",
+    "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget"
+  },
+  {
+    "id": "TN-pudhumai-penn-thittam",
+    "state": "TN",
+    "name": "Pudhumai Penn Thittam",
+    "aliases": [
+      "Pudhumai Penn scheme",
+      "புதுமைப் பெண் திட்டம்"
+    ],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "config"
+    ],
+    "meta_from": "config",
+    "first_seen": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "funding": "state",
+    "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget"
+  },
+  {
+    "id": "TN-vidiyal-payanam",
+    "state": "TN",
+    "name": "Vidiyal Payanam (free bus travel for women)",
+    "aliases": [
+      "Vidiyal Payanam",
+      "விடியல் பயணம் திட்டம்"
+    ],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "config"
+    ],
+    "meta_from": "config",
+    "first_seen": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "funding": "state",
+    "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget"
+  },
+  {
+    "id": "UP-kanya-sumangala",
+    "state": "UP",
+    "name": "Mukhyamantri Kanya Sumangala Yojana",
+    "aliases": [
+      "Kanya Sumangala Yojana",
+      "मुख्यमंत्री कन्या सुमंगला योजना",
+      "कन्या सुमंगला योजना"
+    ],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "config"
+    ],
+    "meta_from": "config",
+    "first_seen": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "UP-samuhik-vivah",
+    "state": "UP",
+    "name": "Mukhyamantri Samuhik Vivah Yojana (mass marriage)",
+    "aliases": [
+      "Samuhik Vivah Yojana",
+      "मुख्यमंत्री सामूहिक विवाह योजना"
+    ],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "config"
+    ],
+    "meta_from": "config",
+    "first_seen": "2026-10-19",
+    "last_seen": "2026-10-19",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  }
+]

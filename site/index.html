@@ -7,27 +7,28 @@
 <meta name="description" content="Central and state beneficiary schemes, budgets and tax collections, checked against government documents.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231F3A5F'/%3E%3Ctext x='16' y='22' font-size='17' text-anchor='middle' fill='white' font-family='sans-serif'%3E%E2%82%B9%3C/text%3E%3C/svg%3E">
 </head>
 <body>
 <div class="wrap">
   <header class="site-head">
-    <div>
+    <div class="head-text">
       <a class="brand" href="#/">Yojana Tracker</a>
       <p class="tagline">State &amp; central beneficiary schemes, checked against government sources</p>
+      <p class="updated" id="updated">Loading…</p>
     </div>
     <div class="meta">
       <span class="fy" id="fy">FY –</span>
-      <span id="updated">Loading…</span>
     </div>
   </header>
   <main id="app" aria-live="polite"></main>
   <footer class="site-foot">
     <p>Sources: <a href="https://prsindia.org/budgets/states" target="_blank" rel="noopener">PRS Legislative Research</a> ·
       <a href="https://cag.gov.in/en/state-accounts-report" target="_blank" rel="noopener">CAG state accounts</a> ·
-      <a href="https://pib.gov.in/" target="_blank" rel="noopener">PIB</a> · state budget documents (.gov.in / .nic.in)</p>
+      <a href="https://pib.gov.in/" target="_blank" rel="noopener">PIB</a> ·
+      <a href="https://www.myscheme.gov.in/search" target="_blank" rel="noopener">myScheme</a> · state budget documents (.gov.in / .nic.in)</p>
     <details class="method">
       <summary>How we calculate</summary>
       <ul class="notes">
@@ -35,7 +36,8 @@
         <li><strong>Schemes announced</strong> uses each state’s Social Welfare &amp; Nutrition sector spend (RE), as printed in PRS’s budget analysis, until scheme-level totals are verified. States classify welfare spending differently (some book much of it under SC/ST/OBC welfare), so compare states with care.</li>
         <li><strong>Benefits disbursed</strong> shows only amounts actually transferred, as published by a government source with its reporting period and date. “Partial” means only some of the state’s schemes have a published figure. It is never estimated from budget allocations; “—” means no reliable figure is published yet.</li>
         <li><strong>Actually spent / collected</strong> on a state’s page comes from CAG’s provisional accounts (March report, full year). It is compared with the revised estimate only when both use the same definition, year and accounting heads; otherwise the comparison shows N/A.</li>
-        <li>Schemes are found in PIB and national news, then matched against government documents. Where the two differ, the government figure is shown. News-only figures are marked “Unverified” and never added to totals.</li>
+        <li>Schemes are discovered on myScheme and the National Portal of India and in national and regional-language news, then matched against budget documents, departmental reports and notifications. Where a news figure and the government figure differ, the government figure is shown. A scheme seen only in the news is listed as “Reported — awaiting official verification”, with no amount, and is never added to totals.</li>
+        <li>Each scheme is marked as the state’s own (“State scheme”), “Centrally sponsored” (cost shared by Centre and state) or a “Central scheme”, from myScheme and the Union Budget’s list of centrally sponsored schemes; it is left unmarked when the sources don’t say.</li>
         <li>“Budget docs (via PRS)” figures come from PRS Legislative Research’s analysis of the official budget and become “Verified” once matched in the government document itself.</li>
       </ul>
     </details>

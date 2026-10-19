@@ -67,3 +67,24 @@ def verify(name: str, amount: float, docs: list[GovtDoc], *, verified_min: float
                 cand.outcome == best.outcome and cand.score > best.score):
             best = cand
     return best
+
+
+def find_allocation(names: list[str], docs: list[GovtDoc], *, window: int = 400) -> Verdict:
+    """Look for a discovered scheme (no reported figure to compare with) in government documents.
+
+    Stricter than `verify`: one of the scheme's names must appear verbatim (case and spacing aside), and
+    exactly one distinct amount may stand near it. The result is never published directly – outcome
+    'review' sends it to a person, who confirms the figure is this scheme's allocation for the year."""
+    needles = [" ".join(n.lower().split()) for n in names if len(n.split()) >= 2]
+    for doc in docs:
+        flat = " ".join(doc.text.split())
+        low = flat.lower()
+        for needle in needles:
+            pos = low.find(needle)
+            if pos < 0:
+                continue
+            around = flat[max(0, pos - window // 2): pos + len(needle) + window]
+            amounts = {a for _, a in find_amounts(around)}
+            if len(amounts) == 1:
+                return Verdict("review", amounts.pop(), doc.url, 100.0, around[:300])
+    return Verdict("not_found")

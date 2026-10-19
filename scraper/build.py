@@ -39,6 +39,22 @@ def disbursed(st: dict, counted: list[dict]) -> dict | None:
             "label": f"Sum of {len(have)} of {len(counted)} schemes with a published disbursement figure"}
 
 
+OFFICIAL = ("verified", "secondary")
+
+
+def public_scheme(s: dict) -> dict:
+    """A scheme as the site sees it. The amount appears only once an official source confirms it; a
+    news-reported figure (`reported_amount`) and the article reports stay in data/."""
+    out = {k: s.get(k) for k in ("name", "status", "sources", "note", "funding", "department", "official_url")}
+    out["announced"] = s.get("announced") if s.get("status") in OFFICIAL else None
+    desc = s.get("description") or ""
+    out["description"] = desc if len(desc) <= 280 else desc[:277].rsplit(" ", 1)[0] + "…"
+    # a disbursement without source, period and date is not shown
+    out["despatched"] = s.get("despatched") if validate.disbursement_ok(s.get("despatched_source")) else None
+    out["despatched_source"] = s.get("despatched_source")
+    return out
+
+
 def build(out: Path = OUT, validation_out: Path | None = VALIDATION) -> dict:
     seed = load(SEED, {})
     schemes = load(SCHEMES, [])
@@ -48,10 +64,12 @@ def build(out: Path = OUT, validation_out: Path | None = VALIDATION) -> dict:
 
     states = []
     for st in seed["states"]:
+        # Officially confirmed amounts first (largest first), then reported schemes, which show no amount.
         mine = sorted((s for s in fy_schemes if s["state"] == st["code"]),
-                      key=lambda s: s["announced"] or 0, reverse=True)
-        # Unverified schemes are listed but never counted in totals.
-        counted = [s for s in mine if s["status"] != "unverified"]
+                      key=lambda s: (s["status"] in OFFICIAL, (s.get("announced") or 0) if s["status"] in OFFICIAL else 0),
+                      reverse=True)
+        # Reported schemes are listed but never counted in totals.
+        counted = [s for s in mine if s["status"] in OFFICIAL]
         despatched = disbursed(st, counted)
         states.append({
             "code": st["code"], "name": st["name"], "ut": st.get("ut", False),
@@ -62,11 +80,7 @@ def build(out: Path = OUT, validation_out: Path | None = VALIDATION) -> dict:
             "beneficiary_despatched": despatched, "tax": public(st.get("tax")), "source": st.get("source"),
             "budget_actual": public(st.get("budget_actual")), "tax_actual": public(st.get("tax_actual")),
             "vs_re": comparisons[st["code"]],
-            "schemes": [{**{k: s.get(k) for k in ("name", "announced", "status", "sources", "note")},
-                         # a disbursement without source, period and date is not shown
-                         "despatched": s.get("despatched") if validate.disbursement_ok(s.get("despatched_source")) else None,
-                         "despatched_source": s.get("despatched_source")}
-                        for s in mine],
+            "schemes": [public_scheme(s) for s in mine],
         })
 
     site = {
@@ -77,7 +91,7 @@ def build(out: Path = OUT, validation_out: Path | None = VALIDATION) -> dict:
         "counts": {
             "verified": sum(s["status"] == "verified" for s in fy_schemes),
             "secondary": sum(s["status"] == "secondary" for s in fy_schemes),
-            "unverified": sum(s["status"] == "unverified" for s in fy_schemes),
+            "reported": sum(s["status"] == "reported" for s in fy_schemes),
             "pending_review": len(load(DATA / "review_queue.json", [])),
         },
     }
