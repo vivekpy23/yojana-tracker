@@ -208,8 +208,38 @@
     animate();
   }
 
+  // ---------- feedback (homepage only; posts to server/feedback_server.py) ----------
+  var feedback = document.getElementById("feedback");
+  (function () {
+    var form = document.getElementById("feedback-form");
+    var input = document.getElementById("feedback-msg");
+    var status = document.getElementById("feedback-status");
+    var button = form.querySelector("button");
+    var meta = document.querySelector('meta[name="feedback-endpoint"]');
+    function say(text, kind) { status.textContent = text; status.className = "feedback-status" + (kind ? " " + kind : ""); }
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var msg = input.value.trim();
+      if (msg.length < 3) { say("Please enter a message.", "err"); input.focus(); return; }
+      button.disabled = true;
+      say("Sending…");
+      fetch(meta ? meta.content : "api/feedback", {
+        method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ message: msg })
+      })
+        .then(function (r) {
+          return r.json().catch(function () { return {}; }).then(function (body) {
+            if (!r.ok) throw { user: body.error };  // the server's own wording (validation, rate limit)
+          });
+        })
+        .then(function () { form.reset(); say("Thank you — your message has been received.", "ok"); })
+        .catch(function (err) { say((err && err.user) || "Couldn’t send your message right now. Please try again later.", "err"); })
+        .then(function () { button.disabled = false; });
+    });
+  })();
+
   function route() {
     var m = location.hash.match(/^#\/state\/([A-Z]{2})$/);
+    feedback.hidden = !!m;
     if (m) { state(m[1]); document.title = (DATA.states.find(function (s) { return s.code === m[1]; }) || {}).name + " · Yojana Tracker"; }
     else { home(); document.title = "Yojana Tracker"; }
   }

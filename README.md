@@ -221,6 +221,19 @@ tests/                unit tests (run in CI before every update)
 
 When the daily run can't decide, it opens a pull request titled *"Data update: figures waiting for your review"* instead of publishing. In that PR, edit `data/review_queue.json`, set `"decision": "approve"` or `"reject"` per item (optionally `"use_amount"`), commit and merge. The next run applies your decisions.
 
+## Feedback form
+
+The homepage ends with a short "Have a question or suggestion?" form. It posts to `server/feedback_server.py` (Python standard library only), which also serves `site/`:
+
+```
+python -m server.feedback_server          # http://127.0.0.1:8000
+```
+
+- Each submission is appended to `data/feedback.json` as `{"id", "message", "timestamp"}`. That file is outside `site/` (never published) and git-ignored.
+- Validation: JSON only, body ≤ 4 KB, message 3–1000 characters after trimming, control characters removed. Rate limit: 5 per client per 10 minutes.
+- Concurrent posts are safe: writes are serialised (a lock in the process plus a lock file) and atomic (temp file + rename).
+- **GitHub Pages can't run this server.** Host it anywhere that runs Python (behind HTTPS), then set `<meta name="feedback-endpoint">` in `site/index.html` to its URL (e.g. `https://feedback.example.org/api/feedback`), and start it with `FEEDBACK_ALLOW_ORIGIN=https://vivekpy23.github.io` (and `TRUST_PROXY=1` behind your own reverse proxy). Until then, the form on the live site says the message couldn't be sent.
+
 ## Run locally
 
 ```bash

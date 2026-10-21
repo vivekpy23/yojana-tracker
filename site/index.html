@@ -9,6 +9,9 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;650;700&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
+<!-- Where the feedback form posts (server/feedback_server.py). Set an absolute URL when that server runs
+     on another host than the site, e.g. https://feedback.example.org/api/feedback -->
+<meta name="feedback-endpoint" content="api/feedback">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231F3A5F'/%3E%3Ctext x='16' y='22' font-size='17' text-anchor='middle' fill='white' font-family='sans-serif'%3E%E2%82%B9%3C/text%3E%3C/svg%3E">
 </head>
 <body>
@@ -24,6 +27,19 @@
     </div>
   </header>
   <main id="app" aria-live="polite"></main>
+  <section class="feedback" id="feedback" aria-labelledby="feedback-title" hidden>
+    <h2 id="feedback-title">Have a question or suggestion?</h2>
+    <p class="hint">Found something missing, spotted an error, or have an idea? We’d love to hear from you.</p>
+    <form id="feedback-form" novalidate>
+      <label class="sr-only" for="feedback-msg">Your message</label>
+      <div class="feedback-row">
+        <input id="feedback-msg" name="message" type="text" maxlength="1000" autocomplete="off" required
+          placeholder="Your message">
+        <button class="btn" type="submit">Submit</button>
+      </div>
+      <p class="feedback-status" id="feedback-status" role="status"></p>
+    </form>
+  </section>
   <footer class="site-foot">
     <p>Sources: <a href="https://prsindia.org/budgets/states" target="_blank" rel="noopener">PRS Legislative Research</a> ·
       <a href="https://cag.gov.in/en/state-accounts-report" target="_blank" rel="noopener">CAG state accounts</a> ·

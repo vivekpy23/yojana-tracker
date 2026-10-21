@@ -4,3 +4,7 @@ __pycache__/
 .pytest_cache/
 .venv/
 .DS_Store
+
+# Feedback submissions (server/feedback_server.py) – private, never committed or published
+data/feedback.json
+data/feedback.json.*
