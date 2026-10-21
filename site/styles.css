@@ -17,6 +17,15 @@
   --ok-bg: #E7F4EC;
   --sec-ink: #1F3A5F;
   --sec-bg: #E8EEF6;
+  /* summary cards by kind: background, border, title/figure accent, estimate label (all ≥4.5:1) */
+  --rev-bg: #EAF5F0;  --rev-line: #CFE6DA;  --rev-ink: #1C6047;
+  --exp-bg: #EDF3FC;  --exp-line: #D3E1F5;  --exp-ink: #1F4A80;
+  --wel-bg: #FFF6E9;  --wel-line: #F3E0C0;  --wel-ink: #7A4A05;
+  --card-label: #555C69;
+  /* treemap fills, assigned by position and cycled; validated (dataviz validator), dark text ≥4.78:1 */
+  --tm-1: #5C90CE; --tm-2: #D9774B; --tm-3: #2E9E7A; --tm-4: #C99A2E;
+  --tm-5: #C76A97; --tm-6: #5E9A3A; --tm-7: #8F7ED2; --tm-8: #D0645B;
+  --tm-ink: #111827;
   --sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
   --mono: "IBM Plex Mono", ui-monospace, monospace;   /* technical metadata only */
   --radius: 10px;
@@ -30,6 +39,12 @@
     --line-strong: #3A404A; --head: #1C2026; --navy: #8FB3E0; --teal: #5FBFA9; --link: #9CC2EE;
     --track: #262A31; --hover: #1F2329; --warn-ink: #F2B66B; --warn-bg: #3A2A12; --ok-ink: #8FD9AE; --ok-bg: #16301F;
     --sec-ink: #B7CDEA; --sec-bg: #1F2A3A;
+    --rev-bg: #12261E; --rev-line: #1E3A2E; --rev-ink: #8FD9B6;
+    --exp-bg: #142034; --exp-line: #22324D; --exp-ink: #A8C8F0;
+    --wel-bg: #2A2113; --wel-line: #423420; --wel-ink: #F0C27A;
+    --card-label: #9AA1AC;
+    --tm-1: #4F86C6; --tm-2: #C8683E; --tm-3: #2E9E7A; --tm-4: #B08524;
+    --tm-5: #C76A97; --tm-6: #5E9A3A; --tm-7: #8574CC; --tm-8: #D0645B;
     color-scheme: dark;
   }
 }
@@ -38,6 +53,12 @@
     --line-strong: #3A404A; --head: #1C2026; --navy: #8FB3E0; --teal: #5FBFA9; --link: #9CC2EE;
     --track: #262A31; --hover: #1F2329; --warn-ink: #F2B66B; --warn-bg: #3A2A12; --ok-ink: #8FD9AE; --ok-bg: #16301F;
     --sec-ink: #B7CDEA; --sec-bg: #1F2A3A;
+    --rev-bg: #12261E; --rev-line: #1E3A2E; --rev-ink: #8FD9B6;
+    --exp-bg: #142034; --exp-line: #22324D; --exp-ink: #A8C8F0;
+    --wel-bg: #2A2113; --wel-line: #423420; --wel-ink: #F0C27A;
+    --card-label: #9AA1AC;
+    --tm-1: #4F86C6; --tm-2: #C8683E; --tm-3: #2E9E7A; --tm-4: #B08524;
+    --tm-5: #C76A97; --tm-6: #5E9A3A; --tm-7: #8574CC; --tm-8: #D0645B;
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
@@ -66,13 +87,19 @@ main { display: flex; flex-direction: column; gap: var(--gap); }
   .grid2.stats > .card.stat { display: grid; grid-row: span 2; grid-template-rows: subgrid; gap: 10px; }
   .grid2.stats > .card.stat .figure { align-self: end; }
 }
-.card.stat { --dot: var(--line-strong); }
-.card.stat.exp { --dot: var(--navy); }
-.card.stat.welfare { --dot: var(--teal); }
+.card.stat { --dot: var(--line-strong); --accent: var(--ink); }
+/* revenue & tax: green · expenditure & budget: blue · welfare & scheme allocations: amber */
+.card.stat.rev { background: var(--rev-bg); border-color: var(--rev-line); --accent: var(--rev-ink); }
+.card.stat.exp { background: var(--exp-bg); border-color: var(--exp-line); --accent: var(--exp-ink); }
+.card.stat.welfare { background: var(--wel-bg); border-color: var(--wel-line); --accent: var(--wel-ink); }
+.card.stat.rev, .card.stat.exp, .card.stat.welfare { --dot: var(--accent); }
+.card.stat .eyebrow, .card.stat .big { color: var(--accent); }
+.card.stat .exact { color: var(--card-label); }
+.card.stat .big.pending { color: var(--card-label); }
 .eyebrow { font-size: 12.5px; font-weight: 500; text-transform: uppercase; letter-spacing: .06em; color: var(--muted);
   display: flex; align-items: flex-start; gap: 8px; }
 .card.stat .eyebrow::before { content: ""; flex: none; width: 8px; height: 8px; margin-top: .45em; border-radius: 50%; background: var(--dot); }
-.big { font-size: clamp(32px, 5vw, 44px); font-weight: 650; letter-spacing: -.02em; line-height: 1.1; }
+.big { font-size: clamp(30px, 3.6vw, 44px); white-space: nowrap; font-weight: 650; letter-spacing: -.02em; line-height: 1.1; }
 .big.pending { font-size: 24px; color: var(--muted); }
 .exact { font-size: 13.5px; color: var(--muted); }
 .sub { font-size: 13px; color: var(--muted); line-height: 1.45; }
@@ -89,6 +116,27 @@ h3 { margin: 0; font-size: 16px; font-weight: 600; }
 .bar-row .labels { display: flex; justify-content: space-between; gap: 12px; font-size: 14px; margin-bottom: 5px; }
 .bar-row .labels .v { font-weight: 600; white-space: nowrap; }
 .track { height: 8px; background: var(--track); border-radius: 4px; overflow: hidden; }
+/* Treemap: cells positioned by app.js (squarified); 2px surface gap between fills; dark text on every fill */
+.treemap { position: relative; height: 300px; margin-top: 8px; border-radius: var(--radius-sm); overflow: hidden; }
+.tm-cell { position: absolute; box-sizing: border-box; padding: 8px 10px; overflow: hidden; color: var(--tm-ink);
+  border-radius: 4px; box-shadow: inset 0 0 0 1px var(--surface);  /* 1px each side = 2px gap */
+  display: flex; flex-direction: column; justify-content: space-between; gap: 2px; cursor: default; }
+.tm-cell:focus-visible { outline: 3px solid var(--ink); outline-offset: -3px; }
+.tm-name { font-size: 13.5px; font-weight: 500; line-height: 1.25; overflow: hidden; display: -webkit-box;
+  -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
+.tm-val { font-size: 14px; font-weight: 650; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.tm-cell.small { padding: 6px 8px; }
+.tm-cell.small .tm-name { font-size: 12px; -webkit-line-clamp: 1; }
+.tm-cell.small .tm-val { font-size: 12.5px; }
+.tm-cell.tiny { padding: 0; }
+.tm-cell.tiny > span { display: none; }
+/* key for cells too small to label */
+.tm-more { margin: 10px 0 0; display: flex; flex-wrap: wrap; gap: 4px 14px; }
+.tm-more[hidden] { display: none; }
+.tm-key { display: inline-flex; align-items: center; gap: 6px; }
+.tm-key i { width: 10px; height: 10px; border-radius: 2px; flex: none; }
+.tm-key .tm-name { display: inline; font-size: 12.5px; }
+.tm-key .tm-val { font-size: 12.5px; font-weight: 600; color: var(--ink); }
 .fill { height: 100%; border-radius: 4px; width: 0; transition: width .9s cubic-bezier(.2,.7,.2,1); }
 
 /* States section: set apart from the dashboard above */

@@ -105,6 +105,79 @@
       }).join("") + "</div></div>";
   }
 
+  // ---------- treemap: area ∝ allocation (squarified) ----------
+  // Colours come from the palette by position (--tm-1 … --tm-8, cycling), never from the scheme.
+  var TM_COLORS = 8;
+  function treemap(title, hint, rows, label) {
+    var data = rows.filter(function (r) { return r.value > 0; })
+      .sort(function (a, b) { return b.value - a.value; })
+      .map(function (r, i) {
+        var text = r.name + ": " + cr(r.value);
+        return '<div class="tm-cell" role="listitem" tabindex="0" title="' + esc(text) + '" aria-label="' + esc(text) +
+          '" data-v="' + r.value + '" style="background:var(--tm-' + (i % TM_COLORS + 1) + ')">' +
+          '<span class="tm-name">' + esc(r.name) + '</span><span class="tm-val">' + cr(r.value) + "</span></div>";
+      });
+    return '<div class="card"><div class="section-head"><h3>' + esc(title) + '</h3><span class="hint">' + esc(hint) + "</span></div>" +
+      '<div class="treemap" role="list" aria-label="' + esc(label || title) + '">' + data.join("") + "</div>" +
+      '<p class="tm-more hint" aria-hidden="true"></p></div>';
+  }
+  // Squarified layout (Bruls et al.): rows of cells whose worst aspect ratio is as close to 1 as possible.
+  function squarify(areas, x, y, w, h) {
+    var out = [], row = [], i = 0;
+    function worst(r, side) {
+      var s = 0, mx = 0, mn = Infinity;
+      r.forEach(function (a) { s += a; mx = Math.max(mx, a); mn = Math.min(mn, a); });
+      return Math.max(side * side * mx / (s * s), (s * s) / (side * side * mn));
+    }
+    function place(r) {
+      var s = r.reduce(function (t, a) { return t + a; }, 0);
+      if (w >= h) {               // a column on the left
+        var cw = s / h, cy = y;
+        r.forEach(function (a) { out.push([x, cy, cw, a / cw]); cy += a / cw; });
+        x += cw; w -= cw;
+      } else {                    // a row along the top
+        var rh = s / w, cx = x;
+        r.forEach(function (a) { out.push([cx, y, a / rh, rh]); cx += a / rh; });
+        y += rh; h -= rh;
+      }
+    }
+    while (i < areas.length) {
+      var side = Math.min(w, h), next = row.concat([areas[i]]);
+      if (!row.length || worst(next, side) <= worst(row, side)) { row = next; i++; }
+      else { place(row); row = []; }
+    }
+    if (row.length) place(row);
+    return out;
+  }
+  function layoutTreemaps() {
+    document.querySelectorAll(".treemap").forEach(function (box) {
+      var cells = Array.prototype.slice.call(box.children);
+      var W = box.clientWidth, H = box.clientHeight;
+      if (!cells.length || !W || !H) return;
+      var vals = cells.map(function (c) { return +c.getAttribute("data-v"); });
+      var total = vals.reduce(function (t, v) { return t + v; }, 0);
+      var rects = squarify(vals.map(function (v) { return v / total * W * H; }), 0, 0, W, H);
+      var more = [];
+      cells.forEach(function (c, i) {
+        var r = rects[i];
+        c.style.left = (100 * r[0] / W) + "%"; c.style.top = (100 * r[1] / H) + "%";
+        c.style.width = (100 * r[2] / W) + "%"; c.style.height = (100 * r[3] / H) + "%";
+        // full: name (up to 3 lines) + amount · small: one-line name + amount ·
+        // tiny: too small for readable text, so it is labelled in the key under the treemap instead
+        var tiny = r[2] < 92 || r[3] < 44;  // "₹37,100 Cr" needs ~90px at the small size
+        c.className = "tm-cell" + (tiny ? " tiny" : r[2] < 120 || r[3] < 64 ? " small" : "");
+        if (tiny) more.push('<span class="tm-key"><i style="background:' + c.style.background + '"></i>' + c.innerHTML + "</span>");
+      });
+      var key = box.parentNode.querySelector(".tm-more");
+      if (key) { key.innerHTML = more.join(""); key.hidden = !more.length; }
+    });
+  }
+  var relayout = null;
+  window.addEventListener("resize", function () {
+    if (relayout) cancelAnimationFrame(relayout);
+    relayout = requestAnimationFrame(layoutTreemaps);
+  });
+
   // ---------- views ----------
   function rankStates() {
     return DATA.states.slice().sort(function (a, b) {
@@ -122,12 +195,12 @@
     app.innerHTML =
       '<section class="grid2 stats">' +
         statCard("Central govt · scheme allocations", c.schemes_announced, "welfare") +
-        statCard("Central govt · gross tax collected", c.gross_tax) +
-        statCard("Central Revenue", c.revenue) +
+        statCard("Central govt · gross tax collected", c.gross_tax, "rev") +
+        statCard("Central Revenue", c.revenue, "rev") +
       "</section>" +
       '<section class="stack"><div class="grid2">' +
         barChart("Where the centre spends", "Top 5 · % of total expenditure", areas, "var(--navy)", function (r) { return r.pct.toFixed(1) + "%"; }) +
-        barChart("Top 5 central schemes", "By ₹ (RE " + esc(DATA.fy) + ")", c.top_schemes, "var(--teal)", function (r) { return cr(r.value); }) +
+        treemap("Top 5 central schemes", "Area ∝ allocation · RE " + DATA.fy, c.top_schemes) +
         '</div><p class="hint" style="margin:0">Charts: ' + sourceLink(c.charts_source) + "</p>" +
       "</section>" +
       '<section class="states">' +
@@ -171,12 +244,16 @@
     });
     q.addEventListener("input", go);
     animate();
+    layoutTreemaps();
   }
 
   function state(code) {
     var s = DATA.states.find(function (x) { return x.code === code; });
     if (!s) { location.hash = "#/"; return; }
     var top = s.schemes.slice(0, 5);
+    // every scheme with an officially confirmed allocation (a reported scheme carries no amount)
+    var allocated = s.schemes.filter(function (sc) { return sc.announced != null; })
+      .map(function (sc) { return { name: sc.name, value: sc.announced }; });
     var sources = [];
     top.forEach(function (sc) { (sc.sources || []).forEach(function (src) { if (!sources.some(function (x) { return x.url === src.url; })) sources.push(src); }); });
 
@@ -185,11 +262,13 @@
       '<div class="section-head"><h1>' + esc(s.name) + "</h1>" + (s.ut ? '<span class="hint">Union Territory</span>' : "") + "</div>" +
       '<section class="grid2 stats">' +
         statCard("State budget (total expenditure excl. debt repayment)", s.budget, "exp") +
-        statCard("Own tax revenue", s.tax) +
+        statCard("Own tax revenue", s.tax, "rev") +
         statCard("Schemes announced", s.beneficiary_announced, "welfare") +
       "</section>" +
       '<section class="states">' +
         "<h2>Top 5 yojanas by allocation</h2>" +
+        (allocated.length > 1 ? treemap("Allocations by yojana", "Area ∝ allocation · confirmed amounts only", allocated,
+          "Allocations by yojana, " + s.name) : "") +
         (top.length
           ? '<div class="table-box"><table class="yojanas"><thead><tr><th>#</th><th>Yojana</th><th class="num">Allocation ▼</th><th class="num">Disbursed</th><th>Status</th></tr></thead><tbody>' +
             top.map(function (sc, i) {
@@ -207,6 +286,7 @@
       "</section>";
     window.scrollTo(0, 0);
     animate();
+    layoutTreemaps();
   }
 
   // ---------- feedback (homepage only; posts to server/feedback_server.py) ----------
