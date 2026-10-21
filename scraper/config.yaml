@@ -194,6 +194,8 @@ cag:
 # (budget, own tax, Social Welfare & Nutrition). States without a slug have no PRS analysis.
 prs:
   url: "https://prsindia.org/budgets/states/{slug}-budget-analysis-{year}"
+  # Scheme discovery: PRS's analyses of the FY's own budget, as listed here.
+  listing_url: "https://prsindia.org/budgets/states?budget_year={fy}&state=all"
   slugs:
     MH: maharashtra
     UP: uttar-pradesh

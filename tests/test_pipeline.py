@@ -109,8 +109,8 @@ def test_build_excludes_nothing_but_counts_status(tmp_path):
     from scraper import build
     site = build.build(tmp_path / "site.json", tmp_path / "validation.json")
     assert site["fy"] == "2025-26"
-    mh = next(s for s in site["states"] if s["code"] == "MH")
-    assert mh["schemes"][0]["status"] == "reported"
-    assert mh["schemes"][0]["announced"] is None          # a news figure is never shown
-    assert "reported_amount" not in mh["schemes"][0] and "reports" not in mh["schemes"][0]
+    reported = [sc for s in site["states"] for sc in s["schemes"] if sc["status"] == "reported"]
+    assert reported
+    assert all(sc["announced"] is None for sc in reported)  # a news figure is never shown
+    assert all("reported_amount" not in sc and "reports" not in sc for sc in reported)
     assert len(site["states"]) == 31

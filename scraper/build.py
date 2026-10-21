@@ -6,6 +6,7 @@ import json
 from pathlib import Path
 
 from . import validate
+from .extract import WELFARE
 from .store import DATA, ROOT, SCHEMES, SEED, load, save
 
 OUT = ROOT / "site" / "data" / "site.json"
@@ -48,7 +49,10 @@ def build(out: Path = OUT, validation_out: Path | None = VALIDATION) -> dict:
     states = []
     for st in seed["states"]:
         # Officially confirmed amounts first (largest first), then reported schemes, which show no amount.
-        mine = sorted((s for s in fy_schemes if s["state"] == st["code"]),
+        # The site lists welfare schemes; infrastructure projects, policy announcements and unnamed
+        # announcements stay in data/schemes.json.
+        mine = sorted((s for s in fy_schemes if s["state"] == st["code"] and s.get("category", WELFARE) == WELFARE
+                       and s.get("kind", "scheme") == "scheme"),
                       key=lambda s: (s["status"] in OFFICIAL, (s.get("announced") or 0) if s["status"] in OFFICIAL else 0),
                       reverse=True)
         states.append({

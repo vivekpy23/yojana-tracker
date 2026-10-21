@@ -31,6 +31,9 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
+      # A new URL per deploy, so browsers don't keep the previous app.js / styles.css (Pages caches 10 min).
+      - name: Version asset URLs
+        run: sed -i "s/\(app\.js\|styles\.css\)\"/\1?v=$(git rev-parse --short HEAD)\"/g" site/index.html
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

@@ -359,3 +359,36 @@ def slugify(text: str) -> str:
     text = " ".join(w for w in text.split() if w not in _INDIC_GENERIC)
     # Regional scripts are kept, so two different Hindi names never share a slug.
     return re.sub(r"[^a-z0-9ऀ-ॿ஀-௿ಀ-೿]+", "-", text).strip("-") or "scheme"
+
+
+# ---------------------------------------------------------------- welfare vs infrastructure vs policy
+WELFARE, INFRASTRUCTURE, POLICY = "welfare", "infrastructure", "policy"
+CATEGORIES = (WELFARE, INFRASTRUCTURE, POLICY)
+_GOVT_STAFF = re.compile(r"government employees|state employees|pensioners of the state|salar(?:y|ies) of", re.I)
+_WELFARE_CUES = re.compile(
+    r"\b(?:women|girls?|daughters?|mothers?|widows?|students?|youth|children|elderly|senior citizens?|"
+    r"disabilit\w*|divyang\w*|farmers?|agricultur\w*|housing|child|labou?rers?|workers?|poor|BPL|families|households|beneficiar\w*|"
+    r"pensions?|scholarships?|stipend|honorarium|allowance|financial assistance|cash transfer|"
+    r"assistance of|grants? of Rs|insurance|health cover|free\b|subsid\w*|rations?|meals?|nutrition|"
+    r"housing for|houses for|per month|per year|per annum|per acre|welfare|SC|ST|OBC|minorit\w*|"
+    r"unemploy\w*|skill\w*|internships?|employment guarantee|"
+    # words in scheme names that mean a benefit to people: Ladli Behna, Awas, Arogya, Krishak, Annapurna…
+    r"ladli|ladki|behna|bahin|mahila|vandan|awas|aawas|gruha|griha|arogya|ayushman|swasthya|bima|"
+    r"krishak|kisan|shetkari|annapurna|anna|shramik|vriddh\w*|balika|kanya|magalir|urimai|samman nidhi)\b", re.I)
+_INFRA_CUES = re.compile(
+    r"\b(?:roads?|highways?|bridges?|expressways?|metro|rail\w*|airports?|ports?|construction|construct\w*|"
+    r"upgrad\w*|buildings?|capital outlay|capital investment|irrigation projects?|dams?|canals?|power plants?|"
+    r"transmission|smart cit\w*|infrastructure|industrial parks?|data cent\w*|stadiums?|"
+    r"jal jeevan|drinking water|water supply|sadak|shaheri vikas|sahari bikas|urban development)\b", re.I)
+
+
+def category(text: str) -> str:
+    """welfare – benefits to people (cash, pensions, scholarships, subsidies, kits, insurance…);
+    infrastructure – building or upgrading assets; policy – everything else (tax, reforms, missions,
+    pay and pensions of government staff)."""
+    if _GOVT_STAFF.search(text):
+        return POLICY
+    w, i = len(_WELFARE_CUES.findall(text)), len(_INFRA_CUES.findall(text))
+    if w and w >= i:
+        return WELFARE
+    return INFRASTRUCTURE if i else POLICY

@@ -1,5 +1,1725 @@
 [
   {
+    "id": "AP-agriculture",
+    "state": "AP",
+    "name": "Agriculture",
+    "aliases": [],
+    "department": null,
+    "description": "Financial relief during fishing ban period will be increased from Rs 10,000 to Rs 20,000.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Andhra Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "AP-annadatta-sukhibhava",
+    "state": "AP",
+    "name": "Annadatta Sukhibhava Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 6,300 crore allocated for Annadatta Sukhibhava scheme",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Andhra Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "AP-bala-sanjeevani",
+    "state": "AP",
+    "name": "Bala Sanjeevani Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 900 crore allocated towards Bala Sanjeevani scheme",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Andhra Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "AP-entrepreneurship",
+    "state": "AP",
+    "name": "Entrepreneurship",
+    "aliases": [],
+    "department": null,
+    "description": "An innovation hub will be established in Amaravati to mentor start-ups in the region. It will be linked with five other zonal centres, each supported by a prominent business group, and facilitate technology and skill upgradation in emerging sectors.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Andhra Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "AP-talliki-vandanam",
+    "state": "AP",
+    "name": "Talliki Vandanam Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Talliki Vandanam scheme will be implemented to provide financial assistance of Rs 15,000 annually to every school going child between class 1 and class 12 from 2025-26. It will cover children in both private and government schools. Free electricity will be provided to all government schools.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Andhra Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "AR-s-comprehensive-state-power-development-programme",
+    "state": "AR",
+    "name": "Chief Minister’s Comprehensive State Power Development Programme",
+    "aliases": [],
+    "department": null,
+    "description": "A new Chief Minister’s Comprehensive State Power Development Programme with an outlay of Rs 2,000 crore over the next three years has been announced.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Arunachal Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/arunachal-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "AR-skill-development",
+    "state": "AR",
+    "name": "Skill development",
+    "aliases": [],
+    "department": null,
+    "description": "A new College of Science and Skill Development as a national-level University will be established.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Arunachal Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/arunachal-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "AS-s-jibon-prerna",
+    "state": "AS",
+    "name": "Chief Minister’s Jibon Prerna",
+    "aliases": [],
+    "department": null,
+    "description": "Students graduating from government colleges and universities of Assam will be provided monthly financial assistance of Rs 2,500 up to one year. Research scholars of state and central government universities will be provided one-time grant of Rs 25,000.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Assam Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/assam-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "AS-food-security",
+    "state": "AS",
+    "name": "Food Security",
+    "aliases": [],
+    "department": null,
+    "description": "To ensure essential nutrition, under the National Food Security Act, 2013, the state government will provide masur dal, sugar and salt at subsidised rates to beneficiaries. Rs 370 crore has been allocated for this purpose for 2025-26.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Assam Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/assam-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "AS-mahila-udyamita-abhiyaan",
+    "state": "AS",
+    "name": "Mukhya Mantri Mahila Udyamita Abhiyaan",
+    "aliases": [],
+    "department": null,
+    "description": "Self Help Groups (SHGs) will be provided an Entrepreneurship fund of Rs 10,000 as seed capital. Post utilisation of this fund, SHGs will be provided subsidised loans worth Rs 25,000 through bank linkage.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Assam Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/assam-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "AS-orunodoi",
+    "state": "AS",
+    "name": "Orunodoi Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 5,000 crore has been allocated for Orunodoi scheme.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Assam Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/assam-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-vriddhhajan-pension",
+    "state": "BR",
+    "name": "Mukhyamantri Vriddhhajan Pension Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 828 crore has been allocated towards the Mukhyamantri Vriddhhajan Pension Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Bihar Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/bihar-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-awas",
+    "state": "BR",
+    "name": "Pradhan Mantri Awas Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 4,320 crore is allocated towards Pradhan Mantri Awas Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Bihar Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/bihar-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
+  },
+  {
+    "id": "BR-women-welfare",
+    "state": "BR",
+    "name": "Women welfare",
+    "aliases": [],
+    "department": null,
+    "description": "Establishment of a mahila haat (women's marketplace) in Patna, the implementation of pink toilets across all districts, and the introduction of pink buses in major urban areas, staffed by female drivers and conductors has been announced.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Bihar Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/bihar-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "CENTRE-national-social-assistance-programme",
+    "state": "CENTRE",
+    "name": "National Social Assistance Programme (NSAP)",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (National Social Assistance|\\bNSAP\\b|Indira Gandhi National (Old Age|Widow|Disability) Pension)"
+  },
+  {
+    "id": "CENTRE-divyangjan-pension",
+    "state": "CENTRE",
+    "name": "Pradhan Mantri Divyangjan Pension Yojana",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "CG-krishak-unnati",
+    "state": "CG",
+    "name": "Krishak Unnati Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 10,000 crore has been allocated towards the Krishak Unnati Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Chhattisgarh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/chhattisgarh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "CG-mahatari-vandan",
+    "state": "CG",
+    "name": "Mahatari Vandan Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 5,500 crore has been allocated for the Mahatari Vandan Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Chhattisgarh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/chhattisgarh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "CG-mobile-tower",
+    "state": "CG",
+    "name": "Mukhya Mantri Mobile Tower Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Mukhya Mantri Mobile Tower Scheme will be launched to provide mobile network connectivity in remote areas.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Chhattisgarh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/chhattisgarh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "CG-national-health-mission",
+    "state": "CG",
+    "name": "National Health Mission",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 1,850 crore has been allocated towards the National Health Mission.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Chhattisgarh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/chhattisgarh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (National Health Mission|\\bNHM\\b)"
+  },
+  {
+    "id": "CG-national-rural-employment-guarantee",
+    "state": "CG",
+    "name": "National Rural Employment Guarantee Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 2,800 crore has been allocated towards National Rural Employment Guarantee Scheme.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Chhattisgarh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/chhattisgarh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "CG-awas",
+    "state": "CG",
+    "name": "Pradhan Mantri Awas Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 8,500 crore has been allocated towards Pradhan Mantri Awas Yojana – Gramin.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Chhattisgarh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/chhattisgarh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
+  },
+  {
+    "id": "CG-shahid-veernarayan-singh-ayushman-swasthya",
+    "state": "CG",
+    "name": "Shahid Veernarayan Singh Ayushman Swasthya Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 1,500 crore has been allocated towards Shahid Veernarayan Singh Ayushman Swasthya Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Chhattisgarh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/chhattisgarh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "DL-am-ist-mission",
+    "state": "DL",
+    "name": "AM IST The Mission",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "DL-ayushman-bharat",
+    "state": "DL",
+    "name": "Ayushman Bharat Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "The Ayushman Bharat scheme will be implemented in the state. Under the insurance component of the scheme, beneficiaries will receive an additional coverage of five lakh rupees over the existing coverage of the same amount. Rs 2,144 crore has been allocated towards Ayushman Bharat.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Delhi Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/delhi-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Ayushman Bharat|PM-?JAY\\b)"
+  },
+  {
+    "id": "DL-enhanced-social-protection",
+    "state": "DL",
+    "name": "Enhanced social protection",
+    "aliases": [],
+    "department": null,
+    "description": "Financial assistance to women in distress and persons with disabilities will be increased from Rs 2,500 to Rs 3,000 per month. Assistance to senior citizens will also be increased.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Delhi Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/delhi-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "DL-mahila-samridhi",
+    "state": "DL",
+    "name": "Mahila Samridhi Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "The Mahila Samridhi Yojana will be launched to provide financial assistance of Rs 2,500 per month to poor women of Delhi. Rs 5,100 crore has been allocated towards the scheme.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Delhi Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/delhi-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "DL-daksh",
+    "state": "DL",
+    "name": "PM-DAKSH Yojana",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "DL-traders",
+    "state": "DL",
+    "name": "Traders",
+    "aliases": [],
+    "department": null,
+    "description": "A Traders’ Welfare Board will be set up to identify and address problems faced by traders.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Delhi Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/delhi-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "DL-दक्ष",
+    "state": "DL",
+    "name": "दक्ष योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "GA-freedom-from-hunger",
+    "state": "GA",
+    "name": "Freedom from Hunger Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 207 crore for rural water supply. The Freedom from Hunger scheme has been allocated",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Goa Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/goa-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "GA-kaushalya-sahay",
+    "state": "GA",
+    "name": "Mukhyamantri Kaushalya Sahay Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Under this scheme, students who complete certified courses in areas such as apparel, automobiles, and beauty and wellness will be provided accessory kit grants of Rs 20,000.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Goa Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/goa-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "GA-unified-pension",
+    "state": "GA",
+    "name": "Unified Pension Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "The Unified Pension Scheme will be implemented from 2025-26 onwards. Assured pension will be provided to government employees, funded by a retirement corpus with the government meeting any shortfall.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Goa Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/goa-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "GJ-aarogya-suraksha",
+    "state": "GJ",
+    "name": "Aarogya Suraksha Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 3,491 crore has been allocated towards Aarogya Suraksha Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Gujarat Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "GJ-assistance-to-disabled",
+    "state": "GJ",
+    "name": "Assistance to the disabled",
+    "aliases": [],
+    "department": null,
+    "description": "Currently, persons with 80% or higher disability are eligible for assistance of Rs 12,000 annually. This will be expanded to include persons with 60% or higher disability.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Gujarat Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "GJ-fish-farming",
+    "state": "GJ",
+    "name": "Fish farming",
+    "aliases": [],
+    "department": null,
+    "description": "A non-agricultural permit will no longer be required for fishing on farm land.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Gujarat Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "GJ-gram-sadak",
+    "state": "GJ",
+    "name": "Mukhya Mantri Gram Sadak Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 5,002 crore has been allocated towards Mukhya Mantri Gram Sadak Yojana",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Gujarat Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "GJ-awas",
+    "state": "GJ",
+    "name": "Pradhan Mantri Awas Yojana (Grameen)",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 1,108 crore has been allocated towards Pradhan Mantri Awas Yojana (Grameen)",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Gujarat Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
+  },
+  {
+    "id": "GJ-shramik-annapurna",
+    "state": "GJ",
+    "name": "Shramik Annapurna Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Shramik Annapurna Yojana will be expanded to cover construction and industrial workers. The scheme provides food to labourers at affordable rates.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Gujarat Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "GJ-special-nutrition-programme",
+    "state": "GJ",
+    "name": "Special Nutrition Programme",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 2,952 crore has been allocated towards Special Nutrition Programme",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Gujarat Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "GJ-swarnim-shaheri-vikas",
+    "state": "GJ",
+    "name": "Swarnim Mukhya Mantri Shaheri Vikas Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 12,846 crore has been allocated towards Swarnim Mukhya Mantri Shaheri Vikas Yojana",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Gujarat Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "HP-acharya-charak",
+    "state": "HP",
+    "name": "Acharya Charak Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Under the newly announced Indira Gandhi Matri Shishu Sankalp Yojana, supplementary nutrition will be provided to all Anganwadi Centres in the state. Patients will be provided up to 20 types of diagnostic tests and 150 AYUSH medicines for free under the Acharya Charak Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Himachal Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "HP-agriculture-loan-interest-subvention",
+    "state": "HP",
+    "name": "Agriculture Loan Interest Subvention Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Farmers with agricultural loans up to three lakh rupees will be offered a one-time settlement policy to repay their loans. Under the policy, the state government will bear 50% of the total interest accrued on the principal amount.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Himachal Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "HP-tourism-start-up",
+    "state": "HP",
+    "name": "Chief Minister Tourism Start-Up Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Young persons will be provided interest subvention of 4%-5% on loans to construct home stay units and hotels. The scheme has an outlay of Rs 50 crore.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Himachal Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "HP-indira-gandhi-matri-shishu-sankalp",
+    "state": "HP",
+    "name": "Indira Gandhi Matri Shishu Sankalp Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Under the newly announced Indira Gandhi Matri Shishu Sankalp Yojana, supplementary nutrition will be provided to all Anganwadi Centres in the state. Patients will be provided up to 20 types of diagnostic tests and 150 AYUSH medicines for free under the Acharya Charak Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Himachal Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "HP-indira-gandhi-sukh-suraksha",
+    "state": "HP",
+    "name": "Indira Gandhi Sukh Suraksha Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 25,000 will be deposited in an insurance company when a girl child is born in a below-poverty line family. The parents will also be provided life insurance benefits.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Himachal Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "HP-national-rural-employment-guarantee",
+    "state": "HP",
+    "name": "National Rural Employment Guarantee Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 460 crore has been allocated towards the National Rural Employment Guarantee Scheme.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Himachal Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "HP-national-rural-health-mission",
+    "state": "HP",
+    "name": "National Rural Health Mission",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 399 crore has been allocated for the National Rural Health Mission.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Himachal Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "HP-awas",
+    "state": "HP",
+    "name": "PM Awas Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 128 crore has been allocated for PM Awas Yojana – Gramin.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Himachal Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
+  },
+  {
+    "id": "HP-samagra-shiksha-abhiyan",
+    "state": "HP",
+    "name": "Samagra Shiksha Abhiyan",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 951 crore has been allocated towards the Samagra Shiksha Abhiyan.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Himachal Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Samagra Shiksha)"
+  },
+  {
+    "id": "HR-haryana-ai-mission",
+    "state": "HR",
+    "name": "Haryana AI Mission",
+    "aliases": [],
+    "department": null,
+    "description": "The Haryana AI Mission will be launched. One AI hub will be built in Gurugram and Panchkula, each. These hubs will train over 50,000 professionals from Haryana in latest technologies.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Haryana Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/haryana-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "HR-lado-laxmi",
+    "state": "HR",
+    "name": "Lado Laxmi Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "The Lado Laxmi Yojana will be launched to provide financial assistance of Rs 2,100 per month to women. Rs 5,000 crore has been allocated to the scheme in 2025-26.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Haryana Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/haryana-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "HR-mera-pani-meri-viraasat",
+    "state": "HR",
+    "name": "Mera Pani, Meri Viraasat Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Under the Mera Pani, Meri Viraasat Yojana, subsidy for farmers giving up paddy cultivation will be increased from Rs 7,000 to Rs 8,000 per acre. Subsidy for direct sowing of paddy will be raised from Rs 4,000 to Rs 4,500 per acre.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Haryana Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/haryana-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "HR-yuva-kaushal-samman",
+    "state": "HR",
+    "name": "Mukhyamantri Yuva Kaushal Samman Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Mukhyamantri Yuva Kaushal Samman Yojana will be launched to provide 2,000 final year students with internship opportunities. They will receive an honorarium of Rs 10,000 per month.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Haryana Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/haryana-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "HR-national-rural-health-mission",
+    "state": "HR",
+    "name": "National Rural Health Mission",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 892 crore has been allocated towards grants under National Rural Health Mission.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Haryana Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/haryana-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "JH-abua-aawas",
+    "state": "JH",
+    "name": "Abua Aawas Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 3,000 crore has been allocated for Abua Aawas Yojana. National Health Mission has been allocated",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Jharkhand Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "JH-higher-education",
+    "state": "JH",
+    "name": "Higher Education",
+    "aliases": [],
+    "department": null,
+    "description": "To promote research in higher education the government will introduce the Jharkhand Student Research and Innovation Policy, 2025. Two universities for skill and fin-tech will also be established.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Jharkhand Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "JH-pashudhan-vikas",
+    "state": "JH",
+    "name": "Mukhyamantri Pashudhan Vikas Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Mukhyamantri Pashudhan Vikas Yojana has been allocated Rs 255 crore to promote animal husbandry which will cover 79,000 beneficiaries.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Jharkhand Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "JH-national-ayush-mission",
+    "state": "JH",
+    "name": "National Ayush Mission",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 168 crore has been allocated for the National Ayush Mission.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Jharkhand Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "JH-national-health-mission",
+    "state": "JH",
+    "name": "National Health Mission",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 3,000 crore has been allocated for Abua Aawas Yojana. National Health Mission has been allocated",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Jharkhand Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (National Health Mission|\\bNHM\\b)"
+  },
+  {
+    "id": "JH-sarva-siksha-abhiyan",
+    "state": "JH",
+    "name": "Sarva Siksha Abhiyan",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 2,057 crore has been allocated towards Sarva Siksha Abhiyan.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Jharkhand Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "JH-skill-development-mission",
+    "state": "JH",
+    "name": "Skill Development Mission",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 585 crore has been allocated for Skill Development Mission to promote skill training among youth in the state.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Jharkhand Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "JH-state-horticulture-development",
+    "state": "JH",
+    "name": "State Horticulture Development Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 5,300 crore has been allocated as capital outlay on roads and bridges. The State Horticulture Development Scheme has been allocated",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Jharkhand Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "JK-all-antyodaya-anna",
+    "state": "JK",
+    "name": "All Antyodaya Anna Yojana (AAY)",
+    "aliases": [],
+    "department": null,
+    "description": "All Antyodaya Anna Yojana (AAY) beneficiaries will be provided with an enhanced free ration of 10 kg to ensure nutritional support.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Jammu and Kashmir Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/jammu-and-kashmir-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "JK-entrepreneurship-and-employment",
+    "state": "JK",
+    "name": "Entrepreneurship and Employment",
+    "aliases": [],
+    "department": null,
+    "description": "Mission YUVA, aiming to create 1,37,000 enterprises and 4,25,000 jobs over five years, will be launched. This will also include initiating skill development programmes and organising job fairs.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Jammu and Kashmir Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/jammu-and-kashmir-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "JK-free-public-transport-for-women",
+    "state": "JK",
+    "name": "Free public transport for women",
+    "aliases": [],
+    "department": null,
+    "description": "All women in Jammu & Kashmir will be granted free ridership on government-owned public transport, including e-Buses from April 2025.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Jammu and Kashmir Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/jammu-and-kashmir-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "JK-jan-arogya",
+    "state": "JK",
+    "name": "Pradhan Mantri Jan Arogya Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "SEHAT app will be rolled out to provide online teleconsultation services and doctor appointments in government hospitals. The app will provide a digital health records system integrated with Pradhan Mantri Jan Arogya Yojana-SEHAT insurance.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Jammu and Kashmir Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/jammu-and-kashmir-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "KA-agriculture",
+    "state": "KA",
+    "name": "Agriculture",
+    "aliases": [],
+    "department": null,
+    "description": "An additional Rs 450 will be provided over the Rs 7,550 per quintal minimum support price for toor dal procurement, with a total allocation of Rs 138 crore.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Karnataka Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/karnataka-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "KA-assistance-to-government-workers",
+    "state": "KA",
+    "name": "Assistance to government workers",
+    "aliases": [],
+    "department": null,
+    "description": "The honorarium for ASHA workers has been increased by Rs 1,000, and for guest teachers in government schools and colleges by Rs 2,000. Honorariums have also been increased for anganwadi workers and helpers, school cooks, Jain priests, Sikh grantis, Pesh-Imams, and Muezzins.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Karnataka Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/karnataka-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "KA-s-infrastructure-development-program",
+    "state": "KA",
+    "name": "Chief Minister’s Infrastructure Development Program",
+    "aliases": [],
+    "department": null,
+    "description": "The Chief Minister’s Infrastructure Development Program has been announced with an allocation of Rs 8,000 crore. It will focus on minor irrigation, roads, and urban infrastructure across the state.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Karnataka Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/karnataka-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
     "id": "KA-five-guarantee-schemes",
     "state": "KA",
     "name": "Five guarantee schemes (Gruha Lakshmi, Gruha Jyothi, Shakti, Anna Bhagya, Yuva Nidhi)",
@@ -17,80 +1737,1187 @@
     ],
     "meta_from": "config",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-21",
     "funding": "state",
     "funding_evidence": "Karnataka's own guarantee schemes, funded from the state budget"
   },
   {
+    "id": "KL-cooperative-housing",
+    "state": "KL",
+    "name": "Cooperative Housing",
+    "aliases": [],
+    "department": null,
+    "description": "A cooperative housing project to create affordable housing in rural and urban areas has been announced. At least one lakh houses are aimed to be built in the next two years.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Kerala Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/kerala-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "MH-bmc-s-infrastructure-development-fund",
+    "state": "MH",
+    "name": "BMC’s Infrastructure Development Fund",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "MH-mahatma-jyotiba-phule-jan-arogya",
+    "state": "MH",
+    "name": "Mahatma Jyotiba Phule Jan Arogya Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 943 crore has been allocated for Mahatma Jyotiba Phule Jan Arogya Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Maharashtra Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/maharashtra-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "MH-gram-sadak",
+    "state": "MH",
+    "name": "Mukhya Mantri Gram Sadak Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "A long-term road development plan will be prepared to connect tourist centres, pilgrimage sites, and national parks by 2047. Under the Mukhya Mantri Gram Sadak Yojana, 3,582 villages will be connected to major roads and highways at a cost of Rs 30,100 crore.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Maharashtra Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/maharashtra-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
     "id": "MH-majhi-ladki-bahin",
     "state": "MH",
-    "name": "Mukhyamantri Majhi Ladki Bahin Yojana",
+    "name": "Mukhya Mantri Mazi Ladki Bahin Yojana",
     "aliases": [
       "Ladki Bahin Yojana",
       "Ladki Behen Yojana",
       "Ladki Bahin scheme",
       "Ladki Behen scheme",
       "माझी लाडकी बहीण योजना",
-      "लाडकी बहीण योजना"
+      "लाडकी बहीण योजना",
+      "Mukhyamantri Majhi Ladki Bahin Yojana"
     ],
+    "department": null,
+    "description": "Rs 36,000 crore has been allocated to Mukhya Mantri Mazi Ladki Bahin Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Maharashtra Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/maharashtra-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "config",
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "MH-namo-shetkari-mahasanman-nidhi",
+    "state": "MH",
+    "name": "Namo Shetkari Mahasanman Nidhi Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 6,060 crore are allocated to Namo Shetkari Mahasanman Nidhi Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Maharashtra Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/maharashtra-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "MH-national-mission",
+    "state": "MH",
+    "name": "National Mission",
+    "aliases": [],
     "department": null,
     "description": null,
     "level": null,
     "official_url": null,
     "sources": [],
     "discovered_via": [
-      "config"
+      "news"
     ],
-    "meta_from": "config",
-    "first_seen": "2026-10-19",
-    "last_seen": "2026-10-19",
+    "meta_from": "news",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "MH-awas",
+    "state": "MH",
+    "name": "Pradhan Mantri Awas Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 15,138 crore has been allocated to Pradhan Mantri Awas Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Maharashtra Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/maharashtra-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
+  },
+  {
+    "id": "MH-pulses-mission",
+    "state": "MH",
+    "name": "Pulses Mission",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "MH-punyashlok-ahilyadevi-holkar-farmer-loan-waiver",
+    "state": "MH",
+    "name": "Punyashlok Ahilyadevi Holkar Farmer Loan Waiver Scheme",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "MH-special-project-fund",
+    "state": "MH",
+    "name": "Special Project Fund",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "ML-s-scholarship",
+    "state": "ML",
+    "name": "Chief Minister’s Scholarship Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "A new flagship program, the Chief Minister’s Scholarship Scheme, will be launched, benefiting 80,000 youth. A grant of Rs 6,000 per annum will be provided to all post matriculate students to help cover educational expenses.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Meghalaya Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/meghalaya-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "ML-s-skills-mission",
+    "state": "ML",
+    "name": "Chief Minister’s Skills Mission",
+    "aliases": [],
+    "department": null,
+    "description": "A comprehensive skilling initiative called the Chief Minister’s Skills Mission will be implemented from 2025-26. This mission aims to skill one lakh youth for the local economy, 10,000 youth for the national economy, and 5,000 youth for the global economy over the next three years.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Meghalaya Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/meghalaya-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "MP-atal-griha-jyoti",
+    "state": "MP",
+    "name": "Atal Griha Jyoti Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 7,132 crore has been allocated for the Atal Griha Jyoti Scheme.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Madhya Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "MP-atal-kisan-jyoti",
+    "state": "MP",
+    "name": "Atal Kisan Jyoti Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 13,909 crore has been allocated towards the Atal Kisan Jyoti Scheme.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Madhya Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "MP-jal-jeevan-mission",
+    "state": "MP",
+    "name": "Jal Jeevan Mission",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 17,136 crore has been allocated for the Jal Jeevan Mission – National Rural Drinking Water Mission.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Madhya Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Jal Jeevan Mission)"
+  },
+  {
+    "id": "MP-krishak-unnati",
+    "state": "MP",
+    "name": "Mukhya Mantri Krishak Unnati Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 850 crore has been allocated for the Mukhya Mantri Krishak Unnati Yojana. Under this scheme, farmers will be offered incentives to adopt crop diversification.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Madhya Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "MP-ladli-behna",
+    "state": "MP",
+    "name": "Mukhya Mantri Ladli Behna Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 18,669 crore has been allocated towards the Mukhya Mantri Ladli Behna Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Madhya Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "MP-samriddha-pariwar",
+    "state": "MP",
+    "name": "Mukhya Mantri Samriddha Pariwar Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Families below the poverty line will be provided a package of schemes under the new Mukhya Mantri Samriddha Pariwar Yojana. The scheme has been allocated Rs 100 crore in 2025-26.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Madhya Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "MP-national-rural-drinking-water-mission",
+    "state": "MP",
+    "name": "National Rural Drinking Water Mission",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 17,136 crore has been allocated for the Jal Jeevan Mission – National Rural Drinking Water Mission.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Madhya Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "MP-national-rural-employment-guarantee",
+    "state": "MP",
+    "name": "National Rural Employment Guarantee Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 4,050 crore has been allocated towards the National Rural Employment Guarantee Scheme.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Madhya Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "MP-youth-affairs",
+    "state": "MP",
+    "name": "Youth Affairs",
+    "aliases": [],
+    "department": null,
+    "description": "Madhya Pradesh Institute of Technology will be set up in each division of the state in the next five years. A skill development program will be launched in the state.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Madhya Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "MZ-agricultural-subsidies",
+    "state": "MZ",
+    "name": "Agricultural subsidies",
+    "aliases": [],
+    "department": null,
+    "description": "Mizoram Agriculture Marketing Board has been allocated Rs 110 crore for 2025-26. This fund will be utilised to guarantee a minimum support price for crops such as broom grass, ginger, turmeric, Mizo chillies, and locally grown paddy.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Mizoram Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/mizoram-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "MZ-hand-holding-policy",
+    "state": "MZ",
+    "name": "Hand-holding policy (Bana Kaih)",
+    "aliases": [],
+    "department": null,
+    "description": "The policy provides financial assistance to people engaged in agriculture and industry. Rs 350 crore has been allocated under this scheme for 2025-26.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Mizoram Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/mizoram-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "MZ-healthcare",
+    "state": "MZ",
+    "name": "Healthcare",
+    "aliases": [],
+    "department": null,
+    "description": "Government will introduce a universal healthcare scheme from April to provide health insurance of up to five lakh rupees cover per year to beneficiaries.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Mizoram Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/mizoram-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "NL-s-fellowship-programme",
+    "state": "NL",
+    "name": "Chief Minister’s Fellowship Programme",
+    "aliases": [],
+    "department": null,
+    "description": "The government has allocated Rs 2.5 crore towards this programme, to build a cadre of development professionals for Nagaland. Further, two crore rupees have been allocated for capacity development of public servants and officials of local bodies.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Nagaland Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/nagaland-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "NL-drone-training-and-logistics-programme",
+    "state": "NL",
+    "name": "Drone Training and Logistics Programme",
+    "aliases": [],
+    "department": null,
+    "description": "Under the Nagaland Skill Mission, the government will train and provide employment to 5,000 young persons of the state in sectors such as hospitality, tourism, healthcare and logistics. To promote financial independence, young persons will be provided loans backed by government guarantees. Under the Nagaland Tourism, Hospitality, and Transport Scheme concessional loans will be given to entrepreneurs to set up 500 homestays and 200 tourist transport vehicles. The scheme has been allocated an outlay of five crore rupees. Rs 2.5 crore has also been allocated to the Drone Training and Logistics Programme, to skill young persons in drone operations.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Nagaland Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/nagaland-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "NL-nagaland-skill-mission",
+    "state": "NL",
+    "name": "Nagaland Skill Mission",
+    "aliases": [],
+    "department": null,
+    "description": "Under the Nagaland Skill Mission, the government will train and provide employment to 5,000 young persons of the state in sectors such as hospitality, tourism, healthcare and logistics. To promote financial independence, young persons will be provided loans backed by government guarantees. Under the Nagaland Tourism, Hospitality, and Transport Scheme concessional loans will be given to entrepreneurs to set up 500 homestays and 200 tourist transport vehicles. The scheme has been allocated an outlay of five crore rupees. Rs 2.5 crore has also been allocated to the Drone Training and Logistics Programme, to skill young persons in drone operations.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Nagaland Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/nagaland-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "NL-nagaland-solar-power-mission",
+    "state": "NL",
+    "name": "Nagaland Solar Power Mission",
+    "aliases": [],
+    "department": null,
+    "description": "To encourage rooftop solar installations, the government has launched the Nagaland Solar Power Mission with an allocation of Rs 10 crore. Consumers will be given a state subsidy of Rs 20,000 per kW (up to a maximum of Rs 50,000).",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Nagaland Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/nagaland-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "NL-nagaland-tourism-hospitality-and-transport",
+    "state": "NL",
+    "name": "Nagaland Tourism, Hospitality, and Transport Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Under the Nagaland Skill Mission, the government will train and provide employment to 5,000 young persons of the state in sectors such as hospitality, tourism, healthcare and logistics. To promote financial independence, young persons will be provided loans backed by government guarantees. Under the Nagaland Tourism, Hospitality, and Transport Scheme concessional loans will be given to entrepreneurs to set up 500 homestays and 200 tourist transport vehicles. The scheme has been allocated an outlay of five crore rupees. Rs 2.5 crore has also been allocated to the Drone Training and Logistics Programme, to skill young persons in drone operations.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Nagaland Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/nagaland-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "OD-antyodaya-gruha",
+    "state": "OD",
+    "name": "Antyodaya Gruha Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "A scheme to provide concrete houses to poor families has been announced with an outlay of Rs 7,550 crore over three years. This will benefit families living below the poverty line, affected by disasters and displaced by government projects. Rs 2,603 crore has been allocated for construction of 75,000 houses under this scheme in 2025-26.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Odisha Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/odisha-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "OD-member-of-legislative-assembly-local-area-development",
+    "state": "OD",
+    "name": "Member of Legislative Assembly Local Area Development Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Annual allocation for each constituency under the Member of Legislative Assembly Local Area Development Scheme has been enhanced from Rs three crore to Rs five crore. An amount of Rs 735 crore has been allocated for this purpose.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Odisha Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/odisha-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "OD-sadak",
+    "state": "OD",
+    "name": "Mukhya Mantri Sadak Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "For improvement of existing rural roads and to connect unconnected rural habitations, Rs 3,470 crore has been allocated for Mukhya Mantri Sadak Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Odisha Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/odisha-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "OD-sahari-bikas",
+    "state": "OD",
+    "name": "Mukhyamantri Sahari Bikas Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 1,100 crore has been earmarked under Mukhyamantri Sahari Bikas Yojana for the construction of civic amenities across cities. Rs 200 crore has been allocated to develop 322 hectares in Bhubaneswar for the services, IT, and research and development sectors.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Odisha Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/odisha-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "PB-mukh-mantri-sarbat-sehat-bima",
+    "state": "PB",
+    "name": "Mukh Mantri Sarbat Sehat Bima Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "State health insurance scheme will be made universal to cover 65 lakh families in Punjab. Families covered under the Mukh Mantri Sarbat Sehat Bima Yojana will receive a Sehat Card through which they can avail cashless treatment of up to Rs 10 lakh at private and government hospitals in the state.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Punjab Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/punjab-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "PB-national-rural-employment-guarantee",
+    "state": "PB",
+    "name": "National Rural Employment Guarantee Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 615 crore has been allocated for the National Rural Employment Guarantee Scheme.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Punjab Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/punjab-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "PB-rural-water-supply-programme",
+    "state": "PB",
+    "name": "Rural Water Supply Programme",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 485 crore has been allocated for the Rural Water Supply Programme.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Punjab Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/punjab-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "RJ-amrut-aahar",
+    "state": "RJ",
+    "name": "CM Amrut Aahar Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 25 crore has been allocated for the provision of nutri-kits to pregnant women reaching about 2.35 lakh women in the state. About Rs 200 crore will be spent on offering milk to Anganwadi children between the age of three to six years under CM Amrut Aahar Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Rajasthan Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/rajasthan-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (\\bAMRUT\\b|Atal Mission for Rejuvenation)"
+  },
+  {
+    "id": "RJ-gig-and-unorganised-workers-development-fund",
+    "state": "RJ",
+    "name": "Gig and Unorganised Workers Development Fund",
+    "aliases": [],
+    "department": null,
+    "description": "Additional 1.25 lakh posts will be created for youth in government departments and public undertakings. A new Gig and Unorganised Workers Development Fund of Rs 350 crore will be set up to offer social security to gig workers/online platform workers and unorganised workers.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Rajasthan Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/rajasthan-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "RJ-nutrition-and-agriculture",
+    "state": "RJ",
+    "name": "Nutrition and agriculture",
+    "aliases": [],
+    "department": null,
+    "description": "Millets will be introduced on a pilot base in the Mid-day meal program and Maa-Badi centres. Millet product outlets will also be established in every district to promote accessibility and availability of millets. Works worth Rs 9,300 crore will be carried out under the Ram Han Setu Link Project.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Rajasthan Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/rajasthan-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "RJ-rural-employment-guarantee",
+    "state": "RJ",
+    "name": "Rural Employment Guarantee Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 6,053 crore has been allocated towards the Rural Employment Guarantee Scheme.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Rajasthan Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/rajasthan-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "RJ-vivekanand-employment-assistance-fund",
+    "state": "RJ",
+    "name": "Vivekanand Employment Assistance Fund",
+    "aliases": [],
+    "department": null,
+    "description": "The government will introduce a Rajasthan Employment Policy 2025 to offer employment-oriented training, internships, and apprenticeships to the youth. A Vivekanand Employment Assistance Fund, with Rs 500 crore, will be set up to provide counselling, build employer-employee linkages, establish examination centres, and host employment fairs in the state.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Rajasthan Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/rajasthan-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "SK-power-to-all-households",
+    "state": "SK",
+    "name": "Power to all households",
+    "aliases": [],
+    "department": null,
+    "description": "Under the Sikkim Power Sector Development Project, the Sikkim government will provide 24*7 power to all households, industries, and commercial establishments in the state. Rs 1,608 crore has been allocated for this initiative. It aims to make the state renewable power ready.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Sikkim Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/sikkim-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
   },
   {
     "id": "TN-breakfast",
     "state": "TN",
-    "name": "Chief Minister's Breakfast Scheme (expansion)",
+    "name": "Chief Minister’s Breakfast Scheme",
     "aliases": [
       "CM Breakfast Scheme",
-      "முதலமைச்சரின் காலை உணவுத் திட்டம்"
+      "முதலமைச்சரின் காலை உணவுத் திட்டம்",
+      "Chief Minister's Breakfast Scheme (expansion)"
     ],
+    "department": null,
+    "description": "The Chief Minister’s Breakfast scheme has been expanded to provide breakfast for students in urban government aided schools. This is expected to benefit an additional 3.14 lakh students. The total allocation for this scheme is Rs 600 crore.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Tamil Nadu Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/tamil-nadu-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "config",
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-19",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "TN-deendayal-antyodaya-national-urban-livelihoods-mission",
+    "state": "TN",
+    "name": "Deendayal Antyodaya Yojana-National Urban Livelihoods Mission (DAY-NULM)",
+    "aliases": [],
     "department": null,
     "description": null,
     "level": null,
     "official_url": null,
     "sources": [],
     "discovered_via": [
-      "config"
+      "news"
     ],
-    "meta_from": "config",
-    "first_seen": "2026-10-19",
-    "last_seen": "2026-10-19",
-    "funding": "state",
-    "funding_evidence": "named as a Chief Minister's scheme"
+    "meta_from": "news",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (National Rural Livelihood|DAY-NRLM|Deendayal Antyodaya)"
+  },
+  {
+    "id": "TN-explained-mission",
+    "state": "TN",
+    "name": "Explained Mission",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "TN-kalaignar-nagarpura-membattu-thittam",
+    "state": "TN",
+    "name": "Kalaignar Nagarpura Membattu Thittam",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 2,000 crore allocated towards implementation of Kalaignar Nagarpura Membattu Thittam",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Tamil Nadu Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/tamil-nadu-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
   },
   {
     "id": "TN-kalaignar-magalir-urimai-thogai",
     "state": "TN",
-    "name": "Kalaignar Magalir Urimai Thogai",
+    "name": "Magalir Urimai Thogai",
     "aliases": [
       "Kalaignar Magalir Urimai Thogai Thittam",
       "Magalir Urimai Thogai",
       "KMUT",
       "கலைஞர் மகளிர் உரிமைத் திட்டம்",
-      "கலைஞர் மகளிர் உரிமைத் தொகை திட்டம்"
+      "கலைஞர் மகளிர் உரிமைத் தொகை திட்டம்",
+      "Kalaignar Magalir Urimai Thogai"
     ],
     "department": null,
-    "description": null,
+    "description": "Rs 13,807 crore allocated towards Magalir Urimai Thogai scheme",
     "level": null,
     "official_url": null,
-    "sources": [],
-    "discovered_via": [
-      "config"
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Tamil Nadu Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/tamil-nadu-budget-analysis-2025-26"
+      }
     ],
-    "meta_from": "config",
+    "discovered_via": [
+      "config",
+      "prs"
+    ],
+    "meta_from": "prs",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-21",
     "funding": "state",
     "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget"
   },
@@ -112,9 +2939,78 @@
     ],
     "meta_from": "config",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-21",
     "funding": "state",
     "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget"
+  },
+  {
+    "id": "TN-tamil-nadu-semiconductor-mission",
+    "state": "TN",
+    "name": "Tamil Nadu Semiconductor Mission",
+    "aliases": [],
+    "department": null,
+    "description": "The ‘Tamil Nadu Semiconductor Mission – 2030’ will be implemented over the next five years at a cost of Rs 500 crore. Semiconductor design companies and domestic start-ups will be encouraged to establish their design centres in Tamil Nadu.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Tamil Nadu Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/tamil-nadu-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "TN-upa-era-swarna-jayanti-shahari-rozgar",
+    "state": "TN",
+    "name": "UPA-era Swarna Jayanti Shahari Rozgar Yojana",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "TN-urban-development",
+    "state": "TN",
+    "name": "Urban development",
+    "aliases": [],
+    "department": null,
+    "description": "A new city featuring IT parks, fin-tech trade zones, research and development centres, banking and insurance firms, along educational and healthcare facilities will be developed over an area of 2,000 acres near Chennai.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Tamil Nadu Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/tamil-nadu-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
   },
   {
     "id": "TN-vidiyal-payanam",
@@ -134,9 +3030,284 @@
     ],
     "meta_from": "config",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-21",
     "funding": "state",
     "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget"
+  },
+  {
+    "id": "TR-s",
+    "state": "TR",
+    "name": "Chief Minister’s Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Under the Chief Minister’s Scheme for Mentally Challenged Persons, beneficiaries will be given monthly pension of Rs 5,000. Beneficiaries already receiving Rs 3,000 per month as disability pension will receive an additional Rs 3,000 per month.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Tripura Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/tripura-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "TR-balika-samriddhi",
+    "state": "TR",
+    "name": "Mukhyamantri Balika Samriddhi Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Under this scheme, an investment of Rs 50,000 will be made for each newborn girl child from an Antodyaya family. The amount can be encashed along with its maturity value when the girl attains 18 years of age. Rs 15 crore has been allocated for the scheme in 2025-26.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Tripura Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/tripura-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "TS-education",
+    "state": "TS",
+    "name": "Education",
+    "aliases": [],
+    "department": null,
+    "description": "58 Young India integrated residential schools will be built at a total cost of Rs 11,600 crore to provide holistic education to students. These schools will contain facilities such as auditoriums, dining halls, digital classrooms, and sports fields. Students in these schools will be provided with accommodation, meals, uniforms, notebooks, textbooks, and all other essential items free of cost. These schools will predominantly be powered by solar and wind energy.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Telangana Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/telangana-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "TS-industrial-development",
+    "state": "TS",
+    "name": "Industrial development",
+    "aliases": [],
+    "department": null,
+    "description": "Five percent of plots in new industrial parks will be allocated for women entrepreneurs and 15% to SC/ST entrepreneurs. SC/ST entrepreneurs will also receive land cost subsidy of up to 50%, up to a maximum limit of Rs 50 lakh. Stamp duty reductions, electricity tariff concessions, and land cost subsidies are also being offered for private factory complexes.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Telangana Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/telangana-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "TS-rajeev-youth-development",
+    "state": "TS",
+    "name": "Rajeev Youth Development Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Rajeev Youth Development Scheme has been launched with an initial funding of Rs 6,000 crore to provide self-employment schemes for youth belonging to SC, ST, OBC, and minorities. Under this scheme, every eligible unemployed person will be provided financial assistance of up to four lakh rupees.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Telangana Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/telangana-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "TS-rural-development",
+    "state": "TS",
+    "name": "Rural development",
+    "aliases": [],
+    "department": null,
+    "description": "Establishment and maintenance of solar power plants is being entrusted to women self-help groups. This project is expected to generate 1000 MW of power and create job opportunities for women in the state.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Telangana Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/telangana-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "TS-telangana-dalit-bandhu",
+    "state": "TS",
+    "name": "Telangana Dalit Bandhu Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 1,000 crore allocated towards Telangana Dalit Bandhu scheme",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Telangana Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/telangana-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "UK-jal-jeevan-mission",
+    "state": "UK",
+    "name": "Jal Jeevan Mission",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 1,843 crore has been allocated towards Jal Jeevan Mission. District police has been allocated",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Uttarakhand Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/uttarakhand-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Jal Jeevan Mission)"
+  },
+  {
+    "id": "UK-gram-sadak",
+    "state": "UK",
+    "name": "Pradhan Mantri Gram Sadak Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 1,138 crore allocated towards Pradhan Mantri Gram Sadak Yojana.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Uttarakhand Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/uttarakhand-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Gram Sadak|\\bPMGSY\\b)"
+  },
+  {
+    "id": "UP-jal-jeevan-mission",
+    "state": "UP",
+    "name": "Jal Jeevan Mission",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 18,810 crore has been allocated under Jal Jeevan Mission.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Uttar Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/uttar-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Jal Jeevan Mission)"
+  },
+  {
+    "id": "UP-gram",
+    "state": "UP",
+    "name": "Mukhya Mantri Gram Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "Four new expressways will be constructed at the cost of Rs 1,050 crore. These include: (i) Agra-Lucknow expressway, (ii) Ganga expressway, (iii) Vindhya express way, and (iv) Bundelkhand-Riwa express way. To improve connectivity, new village roads will be constructed and existing roads will be repaired under the Mukhya Mantri Gram Yojana. Rs 200 crore has been allocated for this.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Uttar Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/uttar-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
   },
   {
     "id": "UP-kanya-sumangala",
@@ -157,7 +3328,7 @@
     ],
     "meta_from": "config",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -179,8 +3350,152 @@
     ],
     "meta_from": "config",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-19",
+    "last_seen": "2026-10-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "UP-residential-schools",
+    "state": "UP",
+    "name": "Residential schools",
+    "aliases": [],
+    "department": null,
+    "description": "Enrolment capacity of Atal Residential Schools will be increased from 360 to 1,000. These schools provide free education to children of construction workers.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Uttar Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/uttar-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "UP-samagra-shiksha-abhiyan",
+    "state": "UP",
+    "name": "Samagra Shiksha Abhiyan",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 18,657 crore is allocated towards primary education under Samagra Shiksha Abhiyan.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Uttar Pradesh Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/uttar-pradesh-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Samagra Shiksha)"
+  },
+  {
+    "id": "WB-agriculture",
+    "state": "WB",
+    "name": "Agriculture",
+    "aliases": [],
+    "department": null,
+    "description": "200 procurement centres will be set up in regulated market committee markets and haats for purchase of vegetable and other agricultural produce. Financial assistance will be provided for processing, sorting, and packaging of perishable agricultural produce. Assistance will be provided at 50% of project cost with a cap of five lakh rupees.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – West Bengal Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/west-bengal-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "WB-banglar-bari",
+    "state": "WB",
+    "name": "Banglar Bari (Gramin) Scheme",
+    "aliases": [],
+    "department": null,
+    "description": "Under the second phase of Banglar Bari (Gramin) scheme, assistance will be provided to 16 lakh eligible families for building houses. The first instalment of Rs 60,000 per family will be provided by December 2025.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – West Bengal Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/west-bengal-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "WB-health",
+    "state": "WB",
+    "name": "Health",
+    "aliases": [],
+    "department": null,
+    "description": "Rs 200 crore has been allocated for providing smart phones to 70,000 ASHA workers and over one lakh Anganwadi workers.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – West Bengal Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/west-bengal-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "WB-muft-bijli",
+    "state": "WB",
+    "name": "Muft Bijli Yojna",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-21",
+    "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
   }
 ]

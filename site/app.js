@@ -202,7 +202,7 @@
                 "</td><td>" + badge(sc.status) + "</td></tr>";
             }).join("") + '</tbody></table></div><p class="hint" style="margin:0">— Not yet available. Amounts appear only once confirmed in an official source.</p>'
           : '<div class="table-box"><p class="empty">No schemes collected for ' + esc(s.name) + " yet. The daily run will add them as they are found and verified.</p></div>") +
-        (sources.length ? '<ul class="notes">' + sources.map(function (x) { return "<li>" + (x.kind === "govt" ? "Govt: " : "News: ") + sourceLink(x) + "</li>"; }).join("") + "</ul>" : "") +
+        (sources.length ? '<ul class="notes">' + sources.map(function (x) { return "<li>" + ({ govt: "Govt: ", prs: "PRS: " }[x.kind] || "News: ") + sourceLink(x) + "</li>"; }).join("") + "</ul>" : "") +
       "</section>";
     window.scrollTo(0, 0);
     animate();

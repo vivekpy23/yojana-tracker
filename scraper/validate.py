@@ -22,6 +22,7 @@ Rules
 """
 from __future__ import annotations
 
+from .extract import CATEGORIES
 from .prs import EXP_INCL_DEBT, EXP_STD, OWN_TAX, SW_NUTRITION, SW_NUTRITION_ROW
 
 RATIO_RANGE = (0.60, 1.20)      # full-year actual / revised estimate
@@ -83,6 +84,8 @@ def check_schemes(schemes: list[dict], fy: str, issues: list) -> None:
                        "schemes: amount on a reported scheme – only officially verified amounts are shown")
             elif status == "verified" and not any(x.get("kind") == "govt" for x in s.get("sources", [])):
                 _issue(issues, s["state"], field, "error", "schemes: verified amount without a government source")
+        if s.get("category") is not None and s["category"] not in CATEGORIES:
+            _issue(issues, s["state"], field, "error", f"schemes: unknown category {s['category']!r}")
         if s.get("funding") is not None and s["funding"] not in FUNDING_TYPES:
             _issue(issues, s["state"], field, "error", f"schemes: unknown funding type {s['funding']!r}")
         for r in s.get("reports", []):

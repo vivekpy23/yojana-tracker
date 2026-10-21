@@ -24,7 +24,7 @@ from .store import name_core, name_score, today
 FUNDING_TYPES = ("state", "centrally_sponsored", "central", "unknown")
 MATCH_MIN = 90
 # Which source's department / description wins when two disagree.
-PRECEDENCE = {"myscheme": 3, "national_portal": 2, "config": 1, "news": 0}
+PRECEDENCE = {"myscheme": 3, "national_portal": 2, "prs": 2, "config": 1, "news": 0}
 
 
 def find(catalog: list[dict], state: str, name: str, min_score: float = MATCH_MIN) -> dict | None:

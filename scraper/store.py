@@ -41,6 +41,13 @@ _GENERIC = r"the|scheme|yojana|yojna|abhiyan|abhiyaan|programme|program"
 _INDIC_GENERIC = {"योजना", "अभियान", "திட்டம்", "ಯೋಜನೆ"}
 
 
+def _fold(word: str) -> str:
+    """One spelling for common romanisation variants: Lakshmi / Laxmi, Kaushal / Kaushaal, Shree / Shri."""
+    for a, b in (("ksh", "x"), ("aa", "a"), ("ee", "i"), ("oo", "u")):
+        word = word.replace(a, b)
+    return word
+
+
 def name_core(name: str) -> tuple[str | None, list[str]]:
     """(prefix, distinctive words): 'Mukhyamantri Majhi Ladki Bahin Yojana' -> ('cm', ['majhi', 'ladki', 'bahin']).
 
@@ -51,6 +58,7 @@ def name_core(name: str) -> tuple[str | None, list[str]]:
     t = re.sub(r"\b(?:mukhya ?mantri|chief minister'?s?|cm)\b|मुख्यमंत्री|முதலமைச்சர்|ಮುಖ್ಯಮಂತ್ರಿ", " cm ", t)
     t = re.sub(r"\b(?:" + _GENERIC + r")\b", " ", t)
     words = [w for w in re.split(r"[^a-z0-9ऀ-ॿ஀-௿ಀ-೿]+", t) if w and w not in _INDIC_GENERIC]
+    words = [_fold(w) for w in words]
     prefixes = {w for w in words if w in ("pm", "cm")}
     core = [w for w in words if w not in ("pm", "cm")]
     return (prefixes.pop() if len(prefixes) == 1 else None), core

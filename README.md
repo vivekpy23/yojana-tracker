@@ -46,6 +46,7 @@ Status badges on the site:
 | State budget, own tax revenue, Social Welfare & Nutrition (RE 2025-26) | PRS state budget analyses of 2026-27 – every state/UT PRS covers (30 of 31; not Puducherry) | Badge "Budget docs (via PRS)". `scraper/prs.py` reads PRS's key-figure, receipts and sector tables each run and stores the BE/RE rows as printed under `prs_table`. The five pilot states' hand-entered figures are kept and checked against these rows; for the other states the figures are created from them. A row PRS doesn't print stays empty (Arunachal Pradesh and J&K have no Social Welfare & Nutrition row) |
 | **Actual spending and own tax collected (2025-26)** | **CAG, state accounts → Monthly Key Indicators**, March 2026 report ([cag.gov.in](https://cag.gov.in/en/state-accounts-report)) | `scraper/cag.py`; stored as `budget_actual` / `tax_actual`, basis "provisional actuals" |
 | Scheme discovery (names, departments, descriptions, funding type) | myScheme (primary, per State/UT), National Portal of India (secondary) | `scraper/myscheme.py`, `scraper/portal.py`, `scraper/catalog.py` → `data/catalog.json`. No amounts |
+| **State schemes and welfare announcements (2025-26)** | PRS analyses of each state's 2025-26 budget, discovered from [prsindia.org/budgets/states?budget_year=2025-26](https://prsindia.org/budgets/states?budget_year=2025-26&state=all) | `scraper/prs.py → scheme_items`; saved by `run.save_prs_schemes`. See *Schemes from PRS* below |
 | Scheme announcements | PIB, national and regional-language news RSS, state press-release pages; allocations verified against state budget documents, departmental reports and notifications | `scraper/news.py`, `scraper/verify.py` |
 
 ## Scheme discovery
@@ -68,6 +69,24 @@ Status badges on the site:
 Hand-set values go in `funding.overrides` (currently Karnataka's guarantee schemes and three Tamil Nadu schemes).
 
 **Amounts.** myScheme and the portal carry no budget figures. A catalog scheme reaches the site's list only through a news report or a confirmed allocation. For each jurisdiction with government documents configured, every catalog scheme without a confirmed allocation is searched for **verbatim** (any of its names) in those documents: budget documents plus any `notification_pages` (government orders, gazettes, departmental reports). When exactly one amount stands near the name, it goes to the review queue (`"kind": "allocation"`) and is never published directly. You approve it as that scheme's allocation for the year, or reject it.
+
+## Schemes from PRS
+
+Every run reads PRS's listing of state budget analyses for the site's FY and follows each state's link (29 states/UTs for 2025-26; PRS has no analysis for Manipur or Puducherry). From each analysis:
+
+- **Policy Highlights** (web page): one bullet per announcement, `Topic: text`.
+- **Sector-wise expenditure table, "Budget Provisions" column** (the analysis PDF): "Rs X crore has been allocated towards <scheme>". The column is cropped by position; each provision keeps its sector row (e.g. *Social Welfare and Nutrition*), which helps classify it.
+
+What is kept per scheme: name, state, FY, the benefit as PRS describes it (`benefit`), the allocation when published, the PRS page (and PDF) as sources, `category` and `kind`.
+
+- **A scheme is never dropped for lack of an allocation.** It is saved with status `secondary` ("Budget docs (via PRS)") and no amount.
+- **Allocation:** only when one sentence names the scheme (or says "the scheme" in a bullet about one scheme), has an allocation cue and a single ₹ crore figure that is not a group total ("including…") and not nearer another scheme's name. "At a cost of", targets over several years and per-beneficiary amounts are not allocations.
+- **Category** (`extract.category`): `welfare` (benefits to people: cash transfers, pensions, scholarships, kits, insurance, housing, subsidies, employment guarantee), `infrastructure` (roads, water supply, buildings, upgrades), `policy` (tax, reforms, missions, government staff pay and pensions). News reports get one too; PRS's reading wins.
+- **Kind:** `scheme` (named) or `announcement` (an unnamed welfare measure, named by its PRS topic, e.g. "Free public transport for women").
+- **Deduplication:** within a page (Laxmi/Lakshmi, a short and a full name) and against existing records via the same name matching as news (`store.name_score`, which folds common romanisation variants: ksh/x, aa/a, ee/i, oo/u). An amount already on record is never cleared; a verified record is never downgraded.
+- **The site lists** named welfare schemes only. Infrastructure projects, policy announcements and unnamed announcements stay in `data/schemes.json`.
+
+News (below) then adds schemes and announcements PRS doesn't name, onto the same records. A news figure that can't be tied to one scheme no longer drops the scheme: it is kept without an amount.
 
 ## News discovery
 

@@ -29,6 +29,7 @@ Order of work:
 from __future__ import annotations
 
 import argparse
+import dataclasses
 import logging
 import os
 import re
@@ -39,11 +40,12 @@ import yaml
 from . import build as build_mod
 from . import cag, myscheme, portal, prs
 from . import catalog as catalog_mod
-from .extract import DISBURSEMENT, Candidate
+from .extract import DISBURSEMENT, Candidate, category
 from .fetch import Fetcher, doc_links, is_govt, to_text
 from .news import discover
 from .store import (CATALOG, REJECTED, REVIEW, SCHEMES, SEED, add_report, find_existing, load, save, today,
                     upsert)
+from .store import add_source as store_add_source
 from .verify import GovtDoc, find_allocation, verify
 
 log = logging.getLogger("scraper")
@@ -134,7 +136,10 @@ def discover_schemes(fetcher: Fetcher, cfg: dict, seed: dict, catalog: list[dict
 # ---------------------------------------------------------------- main steps
 def process_candidate(c: Candidate, schemes, queue, docs, cfg, fy, rejected, catalog) -> str:
     if c.confidence < 0.6:
-        return "skipped-low-confidence"
+        if c.amount is None:
+            return "skipped-low-confidence"
+        # The figure can't be tied to this scheme; the scheme itself is still kept, without an amount.
+        c = dataclasses.replace(c, amount=None)
     funding = cfg.get("funding", {})
     recheck = c.extra.get("recheck", False)
     entry = catalog_mod.find(catalog, c.state, c.name)
@@ -157,6 +162,7 @@ def process_candidate(c: Candidate, schemes, queue, docs, cfg, fy, rejected, cat
             add_report(rec, c.report())
         if c.department and not rec.get("department"):
             rec["department"] = c.department
+        rec.setdefault("category", category(f"{name}. {c.sentence}"))  # PRS's reading wins when it has one
         catalog_mod.annotate(rec, entry, funding)
         return rec
 
@@ -215,6 +221,30 @@ def match_catalog(code: str, catalog, schemes, queue, docs, fy, rejected, limit:
     return queued
 
 
+def save_prs_schemes(items: list[dict], schemes: list[dict], catalog: list[dict], funding: dict) -> dict:
+    """PRS scheme items → data/schemes.json, one record per scheme (matched by name, as news reports are).
+    A scheme is saved with or without an allocation: status 'secondary' (PRS's reading of the budget), with
+    `announced` set only when PRS ties an amount to it. An existing amount is never cleared, and a verified
+    record is never downgraded (store.upsert)."""
+    out = {"new": 0, "updated": 0}
+    for it in items:
+        entry = catalog_mod.merge(catalog, {"state": it["state"], "name": it["name"], "via": "prs",
+                                            "description": it["benefit"], "source": it["source"]}, funding)[0]
+        rec = find_existing(schemes, it["state"], entry["name"], it["fy"])
+        out["updated" if rec else "new"] += 1
+        if rec and rec.get("announced") is not None and it["allocation"] is None:
+            store_add_source(rec, it["source"])  # keep the amount already on record
+        else:
+            rec = upsert(schemes, state=it["state"], name=entry["name"], fy=it["fy"], amount=it["allocation"],
+                         status="secondary", source=it["source"])
+        if it["allocation_source"] and it["allocation_source"] != it["source"]["url"]:
+            store_add_source(rec, {"kind": "prs", "title": it["source"]["title"] + " (PDF)",
+                                   "url": it["allocation_source"]})
+        rec.update(category=it["category"], kind=it["kind"], benefit=it["benefit"], prs_section=it["section"])
+        catalog_mod.annotate(rec, entry, funding)
+    return out
+
+
 def confirm_seed(fetcher: Fetcher, cfg: dict) -> int:
     """Upgrade seed headline figures to 'verified' when the number appears in their govt_check document."""
     seed = load(SEED, {})
@@ -241,6 +271,7 @@ def main(argv=None) -> int:
     ap.add_argument("--build-only", action="store_true")
     ap.add_argument("--no-news", action="store_true")
     ap.add_argument("--no-discovery", action="store_true")
+    ap.add_argument("--no-prs", action="store_true")
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 
@@ -261,6 +292,11 @@ def main(argv=None) -> int:
     catalog_mod.seed_aliases(catalog, cfg.get("scheme_aliases"), funding)
     disc = ({"myscheme": 0, "myscheme_skipped": "--no-discovery", "national_portal": 0, "new": 0}
             if args.no_discovery else discover_schemes(fetcher, cfg, load(SEED, {}), catalog))
+
+    # PRS budget analyses of the FY: named schemes and welfare announcements for every state PRS covers.
+    # News (next) adds what PRS doesn't name; both land on the same records.
+    prs_items, prs_stats = ([], {"skipped": "--no-prs"}) if args.no_prs else prs.scheme_items(fetcher, cfg, fy)
+    prs_saved = save_prs_schemes(prs_items, schemes, catalog, funding)
 
     candidates = [] if args.no_news else discover(
         fetcher, cfg["news_feeds"], fy, announcement_pages=cfg.get("announcement_pages", []),
@@ -287,6 +323,7 @@ def main(argv=None) -> int:
                                                cfg.get("discovery", {}).get("max_allocation_reviews_per_state", 10))
     for s in schemes:  # department, description, official link and funding type from the catalog
         catalog_mod.annotate(s, catalog_mod.find(catalog, s["state"], s["name"]), funding)
+        s.setdefault("category", category(f"{s['name']}. {s.get('description') or ''}"))
 
     upgraded = confirm_seed(fetcher, cfg)
     seed = load(SEED, {})
@@ -310,6 +347,13 @@ def main(argv=None) -> int:
                f"{' (' + disc['myscheme_skipped'] + ')' if disc['myscheme_skipped'] else ''}, "
                f"National Portal {disc['national_portal']}; catalog {len(catalog)} schemes "
                f"({disc['new']} new) by funding {funding_counts}\n"
+               f"- PRS budget analyses ({fy}): {prs_stats.get('discovered', 0)} discovered, "
+               f"{prs_stats.get('fetched', 0)} fetched ({prs_stats.get('pdf_read', 0)} PDFs read); "
+               f"{prs_stats.get('extracted', 0)} schemes/announcements extracted "
+               f"({prs_stats.get('with_allocation', 0)} with an allocation) by category "
+               f"{prs_stats.get('by_category', {})}; saved {prs_saved['new']} new, {prs_saved['updated']} updated; "
+               f"failed: {', '.join(prs_stats.get('failed', [])) or 'none'}"
+               f"{'; ' + prs_stats['skipped'] if prs_stats.get('skipped') else ''}\n"
                f"- News candidates processed: {sum(tally.values())} {tally}\n"
                f"- Catalog allocations found in govt documents, sent to review: {allocation_queued}\n"
                f"- Headline figures confirmed against govt documents: {upgraded}\n"
