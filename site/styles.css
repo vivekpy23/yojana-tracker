@@ -60,15 +60,11 @@ main { display: flex; flex-direction: column; gap: var(--gap); }
 .grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: var(--gap-sm); }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 20px;
   display: flex; flex-direction: column; gap: 6px; }
-/* Stat cards: equal height; title, figure and source rows line up across a row of cards */
-.card.stat .figure { display: flex; flex-direction: column; gap: 2px; }
-.card.stat .card-foot { margin-top: auto; display: flex; flex-direction: column; gap: 8px; padding-top: 10px;
-  border-top: 1px solid var(--line); }
+/* Stat cards: title, figure and estimate label only; equal height, figures lined up across a row of cards */
+.card.stat .figure { display: flex; flex-direction: column; gap: 2px; margin-top: auto; }
 @supports (grid-template-rows: subgrid) {
-  .grid2.stats > .card.stat { display: grid; grid-row: span 3; grid-template-rows: subgrid; gap: 8px; }
-  .grid2.stats > .card.stat .figure { align-self: start; }
-  /* divider at the top of the row in every card, status badge at the bottom */
-  .grid2.stats > .card.stat .card-foot { margin-top: 0; justify-content: space-between; }
+  .grid2.stats > .card.stat { display: grid; grid-row: span 2; grid-template-rows: subgrid; gap: 10px; }
+  .grid2.stats > .card.stat .figure { align-self: end; }
 }
 .card.stat { --dot: var(--line-strong); }
 .card.stat.exp { --dot: var(--navy); }

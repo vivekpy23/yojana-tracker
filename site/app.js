@@ -62,18 +62,6 @@
       esc(label || publisher(src.url)) + '<span aria-hidden="true"> ↗</span></a>' : "";
   }
 
-  // CAG provisional actual under an estimate: "Actually spent: ₹ X Cr, provisional, CAG · 81.3% of revised estimate".
-  // pct comes from the build's validation rules; null there means the two figures are not comparable.
-  function actualLine(verb, actual, estimate, pct) {
-    var a = val(actual);
-    if (a === null) return "";
-    var cmp = val(estimate) === null ? "" : " · " + (pct == null ? "N/A" : pct.toFixed(1) + "%") + " of revised estimate";
-    var label = (actual.basis === "provisional actuals" ? "provisional" : esc(actual.basis || "")) + ", CAG";
-    return '<div class="sub">' + esc(verb) + ": <strong>" + cr(a) + "</strong>, " +
-      (actual.source && actual.source.url ? '<a href="' + esc(actual.source.url) + '" target="_blank" rel="noopener">' + label + "</a>" : label) +
-      cmp + "</div>";
-  }
-
   function countUp(el, target) {
     var reduce = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduce) { el.textContent = headline(target); return; }
@@ -94,18 +82,16 @@
 
   // ---------- pieces ----------
   // kind: "exp" (navy), "welfare" (teal) or omitted (neutral)
-  function statCard(title, fig, extra, kind) {
+  function statCard(title, fig, kind) {
     var v = val(fig);
-    var basis = fig && ({ RE: "Revised estimate", BE: "Budget estimate" }[fig.basis] || fig.basis);
-    // three rows (title · figure · source and status), lined up across cards by the grid
+    var basis = fig && ({ RE: "Revised Estimate", BE: "Budget Estimate" }[fig.basis] || fig.basis);
+    // title · figure · estimate label only; sources and details stay in the data
     return '<div class="card stat' + (kind ? " " + kind : "") + '">' +
       '<div class="eyebrow">' + esc(title) + "</div>" +
       '<div class="figure">' + (v === null
         ? '<div class="big pending">Pending</div>'
         : '<div class="big" data-count="' + v + '">' + headline(v) + "</div>" +
-          '<div class="exact">' + esc([Math.abs(v) >= 100000 ? cr(v) : "", basis].filter(Boolean).join(" · ")) + "</div>") + "</div>" +
-      '<div class="card-foot">' + (extra ? '<div class="sub">' + extra + "</div>" : "") +
-      (fig ? '<div>' + badge(fig.status) + "</div>" : "") + "</div>" +
+          (basis ? '<div class="exact">' + esc(basis) + "</div>" : "")) + "</div>" +
       "</div>";
   }
 
@@ -135,9 +121,9 @@
 
     app.innerHTML =
       '<section class="grid2 stats">' +
-        statCard("Central govt · scheme allocations", c.schemes_announced, esc(c.schemes_announced.label) + " · " + sourceLink(c.schemes_announced.source), "welfare") +
-        statCard("Central govt · gross tax collected", c.gross_tax, esc(c.gross_tax.label) + " · " + sourceLink(c.gross_tax.source)) +
-        statCard("Central Revenue", c.revenue, c.revenue ? esc(c.revenue.label) + " · " + sourceLink(c.revenue.source) : "") +
+        statCard("Central govt · scheme allocations", c.schemes_announced, "welfare") +
+        statCard("Central govt · gross tax collected", c.gross_tax) +
+        statCard("Central Revenue", c.revenue) +
       "</section>" +
       '<section class="stack"><div class="grid2">' +
         barChart("Where the centre spends", "Top 5 · % of total expenditure", areas, "var(--navy)", function (r) { return r.pct.toFixed(1) + "%"; }) +
@@ -198,11 +184,9 @@
       '<div><a class="back" href="#/">← All states</a></div>' +
       '<div class="section-head"><h1>' + esc(s.name) + "</h1>" + (s.ut ? '<span class="hint">Union Territory</span>' : "") + "</div>" +
       '<section class="grid2 stats">' +
-        statCard("State budget (total expenditure excl. debt repayment)", s.budget,
-          (s.source ? sourceLink(s.source) : "Data for this state is coming soon.") +
-          actualLine("Actually spent", s.budget_actual, s.budget, (s.vs_re || {}).budget), "exp") +
-        statCard("Own tax revenue", s.tax, actualLine("Actually collected", s.tax_actual, s.tax, (s.vs_re || {}).tax)) +
-        statCard("Schemes announced", s.beneficiary_announced, s.beneficiary_announced ? esc(s.beneficiary_announced.label || "") : "", "welfare") +
+        statCard("State budget (total expenditure excl. debt repayment)", s.budget, "exp") +
+        statCard("Own tax revenue", s.tax) +
+        statCard("Schemes announced", s.beneficiary_announced, "welfare") +
       "</section>" +
       '<section class="states">' +
         "<h2>Top 5 yojanas by allocation</h2>" +

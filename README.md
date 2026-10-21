@@ -3,7 +3,7 @@
 A lightweight static site showing central and state beneficiary schemes (yojanas), budgets and tax collections for **FY 2025-26**, with every figure traced to its source.
 
 - **Home:** central scheme allocations (revised estimates), gross tax collected and Central Revenue (revenue receipts, BE), two charts (where the centre spends, top 5 central schemes), and a states table with budget, schemes announced, own tax and State revenue (top 5 by schemes announced, "show all", search; "—" = not yet available). Methodology sits in a "How we calculate" panel in the footer.
-- **State page:** state budget and own tax revenue (each with the CAG provisional actual and % of the revised estimate underneath), schemes announced, and the state's top 5 yojanas by allocation – each with a status badge, its funding type (state / centrally sponsored / central) and department, and a link to its official page. An allocation is shown only once confirmed in an official source.
+- **State page:** summary cards for state budget, own tax revenue and schemes announced (title, figure and estimate label only; sources, CAG actuals and status stay in the data), and the state's top 5 yojanas by allocation – each with a status badge, its funding type (state / centrally sponsored / central) and department, and a link to its official page. An allocation is shown only once confirmed in an official source.
 
 Pilot coverage (schemes, news verification): the centre + Maharashtra, Uttar Pradesh, Tamil Nadu, Karnataka, Rajasthan. Budget, own tax and Schemes announced come from PRS for every state/UT PRS analyses (all but Puducherry); CAG actuals for every state that publishes a March report.
 
