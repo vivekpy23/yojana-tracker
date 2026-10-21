@@ -77,7 +77,8 @@ def build(out: Path = OUT, validation_out: Path | None = VALIDATION) -> dict:
             # Site 'budget' is total expenditure on the standard definition (excl. debt repayment);
             # the seed's original 'budget' (incl. debt repayment, as published) is kept in data/ only.
             "budget": public(st.get("expenditure")), "beneficiary_announced": st.get("beneficiary_announced"),
-            "beneficiary_despatched": despatched, "tax": public(st.get("tax")), "source": st.get("source"),
+            "beneficiary_despatched": despatched, "tax": public(st.get("tax")),
+            "revenue": public(st.get("revenue")), "source": st.get("source"),
             "budget_actual": public(st.get("budget_actual")), "tax_actual": public(st.get("tax_actual")),
             "vs_re": comparisons[st["code"]],
             "schemes": [public_scheme(s) for s in mine],

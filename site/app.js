@@ -17,6 +17,12 @@
   function val(fig) { return fig && typeof fig.value === "number" ? fig.value : null; }
   var DASH = '<span class="dash" aria-label="not yet available">—</span>';
   function cell(fig) { var v = val(fig); return v === null ? DASH : cr(v); }
+  // State revenue: published BE with a link to its source; "N/A" when not published.
+  function revCell(fig) {
+    var v = val(fig);
+    if (v === null) return '<span class="dash">N/A</span>';
+    return cr(v) + (fig.source && fig.source.url ? ' <a href="' + esc(fig.source.url) + '" target="_blank" rel="noopener" title="' + esc(fig.source.title || "Source") + '" aria-label="Source">↗</a>' : "");
+  }
   // Benefits disbursed: "Partial" when only some of a state's schemes have a published figure.
   function disbCell(fig) {
     if (val(fig) === null) return DASH;
@@ -137,7 +143,7 @@
           '<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="color:var(--muted)"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>' +
           '<input id="q" type="search" list="state-list" placeholder="Type a state name" autocomplete="off"></div>' +
           '<datalist id="state-list">' + DATA.states.map(function (s) { return '<option value="' + esc(s.name) + '">'; }).join("") + "</datalist></div>" +
-        '<div class="table-box"><table><thead><tr><th>State</th><th class="num">Budget (RE)</th><th class="num">Schemes announced ▼</th><th class="num">Benefits disbursed</th><th class="num">Own tax (RE)</th></tr></thead><tbody>' +
+        '<div class="table-box"><table><thead><tr><th>State</th><th class="num">Budget (RE)</th><th class="num">Schemes announced ▼</th><th class="num">Benefits disbursed</th><th class="num">Own tax (RE)</th><th class="num">State revenue (BE)</th></tr></thead><tbody>' +
         rows.map(function (s) {
           var has = val(s.beneficiary_announced) !== null;
           return '<tr class="link' + (has ? "" : " dim") + '" data-code="' + s.code + '">' +
@@ -145,7 +151,8 @@
             '<td class="num">' + cell(s.budget) + "</td>" +
             '<td class="num">' + cell(s.beneficiary_announced) + "</td>" +
             '<td class="num">' + disbCell(s.beneficiary_despatched) + "</td>" +
-            '<td class="num">' + cell(s.tax) + "</td></tr>";
+            '<td class="num">' + cell(s.tax) + "</td>" +
+            '<td class="num">' + revCell(s.revenue) + "</td></tr>";
         }).join("") +
         "</tbody></table></div>" +
         '<div class="row-actions"><p class="hint" style="margin:0">— Not yet available. See “How we calculate” below for definitions.</p>' +

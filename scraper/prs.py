@@ -12,17 +12,18 @@ from bs4 import BeautifulSoup
 
 SW_NUTRITION_ROW = "Social Welfare and Nutrition"
 ROWS = ["Total Expenditure", "(-) Repayment of debt", "Net Expenditure (E)",
-        "State's Own Tax", "Share in Central Taxes", SW_NUTRITION_ROW]
+        "State's Own Tax", "Share in Central Taxes", SW_NUTRITION_ROW, "Revenue Receipts"]
 # PRS's "Net Expenditure (E)" = Total Expenditure − Repayment of debt
 #                              = revenue expenditure + capital outlay + loans & advances.
 EXP_STD = "exp_std"                 # revenue expenditure + capital outlay + loans & advances disbursed
 EXP_INCL_DEBT = "exp_incl_debt"     # the above + repayment of debt
 OWN_TAX = "own_tax"                 # state's own tax revenue (excludes share in central taxes)
 SW_NUTRITION = "sw_nutrition"       # 'Social Welfare and Nutrition' sector expenditure
+REV_RECEIPTS = "revenue_receipts"   # total revenue receipts (excludes borrowings and capital receipts)
 
 
 def _n(s: str) -> float | None:
-    s = s.replace(",", "").strip()
+    s = s.replace(",", "").strip().rstrip("*")  # a footnote marker on a printed figure
     return float(s) if re.fullmatch(r"-?\d+(\.\d+)?", s) else None
 
 
@@ -112,6 +113,11 @@ def update_reference(fetcher, seed: dict, fy: str, today: str, cfg: dict | None 
             elif row in rows:                            # missing: take the PRS row as printed
                 st[key] = {"value": rows[row]["RE"], "basis": "RE", "fy": fy, "definition": definition,
                            "status": "secondary", "label": label, "source": src, "source_row": row}
+        rev = rows.get("Revenue Receipts")
+        if rev and not isinstance(st.get("revenue"), dict):  # the BE as printed; never computed
+            st["revenue"] = {"value": rev["BE"], "basis": "BE", "fy": fy, "definition": REV_RECEIPTS,
+                             "status": "secondary", "label": "Total revenue receipts (BE)",
+                             "source": src, "source_row": "Revenue Receipts"}
         net = rows.get("Net Expenditure (E)")
         if net and not any("≠ Net" in p for p in probs):
             st["expenditure"] = {

@@ -140,9 +140,13 @@
           "Share in Central Taxes": {
             "BE": 89856.0,
             "RE": 88057.0
+          },
+          "Revenue Receipts": {
+            "BE": 560964.0,
+            "RE": 601489.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "expenditure": {
         "value": 755920.0,
@@ -240,6 +244,19 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-MAH-March-2026-English-06a054f7898b698-61601599.pdf"
         }
+      },
+      "revenue": {
+        "value": 560964.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Maharashtra Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/maharashtra-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -307,9 +324,13 @@
           "Share in Central Taxes": {
             "BE": 255172.0,
             "RE": 249885.0
+          },
+          "Revenue Receipts": {
+            "BE": 662691.0,
+            "RE": 579842.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "expenditure": {
         "value": 674755.0,
@@ -407,6 +428,19 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-Pre-2026-06a0457c25a92c3-32540965.pdf"
         }
+      },
+      "revenue": {
+        "value": 662691.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Uttar Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/uttar-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -474,9 +508,13 @@
           "Share in Central Taxes": {
             "BE": 58022.0,
             "RE": 56819.0
+          },
+          "Revenue Receipts": {
+            "BE": 331569.0,
+            "RE": 309698.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "expenditure": {
         "value": 435470.0,
@@ -574,6 +612,19 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-March-S-2026-06a4742978edaa9-60878946.pdf"
         }
+      },
+      "revenue": {
+        "value": 331569.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Tamil Nadu Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/tamil-nadu-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -641,9 +692,13 @@
           "Share in Central Taxes": {
             "BE": 51877.0,
             "RE": 50802.0
+          },
+          "Revenue Receipts": {
+            "BE": 292477.0,
+            "RE": 277402.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "expenditure": {
         "value": 368833.0,
@@ -741,6 +796,19 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-for-MARCH-S-1-2026-06a3cc35179dbd7-36040846.pdf"
         }
+      },
+      "revenue": {
+        "value": 292477.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Karnataka Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/karnataka-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -808,9 +876,13 @@
           "Share in Central Taxes": {
             "BE": 85716.0,
             "RE": 83940.0
+          },
+          "Revenue Receipts": {
+            "BE": 294535.0,
+            "RE": 285533.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "expenditure": {
         "value": 359472.0,
@@ -908,6 +980,19 @@
           ],
           "source_url": "https://d7i5wg8xwe4hf.cloudfront.net/uploads/state_accounts_report/account-report-MKI-13-06a5dade0212ba6-15147954.pdf"
         }
+      },
+      "revenue": {
+        "value": 294535.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Rajasthan Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/rajasthan-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -1034,9 +1119,13 @@
           "Share in Central Taxes": {
             "BE": 57566.0,
             "RE": 56741.0
+          },
+          "Revenue Receipts": {
+            "BE": 217977.0,
+            "RE": 196904.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 300535.0,
@@ -1090,6 +1179,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 217977.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Andhra Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -1212,9 +1314,13 @@
           "Share in Central Taxes": {
             "BE": 24992.0,
             "RE": 24475.0
+          },
+          "Revenue Receipts": {
+            "BE": 34544.0,
+            "RE": 34125.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 39442.0,
@@ -1255,6 +1361,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 34544.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Arunachal Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/arunachal-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -1298,9 +1417,13 @@
           "Share in Central Taxes": {
             "BE": 44494.0,
             "RE": 43572.0
+          },
+          "Revenue Receipts": {
+            "BE": 117226.0,
+            "RE": 118211.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 200782.0,
@@ -1354,6 +1477,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 117226.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Assam Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/assam-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -1480,9 +1616,13 @@
           "Share in Central Taxes": {
             "BE": 138516.0,
             "RE": 143069.0
+          },
+          "Revenue Receipts": {
+            "BE": 260831.0,
+            "RE": 265568.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 423284.0,
@@ -1536,6 +1676,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 260831.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Bihar Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/bihar-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -1662,9 +1815,13 @@
           "Share in Central Taxes": {
             "BE": 50000.0,
             "RE": 48000.0
+          },
+          "Revenue Receipts": {
+            "BE": 141000.0,
+            "RE": 129500.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 167337.0,
@@ -1718,6 +1875,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 141000.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Chhattisgarh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/chhattisgarh-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -1761,9 +1931,13 @@
           "Share in Central Taxes": {
             "BE": 5491.0,
             "RE": 5412.0
+          },
+          "Revenue Receipts": {
+            "BE": 22718.0,
+            "RE": 22276.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 29275.0,
@@ -1817,6 +1991,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 22718.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Goa Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/goa-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -1943,9 +2130,13 @@
           "Share in Central Taxes": {
             "BE": 49401.0,
             "RE": 48386.0
+          },
+          "Revenue Receipts": {
+            "BE": 251553.0,
+            "RE": 252709.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 352538.0,
@@ -1999,6 +2190,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 251553.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Gujarat Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -2125,9 +2329,13 @@
           "Share in Central Taxes": {
             "BE": 15547.0,
             "RE": 15225.0
+          },
+          "Revenue Receipts": {
+            "BE": 127817.0,
+            "RE": 127507.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 237817.0,
@@ -2181,6 +2389,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 127817.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Haryana Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/haryana-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -2307,9 +2528,13 @@
           "Share in Central Taxes": {
             "BE": 11806.0,
             "RE": 11562.0
+          },
+          "Revenue Receipts": {
+            "BE": 42343.0,
+            "RE": 44537.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 96661.0,
@@ -2363,6 +2588,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 42343.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Himachal Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -2489,9 +2727,13 @@
           "Share in Central Taxes": {
             "BE": 47041.0,
             "RE": 46066.0
+          },
+          "Revenue Receipts": {
+            "BE": 125153.0,
+            "RE": 124932.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 150275.0,
@@ -2545,6 +2787,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 125153.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Jharkhand Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -2588,9 +2843,13 @@
           "Share in Central Taxes": {
             "BE": 28617.0,
             "RE": 27382.0
+          },
+          "Revenue Receipts": {
+            "BE": 152352.0,
+            "RE": 137083.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 312907.0,
@@ -2644,6 +2903,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 152352.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Kerala Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/kerala-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -2770,9 +3042,13 @@
           "Share in Central Taxes": {
             "BE": 111662.0,
             "RE": 109351.0
+          },
+          "Revenue Receipts": {
+            "BE": 290879.0,
+            "RE": 279234.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 379839.0,
@@ -2826,6 +3102,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 290879.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Madhya Pradesh Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -2952,9 +3241,13 @@
           "Share in Central Taxes": {
             "BE": 10185.0,
             "RE": 10039.0
+          },
+          "Revenue Receipts": {
+            "BE": 21439.0,
+            "RE": 22835.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 32463.0,
@@ -3008,6 +3301,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 21439.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Manipur Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/manipur-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -3051,9 +3357,13 @@
           "Share in Central Taxes": {
             "BE": 10910.0,
             "RE": 10684.0
+          },
+          "Revenue Receipts": {
+            "BE": 25591.0,
+            "RE": 25365.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 30003.0,
@@ -3107,6 +3417,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 25591.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Meghalaya Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/meghalaya-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -3150,9 +3473,13 @@
           "Share in Central Taxes": {
             "BE": 7112.0,
             "RE": 6965.0
+          },
+          "Revenue Receipts": {
+            "BE": 12948.0,
+            "RE": 13697.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 17127.0,
@@ -3206,6 +3533,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 12948.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Mizoram Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/mizoram-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -3332,9 +3672,13 @@
           "Share in Central Taxes": {
             "BE": 8094.0,
             "RE": 7926.0
+          },
+          "Revenue Receipts": {
+            "BE": 18744.0,
+            "RE": 17017.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 27728.0,
@@ -3388,6 +3732,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 18744.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Nagaland Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/nagaland-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -3514,9 +3871,13 @@
           "Share in Central Taxes": {
             "BE": 64408.0,
             "RE": 63074.0
+          },
+          "Revenue Receipts": {
+            "BE": 232000.0,
+            "RE": 231000.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 290000.0,
@@ -3570,6 +3931,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 232000.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Odisha Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/odisha-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -3696,9 +4070,13 @@
           "Share in Central Taxes": {
             "BE": 25704.0,
             "RE": 25171.0
+          },
+          "Revenue Receipts": {
+            "BE": 111740.0,
+            "RE": 116516.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 253601.0,
@@ -3752,6 +4130,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 111740.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Punjab Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/punjab-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -3795,9 +4186,13 @@
           "Share in Central Taxes": {
             "BE": 5519.0,
             "RE": 5405.0
+          },
+          "Revenue Receipts": {
+            "BE": 12231.0,
+            "RE": 10332.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 14396.0,
@@ -3851,6 +4246,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 12231.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Sikkim Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/sikkim-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -3973,9 +4381,13 @@
           "Share in Central Taxes": {
             "BE": 29900.0,
             "RE": 29471.0
+          },
+          "Revenue Receipts": {
+            "BE": 229721.0,
+            "RE": 203971.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 281339.0,
@@ -4029,6 +4441,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 229721.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Telangana Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/telangana-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -4108,9 +4533,13 @@
           "Share in Central Taxes": {
             "BE": 11153.0,
             "RE": 11153.0
+          },
+          "Revenue Receipts": {
+            "BE": 26416.0,
+            "RE": 24700.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 32995.0,
@@ -4164,6 +4593,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 26416.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Tripura Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/tripura-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -4207,9 +4649,13 @@
           "Share in Central Taxes": {
             "BE": 15903.0,
             "RE": 15573.0
+          },
+          "Revenue Receipts": {
+            "BE": 62541.0,
+            "RE": 62639.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 101611.0,
@@ -4263,6 +4709,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 62541.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Uttarakhand Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/uttarakhand-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -4389,9 +4848,13 @@
           "Share in Central Taxes": {
             "BE": 106999.0,
             "RE": 107266.0
+          },
+          "Revenue Receipts": {
+            "BE": 266060.0,
+            "RE": 244867.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 356692.0,
@@ -4445,6 +4908,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 266060.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – West Bengal Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/west-bengal-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -4485,9 +4961,13 @@
           "State's Own Tax": {
             "BE": 68700.0,
             "RE": 65700.0
+          },
+          "Revenue Receipts": {
+            "BE": 81546.0,
+            "RE": 71845.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 99310.0,
@@ -4541,6 +5021,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 81546.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Delhi Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/delhi-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
@@ -4660,9 +5153,13 @@
           "State's Own Tax": {
             "BE": 21550.0,
             "RE": 20590.0
+          },
+          "Revenue Receipts": {
+            "BE": 97982.0,
+            "RE": 88830.0
           }
         },
-        "checked_on": "2026-10-18"
+        "checked_on": "2026-10-21"
       },
       "budget": {
         "value": 111376.0,
@@ -4703,6 +5200,19 @@
         },
         "source_row": "Net Expenditure (E)",
         "published_formula": "Total Expenditure − Repayment of debt (as printed by PRS)"
+      },
+      "revenue": {
+        "value": 97982.0,
+        "basis": "BE",
+        "fy": "2025-26",
+        "definition": "revenue_receipts",
+        "status": "secondary",
+        "label": "Total revenue receipts (BE)",
+        "source": {
+          "title": "PRS – Jammu & Kashmir Budget Analysis 2026-27",
+          "url": "https://prsindia.org/budgets/states/jammu-and-kashmir-budget-analysis-2026-27"
+        },
+        "source_row": "Revenue Receipts"
       }
     },
     {
