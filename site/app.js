@@ -20,8 +20,9 @@
   // State revenue: published BE with a link to its source; "N/A" when not published.
   function revCell(fig) {
     var v = val(fig);
-    if (v === null) return '<span class="dash">N/A</span>';
-    return cr(v) + (fig.source && fig.source.url ? ' <a href="' + esc(fig.source.url) + '" target="_blank" rel="noopener" title="' + esc(fig.source.title || "Source") + '" aria-label="Source">↗</a>' : "");
+    // the ↗ sits in a fixed-width slot (empty for N/A) so the figures stay right-aligned
+    if (v === null) return '<span class="dash">N/A</span><span class="src-ico"></span>';
+    return cr(v) + '<span class="src-ico">' + (fig.source && fig.source.url ? '<a href="' + esc(fig.source.url) + '" target="_blank" rel="noopener" title="' + esc(fig.source.title || "Source") + '" aria-label="Source">↗</a>' : "") + "</span>";
   }
   function disbScheme(sc) {
     if (sc.despatched == null) return DASH;
@@ -47,8 +48,18 @@
     var meta = [FUNDING[sc.funding], sc.department].filter(Boolean).join(" · ");
     return name + (meta ? '<div class="hint">' + esc(meta) + "</div>" : "") + (sc.note ? '<div class="hint">' + esc(sc.note) + "</div>" : "");
   }
-  function sourceLink(src) {
-    return src && src.url ? '<a href="' + esc(src.url) + '" target="_blank" rel="noopener">' + esc(src.title || "Source") + "</a>" : "";
+  // Compact source link: a short publisher name ("PRS ↗"), the full document title on hover.
+  var PUBLISHERS = [[/prsindia\.org$/, "PRS"], [/indiabudget\.gov\.in$/, "Union Budget"], [/cag\.gov\.in$|cloudfront\.net$/, "CAG"],
+    [/myscheme\.gov\.in$/, "myScheme"], [/pib\.gov\.in$/, "PIB"]];
+  function publisher(url) {
+    var host = "";
+    try { host = new URL(url).hostname.replace(/^www\./, ""); } catch (e) { return "Source"; }
+    var hit = PUBLISHERS.find(function (p) { return p[0].test(host); });
+    return hit ? hit[1] : host;
+  }
+  function sourceLink(src, label) {
+    return src && src.url ? '<a class="src" href="' + esc(src.url) + '" target="_blank" rel="noopener" title="' + esc(src.title || "Source") + '">' +
+      esc(label || publisher(src.url)) + '<span aria-hidden="true"> ↗</span></a>' : "";
   }
 
   // CAG provisional actual under an estimate: "Actually spent: ₹ X Cr, provisional, CAG · 81.3% of revised estimate".
@@ -86,14 +97,15 @@
   function statCard(title, fig, extra, kind) {
     var v = val(fig);
     var basis = fig && ({ RE: "Revised estimate", BE: "Budget estimate" }[fig.basis] || fig.basis);
+    // three rows (title · figure · source and status), lined up across cards by the grid
     return '<div class="card stat' + (kind ? " " + kind : "") + '">' +
       '<div class="eyebrow">' + esc(title) + "</div>" +
-      (v === null
-        ? '<div class="big pending" style="font-size:24px">Pending</div>'
+      '<div class="figure">' + (v === null
+        ? '<div class="big pending">Pending</div>'
         : '<div class="big" data-count="' + v + '">' + headline(v) + "</div>" +
-          '<div class="exact">' + esc([Math.abs(v) >= 100000 ? cr(v) : "", basis].filter(Boolean).join(" · ")) + "</div>") +
-      (extra ? '<div class="sub">' + extra + "</div>" : "") +
-      (fig ? '<div>' + badge(fig.status) + "</div>" : "") +
+          '<div class="exact">' + esc([Math.abs(v) >= 100000 ? cr(v) : "", basis].filter(Boolean).join(" · ")) + "</div>") + "</div>" +
+      '<div class="card-foot">' + (extra ? '<div class="sub">' + extra + "</div>" : "") +
+      (fig ? '<div>' + badge(fig.status) + "</div>" : "") + "</div>" +
       "</div>";
   }
 
@@ -122,7 +134,7 @@
     var rows = showAll ? ranked : ranked.slice(0, 5);
 
     app.innerHTML =
-      '<section class="grid2">' +
+      '<section class="grid2 stats">' +
         statCard("Central govt · scheme allocations", c.schemes_announced, esc(c.schemes_announced.label) + " · " + sourceLink(c.schemes_announced.source), "welfare") +
         statCard("Central govt · gross tax collected", c.gross_tax, esc(c.gross_tax.label) + " · " + sourceLink(c.gross_tax.source)) +
         statCard("Central Revenue", c.revenue, c.revenue ? esc(c.revenue.label) + " · " + sourceLink(c.revenue.source) : "") +
@@ -185,7 +197,7 @@
     app.innerHTML =
       '<div><a class="back" href="#/">← All states</a></div>' +
       '<div class="section-head"><h1>' + esc(s.name) + "</h1>" + (s.ut ? '<span class="hint">Union Territory</span>' : "") + "</div>" +
-      '<section class="grid2">' +
+      '<section class="grid2 stats">' +
         statCard("State budget (total expenditure excl. debt repayment)", s.budget,
           (s.source ? sourceLink(s.source) : "Data for this state is coming soon.") +
           actualLine("Actually spent", s.budget_actual, s.budget, (s.vs_re || {}).budget), "exp") +
@@ -195,14 +207,19 @@
       '<section class="states">' +
         "<h2>Top 5 yojanas by allocation</h2>" +
         (top.length
-          ? '<div class="table-box"><table><thead><tr><th>#</th><th>Yojana</th><th class="num">Allocation ▼</th><th class="num">Disbursed</th><th>Status</th></tr></thead><tbody>' +
+          ? '<div class="table-box"><table class="yojanas"><thead><tr><th>#</th><th>Yojana</th><th class="num">Allocation ▼</th><th class="num">Disbursed</th><th>Status</th></tr></thead><tbody>' +
             top.map(function (sc, i) {
               return "<tr><td class=\"rank\">" + (i + 1) + "</td><td>" + schemeCell(sc) + "</td>" +
                 '<td class="num">' + (sc.announced == null ? DASH : cr(sc.announced)) + '</td><td class="num">' + disbScheme(sc) +
                 "</td><td>" + badge(sc.status) + "</td></tr>";
             }).join("") + '</tbody></table></div><p class="hint" style="margin:0">— Not yet available. Amounts appear only once confirmed in an official source.</p>'
           : '<div class="table-box"><p class="empty">No schemes collected for ' + esc(s.name) + " yet. The daily run will add them as they are found and verified.</p></div>") +
-        (sources.length ? '<ul class="notes">' + sources.map(function (x) { return "<li>" + ({ govt: "Govt: ", prs: "PRS: " }[x.kind] || "News: ") + sourceLink(x) + "</li>"; }).join("") + "</ul>" : "") +
+        (sources.length ? '<p class="hint src-list">Sources: ' + sources.map(function (x, i) {
+          // a publisher named twice gets a number, so each link stays distinguishable
+          var name = publisher(x.url), n = sources.slice(0, i).filter(function (y) { return publisher(y.url) === name; }).length;
+          var kind = ({ govt: "Govt", prs: "", news: "News" }[x.kind]);
+          return sourceLink(x, (kind ? kind + " · " : "") + name + (n ? " " + (n + 1) : ""));
+        }).join(" · ") + "</p>" : "") +
       "</section>";
     window.scrollTo(0, 0);
     animate();
