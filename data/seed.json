@@ -72,6 +72,19 @@
     "charts_source": {
       "title": "PRS – Analysis of Expenditure, Union Budget 2026-27 (Tables 4–6)",
       "url": "https://prsindia.org/files/budget/budget_parliament/2026/Analysis_of_Expenditure_2026-27.pdf"
+    },
+    "revenue": {
+      "value": 3420409,
+      "basis": "BE",
+      "fy": "2025-26",
+      "definition": "revenue_receipts",
+      "status": "verified",
+      "label": "Revenue receipts, FY 2025-26 Budget Estimates (excl. borrowings and capital receipts)",
+      "source": {
+        "title": "Union Budget 2025-26 – Budget at a Glance (indiabudget.gov.in)",
+        "url": "https://www.indiabudget.gov.in/budget2025-26/doc/Budget_at_Glance/bag1.pdf"
+      },
+      "source_row": "1. Revenue Receipts (Budget 2025-2026), p. 3, ₹ crore"
     }
   },
   "states": [
@@ -251,7 +264,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Maharashtra Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/maharashtra-budget-analysis-2026-27"
@@ -435,7 +448,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Uttar Pradesh Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/uttar-pradesh-budget-analysis-2026-27"
@@ -619,7 +632,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Tamil Nadu Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/tamil-nadu-budget-analysis-2026-27"
@@ -803,7 +816,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Karnataka Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/karnataka-budget-analysis-2026-27"
@@ -987,7 +1000,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Rajasthan Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/rajasthan-budget-analysis-2026-27"
@@ -1186,7 +1199,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Andhra Pradesh Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/andhra-pradesh-budget-analysis-2026-27"
@@ -1368,7 +1381,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Arunachal Pradesh Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/arunachal-pradesh-budget-analysis-2026-27"
@@ -1484,7 +1497,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Assam Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/assam-budget-analysis-2026-27"
@@ -1683,7 +1696,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Bihar Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/bihar-budget-analysis-2026-27"
@@ -1882,7 +1895,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Chhattisgarh Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/chhattisgarh-budget-analysis-2026-27"
@@ -1998,7 +2011,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Goa Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/goa-budget-analysis-2026-27"
@@ -2197,7 +2210,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Gujarat Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/gujarat-budget-analysis-2026-27"
@@ -2396,7 +2409,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Haryana Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/haryana-budget-analysis-2026-27"
@@ -2595,7 +2608,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Himachal Pradesh Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/himachal-pradesh-budget-analysis-2026-27"
@@ -2794,7 +2807,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Jharkhand Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/jharkhand-budget-analysis-2026-27"
@@ -2910,7 +2923,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Kerala Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/kerala-budget-analysis-2026-27"
@@ -3109,7 +3122,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Madhya Pradesh Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/madhya-pradesh-budget-analysis-2026-27"
@@ -3308,7 +3321,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Manipur Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/manipur-budget-analysis-2026-27"
@@ -3424,7 +3437,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Meghalaya Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/meghalaya-budget-analysis-2026-27"
@@ -3540,7 +3553,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Mizoram Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/mizoram-budget-analysis-2026-27"
@@ -3739,7 +3752,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Nagaland Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/nagaland-budget-analysis-2026-27"
@@ -3938,7 +3951,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Odisha Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/odisha-budget-analysis-2026-27"
@@ -4137,7 +4150,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Punjab Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/punjab-budget-analysis-2026-27"
@@ -4253,7 +4266,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Sikkim Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/sikkim-budget-analysis-2026-27"
@@ -4448,7 +4461,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Telangana Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/telangana-budget-analysis-2026-27"
@@ -4600,7 +4613,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Tripura Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/tripura-budget-analysis-2026-27"
@@ -4716,7 +4729,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Uttarakhand Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/uttarakhand-budget-analysis-2026-27"
@@ -4915,7 +4928,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – West Bengal Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/west-bengal-budget-analysis-2026-27"
@@ -5028,7 +5041,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Delhi Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/delhi-budget-analysis-2026-27"
@@ -5207,7 +5220,7 @@
         "fy": "2025-26",
         "definition": "revenue_receipts",
         "status": "secondary",
-        "label": "Total revenue receipts (BE)",
+        "label": "Revenue receipts, FY 2025-26 Budget Estimates",
         "source": {
           "title": "PRS – Jammu & Kashmir Budget Analysis 2026-27",
           "url": "https://prsindia.org/budgets/states/jammu-and-kashmir-budget-analysis-2026-27"

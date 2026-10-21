@@ -23,12 +23,6 @@
     if (v === null) return '<span class="dash">N/A</span>';
     return cr(v) + (fig.source && fig.source.url ? ' <a href="' + esc(fig.source.url) + '" target="_blank" rel="noopener" title="' + esc(fig.source.title || "Source") + '" aria-label="Source">↗</a>' : "");
   }
-  // Benefits disbursed: "Partial" when only some of a state's schemes have a published figure.
-  function disbCell(fig) {
-    if (val(fig) === null) return DASH;
-    var partial = fig.coverage === "partial";
-    return cr(fig.value) + (partial ? ' <span class="tag" title="' + esc(fig.label || "Not all schemes covered") + '">Partial</span>' : "");
-  }
   function disbScheme(sc) {
     if (sc.despatched == null) return DASH;
     var src = sc.despatched_source || {};
@@ -91,7 +85,7 @@
   // kind: "exp" (navy), "welfare" (teal) or omitted (neutral)
   function statCard(title, fig, extra, kind) {
     var v = val(fig);
-    var basis = fig && (fig.basis === "RE" ? "Revised estimate" : fig.basis);
+    var basis = fig && ({ RE: "Revised estimate", BE: "Budget estimate" }[fig.basis] || fig.basis);
     return '<div class="card stat' + (kind ? " " + kind : "") + '">' +
       '<div class="eyebrow">' + esc(title) + "</div>" +
       (v === null
@@ -131,6 +125,7 @@
       '<section class="grid2">' +
         statCard("Central govt · scheme allocations", c.schemes_announced, esc(c.schemes_announced.label) + " · " + sourceLink(c.schemes_announced.source), "welfare") +
         statCard("Central govt · gross tax collected", c.gross_tax, esc(c.gross_tax.label) + " · " + sourceLink(c.gross_tax.source)) +
+        statCard("Central Revenue", c.revenue, c.revenue ? esc(c.revenue.label) + " · " + sourceLink(c.revenue.source) : "") +
       "</section>" +
       '<section class="stack"><div class="grid2">' +
         barChart("Where the centre spends", "Top 5 · % of total expenditure", areas, "var(--navy)", function (r) { return r.pct.toFixed(1) + "%"; }) +
@@ -143,14 +138,13 @@
           '<svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="color:var(--muted)"><circle cx="11" cy="11" r="7"/><line x1="16.5" y1="16.5" x2="21" y2="21"/></svg>' +
           '<input id="q" type="search" list="state-list" placeholder="Type a state name" autocomplete="off"></div>' +
           '<datalist id="state-list">' + DATA.states.map(function (s) { return '<option value="' + esc(s.name) + '">'; }).join("") + "</datalist></div>" +
-        '<div class="table-box"><table><thead><tr><th>State</th><th class="num">Budget (RE)</th><th class="num">Schemes announced ▼</th><th class="num">Benefits disbursed</th><th class="num">Own tax (RE)</th><th class="num">State revenue (BE)</th></tr></thead><tbody>' +
+        '<div class="table-box"><table><thead><tr><th>State</th><th class="num">Budget (RE)</th><th class="num">Schemes announced ▼</th><th class="num">Own tax (RE)</th><th class="num">State revenue (BE 2025-26)</th></tr></thead><tbody>' +
         rows.map(function (s) {
           var has = val(s.beneficiary_announced) !== null;
           return '<tr class="link' + (has ? "" : " dim") + '" data-code="' + s.code + '">' +
             '<td><a class="state-link" href="#/state/' + s.code + '">' + esc(s.name) + "</a>" + (s.ut ? ' <span class="hint">UT</span>' : "") + "</td>" +
             '<td class="num">' + cell(s.budget) + "</td>" +
             '<td class="num">' + cell(s.beneficiary_announced) + "</td>" +
-            '<td class="num">' + disbCell(s.beneficiary_despatched) + "</td>" +
             '<td class="num">' + cell(s.tax) + "</td>" +
             '<td class="num">' + revCell(s.revenue) + "</td></tr>";
         }).join("") +

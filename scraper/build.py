@@ -22,23 +22,6 @@ def public(fig: dict | None) -> dict | None:
     return out
 
 
-def disbursed(st: dict, counted: list[dict]) -> dict | None:
-    """Benefits disbursed for a state: a sourced state-level figure, else the sum of schemes with a
-    sourced disbursement ('partial' when only some counted schemes have one), else None ("—").
-    Never derived from budget allocations."""
-    fig = st.get("beneficiary_despatched")
-    if validate.disbursement_ok(fig):
-        return {**public(fig), "coverage": fig.get("coverage", "complete"),
-                "period": fig["period"], "as_of": fig["as_of"]}
-    have = [s for s in counted if s.get("despatched") is not None and validate.disbursement_ok(s.get("despatched_source"))]
-    if not have:
-        return None
-    return {"value": sum(s["despatched"] for s in have), "basis": "actuals", "status": "verified",
-            "coverage": "complete" if len(have) == len(counted) else "partial",
-            "schemes_covered": len(have), "schemes_counted": len(counted),
-            "label": f"Sum of {len(have)} of {len(counted)} schemes with a published disbursement figure"}
-
-
 OFFICIAL = ("verified", "secondary")
 
 
@@ -68,16 +51,13 @@ def build(out: Path = OUT, validation_out: Path | None = VALIDATION) -> dict:
         mine = sorted((s for s in fy_schemes if s["state"] == st["code"]),
                       key=lambda s: (s["status"] in OFFICIAL, (s.get("announced") or 0) if s["status"] in OFFICIAL else 0),
                       reverse=True)
-        # Reported schemes are listed but never counted in totals.
-        counted = [s for s in mine if s["status"] in OFFICIAL]
-        despatched = disbursed(st, counted)
         states.append({
             "code": st["code"], "name": st["name"], "ut": st.get("ut", False),
             "pilot": st.get("pilot", False),
             # Site 'budget' is total expenditure on the standard definition (excl. debt repayment);
             # the seed's original 'budget' (incl. debt repayment, as published) is kept in data/ only.
             "budget": public(st.get("expenditure")), "beneficiary_announced": st.get("beneficiary_announced"),
-            "beneficiary_despatched": despatched, "tax": public(st.get("tax")),
+            "tax": public(st.get("tax")),
             "revenue": public(st.get("revenue")), "source": st.get("source"),
             "budget_actual": public(st.get("budget_actual")), "tax_actual": public(st.get("tax_actual")),
             "vs_re": comparisons[st["code"]],

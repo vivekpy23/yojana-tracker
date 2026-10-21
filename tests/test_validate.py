@@ -189,26 +189,6 @@ def test_budget_allocation_is_never_a_disbursement():
     assert validate.disbursement_ok({**fig, "basis": "actuals"})
 
 
-def test_disbursed_complete_partial_and_none():
-    from scraper import build
-    two = [scheme("A", 40), scheme("B", 10)]
-    assert build.disbursed({}, two)["coverage"] == "complete" and build.disbursed({}, two)["value"] == 50
-    part = build.disbursed({}, [scheme("A", 40), scheme("B")])
-    assert part["coverage"] == "partial" and part["value"] == 40 and part["schemes_covered"] == 1
-    assert build.disbursed({}, [scheme("A"), scheme("B")]) is None                       # shown as "—"
-    assert build.disbursed({}, [scheme("A", 40, source={**SRC, "as_of": None})]) is None  # no date: ignored
-
-
-def test_state_level_disbursement_figure_keeps_provenance():
-    from scraper import build
-    st = {"beneficiary_despatched": {"value": 900, "basis": "actuals", "status": "verified",
-                                     "source": {"url": SRC["url"], "title": "t"}, "period": SRC["period"],
-                                     "as_of": SRC["as_of"], "coverage": "partial"}}
-    out = build.disbursed(st, [])
-    assert out["value"] == 900 and out["coverage"] == "partial"
-    assert out["source"]["url"] == SRC["url"] and out["period"] == SRC["period"] and out["as_of"] == SRC["as_of"]
-
-
 def test_unsourced_disbursements_are_reported():
     issues = []
     validate.check_disbursements([{"code": "MH", "beneficiary_despatched": {"value": 5, "basis": "actuals"}}],

@@ -2,7 +2,7 @@
 
 A lightweight static site showing central and state beneficiary schemes (yojanas), budgets and tax collections for **FY 2025-26**, with every figure traced to its source.
 
-- **Home:** central scheme allocations (revised estimates) and gross tax collected, two charts (where the centre spends, top 5 central schemes), and a states table (top 5 by schemes announced, "show all", search; "—" = not yet available). Methodology sits in a "How we calculate" panel in the footer.
+- **Home:** central scheme allocations (revised estimates), gross tax collected and Central Revenue (revenue receipts, BE), two charts (where the centre spends, top 5 central schemes), and a states table with budget, schemes announced, own tax and State revenue (top 5 by schemes announced, "show all", search; "—" = not yet available). Methodology sits in a "How we calculate" panel in the footer.
 - **State page:** state budget and own tax revenue (each with the CAG provisional actual and % of the revised estimate underneath), schemes announced, and the state's top 5 yojanas by allocation – each with a status badge, its funding type (state / centrally sponsored / central) and department, and a link to its official page. An allocation is shown only once confirmed in an official source.
 
 Pilot coverage (schemes, news verification): the centre + Maharashtra, Uttar Pradesh, Tamil Nadu, Karnataka, Rajasthan. Budget, own tax and Schemes announced come from PRS for every state/UT PRS analyses (all but Puducherry); CAG actuals for every state that publishes a March report.
@@ -41,6 +41,7 @@ Status badges on the site:
 
 | Figure | Source | Notes |
 |---|---|---|
+| Central Revenue and State revenue: **Revenue Receipts, FY 2025-26 BE**, as published (excl. borrowings and capital receipts) | Centre: Union Budget at a Glance 2025-26, [bag1.pdf](https://www.indiabudget.gov.in/budget2025-26/doc/Budget_at_Glance/bag1.pdf) p. 3. States: PRS "Revenue Receipts" row, 2025-26 Budgeted column | `seed.json → central.revenue` / `states[].revenue`. The Centre's figure is net of states' share of central taxes; a state's includes it. Puducherry: N/A (no PRS analysis, and its budget speech prints no total) |
 | Central schemes, gross tax, charts | PRS analysis of the Union Budget; confirmed against indiabudget.gov.in | `data/seed.json → central` |
 | State budget, own tax revenue, Social Welfare & Nutrition (RE 2025-26) | PRS state budget analyses of 2026-27 – every state/UT PRS covers (30 of 31; not Puducherry) | Badge "Budget docs (via PRS)". `scraper/prs.py` reads PRS's key-figure, receipts and sector tables each run and stores the BE/RE rows as printed under `prs_table`. The five pilot states' hand-entered figures are kept and checked against these rows; for the other states the figures are created from them. A row PRS doesn't print stays empty (Arunachal Pradesh and J&K have no Social Welfare & Nutrition row) |
 | **Actual spending and own tax collected (2025-26)** | **CAG, state accounts → Monthly Key Indicators**, March 2026 report ([cag.gov.in](https://cag.gov.in/en/state-accounts-report)) | `scraper/cag.py`; stored as `budget_actual` / `tax_actual`, basis "provisional actuals" |

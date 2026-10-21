@@ -116,7 +116,7 @@ def update_reference(fetcher, seed: dict, fy: str, today: str, cfg: dict | None 
         rev = rows.get("Revenue Receipts")
         if rev and not isinstance(st.get("revenue"), dict):  # the BE as printed; never computed
             st["revenue"] = {"value": rev["BE"], "basis": "BE", "fy": fy, "definition": REV_RECEIPTS,
-                             "status": "secondary", "label": "Total revenue receipts (BE)",
+                             "status": "secondary", "label": f"Revenue receipts, FY {fy} Budget Estimates",
                              "source": src, "source_row": "Revenue Receipts"}
         net = rows.get("Net Expenditure (E)")
         if net and not any("≠ Net" in p for p in probs):
