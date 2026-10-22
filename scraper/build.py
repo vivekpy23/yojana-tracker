@@ -35,8 +35,20 @@ def public_scheme(s: dict) -> dict:
     out["description"] = desc if len(desc) <= 280 else desc[:277].rsplit(" ", 1)[0] + "…"
     # a disbursement without source, period and date is not shown
     out["despatched"] = s.get("despatched") if validate.disbursement_ok(s.get("despatched_source")) else None
-    out["despatched_source"] = s.get("despatched_source")
+    out["despatched_source"] = s.get("despatched_source") if out["despatched"] is not None else None
+    # A scheme found only in the news is "awaiting verification" – unless an official source confirms what it has
+    # disbursed (the allocation column still shows "—" until an allocation is confirmed).
+    if out["status"] == "reported" and out["despatched"] is not None:
+        out["status"] = "verified"
     return out
+
+
+def _rank(s: dict) -> tuple:
+    """Officially confirmed allocations first (largest first), then confirmed disbursements, then the rest."""
+    official = s["status"] in OFFICIAL and s.get("announced") is not None
+    shown_disb = s.get("despatched") if validate.disbursement_ok(s.get("despatched_source")) else None
+    return (official, s.get("announced") or 0 if official else 0, shown_disb is not None, shown_disb or 0,
+            s["status"] in OFFICIAL)
 
 
 def build(out: Path = OUT, validation_out: Path | None = VALIDATION) -> dict:
@@ -52,9 +64,7 @@ def build(out: Path = OUT, validation_out: Path | None = VALIDATION) -> dict:
         # The site lists welfare schemes; infrastructure projects, policy announcements and unnamed
         # announcements stay in data/schemes.json.
         mine = sorted((s for s in fy_schemes if s["state"] == st["code"] and s.get("category", WELFARE) == WELFARE
-                       and s.get("kind", "scheme") == "scheme"),
-                      key=lambda s: (s["status"] in OFFICIAL, (s.get("announced") or 0) if s["status"] in OFFICIAL else 0),
-                      reverse=True)
+                       and s.get("kind", "scheme") == "scheme"), key=_rank, reverse=True)
         states.append({
             "code": st["code"], "name": st["name"], "ut": st.get("ut", False),
             "pilot": st.get("pilot", False),

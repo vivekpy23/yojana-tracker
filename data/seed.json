@@ -159,7 +159,7 @@
             "RE": 601489.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "expenditure": {
         "value": 755920.0,
@@ -187,7 +187,7 @@
         },
         "report": "March, 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=79",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -234,7 +234,7 @@
         },
         "report": "March, 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=79",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -343,7 +343,7 @@
             "RE": 579842.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "expenditure": {
         "value": 674755.0,
@@ -371,7 +371,7 @@
         },
         "report": "March(Pre), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=90",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -418,7 +418,7 @@
         },
         "report": "March(Pre), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=90",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -527,7 +527,7 @@
             "RE": 309698.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "expenditure": {
         "value": 435470.0,
@@ -555,7 +555,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=88",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -602,7 +602,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=88",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -711,7 +711,7 @@
             "RE": 277402.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "expenditure": {
         "value": 368833.0,
@@ -739,7 +739,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=76",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -786,7 +786,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=76",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -895,7 +895,7 @@
             "RE": 285533.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "expenditure": {
         "value": 359472.0,
@@ -923,7 +923,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=86",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -970,7 +970,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=86",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -1023,7 +1023,7 @@
         },
         "report": "March, 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=64",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -1070,7 +1070,7 @@
         },
         "report": "March, 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=64",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -1138,7 +1138,7 @@
             "RE": 196904.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 300535.0,
@@ -1222,7 +1222,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=65",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -1269,7 +1269,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=65",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -1333,7 +1333,7 @@
             "RE": 34125.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 39442.0,
@@ -1436,7 +1436,7 @@
             "RE": 118211.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 200782.0,
@@ -1520,7 +1520,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=67",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -1567,7 +1567,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=67",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -1635,7 +1635,7 @@
             "RE": 265568.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 423284.0,
@@ -1719,7 +1719,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=68",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -1766,7 +1766,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=68",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -1834,7 +1834,7 @@
             "RE": 129500.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 167337.0,
@@ -1950,7 +1950,7 @@
             "RE": 22276.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 29275.0,
@@ -2034,7 +2034,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=71",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -2081,7 +2081,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=71",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -2149,7 +2149,7 @@
             "RE": 252709.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 352538.0,
@@ -2233,7 +2233,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=72",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -2280,7 +2280,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=72",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -2348,7 +2348,7 @@
             "RE": 127507.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 237817.0,
@@ -2432,7 +2432,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=73",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -2479,7 +2479,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=73",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -2547,7 +2547,7 @@
             "RE": 44537.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 96661.0,
@@ -2631,7 +2631,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=75",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -2678,7 +2678,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=75",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -2746,7 +2746,7 @@
             "RE": 124932.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 150275.0,
@@ -2862,7 +2862,7 @@
             "RE": 137083.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 312907.0,
@@ -2946,7 +2946,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=78",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -2993,7 +2993,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=78",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -3061,7 +3061,7 @@
             "RE": 279234.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 379839.0,
@@ -3145,7 +3145,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=80",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -3192,7 +3192,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=80",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -3260,7 +3260,7 @@
             "RE": 22835.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 32463.0,
@@ -3376,7 +3376,7 @@
             "RE": 25365.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 30003.0,
@@ -3492,7 +3492,7 @@
             "RE": 13697.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 17127.0,
@@ -3576,7 +3576,7 @@
         },
         "report": "March(Pre), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=83",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -3623,7 +3623,7 @@
         },
         "report": "March(Pre), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=83",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -3691,7 +3691,7 @@
             "RE": 17017.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 27728.0,
@@ -3775,7 +3775,7 @@
         },
         "report": "March(Pre), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=84",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -3822,7 +3822,7 @@
         },
         "report": "March(Pre), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=84",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -3890,7 +3890,7 @@
             "RE": 231000.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 290000.0,
@@ -3974,7 +3974,7 @@
         },
         "report": "March, 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=85",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -4021,7 +4021,7 @@
         },
         "report": "March, 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=85",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -4089,7 +4089,7 @@
             "RE": 116516.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 253601.0,
@@ -4205,7 +4205,7 @@
             "RE": 10332.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 14396.0,
@@ -4289,7 +4289,7 @@
         },
         "report": "March, 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=93",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -4336,7 +4336,7 @@
         },
         "report": "March, 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=93",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -4400,7 +4400,7 @@
             "RE": 203971.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 281339.0,
@@ -4484,7 +4484,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=89",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -4552,7 +4552,7 @@
             "RE": 24700.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 32995.0,
@@ -4668,7 +4668,7 @@
             "RE": 62639.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 101611.0,
@@ -4752,7 +4752,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=92",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -4799,7 +4799,7 @@
         },
         "report": "March(Sup), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=92",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -4867,7 +4867,7 @@
             "RE": 244867.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 356692.0,
@@ -4980,7 +4980,7 @@
             "RE": 71845.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 99310.0,
@@ -5065,7 +5065,7 @@
         },
         "report": "March(Pre), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=380&show_ut_only=1",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "exp_std",
         "label": "Total expenditure excl. debt repayment (revenue + capital outlay + loans)",
         "derived": {
@@ -5112,7 +5112,7 @@
         },
         "report": "March(Pre), 2026",
         "listing": "https://cag.gov.in/en/state-accounts-report?defuat_state_id=380&show_ut_only=1",
-        "checked_on": "2026-10-21",
+        "checked_on": "2026-10-22",
         "definition": "own_tax",
         "label": "Own tax revenue",
         "derived": {
@@ -5172,7 +5172,7 @@
             "RE": 88830.0
           }
         },
-        "checked_on": "2026-10-21"
+        "checked_on": "2026-10-22"
       },
       "budget": {
         "value": 111376.0,

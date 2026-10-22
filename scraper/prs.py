@@ -328,8 +328,42 @@ def schemes_on_page(code: str, fy: str, url: str, title: str, page: list[tuple[s
     return items
 
 
+# Schemes launched during the year (after its budget, e.g. Bihar's Mukhyamantri Mahila Rojgar Yojana, Sept 2025)
+# are missing from that year's analysis. The next year's analysis describes some of them in a shaded box:
+#   <strong>Scheme name</strong>  <p>The Scheme name was launched in September 2025. ...</p>
+# A box is kept only when its launch month falls inside the FY (April–March).
+_MONTHS = {m: i for i, m in enumerate(("january", "february", "march", "april", "may", "june", "july", "august",
+                                       "september", "october", "november", "december"), 1)}
+_LAUNCHED = re.compile(r"\b(?:was|were) (?:launched|introduced|rolled out) in (" + "|".join(_MONTHS) +
+                       r") (\d{4})\b", re.I)
+
+
+def in_fy(month: int, year: int, fy: str) -> bool:
+    start = int(fy[:4])
+    return (year == start and month >= 4) or (year == start + 1 and month <= 3)
+
+
+def launches(html: bytes, fy: str) -> list[tuple[str, str]]:
+    """(scheme name, box text) for each box of the next year's analysis on a scheme launched during `fy`."""
+    out = []
+    for td in BeautifulSoup(html, "html.parser").find_all("td"):
+        head = td.find(["strong", "b"])
+        if not head:
+            continue
+        name = _clean(head.get_text(" "))
+        text = _clean(td.get_text(" "))
+        if text.startswith(name):
+            text = text[len(name):].strip()
+        m = _LAUNCHED.search(text)
+        if m and re.search(r"(?i)\b(?:scheme|yojana|mission|programme)\b", name) and \
+                in_fy(_MONTHS[m.group(1).lower()], int(m.group(2)), fy):
+            out.append((name, text))
+    return out
+
+
 def scheme_items(fetcher, cfg: dict, fy: str) -> tuple[list[dict], dict]:
-    """Discover the PRS analyses of `fy`, fetch each and extract its schemes. Returns (items, stats)."""
+    """Discover the PRS analyses of `fy`, fetch each and extract its schemes, plus schemes the next year's
+    analysis says were launched during `fy` (see `launches`). Returns (items, stats)."""
     pcfg = cfg["prs"]
     list_url = pcfg["listing_url"].format(fy=fy)
     stats = {"listing": list_url, "discovered": 0, "fetched": 0, "pdf_read": 0, "extracted": 0,
@@ -359,6 +393,20 @@ def scheme_items(fetcher, cfg: dict, fy: str) -> tuple[list[dict], dict]:
         if not found:
             stats["no_schemes"].append(code)
         items += found
+    stats["launched_in_year"] = []
+    for code in pcfg["slugs"]:
+        url = analysis_url(cfg, code, fy)
+        page = fetcher.get(url, max_age_h=24 * 7) if url else None  # already fetched for the RE rows
+        if not page:
+            continue
+        h1 = BeautifulSoup(page[0], "html.parser").find("h1")
+        title = "PRS – " + (_clean(h1.get_text()) if h1 else f"{code} Budget Analysis {next_fy(fy)}")
+        for name, text in launches(page[0], fy):
+            items.append({"state": code, "fy": fy, "name": name, "kind": "scheme", "benefit": text,
+                          "allocation": None, "allocation_source": None, "category": category(f"{name}. {text}"),
+                          "section": f"Launched during {fy} (PRS analysis of {next_fy(fy)})",
+                          "source": {"kind": "prs", "title": title, "url": url}})
+            stats["launched_in_year"].append(f"{code}: {name}")
     stats["extracted"] = len(items)
     stats["with_allocation"] = sum(i["allocation"] is not None for i in items)
     for i in items:

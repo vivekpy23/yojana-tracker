@@ -24,11 +24,17 @@
     if (v === null) return '<span class="dash">N/A</span><span class="src-ico"></span>';
     return cr(v) + '<span class="src-ico">' + (fig.source && fig.source.url ? '<a href="' + esc(fig.source.url) + '" target="_blank" rel="noopener" title="' + esc(fig.source.title || "Source") + '" aria-label="Source">↗</a>' : "") + "</span>";
   }
+  var MONTHS = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  function day(iso) { var p = String(iso || "").split("-"); return p.length === 3 ? +p[2] + " " + MONTHS[+p[1] - 1] + " " + p[0] : iso; }
+  function people(n) { return n >= 1e7 ? (n / 1e7).toFixed(2).replace(/\.?0+$/, "") + " crore" : n >= 1e5 ? (n / 1e5).toFixed(1).replace(/\.0$/, "") + " lakh" : n.toLocaleString("en-IN"); }
+  // Disbursed: verified figures only – the latest cumulative total, or the sum of single transfers – with its date.
   function disbScheme(sc) {
     if (sc.despatched == null) return DASH;
     var src = sc.despatched_source || {};
+    var what = src.kind === "cumulative" ? "cumulative" : "transfers";
     return '<a href="' + esc(src.url) + '" target="_blank" rel="noopener" title="' +
-      esc([src.title, src.period, "as of " + src.as_of].filter(Boolean).join(" · ")) + '">' + cr(sc.despatched) + "</a>";
+      esc([src.title, src.period, "as of " + src.as_of].filter(Boolean).join(" · ")) + '">' + cr(sc.despatched) + "</a>" +
+      '<div class="hint">' + esc(what + ", as of " + day(src.as_of) + (src.beneficiaries ? " · " + people(src.beneficiaries) + " beneficiaries" : "")) + "</div>";
   }
   var BADGE = {
     verified: ["verified", "Verified"],
@@ -247,10 +253,12 @@
     layoutTreemaps();
   }
 
+  var showAllSchemes = false;
   function state(code) {
     var s = DATA.states.find(function (x) { return x.code === code; });
     if (!s) { location.hash = "#/"; return; }
-    var top = s.schemes.slice(0, 5);
+    // every scheme collected is listed – the top 5 first, the rest behind "Show all" (none is dropped)
+    var top = showAllSchemes ? s.schemes : s.schemes.slice(0, 5);
     // every scheme with an officially confirmed allocation (a reported scheme carries no amount)
     var allocated = s.schemes.filter(function (sc) { return sc.announced != null; })
       .map(function (sc) { return { name: sc.name, value: sc.announced }; });
@@ -275,7 +283,8 @@
               return "<tr><td class=\"rank\">" + (i + 1) + "</td><td>" + schemeCell(sc) + "</td>" +
                 '<td class="num">' + (sc.announced == null ? DASH : cr(sc.announced)) + '</td><td class="num">' + disbScheme(sc) +
                 "</td><td>" + badge(sc.status) + "</td></tr>";
-            }).join("") + '</tbody></table></div><p class="hint" style="margin:0">— Not yet available. Amounts appear only once confirmed in an official source.</p>'
+            }).join("") + '</tbody></table></div><p class="hint" style="margin:0">— Not yet available. Amounts appear only once confirmed in an official source.</p>' +
+            (s.schemes.length > 5 ? '<div><button class="btn" id="toggle-schemes">' + (showAllSchemes ? "Show top 5" : "Show all " + s.schemes.length + " yojanas") + "</button></div>" : "")
           : '<div class="table-box"><p class="empty">No schemes collected for ' + esc(s.name) + " yet. The daily run will add them as they are found and verified.</p></div>") +
         (sources.length ? '<p class="hint src-list">Sources: ' + sources.map(function (x, i) {
           // a publisher named twice gets a number, so each link stays distinguishable
@@ -284,6 +293,8 @@
           return sourceLink(x, (kind ? kind + " · " : "") + name + (n ? " " + (n + 1) : ""));
         }).join(" · ") + "</p>" : "") +
       "</section>";
+    var tg = document.getElementById("toggle-schemes");
+    if (tg) tg.onclick = function () { showAllSchemes = !showAllSchemes; var y = window.scrollY; state(code); window.scrollTo(0, y); };
     window.scrollTo(0, 0);
     animate();
     layoutTreemaps();
@@ -321,7 +332,7 @@
   function route() {
     var m = location.hash.match(/^#\/state\/([A-Z]{2})$/);
     feedback.hidden = !!m;
-    if (m) { state(m[1]); document.title = (DATA.states.find(function (s) { return s.code === m[1]; }) || {}).name + " · Yojana Tracker"; }
+    if (m) { showAllSchemes = false; state(m[1]); document.title = (DATA.states.find(function (s) { return s.code === m[1]; }) || {}).name + " · Yojana Tracker"; }
     else { home(); document.title = "Yojana Tracker"; }
   }
 

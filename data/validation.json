@@ -2,6 +2,18 @@
   "fy": "2025-26",
   "issues": [
     {
+      "state": "BR",
+      "field": "scheme मुख्यमंत्री बालिका पोशाक योजना",
+      "level": "blocked",
+      "detail": "disbursement_event on 2025-09-20: the official source prints different amounts (₹2,920.00 Cr, ₹95,879.00 Cr) – left out of 'Disbursed' until resolved"
+    },
+    {
+      "state": "BR",
+      "field": "scheme सामाजिक सुरक्षा पेंशन योजना",
+      "level": "blocked",
+      "detail": "disbursement_event on 2025-08-10: the official source prints different amounts (₹1,247.34 Cr, ₹124,734.00 Cr) – left out of 'Disbursed' until resolved"
+    },
+    {
       "state": "MH",
       "field": "budget_actual/expenditure",
       "level": "blocked",

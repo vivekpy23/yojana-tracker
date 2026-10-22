@@ -64,6 +64,21 @@ def check_disbursements(states: list[dict], schemes: list[dict], fy: str, issues
         if s.get("fy") == fy and s.get("despatched") is not None and not disbursement_ok(s.get("despatched_source")):
             _issue(issues, s["state"], f"scheme {s['name']}", "error",
                    "disbursed: needs despatched_source with URL, period and as-of date – not shown")
+        for f in s.get("financials", []):
+            if f.get("verified") and not (f.get("verified_against") and f.get("as_of")):
+                _issue(issues, s["state"], f"scheme {s['name']}", "error",
+                       f"financial claim {f['type']} ₹{f['amount_cr']:,.0f} Cr marked verified without the official "
+                       "document it was matched in, or without an as-of date")
+        for c in s.get("financial_conflicts", []):
+            _issue(issues, s["state"], f"scheme {s['name']}", "blocked",
+                   f"{c['type']} on {c['as_of']}: the official source prints different amounts "
+                   f"({', '.join(f'₹{a:,.2f} Cr' for a in c['amounts_cr'])}) – left out of 'Disbursed' until resolved")
+        src = s.get("despatched_source") or {}
+        if src.get("kind") in ("cumulative", "transfers") and not any(
+                f.get("verified") and src.get("url") in (f.get("verified_against"), *[x.get("url") for x in f["sources"]])
+                for f in s.get("financials", [])):
+            _issue(issues, s["state"], f"scheme {s['name']}", "error",
+                   "disbursed figure does not come from a verified financial claim")
 
 
 SCHEME_STATUSES = ("verified", "secondary", "reported")

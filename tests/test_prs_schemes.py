@@ -122,3 +122,21 @@ def test_saved_without_allocation_and_listed_on_the_site_only_if_welfare():
     assert {"Lado Laxmi Yojana", "Mukhyamantri Kaushalya Sahay Yojana"} <= {s["name"] for s in listed}
     assert "Haryana AI Mission" not in {s["name"] for s in listed}
     assert build.public_scheme(by["Lado Laxmi Yojana"])["announced"] == 5000
+
+
+# the next year's analysis (2026-27) describes a scheme launched after the 2025-26 budget in a shaded box
+BR_NEXT = b"""<html><body><h1>Bihar Budget Analysis 2026-27</h1>
+<table><tr><td><p><strong>Mukhyamantri Mahila Rojgar Yojana</strong></p>
+<p>The Mukhyamantri Mahila Rojgar Yojana was launched in September 2025.&nbsp; The Scheme aims to provide
+self-employment and livelihood opportunities to women.&nbsp; An initial grant of Rs 10,000 has been provided to
+1.56 crore women.</p></td></tr></table>
+<table><tr><td><p><strong>Orunodoi scheme</strong></p><p>Orunodoi scheme was launched in October 2020.</p></td></tr></table>
+<table><tr><td><p><strong>Revenue from Cess</strong></p><p>The Cess Act was notified in October 2025.</p></td></tr></table>
+</body></html>"""
+
+
+def test_schemes_launched_during_the_year_come_from_the_next_years_analysis():
+    found = prs.launches(BR_NEXT, FY)
+    assert [n for n, _ in found] == ["Mukhyamantri Mahila Rojgar Yojana"]   # 2020 launch and a cess: not kept
+    assert "Rs 10,000" in found[0][1] and not found[0][1].startswith("Mukhyamantri Mahila Rojgar Yojana The")
+    assert prs.in_fy(4, 2025, FY) and prs.in_fy(3, 2026, FY) and not prs.in_fy(3, 2025, FY)

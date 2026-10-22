@@ -43,7 +43,25 @@ jobs:
         env:
           # Optional: authorised myScheme API access. Without it, myScheme discovery is skipped (logged).
           MYSCHEME_API_KEY: ${{ secrets.MYSCHEME_API_KEY }}
+          # Optional: web search providers with site: support, and AI-assisted extraction. Each is skipped (logged)
+          # when its secret is empty; Bing News RSS and the rule-based extractor need no key.
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
+          GOOGLE_CSE_KEY: ${{ secrets.GOOGLE_CSE_KEY }}
+          GOOGLE_CSE_CX: ${{ secrets.GOOGLE_CSE_CX }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python -m scraper.run
+
+      # Discovery checkpoint and coverage always go to main – also when the rest waits in a review PR – so the
+      # next run continues incrementally (seen pages, search budgets, newsroom progress) instead of starting over.
+      - name: Commit discovery checkpoint
+        if: always() && steps.run.outcome != 'skipped'
+        run: |
+          git config user.name "yojana-bot"
+          git config user.email "yojana-bot@users.noreply.github.com"
+          git add data/discovery_state.json data/coverage.json 2>/dev/null || true
+          git diff --cached --quiet && echo "No checkpoint changes" && exit 0
+          git commit -m "Discovery checkpoint $(date -u +%F)"
+          git push
 
       # Nothing uncertain: publish straight to main.
       - name: Commit to main

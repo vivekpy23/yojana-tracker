@@ -20,7 +20,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -45,7 +45,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -70,7 +70,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -95,7 +95,26 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "AP-stree-shakti",
+    "state": "AP",
+    "name": "Stree Shakti",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -120,7 +139,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -145,7 +164,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -170,7 +189,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -195,7 +214,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -220,7 +239,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -245,7 +264,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -270,9 +289,34 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
+  },
+  {
+    "id": "BR-mahila-rojgar",
+    "state": "BR",
+    "name": "Mukhyamantri Mahila Rojgar Yojana",
+    "aliases": [],
+    "department": null,
+    "description": "The Mukhyamantri Mahila Rojgar Yojana was launched in September 2025. The Scheme aims to provide self-employment and livelihood opportunities to women. Under the scheme, financial support is being provided to one woman from each family. An initial grant of Rs 10,000 has been provided to 1.56 crore women. Financial support of up to two lakh rupees may be provided upon starting an enterprise.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Bihar Budget Analysis 2026-27",
+        "url": "https://prsindia.org/budgets/states/bihar-budget-analysis-2026-27"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
   },
   {
     "id": "BR-vriddhhajan-pension",
@@ -295,7 +339,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -320,7 +364,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
   },
@@ -345,7 +389,1698 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-अनुसूचित-जनजाति-पोस्ट-मैट्रिक-छात्रवृति",
+    "state": "BR",
+    "name": "अनुसूचित जनजाति पोस्ट मैट्रिक छात्रवृति योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-आज-विधायक-आवासन",
+    "state": "BR",
+    "name": "आज विधायक आवासन योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-इंदिरा-गांधी-राष्ट्रीय-विधवा-पेंशन",
+    "state": "BR",
+    "name": "इंदिरा गांधी राष्ट्रीय विधवा पेंशन योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-इन्दिरा-गाँधी-राष्ट्रीय-निःशक्तता-पेंशन",
+    "state": "BR",
+    "name": "इन्दिरा गाँधी राष्ट्रीय निःशक्तता पेंशन योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-इन्दिरा-गाँधी-राष्ट्रीय-वृद्धावस्था-पेंशन",
+    "state": "BR",
+    "name": "इन्दिरा गाँधी राष्ट्रीय वृद्धावस्था पेंशन योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-उज्ज्वला",
+    "state": "BR",
+    "name": "उज्ज्वला योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-उषा-अभियान",
+    "state": "BR",
+    "name": "उषा अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-ऊर्जा-सह",
+    "state": "BR",
+    "name": "ऊर्जा सह योजना",
+    "aliases": [],
+    "department": "योजना एवं विकास विभाग",
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-एवं-मध्यम-उद्योग-कलस्टर-विकास",
+    "state": "BR",
+    "name": "एवं मध्यम उद्योग कलस्टर विकास योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-एवं-उद्यमी",
+    "state": "BR",
+    "name": "एवं मुख्यमंत्री उद्यमी योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-कमर्शियल-बिल्डिंग-निर्माण",
+    "state": "BR",
+    "name": "कमर्शियल बिल्डिंग निर्माण योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-कहा-कि-उद्यमी",
+    "state": "BR",
+    "name": "कहा कि मुख्यमंत्री उद्यमी योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-कायाकल्प-अभियान",
+    "state": "BR",
+    "name": "कायाकल्प अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-कार्य",
+    "state": "BR",
+    "name": "कार्य योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-कार्यक्रम-अभियान",
+    "state": "BR",
+    "name": "कार्यक्रम अभियान",
+    "aliases": [],
+    "department": "नगर विकास एवं आवास विभाग",
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-कि-बालिका-पी०एच०डी०-फेलोशिप",
+    "state": "BR",
+    "name": "कि मुख्यमंत्री बालिका पी०एच०डी० फेलोशिप योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-कुंडघाट-जलाशय",
+    "state": "BR",
+    "name": "कुंडघाट जलाशय योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-कृषि-इनपुट-अनुदान",
+    "state": "BR",
+    "name": "कृषि इनपुट अनुदान योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-चिकित्सा-आपके-द्वार-अभियान",
+    "state": "BR",
+    "name": "चिकित्सा आपके द्वार अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-छात्रवृत्ति",
+    "state": "BR",
+    "name": "छात्रवृत्ति योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-जल",
+    "state": "BR",
+    "name": "जल योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-जी-राम-जी",
+    "state": "BR",
+    "name": "जी राम जी योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-टूरिज्म-एवं-एयर-टूरिज्म-सेवा",
+    "state": "BR",
+    "name": "टूरिज्म एवं एयर टूरिज्म सेवा योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-ठोस-एवं-दीर्घकालिक",
+    "state": "BR",
+    "name": "ठोस एवं दीर्घकालिक योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-तीनों-एन०एस०ए०पी०-पेंशन",
+    "state": "BR",
+    "name": "तीनों एन०एस०ए०पी० पेंशन योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-नदी-जोड़ो",
+    "state": "BR",
+    "name": "नदी जोड़ो योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-नशामुक्ति-अभियान",
+    "state": "BR",
+    "name": "नशामुक्ति अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-नाली",
+    "state": "BR",
+    "name": "नाली योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-पटना-मेट्रो-रेल",
+    "state": "BR",
+    "name": "पटना मेट्रो रेल योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-पशु-सखी-अभियान",
+    "state": "BR",
+    "name": "पशु सखी अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-पीएम-सूर्य-घर-मुफ्त-बिजली",
+    "state": "BR",
+    "name": "पीएम सूर्य घर मुफ्त बिजली योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-पूर्व-उद्यमी",
+    "state": "BR",
+    "name": "पूर्व मुख्यमंत्री उद्यमी योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-पेंशन",
+    "state": "BR",
+    "name": "पेंशन योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-पोशाक",
+    "state": "BR",
+    "name": "पोशाक योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-प्रधानमंत्री-आवास",
+    "state": "BR",
+    "name": "प्रधानमंत्री आवास योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-प्रधानमंत्री-उच्चतर-शिक्षा-अभियान",
+    "state": "BR",
+    "name": "प्रधानमंत्री उच्चतर शिक्षा अभियान",
+    "aliases": [],
+    "department": "उच्च शिक्षा विभाग",
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-प्रधानमंत्री-टीबी-मुक्त-भारत-अभियान",
+    "state": "BR",
+    "name": "प्रधानमंत्री टीबी मुक्त भारत अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-प्रवासी-मजदूर-दुर्घटना-अनुदान",
+    "state": "BR",
+    "name": "प्रवासी मजदूर दुर्घटना अनुदान योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-प्रस्तावित",
+    "state": "BR",
+    "name": "प्रस्तावित योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-प्रायोजित-राष्ट्रीय-उच्चतर-शिक्षा-अभियान",
+    "state": "BR",
+    "name": "प्रायोजित राष्ट्रीय उच्चतर शिक्षा अभियान",
+    "aliases": [],
+    "department": "उच्च शिक्षा विभाग",
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-प्रोत्साहन",
+    "state": "BR",
+    "name": "प्रोत्साहन योजना",
+    "aliases": [],
+    "department": "उच्च शिक्षा विभाग",
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-बस-सेवा",
+    "state": "BR",
+    "name": "बस सेवा योजना",
+    "aliases": [],
+    "department": "परिवहन विभाग",
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-बिहार-निःशक्तता-पेंशन",
+    "state": "BR",
+    "name": "बिहार निःशक्तता पेंशन योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-बेटी-स्टार्टअप-चैलेंज",
+    "state": "BR",
+    "name": "बेटी स्टार्टअप चैलेंज योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-भ्रष्टाचार-विरोधी-जागरूकता-अभियान",
+    "state": "BR",
+    "name": "भ्रष्टाचार विरोधी जागरूकता अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-मधुबनी-क्षेत्रान्तर्गत-बस-स्टैंड-निर्माण",
+    "state": "BR",
+    "name": "मधुबनी क्षेत्रान्तर्गत बस स्टैंड निर्माण योजना",
+    "aliases": [],
+    "department": "नगर विकास एवं आवास विभाग",
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-महत्वपूर्ण",
+    "state": "BR",
+    "name": "महत्वपूर्ण योजना",
+    "aliases": [],
+    "department": "उच्च शिक्षा विभाग",
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-अंतरजातीय-विवाह-प्रोत्साहन-अनुदान",
+    "state": "BR",
+    "name": "मुख्यमंत्री अंतरजातीय विवाह प्रोत्साहन अनुदान योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-अल्पसंख्यक-विद्यार्थी-प्रोत्साहन",
+    "state": "BR",
+    "name": "मुख्यमंत्री अल्पसंख्यक विद्यार्थी प्रोत्साहन योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-उद्यमी",
+    "state": "BR",
+    "name": "मुख्यमंत्री उद्यमी योजना",
+    "aliases": [],
+    "department": "उद्योग विभाग",
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-कन्या-उत्थान",
+    "state": "BR",
+    "name": "मुख्यमंत्री कन्या उत्थान योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-कन्या-विवाह-मंडप",
+    "state": "BR",
+    "name": "मुख्यमंत्री कन्या विवाह मंडप योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-क्षेत्र-विकास",
+    "state": "BR",
+    "name": "मुख्यमंत्री क्षेत्र विकास योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-ग्राम-परिवहन",
+    "state": "BR",
+    "name": "मुख्यमंत्री ग्राम परिवहन योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-दिव्यांगजन-सशक्तिकरण-छत्र",
+    "state": "BR",
+    "name": "मुख्यमंत्री दिव्यांगजन सशक्तिकरण छत्र योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-नारी-शक्ति",
+    "state": "BR",
+    "name": "मुख्यमंत्री नारी शक्ति योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-निश्चय-स्वयं-सहायता-भत्ता",
+    "state": "BR",
+    "name": "मुख्यमंत्री निश्चय स्वयं सहायता भत्ता योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-बालिका-कैंसर-प्रतिरक्षण",
+    "state": "BR",
+    "name": "मुख्यमंत्री बालिका कैंसर प्रतिरक्षण योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-बालिका-पोशाक",
+    "state": "BR",
+    "name": "मुख्यमंत्री बालिका पोशाक योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-रोजगार",
+    "state": "BR",
+    "name": "मुख्यमंत्री रोजगार योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-संबल",
+    "state": "BR",
+    "name": "मुख्यमंत्री संबल योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-समग्र-शहरी-विकास",
+    "state": "BR",
+    "name": "मुख्यमंत्री समग्र शहरी विकास योजना",
+    "aliases": [],
+    "department": "नगर विकास एवं आवास विभाग",
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-साईकिल",
+    "state": "BR",
+    "name": "मुख्यमंत्री साईकिल योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-सामर्थ्य",
+    "state": "BR",
+    "name": "मुख्यमंत्री सामर्थ्य योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "BR-मेडल-लाओ-नौकरी-पाओ",
+    "state": "BR",
+    "name": "मेडल लाओ नौकरी पाओ योजना",
+    "aliases": [],
+    "department": "खेल विभाग",
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-यदि",
+    "state": "BR",
+    "name": "यदि योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-यूनिट-मुफ्त-बिजली",
+    "state": "BR",
+    "name": "यूनिट मुफ्त बिजली योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-लाख-नये-लाभुक-पेंशन",
+    "state": "BR",
+    "name": "लाख नये लाभुक पेंशन योजना",
+    "aliases": [],
+    "department": "कहा कि समाज कल्याण विभाग",
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-लाख-पौधारोपण-अभियान",
+    "state": "BR",
+    "name": "लाख पौधारोपण अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-लिये-अभियान",
+    "state": "BR",
+    "name": "लिये अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-लिये-थरूहट-विकास",
+    "state": "BR",
+    "name": "लिये थरूहट विकास योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-लोहिया-स्वच्छ-बिहार-अभियान",
+    "state": "BR",
+    "name": "लोहिया स्वच्छ बिहार अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-विद्यार्थी-सहयोग-अभियान",
+    "state": "BR",
+    "name": "विद्यार्थी सहयोग अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-विशेष-अभियान",
+    "state": "BR",
+    "name": "विशेष अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-वृहद",
+    "state": "BR",
+    "name": "वृहद योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-व्यापक",
+    "state": "BR",
+    "name": "व्यापक योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-सतत्-जीविकोपार्जन",
+    "state": "BR",
+    "name": "सतत् जीविकोपार्जन योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-समग्र-गव्य-विकास",
+    "state": "BR",
+    "name": "समग्र गव्य विकास योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-समग्र-भैंस-पालन",
+    "state": "BR",
+    "name": "समग्र भैंस पालन योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-समृद्ध-बिहार-अभियान",
+    "state": "BR",
+    "name": "समृद्ध बिहार अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-साइकिल",
+    "state": "BR",
+    "name": "साइकिल योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-सात-निश्चय",
+    "state": "BR",
+    "name": "सात निश्चय योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-सामाजिक-पुनर्वास-कोष",
+    "state": "BR",
+    "name": "सामाजिक पुनर्वास कोष योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-सामाजिक-सुरक्षा-पेंशन",
+    "state": "BR",
+    "name": "सामाजिक सुरक्षा पेंशन योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-सिकरहना-दायां-तटबंध-निर्माण",
+    "state": "BR",
+    "name": "सिकरहना दायां तटबंध निर्माण योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-सेवा-संकल्प-अभियान",
+    "state": "BR",
+    "name": "सेवा संकल्प अभियान",
+    "aliases": [],
+    "department": "शिक्षा विभाग",
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-स्किल-इंडिया-मिशन",
+    "state": "BR",
+    "name": "स्किल इंडिया मिशन",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-स्टूडेंट-क्रेडिट-कार्ड",
+    "state": "BR",
+    "name": "स्टूडेंट क्रेडिट कार्ड योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "BR-हरियाली-अभियान",
+    "state": "BR",
+    "name": "हरियाली अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -408,7 +2143,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -433,7 +2168,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -458,7 +2193,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -483,7 +2218,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (National Health Mission|\\bNHM\\b)"
   },
@@ -508,7 +2243,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -533,7 +2268,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
   },
@@ -558,7 +2293,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -602,7 +2337,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Ayushman Bharat|PM-?JAY\\b)"
   },
@@ -627,7 +2362,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -652,7 +2387,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -696,7 +2431,64 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "DL-उदय",
+    "state": "DL",
+    "name": "उदय योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "DL-करोड़-रुपये-जनजागरूकता-अभियान",
+    "state": "DL",
+    "name": "करोड़ रुपये जनजागरूकता अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "DL-तुरंत-बचाव-अभियान",
+    "state": "DL",
+    "name": "तुरंत बचाव अभियान",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -716,6 +2508,44 @@
     "meta_from": "news",
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "DL-सुर्य-घर",
+    "state": "DL",
+    "name": "सुर्य घर योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "DL-सूर्य-घर",
+    "state": "DL",
+    "name": "सूर्य घर योजना",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -740,7 +2570,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -765,7 +2595,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -790,7 +2620,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -815,7 +2645,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -840,7 +2670,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -865,7 +2695,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -890,7 +2720,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -915,7 +2745,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
   },
@@ -940,7 +2770,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -965,7 +2795,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -990,7 +2820,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -1015,7 +2845,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1040,7 +2870,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1065,7 +2895,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -1090,7 +2920,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1115,7 +2945,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1140,7 +2970,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1165,7 +2995,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1190,7 +3020,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
   },
@@ -1215,7 +3045,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Samagra Shiksha)"
   },
@@ -1240,7 +3070,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1265,7 +3095,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1290,7 +3120,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1315,7 +3145,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -1340,7 +3170,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1365,7 +3195,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1390,7 +3220,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1415,7 +3245,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -1440,7 +3270,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1465,7 +3295,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (National Health Mission|\\bNHM\\b)"
   },
@@ -1490,7 +3320,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1515,7 +3345,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1540,7 +3370,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1565,7 +3395,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1590,7 +3420,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1615,7 +3445,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1640,7 +3470,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1665,7 +3495,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1690,7 +3520,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1715,7 +3545,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -1737,7 +3567,7 @@
     ],
     "meta_from": "config",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "Karnataka's own guarantee schemes, funded from the state budget"
   },
@@ -1762,9 +3592,66 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
+  },
+  {
+    "id": "KL-indira-gandhi-national-disability-pension",
+    "state": "KL",
+    "name": "Indira Gandhi National Disability Pension Scheme",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (National Social Assistance|\\bNSAP\\b|Indira Gandhi National (Old Age|Widow|Disability) Pension)"
+  },
+  {
+    "id": "KL-indira-gandhi-national-old-age-pension",
+    "state": "KL",
+    "name": "Indira Gandhi National Old Age Pension Scheme",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (National Social Assistance|\\bNSAP\\b|Indira Gandhi National (Old Age|Widow|Disability) Pension)"
+  },
+  {
+    "id": "KL-national-social-assistance-programme",
+    "state": "KL",
+    "name": "National Social Assistance Programme (NSAP)",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (National Social Assistance|\\bNSAP\\b|Indira Gandhi National (Old Age|Widow|Disability) Pension)"
   },
   {
     "id": "MH-bmc-s-infrastructure-development-fund",
@@ -1806,7 +3693,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1831,7 +3718,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -1865,7 +3752,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -1890,7 +3777,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -1934,7 +3821,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
   },
@@ -2016,7 +3903,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -2041,7 +3928,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -2066,7 +3953,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2091,7 +3978,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2116,9 +4003,28 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Jal Jeevan Mission)"
+  },
+  {
+    "id": "MP-members-of-jan-abhiyan",
+    "state": "MP",
+    "name": "Members of the Jan Abhiyan",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
   },
   {
     "id": "MP-krishak-unnati",
@@ -2141,7 +4047,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -2166,7 +4072,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -2191,7 +4097,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -2216,7 +4122,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2241,7 +4147,26 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "MP-ujjwala",
+    "state": "MP",
+    "name": "Pradhan Mantri Ujjwala Yojana",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2266,7 +4191,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2291,7 +4216,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2316,7 +4241,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2341,7 +4266,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2366,7 +4291,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -2391,7 +4316,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2416,7 +4341,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2441,7 +4366,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2466,7 +4391,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2491,7 +4416,45 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "OD-commercial-layer-poultry-farming",
+    "state": "OD",
+    "name": "Commercial Layer Poultry Farming Scheme",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "OD-livestock-prosperity",
+    "state": "OD",
+    "name": "Livestock Prosperity Scheme",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2516,7 +4479,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2541,7 +4504,26 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
+    "funding": "state",
+    "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "OD-krushi-udyog",
+    "state": "OD",
+    "name": "Mukhyamantri Krushi Udyog Yojana",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -2566,9 +4548,28 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "OD-awas",
+    "state": "OD",
+    "name": "Pradhan Mantri Awas Yojana",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "centrally_sponsored",
+    "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
   },
   {
     "id": "PB-mukh-mantri-sarbat-sehat-bima",
@@ -2591,7 +4592,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2616,7 +4617,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2641,7 +4642,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2666,7 +4667,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (\\bAMRUT\\b|Atal Mission for Rejuvenation)"
   },
@@ -2691,7 +4692,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2716,7 +4717,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2741,7 +4742,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2766,7 +4767,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2791,7 +4792,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2821,9 +4822,28 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
+  },
+  {
+    "id": "TN-comprehensive-road-infrastructure-development-programme",
+    "state": "TN",
+    "name": "Comprehensive Road Infrastructure Development Programme",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
   },
   {
     "id": "TN-deendayal-antyodaya-national-urban-livelihoods-mission",
@@ -2884,7 +4904,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2917,9 +4937,28 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget"
+  },
+  {
+    "id": "TN-motilal-oswal-midcap-fund",
+    "state": "TN",
+    "name": "Motilal Oswal Midcap Fund",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
   },
   {
     "id": "TN-pudhumai-penn-thittam",
@@ -2939,9 +4978,28 @@
     ],
     "meta_from": "config",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget"
+  },
+  {
+    "id": "TN-safe-roads-mission",
+    "state": "TN",
+    "name": "Safe Roads Mission",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
   },
   {
     "id": "TN-tamil-nadu-semiconductor-mission",
@@ -2964,7 +5022,26 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "TN-thaai-maaman-thanga-modhira-thittam",
+    "state": "TN",
+    "name": "Thaai Maaman Thanga Modhira Thittam",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2984,6 +5061,25 @@
     "meta_from": "news",
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "TN-uti-aggressive-hybrid-fund",
+    "state": "TN",
+    "name": "UTI Aggressive Hybrid Fund",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3008,7 +5104,26 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "TN-vetri-madikanini-thittam",
+    "state": "TN",
+    "name": "Vetri Madikanini Thittam",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3030,7 +5145,7 @@
     ],
     "meta_from": "config",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget"
   },
@@ -3055,7 +5170,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -3080,7 +5195,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -3105,7 +5220,26 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "TS-indiramma-life-insurance",
+    "state": "TS",
+    "name": "Indiramma Life Insurance Scheme",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3130,7 +5264,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3155,7 +5289,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3180,7 +5314,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3205,7 +5339,32 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "UK-entrepreneurship",
+    "state": "UK",
+    "name": "Entrepreneurship",
+    "aliases": [],
+    "department": null,
+    "description": "A venture capital fund of Rs 200 crore will be set up, to fund start-ups.",
+    "level": null,
+    "official_url": null,
+    "sources": [
+      {
+        "kind": "prs",
+        "title": "PRS – Uttarakhand Budget Analysis 2025-26",
+        "url": "https://prsindia.org/budgets/states/uttarakhand-budget-analysis-2025-26"
+      }
+    ],
+    "discovered_via": [
+      "prs"
+    ],
+    "meta_from": "prs",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3230,7 +5389,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Jal Jeevan Mission)"
   },
@@ -3255,7 +5414,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Gram Sadak|\\bPMGSY\\b)"
   },
@@ -3280,7 +5439,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Jal Jeevan Mission)"
   },
@@ -3305,7 +5464,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -3328,7 +5487,7 @@
     ],
     "meta_from": "config",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -3350,7 +5509,7 @@
     ],
     "meta_from": "config",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -3375,7 +5534,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3400,7 +5559,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Samagra Shiksha)"
   },
@@ -3425,7 +5584,26 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "WB-annapurna",
+    "state": "WB",
+    "name": "Annapurna Yojana",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3450,7 +5628,45 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "WB-et-online-annapurna",
+    "state": "WB",
+    "name": "ET Online Annapurna Yojana",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "WB-economic-times-annapurna",
+    "state": "WB",
+    "name": "Economic Times Annapurna Yojana",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3475,7 +5691,26 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-21",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "WB-lakshmi-bhandar",
+    "state": "WB",
+    "name": "Lakshmi Bhandar Scheme",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3495,6 +5730,63 @@
     "meta_from": "news",
     "first_seen": "2026-10-21",
     "last_seen": "2026-10-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "WB-paschim-banga-samagra-siksha-mission",
+    "state": "WB",
+    "name": "Paschim Banga Samagra Siksha Mission",
+    "aliases": [],
+    "department": "North Bengal Development Department",
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "WB-cha-shramik-protsahan",
+    "state": "WB",
+    "name": "Pradhan Mantri Cha Shramik Protsahan Yojana",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "WB-save-print-comment-synopsis-west-bengal-s-annapurna",
+    "state": "WB",
+    "name": "Save Print Comment Synopsis West Bengal's Annapurna Yojana",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-10-22",
+    "last_seen": "2026-10-22",
     "funding": "unknown",
     "funding_evidence": ""
   }

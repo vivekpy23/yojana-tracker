@@ -253,3 +253,23 @@ def test_fetcher_respects_robots(tmp_path):
     f._robots["https://news.example"] = rp
     f.s.get = lambda url, **kw: pytest.fail("must not fetch")
     assert f.get("https://news.example/rss/search?q=yojana") is None
+
+
+def test_fetcher_retries_transient_errors_but_not_tls_or_404(tmp_path):
+    import requests
+    f = Fetcher("bot", delay=0, cache_dir=tmp_path, retries=2, backoff=0)
+    for h in ("https://a.example", "https://b.example", "https://c.example"):
+        f._robots[h] = None
+    codes = {"a": [502, 200], "c": [404, 200]}
+    calls = []
+
+    def fake(url, **kw):
+        calls.append(url)
+        if "b.example" in url:
+            raise requests.exceptions.SSLError("bad certificate")
+        return _Resp(codes[url[8]].pop(0))
+    f.s.get = fake
+    assert f.get("https://a.example/1")                                  # 502, then 200
+    assert f.get("https://b.example/1") is None and f.last_error == "TLS error"
+    assert f.get("https://c.example/1") is None and f.last_error == "HTTP 404"
+    assert calls == ["https://a.example/1", "https://a.example/1", "https://b.example/1", "https://c.example/1"]

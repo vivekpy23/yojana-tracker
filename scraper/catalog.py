@@ -19,7 +19,7 @@ from __future__ import annotations
 import re
 
 from .extract import slugify
-from .store import name_core, name_score, today
+from .store import better_name, name_core, name_score, today
 
 FUNDING_TYPES = ("state", "centrally_sponsored", "central", "unknown")
 MATCH_MIN = 90
@@ -77,7 +77,9 @@ def merge(catalog: list[dict], entry: dict, funding_cfg: dict) -> tuple[dict, bo
         catalog.append(rec)
     via = entry["via"]
     # A better-placed source renames the entry; the old name stays as an alias.
-    if not created and PRECEDENCE[via] > PRECEDENCE.get(rec["meta_from"] or "news", 0) and entry["name"] != rec["name"]:
+    rank, held = PRECEDENCE[via], PRECEDENCE.get(rec["meta_from"] or "news", 0)
+    if not created and entry["name"] != rec["name"] and (
+            rank > held or (rank == held and better_name(rec["name"], entry["name"]))):
         rec["aliases"].append(rec["name"])
         rec["name"] = entry["name"]
     for n in names:

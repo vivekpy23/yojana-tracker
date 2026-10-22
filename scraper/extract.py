@@ -32,7 +32,8 @@ for _code, _names in STATES_LOCAL.items():
 CENTRE_CUES = ["Union Budget", "Centre", "Central government", "Union government", "Finance Minister Nirmala",
                "केंद्र सरकार", "केंद्रीय", "மத்திய அரசு", "ಕೇಂದ್ರ ಸರ್ಕಾರ"]
 
-INDIC = r"[ऀ-ॿ஀-௿ಀ-೿]"
+# Devanagari, Tamil and Kannada letters – not the danda (। ॥), which ends a sentence
+INDIC = r"[ऀ-ॣ०-ॿ஀-௿ಀ-೿]"
 
 # Words that end a scheme name in Indian budget writing.
 SCHEME_SUFFIX = (
@@ -52,9 +53,11 @@ AMOUNT_RE = re.compile(
 _CRORE_LOCAL = r"(?:लाख\s*)?(?:करो[डड़]़?|कोटी)|(?:லட்சம்\s*)?கோடி|(?:ಲಕ್ಷ\s*)?ಕೋಟಿ"
 _THOUSAND_LOCAL = r"हजार|हज़ार|ஆயிரம்|ಸಾವಿರ"
 _RUPEE_PRE = r"(?:Rs\.?|₹|रु\.?|ரூ\.?|ರೂ\.?)"
-_RUPEE_POST = r"(?:रुपये|रुपए|रुपयांच\S*|ரூபாய்|ರೂಪಾಯಿ|ರೂ\.?)"
+_RUPEE_POST = r"(?:रुपये|रुपए|रूपये|रूपए|रुपयांच\S*|ரூபாய்|ರೂಪಾಯಿ|ರೂ\.?)"
+# '18 हजार 100 करोड़' = 18,100 crore: the hundreds after हजार are group 4
 INDIC_AMOUNT_RE = re.compile(
-    r"(" + _RUPEE_PRE + r"\s*)?([\d,]+(?:\.\d+)?)\s*(" + _THOUSAND_LOCAL + r")?\s*(" + _CRORE_LOCAL + r")(\s*" + _RUPEE_POST + r")?"
+    r"(" + _RUPEE_PRE + r"\s*)?([\d,]+(?:\.\d+)?)\s*(" + _THOUSAND_LOCAL + r")?\s*(\d{1,3}\s+)?(" + _CRORE_LOCAL + r")(\s*"
+    + _RUPEE_POST + r")?"
 )
 ALLOC_CUES = re.compile(r"allocat|earmark|provision|set aside|outlay|budget|sanction|announc|"
                         r"प्रावधान|आवंटन|बजट|तरतूद|ஒதுக்கீடு|பட்ஜெட்|ಅನುದಾನ|ಬಜೆಟ್", re.I)
@@ -73,9 +76,11 @@ def find_amounts(text: str) -> list[tuple[int, float]]:
     """Return (char offset, amount in crore) for every rupee amount in text."""
     out = [(m.start(), to_crore(m.group(1), m.group(2))) for m in AMOUNT_RE.finditer(text)]
     for m in INDIC_AMOUNT_RE.finditer(text):
-        if not (m.group(1) or m.group(5)):
+        if not (m.group(1) or m.group(6)):
             continue  # no rupee sign or word: a count, not money
-        value = to_crore(m.group(2), m.group(4)) * (1000 if m.group(3) else 1)
+        if m.group(4) and not m.group(3):
+            continue  # two numbers in a row without हजार between them: not one amount
+        value = to_crore(m.group(2), m.group(5)) * (1000 if m.group(3) else 1) + float(m.group(4) or 0)
         out.append((m.start(), round(value, 2)))
     return sorted(out)
 
@@ -110,13 +115,21 @@ _COUNT_UNIT = {"lakh": 1e5, "crore": 1e7, "million": 1e6, "लाख": 1e5, "क
 BENEFICIARIES_RE = re.compile(
     r"([\d,]*\d(?:\.\d+)?)\s*(lakh|crore|million)?\s+(?:eligible\s+|more\s+)?"
     r"(beneficiaries|women|farmers|families|households|students|girls|people|pensioners|workers)\b", re.I)
+_LOCAL_PEOPLE = r"(?:लाभार्थ|लाभुक|महिला|किसान|परिवार|लाडक्या|பயனாளி|பெண்|ಫಲಾನುಭವಿ|ಮಹಿಳೆ)"
 BENEFICIARIES_LOCAL_RE = re.compile(
     r"([\d,]*\d(?:\.\d+)?)\s*(लाख|करो[डड़]़?|कोटी|லட்சம்|கோடி|ಲಕ್ಷ|ಕೋಟಿ)?\s*"
-    r"(?:लाभार्थ|महिला|किसान|परिवार|लाडक्या|பயனாளி|பெண்|ಫಲಾನುಭವಿ|ಮಹಿಳೆ)")
+    + _LOCAL_PEOPLE)
+# "1 करोड़ 81 लाख लाभुक" = 1.81 crore beneficiaries (करोड़ written with or without the precomposed ड़)
+BENEFICIARIES_COMPOUND_RE = re.compile(
+    r"(\d+)\s*(?:करो[डड़]़?|कोटी)\s+(\d{1,2})\s*लाख\s*" + _LOCAL_PEOPLE)
 
 
 def find_beneficiaries(text: str) -> int | None:
-    """An estimated beneficiary count ("2.5 crore women", "1.15 कोटी लाभार्थी") as a number of people."""
+    """An estimated beneficiary count ("2.5 crore women", "1.15 कोटी लाभार्थी", "1 करोड़ 81 लाख लाभुक") as a
+    number of people."""
+    m = BENEFICIARIES_COMPOUND_RE.search(text)
+    if m:
+        return int(m.group(1)) * 10_000_000 + int(m.group(2)) * 100_000
     for rx in (BENEFICIARIES_RE, BENEFICIARIES_LOCAL_RE):
         m = rx.search(text)
         if m:
@@ -153,7 +166,7 @@ NEW_SCHEME, EXISTING_SCHEME, REVISED_ALLOCATION, DISBURSEMENT = (
 _KIND_CUES = [
     (DISBURSEMENT, re.compile(
         r"\b(?:disburs\w*|released?|transferr?\w*|credited|deposited|instal+ments?|paid out|DBT transfer)\b|"
-        r"जारी कि|जारी की|ट्रांसफर|हस्तांतरित|किस्त|खाते में|वितरित|हप्ता|जमा कर|வரவு வைக்க|விடுவிக்க|தவணை|"
+        r"जारी कि|जारी की|ट्रांसफर|हस्तांतरित|अंतरित|अंतरण|किस्त|खाते में|वितरित|हप्ता|जमा कर|வரவு வைக்க|விடுவிக்க|தவணை|"
         r"ಬಿಡುಗಡೆ|ಕಂತು|ಜಮಾ", re.I)),
     (REVISED_ALLOCATION, re.compile(
         r"\b(?:revised|hike[ds]?|raised|enhanced|increased|additional allocation|supplementary|slashed|"
@@ -173,13 +186,33 @@ def classify(text: str) -> str:
     return ""
 
 
+# A scheme name starts at its Chief Minister's / Prime Minister's prefix: words before it are page furniture
+# or headline text ("Mint View Market Dashboard Mukhyamantri …", "Prefer Livemint on Google Mukhyamantri …").
+_NAME_PREFIX = re.compile(r"\b(?:Mukhya ?mantri|Mukhyamantri|Pradhan ?Mantri|Chief Minister'?s?|Prime Minister'?s?|"
+                          r"CM|PM)\b")
+# Title-case headline words that are not part of a name ("Credited In Scheme", "Women Get Scheme")
+_HEADLINE_WORDS = {"credited", "in", "on", "to", "get", "gets", "got", "new", "under", "with", "from", "money",
+                   "funds", "crore", "lakh", "women", "farmers", "state", "government", "govt", "launched", "launches",
+                   "announced", "announces", "news", "latest", "update", "updates", "big", "now", "know", "how",
+                   "what", "why", "check", "list", "status", "online", "apply", "first", "second", "third",
+                   "installment", "instalment", "date", "today", "here", "all", "about", "details", "this", "that"}
+
+
 def clean_scheme(name: str) -> str:
     name = re.sub(r"\s+", " ", name).strip(" ,.-")
+    m = _NAME_PREFIX.search(name)
+    if m and m.start() > 0:
+        name = name[m.start():]
     prev = None
     while prev != name:
         prev = name
         name = LEADING_NOISE.sub("", name)
     return name
+
+
+def _headline_only(name: str) -> bool:
+    words = [w.lower() for w in re.findall(r"[A-Za-z']+", name)][:-1]  # without the suffix word
+    return bool(words) and all(w in _HEADLINE_WORDS for w in words)
 
 
 # Regional scheme names: the words before योजना / अभियान / திட்டம் / ಯೋಜನೆ, cut at the first function word.
@@ -197,12 +230,18 @@ _INDIC_STOP = {"ने", "की", "के", "का", "में", "से", "�
                # determiners and verbs – योजना also means "plan" ("पूरी योजना", "उसकी योजना")
                "बल्कि", "इसके", "इसकी", "उसके", "उसकी", "उनकी", "उनके", "पूरी", "पूरा", "कोई", "किसी", "अपनी", "अपने",
                "सभी", "हर", "बड़ी", "बड़े", "नया", "नयी", "कुछ", "ऐसी", "ऐसे", "जो", "जिस", "भी", "तो", "था", "थी",
-               "थे", "रही", "रहे", "गई", "गया", "किया", "करने", "लेकर", "बताया", "सारी", "हमारी", "आपकी"}
+               "थे", "रही", "रहे", "गई", "गया", "किया", "करने", "लेकर", "बताया", "सारी", "हमारी", "आपकी",
+               "करते", "करती", "करता", "हुए", "हुई", "हुआ", "दिया", "दी", "दिए", "गयी", "गये", "गए", "कर", "हो",
+               "रहा", "जाने", "वाले", "वाली", "साथ", "बाद", "पहले", "अब", "तक", "द्वारा", "दौरान"}
 
 
 def _trim_indic(words: list[str]) -> list[str]:
     keep: list[str] = []
     for w in reversed(words):
+        # a word starting with a vowel sign is the tail of a word split by a zero-width joiner
+        # ('मह' + ZWNJ + 'िला'): the name is incomplete, so none of it is used
+        if re.match(r"[\u0900-\u0903\u093a-\u094f\u0962\u0963]", w):
+            return []
         if w in _INDIC_STOP or not re.match(INDIC, w):
             break
         keep.insert(0, w)
@@ -214,7 +253,7 @@ def find_schemes(text: str) -> list[tuple[int, str]]:
     for m in SCHEME_RE.finditer(text):
         name = clean_scheme(m.group(1))
         # Need at least one distinctive word besides the suffix (skip bare "Scheme", "the Mission").
-        if len(name.split()) < 2:
+        if len(name.split()) < 2 or _headline_only(name):
             continue
         out.append((m.start(), name))
     for m in INDIC_SCHEME_RE.finditer(text):
@@ -382,13 +421,22 @@ _INFRA_CUES = re.compile(
     r"jal jeevan|drinking water|water supply|sadak|shaheri vikas|sahari bikas|urban development)\b", re.I)
 
 
+# The same cues in Hindi/Marathi (no \b: it is unreliable around Devanagari vowel signs).
+_WELFARE_LOCAL = re.compile(r"महिला|पेंशन|पेन्शन|छात्र|किसान|शेतकरी|लाभुक|लाभार्थी|सहायता राशि|आर्थिक सहायता|"
+                            r"छात्रवृत्ति|रोजगार|स्वरोजगार|आवास|बालिका|कन्या|वृद्ध|दिव्यांग|बहीण|बहना|विधवा")
+_INFRA_LOCAL = re.compile(r"निर्माण|सड़क|सडक|पुल|भवन|बस स्टैंड|बस पड़ाव|शहरी विकास|जलापूर्ति|नाली|गली|"
+                          r"शिलान्यास|उद्घाटन|परियोजना|सिंचाई|बिजली घर|स्टेडियम|अस्पताल भवन")
+_WELFARE_EN_EXTRA = re.compile(r"\b(?:self-employment|livelihood|entrepreneur\w*|rozgar|rojgar)\b", re.I)
+
+
 def category(text: str) -> str:
     """welfare – benefits to people (cash, pensions, scholarships, subsidies, kits, insurance…);
     infrastructure – building or upgrading assets; policy – everything else (tax, reforms, missions,
     pay and pensions of government staff)."""
     if _GOVT_STAFF.search(text):
         return POLICY
-    w, i = len(_WELFARE_CUES.findall(text)), len(_INFRA_CUES.findall(text))
+    w = len(_WELFARE_CUES.findall(text)) + len(_WELFARE_LOCAL.findall(text)) + len(_WELFARE_EN_EXTRA.findall(text))
+    i = len(_INFRA_CUES.findall(text)) + len(_INFRA_LOCAL.findall(text))
     if w and w >= i:
         return WELFARE
     return INFRASTRUCTURE if i else POLICY

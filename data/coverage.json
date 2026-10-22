@@ -1,0 +1,2246 @@
+{
+  "run": "2026-10-22",
+  "fy": "2025-26",
+  "providers": [
+    "bing_news"
+  ],
+  "providers_skipped": {
+    "brave": "no key in $BRAVE_API_KEY",
+    "google_cse": "no value in $GOOGLE_CSE_KEY, $GOOGLE_CSE_CX"
+  },
+  "ai_extraction": "Claude client unavailable (ModuleNotFoundError: No module named 'anthropic')",
+  "jurisdictions": {
+    "CENTRE": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Union government announces welfare scheme crore",
+          "lang": "en",
+          "theme": "announcements",
+          "results": 6,
+          "trusted": 3,
+          "new": 3
+        }
+      ],
+      "pages_read": 3,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 3,
+      "already_seen": 0,
+      "schemes_touched": [
+        "TN-comprehensive-road-infrastructure-development-programme",
+        "TN-motilal-oswal-midcap-fund",
+        "TN-safe-roads-mission",
+        "TN-thaai-maaman-thanga-modhira-thittam",
+        "TN-uti-aggressive-hybrid-fund",
+        "TN-vetri-madikanini-thittam",
+        "WB-cha-shramik-protsahan",
+        "WB-paschim-banga-samagra-siksha-mission"
+      ],
+      "new_schemes": [],
+      "claims_added": 33,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 0,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 0,
+        "examples": []
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "AP": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Andhra Pradesh announces welfare scheme crore",
+          "lang": "en",
+          "theme": "announcements",
+          "results": 3,
+          "trusted": 2,
+          "new": 2
+        }
+      ],
+      "pages_read": 1,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 1,
+      "already_seen": 0,
+      "schemes_touched": [
+        "AP-stree-shakti"
+      ],
+      "new_schemes": [
+        "AP-stree-shakti"
+      ],
+      "claims_added": 3,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 3,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 3,
+        "examples": [
+          {
+            "id": "AP-talliki-vandanam",
+            "name": "Talliki Vandanam Scheme",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "AP-annadatta-sukhibhava",
+            "name": "Annadatta Sukhibhava Scheme",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "AP-bala-sanjeevani",
+            "name": "Bala Sanjeevani Scheme",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "AR": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Arunachal Pradesh new scheme launched yojana beneficiaries",
+          "lang": "en",
+          "theme": "new_schemes",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 0,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 0,
+        "examples": []
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "AS": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Assam announces welfare scheme crore",
+          "lang": "en",
+          "theme": "announcements",
+          "results": 1,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 1,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 2,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 2,
+        "examples": [
+          {
+            "id": "AS-mahila-udyamita-abhiyaan",
+            "name": "Mukhya Mantri Mahila Udyamita Abhiyaan",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "AS-orunodoi",
+            "name": "Orunodoi Scheme",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "BR": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "बिहार नई योजना शुरू लाभार्थी",
+          "lang": "hi",
+          "theme": "new_schemes",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 522,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [
+        "BR-mahila-rojgar",
+        "BR-vriddhhajan-pension",
+        "BR-अंतरजातीय-विवाह-प्रोत्साहन-अनुदान",
+        "BR-अनुसूचित-जनजाति-पोस्ट-मैट्रिक-छात्रवृति",
+        "BR-अल्पसंख्यक-विद्यार्थी-प्रोत्साहन",
+        "BR-आज-विधायक-आवासन",
+        "BR-इंदिरा-गांधी-राष्ट्रीय-विधवा-पेंशन",
+        "BR-इन्दिरा-गाँधी-राष्ट्रीय-निःशक्तता-पेंशन",
+        "BR-इन्दिरा-गाँधी-राष्ट्रीय-वृद्धावस्था-पेंशन",
+        "BR-उज्ज्वला",
+        "BR-उद्यमी",
+        "BR-उषा-अभियान",
+        "BR-ऊर्जा-सह",
+        "BR-एवं-उद्यमी",
+        "BR-एवं-मध्यम-उद्योग-कलस्टर-विकास",
+        "BR-कन्या-उत्थान",
+        "BR-कन्या-विवाह-मंडप",
+        "BR-कमर्शियल-बिल्डिंग-निर्माण",
+        "BR-कहा-कि-उद्यमी",
+        "BR-कायाकल्प-अभियान",
+        "BR-कार्य",
+        "BR-कार्यक्रम-अभियान",
+        "BR-कि-बालिका-पी०एच०डी०-फेलोशिप",
+        "BR-कुंडघाट-जलाशय",
+        "BR-कृषि-इनपुट-अनुदान",
+        "BR-क्षेत्र-विकास",
+        "BR-ग्राम-परिवहन",
+        "BR-चिकित्सा-आपके-द्वार-अभियान",
+        "BR-छात्रवृत्ति",
+        "BR-जल",
+        "BR-जी-राम-जी",
+        "BR-टूरिज्म-एवं-एयर-टूरिज्म-सेवा",
+        "BR-ठोस-एवं-दीर्घकालिक",
+        "BR-तीनों-एन०एस०ए०पी०-पेंशन",
+        "BR-दिव्यांगजन-सशक्तिकरण-छत्र",
+        "BR-नदी-जोड़ो",
+        "BR-नशामुक्ति-अभियान",
+        "BR-नारी-शक्ति",
+        "BR-नाली",
+        "BR-निश्चय-स्वयं-सहायता-भत्ता",
+        "BR-पटना-मेट्रो-रेल",
+        "BR-पशु-सखी-अभियान",
+        "BR-पीएम-सूर्य-घर-मुफ्त-बिजली",
+        "BR-पूर्व-उद्यमी",
+        "BR-पेंशन",
+        "BR-पोशाक",
+        "BR-प्रधानमंत्री-आवास",
+        "BR-प्रधानमंत्री-उच्चतर-शिक्षा-अभियान",
+        "BR-प्रधानमंत्री-टीबी-मुक्त-भारत-अभियान",
+        "BR-प्रवासी-मजदूर-दुर्घटना-अनुदान",
+        "BR-प्रस्तावित",
+        "BR-प्रायोजित-राष्ट्रीय-उच्चतर-शिक्षा-अभियान",
+        "BR-प्रोत्साहन",
+        "BR-बस-सेवा",
+        "BR-बालिका-कैंसर-प्रतिरक्षण",
+        "BR-बालिका-पोशाक",
+        "BR-बिहार-निःशक्तता-पेंशन",
+        "BR-बेटी-स्टार्टअप-चैलेंज",
+        "BR-भ्रष्टाचार-विरोधी-जागरूकता-अभियान",
+        "BR-मधुबनी-क्षेत्रान्तर्गत-बस-स्टैंड-निर्माण",
+        "BR-महत्वपूर्ण",
+        "BR-मेडल-लाओ-नौकरी-पाओ",
+        "BR-यदि",
+        "BR-यूनिट-मुफ्त-बिजली",
+        "BR-रोजगार",
+        "BR-लाख-नये-लाभुक-पेंशन",
+        "BR-लाख-पौधारोपण-अभियान",
+        "BR-लिये-अभियान",
+        "BR-लिये-थरूहट-विकास",
+        "BR-लोहिया-स्वच्छ-बिहार-अभियान",
+        "BR-विद्यार्थी-सहयोग-अभियान",
+        "BR-विशेष-अभियान",
+        "BR-वृहद",
+        "BR-व्यापक",
+        "BR-संबल",
+        "BR-सतत्-जीविकोपार्जन",
+        "BR-समग्र-गव्य-विकास",
+        "BR-समग्र-भैंस-पालन",
+        "BR-समग्र-शहरी-विकास",
+        "BR-समृद्ध-बिहार-अभियान",
+        "BR-साइकिल",
+        "BR-साईकिल",
+        "BR-सात-निश्चय",
+        "BR-सामर्थ्य",
+        "BR-सामाजिक-पुनर्वास-कोष",
+        "BR-सामाजिक-सुरक्षा-पेंशन",
+        "BR-सिकरहना-दायां-तटबंध-निर्माण",
+        "BR-सेवा-संकल्प-अभियान",
+        "BR-स्किल-इंडिया-मिशन",
+        "BR-स्टूडेंट-क्रेडिट-कार्ड",
+        "BR-हरियाली-अभियान"
+      ],
+      "new_schemes": [
+        "BR-अंतरजातीय-विवाह-प्रोत्साहन-अनुदान",
+        "BR-अनुसूचित-जनजाति-पोस्ट-मैट्रिक-छात्रवृति",
+        "BR-अल्पसंख्यक-विद्यार्थी-प्रोत्साहन",
+        "BR-आज-विधायक-आवासन",
+        "BR-इंदिरा-गांधी-राष्ट्रीय-विधवा-पेंशन",
+        "BR-इन्दिरा-गाँधी-राष्ट्रीय-निःशक्तता-पेंशन",
+        "BR-इन्दिरा-गाँधी-राष्ट्रीय-वृद्धावस्था-पेंशन",
+        "BR-उज्ज्वला",
+        "BR-उद्यमी",
+        "BR-उषा-अभियान",
+        "BR-ऊर्जा-सह",
+        "BR-एवं-उद्यमी",
+        "BR-एवं-मध्यम-उद्योग-कलस्टर-विकास",
+        "BR-कन्या-उत्थान",
+        "BR-कन्या-विवाह-मंडप",
+        "BR-कमर्शियल-बिल्डिंग-निर्माण",
+        "BR-कहा-कि-उद्यमी",
+        "BR-कायाकल्प-अभियान",
+        "BR-कार्य",
+        "BR-कार्यक्रम-अभियान",
+        "BR-कि-बालिका-पी०एच०डी०-फेलोशिप",
+        "BR-कुंडघाट-जलाशय",
+        "BR-कृषि-इनपुट-अनुदान",
+        "BR-क्षेत्र-विकास",
+        "BR-ग्राम-परिवहन",
+        "BR-चिकित्सा-आपके-द्वार-अभियान",
+        "BR-छात्रवृत्ति",
+        "BR-जल",
+        "BR-जी-राम-जी",
+        "BR-टूरिज्म-एवं-एयर-टूरिज्म-सेवा",
+        "BR-ठोस-एवं-दीर्घकालिक",
+        "BR-तीनों-एन०एस०ए०पी०-पेंशन",
+        "BR-दिव्यांगजन-सशक्तिकरण-छत्र",
+        "BR-नदी-जोड़ो",
+        "BR-नशामुक्ति-अभियान",
+        "BR-नारी-शक्ति",
+        "BR-नाली",
+        "BR-निश्चय-स्वयं-सहायता-भत्ता",
+        "BR-पटना-मेट्रो-रेल",
+        "BR-पशु-सखी-अभियान",
+        "BR-पीएम-सूर्य-घर-मुफ्त-बिजली",
+        "BR-पूर्व-उद्यमी",
+        "BR-पेंशन",
+        "BR-पोशाक",
+        "BR-प्रधानमंत्री-आवास",
+        "BR-प्रधानमंत्री-उच्चतर-शिक्षा-अभियान",
+        "BR-प्रधानमंत्री-टीबी-मुक्त-भारत-अभियान",
+        "BR-प्रवासी-मजदूर-दुर्घटना-अनुदान",
+        "BR-प्रस्तावित",
+        "BR-प्रायोजित-राष्ट्रीय-उच्चतर-शिक्षा-अभियान",
+        "BR-प्रोत्साहन",
+        "BR-बस-सेवा",
+        "BR-बालिका-कैंसर-प्रतिरक्षण",
+        "BR-बालिका-पोशाक",
+        "BR-बिहार-निःशक्तता-पेंशन",
+        "BR-बेटी-स्टार्टअप-चैलेंज",
+        "BR-भ्रष्टाचार-विरोधी-जागरूकता-अभियान",
+        "BR-मधुबनी-क्षेत्रान्तर्गत-बस-स्टैंड-निर्माण",
+        "BR-महत्वपूर्ण",
+        "BR-मेडल-लाओ-नौकरी-पाओ",
+        "BR-यदि",
+        "BR-यूनिट-मुफ्त-बिजली",
+        "BR-रोजगार",
+        "BR-लाख-नये-लाभुक-पेंशन",
+        "BR-लाख-पौधारोपण-अभियान",
+        "BR-लिये-अभियान",
+        "BR-लिये-थरूहट-विकास",
+        "BR-लोहिया-स्वच्छ-बिहार-अभियान",
+        "BR-विद्यार्थी-सहयोग-अभियान",
+        "BR-विशेष-अभियान",
+        "BR-वृहद",
+        "BR-व्यापक",
+        "BR-संबल",
+        "BR-सतत्-जीविकोपार्जन",
+        "BR-समग्र-गव्य-विकास",
+        "BR-समग्र-भैंस-पालन",
+        "BR-समग्र-शहरी-विकास",
+        "BR-समृद्ध-बिहार-अभियान",
+        "BR-साइकिल",
+        "BR-साईकिल",
+        "BR-सात-निश्चय",
+        "BR-सामर्थ्य",
+        "BR-सामाजिक-पुनर्वास-कोष",
+        "BR-सामाजिक-सुरक्षा-पेंशन",
+        "BR-सिकरहना-दायां-तटबंध-निर्माण",
+        "BR-सेवा-संकल्प-अभियान",
+        "BR-स्किल-इंडिया-मिशन",
+        "BR-स्टूडेंट-क्रेडिट-कार्ड",
+        "BR-हरियाली-अभियान"
+      ],
+      "claims_added": 46,
+      "newsrooms": {
+        "Bihar CM – news": {
+          "template": "https://cm.bihar.gov.in/users/viewnews.aspx?id={id}",
+          "listing_ids": "4435–4454",
+          "new_listed": 20,
+          "backfill_requests": 0,
+          "backfill_stop": "id 3932 is dated 2025-03-31, before the FY start",
+          "items_read": 522
+        }
+      },
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 30,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 30,
+        "examples": [
+          {
+            "id": "BR-awas",
+            "name": "Pradhan Mantri Awas Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "BR-vriddhhajan-pension",
+            "name": "Mukhyamantri Vriddhhajan Pension Yojana",
+            "found_via": [
+              "govt",
+              "prs"
+            ]
+          },
+          {
+            "id": "BR-mahila-rojgar",
+            "name": "Mukhyamantri Mahila Rojgar Yojana",
+            "found_via": [
+              "govt",
+              "prs"
+            ]
+          },
+          {
+            "id": "BR-उद्यमी",
+            "name": "मुख्यमंत्री उद्यमी योजना",
+            "found_via": [
+              "govt"
+            ]
+          },
+          {
+            "id": "BR-कृषि-इनपुट-अनुदान",
+            "name": "कृषि इनपुट अनुदान योजना",
+            "found_via": [
+              "govt"
+            ]
+          },
+          {
+            "id": "BR-सामाजिक-पुनर्वास-कोष",
+            "name": "सामाजिक पुनर्वास कोष योजना",
+            "found_via": [
+              "govt"
+            ]
+          },
+          {
+            "id": "BR-सतत्-जीविकोपार्जन",
+            "name": "सतत् जीविकोपार्जन योजना",
+            "found_via": [
+              "govt"
+            ]
+          },
+          {
+            "id": "BR-नारी-शक्ति",
+            "name": "मुख्यमंत्री नारी शक्ति योजना",
+            "found_via": [
+              "govt"
+            ]
+          },
+          {
+            "id": "BR-दिव्यांगजन-सशक्तिकरण-छत्र",
+            "name": "मुख्यमंत्री दिव्यांगजन सशक्तिकरण छत्र योजना",
+            "found_via": [
+              "govt"
+            ]
+          },
+          {
+            "id": "BR-ग्राम-परिवहन",
+            "name": "मुख्यमंत्री ग्राम परिवहन योजना",
+            "found_via": [
+              "govt"
+            ]
+          },
+          {
+            "id": "BR-कन्या-उत्थान",
+            "name": "मुख्यमंत्री कन्या उत्थान योजना",
+            "found_via": [
+              "govt"
+            ]
+          },
+          {
+            "id": "BR-समग्र-भैंस-पालन",
+            "name": "समग्र भैंस पालन योजना",
+            "found_via": [
+              "govt"
+            ]
+          },
+          {
+            "id": "BR-समग्र-गव्य-विकास",
+            "name": "समग्र गव्य विकास योजना",
+            "found_via": [
+              "govt"
+            ]
+          },
+          {
+            "id": "BR-अल्पसंख्यक-विद्यार्थी-प्रोत्साहन",
+            "name": "मुख्यमंत्री अल्पसंख्यक विद्यार्थी प्रोत्साहन योजना",
+            "found_via": [
+              "govt"
+            ]
+          },
+          {
+            "id": "BR-अंतरजातीय-विवाह-प्रोत्साहन-अनुदान",
+            "name": "मुख्यमंत्री अंतरजातीय विवाह प्रोत्साहन अनुदान योजना",
+            "found_via": [
+              "govt"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 14,
+      "disbursed_shown": 3
+    },
+    "CG": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "छत्तीसगढ़ सरकार योजना घोषणा करोड़",
+          "lang": "hi",
+          "theme": "announcements",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 5,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 5,
+        "examples": [
+          {
+            "id": "CG-krishak-unnati",
+            "name": "Krishak Unnati Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "CG-shahid-veernarayan-singh-ayushman-swasthya",
+            "name": "Shahid Veernarayan Singh Ayushman Swasthya Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "CG-mahatari-vandan",
+            "name": "Mahatari Vandan Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "CG-awas",
+            "name": "Pradhan Mantri Awas Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "CG-national-rural-employment-guarantee",
+            "name": "National Rural Employment Guarantee Scheme",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "DL": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "दिल्ली सरकार योजना घोषणा करोड़",
+          "lang": "hi",
+          "theme": "announcements",
+          "results": 7,
+          "trusted": 4,
+          "new": 4
+        }
+      ],
+      "pages_read": 2,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 3,
+      "already_seen": 0,
+      "schemes_touched": [
+        "DL-उदय",
+        "DL-करोड़-रुपये-जनजागरूकता-अभियान",
+        "DL-सुर्य-घर",
+        "DL-सूर्य-घर"
+      ],
+      "new_schemes": [
+        "DL-उदय",
+        "DL-करोड़-रुपये-जनजागरूकता-अभियान",
+        "DL-सुर्य-घर",
+        "DL-सूर्य-घर"
+      ],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 2,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 2,
+        "examples": [
+          {
+            "id": "DL-mahila-samridhi",
+            "name": "Mahila Samridhi Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "DL-ayushman-bharat",
+            "name": "Ayushman Bharat Scheme",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "GA": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Goa announces welfare scheme crore",
+          "lang": "en",
+          "theme": "announcements",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 1,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 1,
+        "examples": [
+          {
+            "id": "GA-kaushalya-sahay",
+            "name": "Mukhyamantri Kaushalya Sahay Yojana",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "GJ": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Gujarat scheme crore transferred to beneficiaries accounts",
+          "lang": "en",
+          "theme": "disbursements",
+          "results": 1,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 1,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 4,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 4,
+        "examples": [
+          {
+            "id": "GJ-shramik-annapurna",
+            "name": "Shramik Annapurna Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "GJ-aarogya-suraksha",
+            "name": "Aarogya Suraksha Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "GJ-special-nutrition-programme",
+            "name": "Special Nutrition Programme",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "GJ-awas",
+            "name": "Pradhan Mantri Awas Yojana (Grameen)",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "HP": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "हिमाचल प्रदेश योजना करोड़ राशि खाते में अंतरित",
+          "lang": "hi",
+          "theme": "disbursements",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 7,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 7,
+        "examples": [
+          {
+            "id": "HP-agriculture-loan-interest-subvention",
+            "name": "Agriculture Loan Interest Subvention Scheme",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "HP-indira-gandhi-sukh-suraksha",
+            "name": "Indira Gandhi Sukh Suraksha Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "HP-indira-gandhi-matri-shishu-sankalp",
+            "name": "Indira Gandhi Matri Shishu Sankalp Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "HP-acharya-charak",
+            "name": "Acharya Charak Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "HP-national-rural-health-mission",
+            "name": "National Rural Health Mission",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "HP-national-rural-employment-guarantee",
+            "name": "National Rural Employment Guarantee Scheme",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "HP-awas",
+            "name": "PM Awas Yojana",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "HR": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "हरियाणा नई योजना शुरू लाभार्थी",
+          "lang": "hi",
+          "theme": "new_schemes",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 4,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 4,
+        "examples": [
+          {
+            "id": "HR-lado-laxmi",
+            "name": "Lado Laxmi Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "HR-yuva-kaushal-samman",
+            "name": "Mukhyamantri Yuva Kaushal Samman Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "HR-mera-pani-meri-viraasat",
+            "name": "Mera Pani, Meri Viraasat Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "HR-national-rural-health-mission",
+            "name": "National Rural Health Mission",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "JH": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "झारखंड योजना करोड़ राशि खाते में अंतरित",
+          "lang": "hi",
+          "theme": "disbursements",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 5,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 5,
+        "examples": [
+          {
+            "id": "JH-skill-development-mission",
+            "name": "Skill Development Mission",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "JH-pashudhan-vikas",
+            "name": "Mukhyamantri Pashudhan Vikas Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "JH-abua-aawas",
+            "name": "Abua Aawas Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "JH-national-health-mission",
+            "name": "National Health Mission",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "JH-national-ayush-mission",
+            "name": "National Ayush Mission",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "JK": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Jammu and Kashmir announces welfare scheme crore",
+          "lang": "en",
+          "theme": "announcements",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 2,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 2,
+        "examples": [
+          {
+            "id": "JK-jan-arogya",
+            "name": "Pradhan Mantri Jan Arogya Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "JK-all-antyodaya-anna",
+            "name": "All Antyodaya Anna Yojana (AAY)",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "KA": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "ಕರ್ನಾಟಕ ಯೋಜನೆ ಕೋಟಿ ಖಾತೆಗೆ ಜಮಾ",
+          "lang": "kn",
+          "theme": "disbursements",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 1,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 1,
+        "examples": [
+          {
+            "id": "KA-five-guarantee-schemes",
+            "name": "Five guarantee schemes (Gruha Lakshmi, Gruha Jyothi, Shakti, Anna Bhagya, Yuva Nidhi)",
+            "found_via": [
+              "news"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "KL": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Kerala announces welfare scheme crore",
+          "lang": "en",
+          "theme": "announcements",
+          "results": 2,
+          "trusted": 1,
+          "new": 1
+        }
+      ],
+      "pages_read": 1,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 1,
+      "already_seen": 0,
+      "schemes_touched": [
+        "KL-indira-gandhi-national-old-age-pension",
+        "KL-national-social-assistance-programme"
+      ],
+      "new_schemes": [
+        "KL-indira-gandhi-national-old-age-pension",
+        "KL-national-social-assistance-programme"
+      ],
+      "claims_added": 6,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 0,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 0,
+        "examples": []
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "MH": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "महाराष्ट्र योजना करोड़ राशि खाते में अंतरित",
+          "lang": "hi",
+          "theme": "disbursements",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 4,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 4,
+        "examples": [
+          {
+            "id": "MH-ladki-bahin-yojana",
+            "name": "Mukhyamantri Majhi Ladki Bahin Yojana",
+            "found_via": [
+              "news",
+              "prs"
+            ]
+          },
+          {
+            "id": "MH-namo-shetkari-mahasanman-nidhi",
+            "name": "Namo Shetkari Mahasanman Nidhi Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "MH-awas",
+            "name": "Pradhan Mantri Awas Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "MH-mahatma-jyotiba-phule-jan-arogya",
+            "name": "Mahatma Jyotiba Phule Jan Arogya Yojana",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "ML": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Meghalaya new scheme launched yojana beneficiaries",
+          "lang": "en",
+          "theme": "new_schemes",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 2,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 2,
+        "examples": [
+          {
+            "id": "ML-s-skills-mission",
+            "name": "Chief Minister’s Skills Mission",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "ML-s-scholarship",
+            "name": "Chief Minister’s Scholarship Scheme",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "MN": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Manipur scheme crore transferred to beneficiaries accounts",
+          "lang": "en",
+          "theme": "disbursements",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 0,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 0,
+        "examples": []
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "MP": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Madhya Pradesh scheme crore transferred to beneficiaries accounts",
+          "lang": "en",
+          "theme": "disbursements",
+          "results": 10,
+          "trusted": 3,
+          "new": 3
+        }
+      ],
+      "pages_read": 3,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 7,
+      "already_seen": 0,
+      "schemes_touched": [
+        "MP-ladli-behna",
+        "MP-members-of-jan-abhiyan",
+        "MP-ujjwala"
+      ],
+      "new_schemes": [
+        "MP-members-of-jan-abhiyan",
+        "MP-ujjwala"
+      ],
+      "claims_added": 11,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 6,
+      "surfaced_by_search": 1,
+      "missed_by_search": {
+        "count": 5,
+        "examples": [
+          {
+            "id": "MP-samriddha-pariwar",
+            "name": "Mukhya Mantri Samriddha Pariwar Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "MP-krishak-unnati",
+            "name": "Mukhya Mantri Krishak Unnati Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "MP-atal-griha-jyoti",
+            "name": "Atal Griha Jyoti Scheme",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "MP-atal-kisan-jyoti",
+            "name": "Atal Kisan Jyoti Scheme",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "MP-national-rural-employment-guarantee",
+            "name": "National Rural Employment Guarantee Scheme",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "MZ": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Mizoram scheme crore transferred to beneficiaries accounts",
+          "lang": "en",
+          "theme": "disbursements",
+          "results": 2,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 2,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 0,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 0,
+        "examples": []
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "NL": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Nagaland announces welfare scheme crore",
+          "lang": "en",
+          "theme": "announcements",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 4,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 4,
+        "examples": [
+          {
+            "id": "NL-nagaland-skill-mission",
+            "name": "Nagaland Skill Mission",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "NL-nagaland-tourism-hospitality-and-transport",
+            "name": "Nagaland Tourism, Hospitality, and Transport Scheme",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "NL-drone-training-and-logistics-programme",
+            "name": "Drone Training and Logistics Programme",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "NL-nagaland-solar-power-mission",
+            "name": "Nagaland Solar Power Mission",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "OD": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Odisha new scheme launched yojana beneficiaries",
+          "lang": "en",
+          "theme": "new_schemes",
+          "results": 8,
+          "trusted": 2,
+          "new": 2
+        }
+      ],
+      "pages_read": 2,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 6,
+      "already_seen": 0,
+      "schemes_touched": [
+        "OD-antyodaya-gruha",
+        "OD-awas",
+        "OD-commercial-layer-poultry-farming",
+        "OD-krushi-udyog",
+        "OD-livestock-prosperity"
+      ],
+      "new_schemes": [
+        "OD-awas",
+        "OD-commercial-layer-poultry-farming",
+        "OD-krushi-udyog",
+        "OD-livestock-prosperity"
+      ],
+      "claims_added": 2,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 1,
+      "surfaced_by_search": 1,
+      "missed_by_search": {
+        "count": 0,
+        "examples": []
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "PB": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "पंजाब योजना करोड़ राशि खाते में अंतरित",
+          "lang": "hi",
+          "theme": "disbursements",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 2,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 2,
+        "examples": [
+          {
+            "id": "PB-mukh-mantri-sarbat-sehat-bima",
+            "name": "Mukh Mantri Sarbat Sehat Bima Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "PB-national-rural-employment-guarantee",
+            "name": "National Rural Employment Guarantee Scheme",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "PY": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Puducherry announces welfare scheme crore",
+          "lang": "en",
+          "theme": "announcements",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 0,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 0,
+        "examples": []
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "RJ": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "राजस्थान सरकार योजना घोषणा करोड़",
+          "lang": "hi",
+          "theme": "announcements",
+          "results": 1,
+          "trusted": 1,
+          "new": 1
+        }
+      ],
+      "pages_read": 1,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 7,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 7,
+        "examples": [
+          {
+            "id": "RJ-maa-fund",
+            "name": "MAA Fund (free tests and medicines)",
+            "found_via": [
+              "news"
+            ]
+          },
+          {
+            "id": "RJ-micro-irrigation",
+            "name": "Micro-irrigation subsidy (drip & sprinkler)",
+            "found_via": [
+              "news"
+            ]
+          },
+          {
+            "id": "RJ-farm-loan-interest-subsidy",
+            "name": "Interest subsidy on farm loans",
+            "found_via": [
+              "news"
+            ]
+          },
+          {
+            "id": "RJ-vivekanand-employment-assistance-fund",
+            "name": "Vivekanand Employment Assistance Fund",
+            "found_via": [
+              "news",
+              "prs"
+            ]
+          },
+          {
+            "id": "RJ-gig-and-unorganised-workers-development-fund",
+            "name": "Gig and Unorganised Workers Development Fund",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "RJ-amrut-aahar",
+            "name": "CM Amrut Aahar Yojana",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "RJ-rural-employment-guarantee",
+            "name": "Rural Employment Guarantee Scheme",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "SK": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Sikkim scheme crore transferred to beneficiaries accounts",
+          "lang": "en",
+          "theme": "disbursements",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 0,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 0,
+        "examples": []
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "TN": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "தமிழ்நாடு அரசு திட்டம் அறிவிப்பு கோடி",
+          "lang": "ta",
+          "theme": "announcements",
+          "results": 5,
+          "trusted": 1,
+          "new": 1
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 4,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 4,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 4,
+        "examples": [
+          {
+            "id": "TN-kalaignar-magalir-urimai-thogai",
+            "name": "Kalaignar Magalir Urimai Thogai",
+            "found_via": [
+              "news",
+              "prs"
+            ]
+          },
+          {
+            "id": "TN-integrated-child-development-scheme",
+            "name": "Integrated Child Development Scheme",
+            "found_via": [
+              "news"
+            ]
+          },
+          {
+            "id": "TN-vidiyal-payanam",
+            "name": "Vidiyal Payanam (free bus travel for women)",
+            "found_via": [
+              "news"
+            ]
+          },
+          {
+            "id": "TN-chief-ministers-breakfast-scheme",
+            "name": "Chief Minister's Breakfast Scheme (expansion)",
+            "found_via": [
+              "news",
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "TR": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Tripura announces welfare scheme crore",
+          "lang": "en",
+          "theme": "announcements",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 2,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 2,
+        "examples": [
+          {
+            "id": "TR-s",
+            "name": "Chief Minister’s Scheme",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "TR-balika-samriddhi",
+            "name": "Mukhyamantri Balika Samriddhi Yojana",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "TS": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Telangana scheme crore transferred to beneficiaries accounts",
+          "lang": "en",
+          "theme": "disbursements",
+          "results": 2,
+          "trusted": 1,
+          "new": 1
+        }
+      ],
+      "pages_read": 1,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 1,
+      "already_seen": 0,
+      "schemes_touched": [
+        "TS-indiramma-life-insurance"
+      ],
+      "new_schemes": [
+        "TS-indiramma-life-insurance"
+      ],
+      "claims_added": 2,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 2,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 2,
+        "examples": [
+          {
+            "id": "TS-rajeev-youth-development",
+            "name": "Rajeev Youth Development Scheme",
+            "found_via": [
+              "prs"
+            ]
+          },
+          {
+            "id": "TS-telangana-dalit-bandhu",
+            "name": "Telangana Dalit Bandhu Scheme",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "UK": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "उत्तराखंड नई योजना शुरू लाभार्थी",
+          "lang": "hi",
+          "theme": "new_schemes",
+          "results": 0,
+          "trusted": 0,
+          "new": 0
+        }
+      ],
+      "pages_read": 0,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 0,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 0,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 0,
+        "examples": []
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "UP": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "Uttar Pradesh new scheme launched yojana beneficiaries",
+          "lang": "en",
+          "theme": "new_schemes",
+          "results": 5,
+          "trusted": 1,
+          "new": 1
+        }
+      ],
+      "pages_read": 1,
+      "official_pages": 0,
+      "failures": {},
+      "untrusted_skipped": 4,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 3,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 3,
+        "examples": [
+          {
+            "id": "UP-destitute-women-pension-scheme",
+            "name": "Destitute Women Pension Scheme",
+            "found_via": [
+              "news"
+            ]
+          },
+          {
+            "id": "UP-farmer-welfare-fund",
+            "name": "Farmer Welfare Fund",
+            "found_via": [
+              "news"
+            ]
+          },
+          {
+            "id": "UP-kanya-sumangala-yojana",
+            "name": "Mukhyamantri Kanya Sumangala Yojana",
+            "found_via": [
+              "news"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    },
+    "WB": {
+      "queries": [
+        {
+          "provider": "bing_news",
+          "query": "West Bengal new scheme launched yojana beneficiaries",
+          "lang": "en",
+          "theme": "new_schemes",
+          "results": 10,
+          "trusted": 6,
+          "new": 6
+        }
+      ],
+      "pages_read": 4,
+      "official_pages": 0,
+      "failures": {
+        "HTTP 403": 1
+      },
+      "untrusted_skipped": 4,
+      "already_seen": 0,
+      "schemes_touched": [
+        "WB-annapurna",
+        "WB-economic-times-annapurna",
+        "WB-et-online-annapurna",
+        "WB-lakshmi-bhandar",
+        "WB-save-print-comment-synopsis-west-bengal-s-annapurna"
+      ],
+      "new_schemes": [
+        "WB-annapurna",
+        "WB-economic-times-annapurna",
+        "WB-et-online-annapurna",
+        "WB-lakshmi-bhandar",
+        "WB-save-print-comment-synopsis-west-bengal-s-annapurna"
+      ],
+      "claims_added": 1,
+      "newsrooms": {},
+      "verification_searches": [],
+      "not_reached": false,
+      "schemes_on_record": 1,
+      "surfaced_by_search": 0,
+      "missed_by_search": {
+        "count": 1,
+        "examples": [
+          {
+            "id": "WB-banglar-bari",
+            "name": "Banglar Bari (Gramin) Scheme",
+            "found_via": [
+              "prs"
+            ]
+          }
+        ]
+      },
+      "verified_figures": 0,
+      "disbursed_shown": 0
+    }
+  },
+  "budget_used": {
+    "bing_news": {
+      "today": {
+        "discovery": 32,
+        "verification": 0
+      },
+      "month": 32
+    }
+  },
+  "ai_extraction_stats": {
+    "calls": 0,
+    "cached": 0,
+    "claims": 0,
+    "rejected": 0,
+    "errors": 0
+  },
+  "verification": {
+    "claims": 86,
+    "verified": 25,
+    "disbursed_set": 6
+  },
+  "history": [
+    {
+      "run": "2026-10-22",
+      "CENTRE": {
+        "pages_read": 3,
+        "official_pages": 0,
+        "claims_added": 33,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "AP": {
+        "pages_read": 1,
+        "official_pages": 0,
+        "claims_added": 3,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 3,
+        "new_schemes": 1,
+        "queries": 1
+      },
+      "AR": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "AS": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 2,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "BR": {
+        "pages_read": 0,
+        "official_pages": 522,
+        "claims_added": 46,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 30,
+        "new_schemes": 89,
+        "queries": 1
+      },
+      "CG": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 5,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "DL": {
+        "pages_read": 2,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 2,
+        "new_schemes": 4,
+        "queries": 1
+      },
+      "GA": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 1,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "GJ": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 4,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "HP": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 7,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "HR": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 4,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "JH": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 5,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "JK": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 2,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "KA": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 1,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "KL": {
+        "pages_read": 1,
+        "official_pages": 0,
+        "claims_added": 6,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 2,
+        "queries": 1
+      },
+      "MH": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 4,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "ML": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 2,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "MN": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "MP": {
+        "pages_read": 3,
+        "official_pages": 0,
+        "claims_added": 11,
+        "surfaced_by_search": 1,
+        "schemes_on_record": 6,
+        "new_schemes": 2,
+        "queries": 1
+      },
+      "MZ": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "NL": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 4,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "OD": {
+        "pages_read": 2,
+        "official_pages": 0,
+        "claims_added": 2,
+        "surfaced_by_search": 1,
+        "schemes_on_record": 1,
+        "new_schemes": 4,
+        "queries": 1
+      },
+      "PB": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 2,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "PY": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "RJ": {
+        "pages_read": 1,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 7,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "SK": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "TN": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 4,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "TR": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 2,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "TS": {
+        "pages_read": 1,
+        "official_pages": 0,
+        "claims_added": 2,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 2,
+        "new_schemes": 1,
+        "queries": 1
+      },
+      "UK": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "UP": {
+        "pages_read": 1,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 3,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "WB": {
+        "pages_read": 4,
+        "official_pages": 0,
+        "claims_added": 1,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 1,
+        "new_schemes": 5,
+        "queries": 1
+      }
+    }
+  ]
+}

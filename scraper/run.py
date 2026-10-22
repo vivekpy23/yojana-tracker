@@ -30,6 +30,8 @@ from __future__ import annotations
 
 import argparse
 import dataclasses
+import datetime as dt
+import time
 import logging
 import os
 import re
@@ -38,15 +40,21 @@ from pathlib import Path
 import yaml
 
 from . import build as build_mod
-from . import cag, myscheme, portal, prs
+from . import cag, llm, myscheme, newsroom, portal, prs, search
+from .checkpoint import Budget, Checkpoint
+from .newsroom import main_text
+from .registry import Registry
 from . import catalog as catalog_mod
-from .extract import DISBURSEMENT, Candidate, category
+from .claims import extract_claims
+from .extract import DISBURSEMENT, STATES, Candidate, _dominant_state, category, detect_states, extract_candidates, fy_of
 from .fetch import Fetcher, doc_links, is_govt, to_text
-from .news import discover
-from .store import (CATALOG, REJECTED, REVIEW, SCHEMES, SEED, add_report, find_existing, load, save, today,
-                    upsert)
+from .news import RELEVANT, canonical_url, discover
+from .store import (CATALOG, DATA, REJECTED, REVIEW, SCHEMES, SEED, add_financial, add_report, disbursement_summary,
+                    find_existing, load, save, today, upsert)
 from .store import add_source as store_add_source
-from .verify import GovtDoc, find_allocation, verify
+from .verify import GovtDoc, find_allocation, verify, verify_claim
+
+COVERAGE = DATA / "coverage.json"
 
 log = logging.getLogger("scraper")
 CONFIG = Path(__file__).with_name("config.yaml")
@@ -194,6 +202,328 @@ def process_candidate(c: Candidate, schemes, queue, docs, cfg, fy, rejected, cat
     return v.outcome
 
 
+# ---------------------------------------------------------------- web discovery: search + official newsrooms
+def article_state(text: str, title: str, hint: str | None) -> str | None:
+    """The state an article is about: the one its headline names, else the most mentioned one, else the state
+    it was searched for – but only when the text mentions that state (a Bihar query can return an MP story)."""
+    named = detect_states(title)
+    if len(named) == 1:
+        return named[0]
+    top = _dominant_state(text)
+    if len(top) == 1:
+        return top[0]
+    return hint if hint and any(n in text for n in STATES.get(hint, [])) else None
+
+
+def record_for(schemes, catalog, funding, state: str, name: str, fy: str, src: dict, aliases=()) -> dict:
+    """The scheme's record for `fy`, created (status reported, no amount) when the scheme is new: a scheme is
+    kept whether or not any allocation is known."""
+    entry = catalog_mod.find(catalog, state, name)
+    for alias in aliases:
+        entry = entry or catalog_mod.find(catalog, state, alias)
+    if entry is None:
+        entry = catalog_mod.merge(catalog, {"state": state, "name": name, "via": "news"}, funding)[0]
+    rec = find_existing(schemes, state, entry["name"], fy) or next(
+        (r for a in [name, *aliases] for r in [find_existing(schemes, state, a, fy)] if r), None)
+    if rec is None:
+        rec = upsert(schemes, state=state, name=entry["name"], fy=fy, amount=None, status="reported", source=src)
+    else:
+        store_add_source(rec, src)
+    for n in [name, *aliases]:
+        if n == rec["name"] or n in rec.setdefault("aliases", []):
+            continue
+        if find_existing(schemes, state, n, fy) is rec:  # upsert files it (a romanised name becomes the name)
+            upsert(schemes, state=state, name=n, fy=fy, amount=None, status="reported", source=src)
+        else:  # another wording of the same scheme in the same source (AI extraction)
+            rec["aliases"].append(n)
+    rec.setdefault("category", category(f"{rec['name']}. {rec.get('description') or ''}"))
+    catalog_mod.annotate(rec, entry, funding)
+    return rec
+
+
+def ingest(text: str, *, url: str, title: str, published: str, state_hint: str | None, lang: str, official: bool,
+           outlet: str, ctx: dict) -> dict:
+    """One article / press release → scheme reports (extract_candidates → process_candidate) and typed financial
+    claims (claims.py rules + optional AI extraction) on the scheme records. Returns what was found."""
+    fy, schemes, catalog, funding = ctx["fy"], ctx["schemes"], ctx["catalog"], ctx["cfg"].get("funding", {})
+    state = article_state(text, title, state_hint)
+    found = {"url": url, "title": title[:160], "state": state, "official": official, "schemes": [], "ids": [],
+             "claims": 0}
+    if state is None or state not in ctx["states"]:
+        return found
+    src = {"kind": "govt" if official else "news", "title": title or outlet, "url": url}
+    typed = extract_claims(text, title=title, published=published, state=state, source=src)
+    budget = [c["amount_cr"] for c in typed if c["type"] == "budget_allocation"]
+    flows = [c["amount_cr"] for c in typed if c["type"] in ("disbursement_event", "cumulative_disbursement")]
+    for c in extract_candidates(text, url=url, title=title, published=published, fy=fy, state_hint=state, lang=lang,
+                                as_of=today()):
+        if c.state != state:
+            continue
+        # On a web page an amount is an allocation only when the claims extractor reads it as one; a transfer,
+        # a total disbursed or a project cost ('769 करोड़ की योजनाओं का शिलान्यास') is never `announced`.
+        if c.amount is not None and not any(abs(c.amount - b) <= 0.5 for b in budget):
+            c = dataclasses.replace(c, amount=None, kind=DISBURSEMENT if any(abs(c.amount - f) <= 0.5 for f in flows)
+                                    else c.kind)
+        c.extra.update(feed=outlet, govt_feed=official)
+        outcome = process_candidate(c, schemes, ctx["queue"], ctx["docs"].get(state, []), ctx["cfg"], fy,
+                                    ctx["rejected"], catalog)
+        ctx["tally"][outcome] = ctx["tally"].get(outcome, 0) + 1
+        found["schemes"].append(c.name)
+        rec = find_existing(schemes, state, c.name, c.fy or fy)
+        if rec:
+            found["ids"].append(rec["id"])
+    ai_schemes, ai_claims = ctx["extractor"].extract(text, src)
+    for s in ai_schemes:
+        if (s.get("state") or state) == state:
+            rec = record_for(schemes, catalog, funding, state, s["name"], fy, src, s["aliases"])
+            if s.get("launched") and not rec.get("launched"):
+                rec["launched"] = s["launched"]
+    for cl in typed + ai_claims:
+        if (cl.get("state") or state) != state:
+            continue
+        if not cl.get("fy"):
+            # An undated earlier total ('इसके पूर्व … की जा चुकी है') is kept on a record that already exists,
+            # never shown, and never the reason a record (or a record in another FY) is created.
+            rec = next((r for f in (fy, fy_of(cl["published"]) if cl.get("published") else fy)
+                        for r in [find_existing(schemes, state, cl["scheme"], f)] if r), None)
+            if rec is None:
+                continue
+        else:
+            rec = record_for(schemes, catalog, funding, state, cl["scheme"], cl["fy"], src)
+        add_financial(rec, {**cl, "official": official})
+        found["claims"] += 1
+        found["schemes"].append(rec["name"])
+        found["ids"].append(rec["id"])
+    found["schemes"] = list(dict.fromkeys(found["schemes"]))
+    found["ids"] = list(dict.fromkeys(found["ids"]))
+    return found
+
+
+def _jurisdiction_cov() -> dict:
+    return {"queries": [], "pages_read": 0, "official_pages": 0, "failures": {}, "untrusted_skipped": 0,
+            "already_seen": 0, "schemes_touched": [], "new_schemes": [], "claims_added": 0, "newsrooms": {},
+            "verification_searches": [], "not_reached": False}
+
+
+def discover_web(fetcher: Fetcher, ctx: dict, cp: Checkpoint, reg: Registry, deadline: float) -> dict:
+    """Daily, incremental, search-first discovery for every jurisdiction in ctx['states']:
+      1. registered official newsrooms (outside the search quota): new items, and backfill toward the FY start;
+      2. one broad discovery query per jurisdiction per provider per day (search.daily_query), within each
+         provider's budget; results already searched recently, pages already read, and pages that are neither
+         official nor from a credible outlet are skipped;
+      3. targeted verification searches (separate budget) for the largest unverified figures.
+    Each page goes through ingest(). The checkpoint is saved after every jurisdiction, and the loop stops at
+    `deadline` (what wasn't reached is logged), so a run always ends cleanly and the next one continues.
+    Returns coverage per jurisdiction."""
+    cfg, fy, schemes = ctx["cfg"], ctx["fy"], ctx["schemes"]
+    scfg = cfg.get("search", {})
+    provs, skipped = search.providers(scfg)
+    budgets = {p.name: Budget(next(pc for pc in scfg["providers"] if pc["name"] == p.name), cp) for p in provs}
+    cov = {"run": today(), "fy": fy, "providers": [p.name for p in provs], "providers_skipped": skipped,
+           "ai_extraction": ctx["extractor"].disabled or ctx["extractor"].model, "jurisdictions": {}}
+    day = dt.date.fromisoformat(cp.today)
+
+    def read(url, title, published, code, lang, outlet, c, provider):
+        got = fetcher.get(url, max_age_h=24 * 30)
+        if not got:
+            reason = fetcher.last_error or "not fetched"
+            c["failures"][reason] = c["failures"].get(reason, 0) + 1
+            return None
+        cp.mark_seen(url, code)
+        text = main_text(*got, url=url)
+        official = is_govt(url, cfg["govt_domains"])
+        home = (reg.jurisdiction_of(url) or code) if official else code
+        if official:
+            ctx["docs"].setdefault(home, []).append(GovtDoc(url, text))
+            c["official_pages"] += 1
+        c["pages_read"] += 1
+        return ingest(text, url=canonical_url(url), title=title, published=published, state_hint=home, lang=lang,
+                      official=official, outlet=outlet, ctx=ctx)
+
+    def touched(c, found, code, via_search):
+        ids = found.get("ids", [])
+        c["schemes_touched"] = sorted(set(c["schemes_touched"]) | set(ids))
+        c["claims_added"] += found.get("claims", 0)
+        if via_search:
+            cp.add_surfaced(found.get("state") or code, ids)
+
+    for code in sorted(ctx["states"], key=lambda c: (c != "CENTRE", c)):
+        c = cov["jurisdictions"][code] = _jurisdiction_cov()
+        if time.time() > deadline:
+            c["not_reached"] = True
+            continue
+        before = {s["id"] for s in schemes if s["state"] == code}
+        # 1. official newsrooms – not counted against any search budget
+        for room in reg.newsrooms(code):
+            room_cov = c["newsrooms"].setdefault(room.get("name", room["listing"]), {})
+            for it in newsroom.crawl(fetcher, room, fy, cp.newsroom(room["listing"]), room_cov):
+                if cp.seen(it.url):
+                    continue
+                cp.mark_seen(it.url, code)
+                ctx["docs"].setdefault(code, []).append(GovtDoc(it.url, it.text))
+                c["official_pages"] += 1
+                if RELEVANT.search(it.text):
+                    touched(c, ingest(it.text, url=it.url, title=it.title, published=it.published, state_hint=code,
+                                      lang=it.lang, official=True, outlet=room.get("name", ""), ctx=ctx), code, False)
+        # 2. one discovery query per provider (budgeted)
+        pages_left = scfg.get("max_pages_per_jurisdiction", 15)
+        for p in provs:
+            b = budgets[p.name]
+            query, lang, theme = search.daily_query(scfg, code, day)
+            entry = {"provider": p.name, "query": query, "lang": lang, "theme": theme}
+            key = f"{p.name}|{query}"
+            if not b.allow_discovery(code):
+                c["queries"].append({**entry, "skipped": "budget (daily per jurisdiction or monthly cap)"})
+                continue
+            if cp.query_ran_recently(key, scfg.get("query_cache_days", 7)):
+                c["queries"].append({**entry, "skipped": "same query ran recently"})
+                continue
+            results = p.search(fetcher, query, lang, scfg.get("results_per_query", 10), fresh=True)
+            b.spend("discovery", code)
+            if results is None:
+                c["queries"].append({**entry, "failed": fetcher.last_error or "no response"})
+                continue
+            cp.mark_query(key)
+            trusted = [r for r in results if is_govt(r["url"], cfg["govt_domains"]) or reg.is_credible(r["url"])]
+            new = [r for r in trusted if not cp.seen(canonical_url(r["url"])) and not cp.seen(r["url"])]
+            c["untrusted_skipped"] += len(results) - len(trusted)
+            c["already_seen"] += len(trusted) - len(new)
+            c["queries"].append({**entry, "results": len(results), "trusted": len(trusted), "new": len(new)})
+            for r in new:
+                if pages_left <= 0:
+                    break
+                if not is_govt(r["url"], cfg["govt_domains"]) and not RELEVANT.search(f"{r['title']} {r['snippet']}"):
+                    continue
+                pages_left -= 1
+                found = read(r["url"], r["title"], r["published"], code, lang, urlparse_host(r["url"]), c, p.name)
+                if found:
+                    touched(c, found, code, True)
+        c["new_schemes"] = sorted({s["id"] for s in schemes if s["state"] == code} - before)
+        cp.save()  # checkpoint after every jurisdiction
+
+    # 3. verification searches – separate budget, only providers with site:. First the free check against the
+    # official pages already read, so a search is spent only on figures still unverified; one search per scheme
+    # (it covers all the scheme's figures).
+    verify_financials(schemes, ctx["docs"], cfg)
+    vcfg = scfg.get("verification", {})
+    targets = []
+    for rec in schemes:
+        domains = reg.domains(rec["state"])
+        if rec["state"] not in ctx["states"] or rec["fy"] != fy or not domains:
+            continue
+        for f in rec.get("financials", []):
+            if f["verified"] or not f.get("as_of") or f["amount_cr"] < vcfg.get("min_amount_cr", 50):
+                continue
+            k = f"{rec['id']}|{f['type']}|{f['amount_cr']}|{f['as_of']}"
+            if cp.verification_due(k, vcfg.get("retry_days", 14)):
+                targets.append((f["amount_cr"], k, rec, domains))
+    searched: set[str] = set()
+    for _, k, rec, domains in sorted(targets, key=lambda t: -t[0]):
+        if rec["id"] in searched:
+            cp.mark_verification(k)  # covered by this run's search for the scheme
+            continue
+        searched.add(rec["id"])
+        p = next((p for p in provs if p.site_operator and budgets[p.name].allow_verification()), None)
+        if p is None or time.time() > deadline:
+            break
+        c = cov["jurisdictions"][rec["state"]]
+        query = search.verification_query(scfg, [rec["name"], *rec.get("aliases", [])], rec["state"], domains[0])
+        if not query:
+            continue
+        results = p.search(fetcher, query, "en", scfg.get("results_per_query", 10))
+        budgets[p.name].spend("verification")
+        cp.mark_verification(k)
+        official = [r for r in (results or []) if is_govt(r["url"], cfg["govt_domains"])]
+        c["verification_searches"].append({"provider": p.name, "query": query, "for": k,
+                                           "results": None if results is None else len(results),
+                                           "official": len(official)})
+        for r in official[:3]:
+            if not cp.seen(r["url"]):
+                found = read(r["url"], r["title"], r["published"], rec["state"], "hi", urlparse_host(r["url"]), c, p.name)
+                if found:
+                    touched(c, found, rec["state"], True)
+    cov["budget_used"] = {p.name: {"today": {k: cp.used(p.name, k) for k in ("discovery", "verification")},
+                                   "month": cp.used(p.name, "", month=True)} for p in provs}
+    return cov
+
+
+def coverage_report(cov: dict, schemes: list[dict], cp: Checkpoint, fy: str) -> dict:
+    """Per jurisdiction: what was searched and read, failures, and – for evaluating the search budget – the
+    welfare schemes on record for the FY that no search result has ever surfaced ('missed by search')."""
+    for code, c in cov["jurisdictions"].items():
+        mine = [s for s in schemes if s["state"] == code and s["fy"] == fy and s.get("category", "welfare") == "welfare"
+                and s.get("kind", "scheme") == "scheme"]
+        surfaced = cp.surfaced(code)
+        missed = [s for s in mine if s["id"] not in surfaced]
+        c["schemes_on_record"] = len(mine)
+        c["surfaced_by_search"] = len(mine) - len(missed)
+        c["missed_by_search"] = {"count": len(missed), "examples": [
+            {"id": s["id"], "name": s["name"], "found_via": sorted({x.get("kind", "") for x in s.get("sources", [])})}
+            for s in missed[:15]]}
+        c["verified_figures"] = sum(f["verified"] for s in mine for f in s.get("financials", []))
+        c["disbursed_shown"] = sum(1 for s in mine if s.get("despatched") is not None)
+    hist = load(COVERAGE, {}).get("history", [])
+    hist.append({"run": cov["run"], **{code: {k: c[k] for k in ("pages_read", "official_pages", "claims_added",
+                                                               "surfaced_by_search", "schemes_on_record")}
+                                       | {"new_schemes": len(c["new_schemes"]), "queries": len(c["queries"])}
+                                       for code, c in cov["jurisdictions"].items()}})
+    cov["history"] = hist[-60:]
+    return cov
+
+
+def _web_line(web: dict) -> str:
+    if "skipped" in web:
+        return web["skipped"]
+    js = web["jurisdictions"]
+    q = sum(1 for c in js.values() for x in c["queries"] if "results" in x)
+    skipped_q = sum(1 for c in js.values() for x in c["queries"] if "skipped" in x or "failed" in x)
+    rooms = sum(len(c["newsrooms"]) for c in js.values())
+    prov_skipped = ", ".join(f"{k} – {v}" for k, v in web["providers_skipped"].items())
+    return (f"providers {', '.join(web['providers']) or 'none'}"
+            f"{' (skipped: ' + prov_skipped + ')' if prov_skipped else ''}; {q} searches run, {skipped_q} skipped or "
+            f"failed; {sum(c['pages_read'] for c in js.values())} pages read, "
+            f"{sum(c['official_pages'] for c in js.values())} official; {rooms} newsrooms; "
+            f"{sum(len(c['new_schemes']) for c in js.values())} new scheme records; "
+            f"{sum(len(c['verification_searches']) for c in js.values())} verification searches; "
+            f"{sum(c['not_reached'] for c in js.values())} jurisdictions not reached; budget used {web['budget_used']}; "
+            f"AI extraction: {web['ai_extraction']} (data/coverage.json)")
+
+
+def urlparse_host(url: str) -> str:
+    from urllib.parse import urlparse
+    return urlparse(url).netloc.removeprefix("www.")
+
+
+def verify_financials(schemes: list[dict], docs: dict[str, list[GovtDoc]], cfg: dict) -> dict:
+    """Check every financial claim against the official documents read this run (its state's newsroom items,
+    government pages found by search, budget documents). A claim is verified only when an official document
+    prints the same figure next to the scheme's name (any of its names, any script). Then set each scheme's
+    disbursed figure from verified figures only (store.disbursement_summary)."""
+    out = {"claims": 0, "verified": 0, "disbursed_set": 0}
+    tol = cfg["match"]["amount_tolerance"]
+    for rec in schemes:
+        fins = rec.get("financials", [])
+        names = [rec["name"], *rec.get("aliases", [])]
+        for f in fins:
+            out["claims"] += 1
+            if not f["verified"] and f.get("as_of"):
+                doc = verify_claim(f["amount_cr"], names, docs.get(rec["state"], []), tol=tol)
+                if doc:
+                    f.update(verified=True, verified_against=doc.url)
+                    if not any(s.get("url") == doc.url for s in f["sources"]):
+                        f["sources"].append({"kind": "govt", "title": "Government source", "url": doc.url})
+            out["verified"] += f["verified"]
+        summary = disbursement_summary(rec, rec["fy"]) if fins else None
+        if summary:
+            rec["despatched"] = summary["amount"]
+            rec["despatched_source"] = {k: summary[k] for k in ("url", "title", "period", "as_of", "basis", "kind",
+                                                                "beneficiaries")}
+            out["disbursed_set"] += 1
+        elif (rec.get("despatched_source") or {}).get("kind") in ("cumulative", "transfers"):
+            rec["despatched"] = rec["despatched_source"] = None  # set by an earlier run, no longer supported
+    return out
+
+
 def match_catalog(code: str, catalog, schemes, queue, docs, fy, rejected, limit: int) -> int:
     """Catalog schemes without a confirmed allocation, looked up verbatim in the government documents.
     A single amount next to the name goes to the review queue – never straight to the site."""
@@ -272,6 +602,8 @@ def main(argv=None) -> int:
     ap.add_argument("--no-news", action="store_true")
     ap.add_argument("--no-discovery", action="store_true")
     ap.add_argument("--no-prs", action="store_true")
+    ap.add_argument("--no-search", action="store_true", help="skip web search and official newsrooms")
+    ap.add_argument("--states", help="comma-separated state codes to process (default: all), e.g. BR")
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(name)s: %(message)s")
 
@@ -279,10 +611,12 @@ def main(argv=None) -> int:
         build_mod.build()
         return 0
 
+    started = time.time()
     cfg = yaml.safe_load(CONFIG.read_text(encoding="utf-8"))
     fy = cfg["fy"]
     h = cfg["http"]
-    fetcher = Fetcher(h["user_agent"], h["timeout_s"], h["delay_s"], max_per_host=h.get("max_requests_per_host"))
+    fetcher = Fetcher(h["user_agent"], h["timeout_s"], h["delay_s"], max_per_host=h.get("max_requests_per_host"),
+                      retries=h.get("retries", 2), backoff=h.get("retry_backoff_s", 2.0))
     funding = cfg.get("funding", {})
     schemes = load(SCHEMES, [])
     queue = apply_review_decisions(schemes, fy)
@@ -295,7 +629,10 @@ def main(argv=None) -> int:
 
     # PRS budget analyses of the FY: named schemes and welfare announcements for every state PRS covers.
     # News (next) adds what PRS doesn't name; both land on the same records.
+    seed_states = [st["code"] for st in load(SEED, {}).get("states", [])]
+    states = set(args.states.upper().split(",")) if args.states else set(seed_states) | {"CENTRE"}
     prs_items, prs_stats = ([], {"skipped": "--no-prs"}) if args.no_prs else prs.scheme_items(fetcher, cfg, fy)
+    prs_items = [i for i in prs_items if i["state"] in states]
     prs_saved = save_prs_schemes(prs_items, schemes, catalog, funding)
 
     candidates = [] if args.no_news else discover(
@@ -309,18 +646,34 @@ def main(argv=None) -> int:
             candidates.append(Candidate(s["state"], s["name"], s["reported_amount"], "", 0.9,
                                         news["url"], news["title"], fy=fy, extra={"recheck": True}))
 
+    candidates = [c for c in candidates if c.state in states]
     tally: dict[str, int] = {}
     allocation_queued = 0
-    with_sources = set(cfg["govt_sources"])
+    with_sources = set(cfg["govt_sources"]) & states
+    docs_by_state: dict[str, list[GovtDoc]] = {}
     for code in dict.fromkeys([c.state for c in candidates] + sorted(with_sources)):
         mine = [c for c in candidates if c.state == code]
-        docs = load_govt_docs(fetcher, cfg, code) if code in with_sources else []
+        docs = docs_by_state[code] = load_govt_docs(fetcher, cfg, code) if code in with_sources else []
         for c in mine:
             outcome = process_candidate(c, schemes, queue, docs, cfg, fy, rejected, catalog)
             tally[outcome] = tally.get(outcome, 0) + 1
         if docs:
             allocation_queued += match_catalog(code, catalog, schemes, queue, docs, fy, rejected,
                                                cfg.get("discovery", {}).get("max_allocation_reviews_per_state", 10))
+    # Web search (configurable providers) and official newsrooms; then every financial claim is checked
+    # against the official documents read, and disbursed figures are set from verified claims only.
+    extractor = llm.Extractor(cfg.get("ai_extraction", {}))
+    ctx = {"cfg": cfg, "fy": fy, "states": states, "schemes": schemes, "catalog": catalog, "queue": queue,
+           "rejected": rejected, "docs": docs_by_state, "tally": tally, "extractor": extractor}
+    cp = Checkpoint.load()
+    deadline = started + cfg.get("run", {}).get("time_budget_min", 35) * 60
+    web = {"skipped": "--no-search"} if args.no_search else discover_web(fetcher, ctx, cp, Registry.load(), deadline)
+    fin = verify_financials(schemes, docs_by_state, cfg)
+    if not args.no_search:
+        web["ai_extraction_stats"] = extractor.stats
+        web["verification"] = fin
+        save(COVERAGE, coverage_report(web, schemes, cp, fy))
+        cp.save()
     for s in schemes:  # department, description, official link and funding type from the catalog
         catalog_mod.annotate(s, catalog_mod.find(catalog, s["state"], s["name"]), funding)
         s.setdefault("category", category(f"{s['name']}. {s.get('description') or ''}"))
@@ -355,6 +708,10 @@ def main(argv=None) -> int:
                f"failed: {', '.join(prs_stats.get('failed', [])) or 'none'}"
                f"{'; ' + prs_stats['skipped'] if prs_stats.get('skipped') else ''}\n"
                f"- News candidates processed: {sum(tally.values())} {tally}\n"
+               f"- Web discovery ({', '.join(sorted(states)) if args.states else 'all states'}): "
+               f"{_web_line(web)}\n"
+               f"- Financial claims: {fin['claims']} on record, {fin['verified']} verified against official sources; "
+               f"disbursed figure set for {fin['disbursed_set']} schemes\n"
                f"- Catalog allocations found in govt documents, sent to review: {allocation_queued}\n"
                f"- Headline figures confirmed against govt documents: {upgraded}\n"
                f"- CAG provisional actuals ({fy}, March report): {len(actuals['filled'])} states/UTs filled; "

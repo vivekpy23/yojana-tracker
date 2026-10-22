@@ -5,3 +5,4 @@ pdfplumber>=0.11
 rapidfuzz>=3.6
 PyYAML>=6.0
 pytest>=8.0
+anthropic>=2.0          # optional: AI-assisted extraction (config.yaml → ai_extraction)

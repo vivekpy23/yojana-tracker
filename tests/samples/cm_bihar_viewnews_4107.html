@@ -1,0 +1,431 @@
+
+
+<!DOCTYPE html>
+
+<html>
+<head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="description" /><meta name="author" content="Arnav, Chandan" /><title>
+	Read News
+</title><link href="../users/styles/bootstrap.min.css" rel="stylesheet" /><link href="../users/styles/font-awesome.min.css" rel="stylesheet" /><link href="../users/styles/main.css" rel="stylesheet" /><link href="../users/styles/animate.css" rel="stylesheet" /><link href="../users/styles/responsive.css" rel="stylesheet" /><link href="../users/styles/style.css" rel="stylesheet" /><link href="../users/styles/clndr.css" rel="stylesheet" /><link href="styles/cmsites.css" rel="stylesheet" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!--[if lt IE 9]>
+	    <script src="js/html5shiv.js"></script>
+	    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="../users/images/title.png" /><link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png" /><link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png" /><link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png" /><link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png" />
+
+	<style type="text/css">
+	    @media only screen and (max-width: 300px) 
+        {
+	        #slidediv 
+            {
+	            display:block !important;
+	        }
+	    } 
+
+	    #slidediv 
+        {
+	        min-height: 92px;
+	        display:none;
+	    }
+
+	    #contentdiv 
+        {
+	    }
+
+	    #btnright
+        { 
+            position:absolute; 
+            right:0; 
+            height:92px; 
+            width:100px; 
+            background: url(images/menu-nav.png) 35px 28px no-repeat #1b7b98;
+            border:none;  
+	    }
+	    p img 
+        {
+            margin-right:20px !important;
+	    }
+	    #home_test 
+        {
+                padding-bottom:50px !important;
+	    }
+	    p 
+        {
+            /*
+                font-family: 'Dosis', sans-serif !important;
+            */
+	    }
+	    .show_left
+	    {
+	        height: 90px;
+            width: 90px;
+            float: left;
+            left:0px;
+            position: fixed;
+            margin-top: 20em;
+            z-index:9999999999;
+	    }
+	    .show_left ul
+	    {
+	        list-style:none;
+	        padding-bottom:10px;
+	    }
+         .show_right
+	    {
+	        height: 90px;
+            width: 90px;
+            float: left;
+            right:0px;
+            position: fixed;
+            margin-top: 20em;
+            z-index:9999999999;
+	    }
+	    .show_right ul
+	    {
+	        list-style:none;
+	        padding-bottom:10px;
+	    }
+	</style>
+    
+</head>
+<body>
+    <form name="aspnetForm" method="post" action="./viewnews.aspx?id=4107" id="aspnetForm">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJNzc2ODE5NzI1D2QWAmYPZBYCAgMPZBYCAgMPZBYEAgEPDxYCHgRUZXh0BQsyMi1PY3QtMjAyNmRkAgMPDxYCHwAFCDEwMzczMjgxZGRk5QypQMIUlGbGCp1GVZs7GpGK++6VSqxjeqWHwltykdM=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="83A8B3E2" />
+      <div class="show_left">
+            <!--<ul>
+                
+                <li><a id="hindi" href='#'><img src="images/hindi.png" class="img-responsive img-circle" title="Hindi" style="margin-bottom:5px;height:32px;width:32px;"/></a></li>
+                <li><a id="urdu" href='#'><img src="images/urdu.png" class="img-responsive img-circle" title="Urdu" style="margin-bottom:5px;height:32px;width:32px;"/></a></li>
+            </ul>-->
+        </div>
+        <div class="show_right">
+            <ul>
+                <!--<li><a target="_blank" href='http://nitishkumarblogs.blogspot.in/'><img src="images/blog.png" class="img-responsive img-circle" title="Nitish Speaks" style="margin-bottom:5px;height:32px;width:32px;"/></a></li>
+                <li><a target="_blank" href='https://www.facebook.com/NitishKumarJDU/'><img src="images/facebook.png" class="img-responsive img-circle" title="Facebook" style="margin-bottom:5px;"/></a></li>
+                <li><a target="_blank" href='https://twitter.com/nitishkumar'><img src="images/twitter.png" class="img-responsive img-circle" title="Twitter" style="margin-bottom:5px;"/></a></li>-->
+
+		<li><a target="_blank" href='https://www.facebook.com/samratchoudharyofficial/'><img src="images/facebook.png" class="img-responsive img-circle" title="Facebook" style="margin-bottom:5px;"/></a></li>
+                <li><a target="_blank" href='https://x.com/samrat4bjp'><img src="images/twitter.png" class="img-responsive img-circle" title="Twitter" style="margin-bottom:5px;"/></a></li>
+                
+            </ul>
+        </div>
+    <div>
+        
+     <!-- page header starts here -->
+         
+   
+   <style type="text/css">
+    .top_margin
+    {
+        margin-top:40px;
+    }
+   </style>
+    <header id="header" role="banner" class="page_half">		
+		<div class="main-nav fixed-menu animated slideInDown">
+			<div class="container">  
+		        <div class="row top_margin">	        		
+		            <div class="navbar-header">
+		                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+		                    <span class="sr-only">Toggle navigation</span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                    <span class="icon-bar"></span>
+		                </button>
+		                <a class="navbar-brand" href="home.aspx">
+		                	<img class="img-responsive" src="images/logo.png" alt="logo">
+		                </a>                    
+		            </div>
+		            <div class="collapse navbar-collapse">
+						<div id="contentdiv">
+						<ul id="slidediv" class="nav navbar-nav navbar-right">                 
+						<li class="scroll active"><a href="home.aspx">Home</a></li>
+
+						<li class="scroll"><a href="news.aspx">latest news</a></li>   
+						<!--<li class="scroll"><a href="events.aspx">events</a></li> -->                  
+						<li class="scroll"><a href="cmprofile.aspx">cm profile</a></li>
+						<li class="scroll dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Media center <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+						<li><a href="photogallerysam.aspx">Photo Gallery</a></li>
+						
+						<li><a href="VideoGalary.aspx">Video Gallery</a></li>
+						<li><a href="cmspeech.aspx">CM Speeches</a></li>
+		
+                                       		<li><a href="preessrelease.aspx">Press Releases</a></li>
+                                        	<!--<li><a target="_blank" href="http://csd.bih.nic.in/Scripts/Decision/Decision.asp">Cabinet Decisions</a></li>-->
+						</ul>
+						</li>
+
+				<li ><a class="no-scroll" href="http://cmrf.bihar.gov.in/users/home.aspx" target="_blank">CM Relief Fund</a></li> 
+                                <li ><a class="no-scroll" href="https://cmo.bihar.gov.in" target="_blank">CM Secretariat</a></li> 
+								<li class="scroll"><a href="interact.aspx">interact</a></li>     
+							</ul>
+                            <div id="btnright" ><input type="button" id="btnright" value="" /></div>
+						</div>
+					</div>
+		        </div>
+		    </div>
+	    </div>                   
+    </header>
+    <!-- page header ends here -->
+    <section id="inside">
+       
+    </section>
+    <section id="home_test">
+         <div class="container">
+            <section class="latest-work">
+    	        <div class="auto-container">
+        	        <!--Section Title-->
+                    <div class="content-side col-sm-8">
+                        <div class="sec-titlefff">
+            	            <h2>Read <span class="theme_color">News</span></h2>
+                        
+                        </div>
+                        <div class="row">
+                            <div class='blog-posts-container blog-details'><article class='default-blog-post'><div class='inner-box'><div class='inner-most'><figure class='image-box'><a href='#'><img src='../home_news.ashx?id=4107' alt=''></a></figure><div class='lower-part'><div class='left-curve'></div><div class='right-curve'></div><div class='date-box'><span class='day'>on</span><br>16-02-26</div><div class='content'><h3><a href='#'>मुख्यमंत्री महिला रोजगार योजना के तहत अब तक 1 करोड़ 81 लाख लाभुक महिलाओं के खाते में 18 हजार 100 करोड़ रुपये की राशि की गयी अंतरित</a></h3><br /><div class='text'><p>पटना, 15 फरवरी 2026 मुख्यमंत्री श्री नीतीश कुमार ने आज 1, अणे मार्ग स्थित 'संकल्प सभागार' से 'मुख्यमंत्री महिला रोजगार योजना' की 25 लाख लाभुक महिलाओं के खाते में 10 हजार रुपये प्रति लाभुक की दर से 2,500 करोड़ रुपये की राशि का रिमोट का बटन दबाकर अंतरण किया। इसके पूर्व 1 करोड़ 56 लाख लाभुक महिलाओं के खाते में 15 हजार 600 करोड़ रुपये की राशि अंतरित की जा चुकी है। अब कुल मिलाकर 1 करोड़ 81 लाख महिलाओं के खाते में 18 हजार 100 करोड़ रूपये की राशि अंतरित कर दी गई है।</p><p>कार्यक्रम के दौरान मुख्यमंत्री ने कहा कि आज के कार्यक्रम में वीडियो कॉन्फ्रेंस से बड़ी संख्या में जुड़ीं सभी महिला लाभार्थियों का हार्दिक अभिनंदन करता हूँ। बहुत खुशी की बात है कि आज 'महिला रोजगार योजना' के तहत अपनी पसंद का रोजगार करने के लिए 25 लाख महिलाओं को दस-दस हजार रुपये की सहायता राशि भेजी जा रही है। कुल मिलाकर 1 करोड़ 81 लाख महिलाओं को इसका फायदा मिल जायेगा। इस योजना में दी गयी सहायता से काफी संख्या में महिलाओं ने अपनी पसंद का रोजगार शुरू किया है। जो महिलाएं अपना रोजगार अच्छे से करेंगी, उन्हें आगे 2 लाख रुपये तक की सहायता दी जायेगी। उन्होंने कहा कि अब इसके बाद जो परिवार बचे हैं, उनको भी जल्द ही सहायता राशि दे दी जायेगी। इससे राज्य के सभी परिवारों की महिलाओं को काफी फायदा होगा।</p><p>मुख्यमंत्री ने कहा कि हमलोगों ने शुरू से ही महिला सशक्तीकरण पर जोर दिया है। पहले बिहार में स्वयं सहायता समूह की संख्या बहुत कम थी। वर्ष 2006 में विश्व बैंक से कर्ज लेकर राज्य में स्वयं सहायता समूह का गठन किया जिसे 'जीविका' नाम दिया। उन्होंने कहा कि मुझे विश्वास है कि आप सभी महिलाओं को इस 10 हजार रुपये की राशि से अपना काम शुरू करने में काफी मदद मिलेगी। इससे आपका परिवार खुशहाल होगा तथा बिहार का और तेजी से विकास होगा। महिलाओं में आत्मविश्वास देखकर मुझे खुशी होती है। हमलोग सभी लोगों के विकास के लिये लगातार काम कर रहे हैं। केन्द्र सरकार का भी राज्य के विकास में पूरा सहयोग मिल रहा है। आगे सबके विकास के लिये काम करते रहेंगे।</p><p>ज्ञातव्य है कि अगले 5 वर्षों (2025-2030) में विकास की गति को और तेज करने के लिए 'सात निश्चय-3' का गठन किया गया है। इसके अंतर्गत अगले 5 वर्षों में पहले निश्चय 'दोगुना रोजगार-दोगुनी आय' के तहत राज्य की प्रति व्यक्ति औसत आय को दोगुना करने का लक्ष्य रखा गया है तथा इसके लिए मुख्यमंत्री महिला रोजगार योजना के तहत हर परिवार की एक महिला को 10 हजार रूपये तक की सहायता दी जा रही है। राज्य सरकार द्वारा 26 सितम्बर से 28 नवम्बर 2025 तक कुल 5 चरणों में 1 करोड़ 56 लाख महिला लाभुकों के खाते में राशि अंतरित की गयी है। इसमें ग्रामीण क्षेत्र में 1 करोड़ 44 लाख एवं शहरी क्षेत्र में 12 लाख लाभुकों के खाते में राशि अंतरित हुई है। आज के इस कार्यक्रम में 25 लाख महिला लाभुकों को 10 हजार रुपये प्रति लाभुक की दर से कुल 2500 करोड़ रूपये की राशि का अंतरण किया जा रहा है। इस प्रकार कुल 1 करोड़ 81 लाख महिला लाभुकों को इस योजना का लाभ मिल जायेगा।</p><p>आज के कार्यक्रम में 'मुख्यमंत्री महिला रोजगार योजना' की लाभार्थी 'श्रीमती चंदू भारती', जो मुजफ्फरपुर जिले की रहनेवाली हैं और वैष्णवी जीविका स्वयं सहायता समूह से जुड़ी जीविका दीदी हैं, वो वीडियो कॉन्फ्रेंसिंग के माध्यम से जुड़ी हुई थीं। श्रीमती चंदू देवी ने मुख्यमंत्री के समक्ष अपना अनुभव साझा करते हुए बताया कि मेरे जीवन में काफी परेशानी थी। जीविका समूह से जुड़ने के बाद मेरे जीवन में काफी बदलाव आया है। जब हमारे खाते में मुख्यमंत्री महिला रोजगार योजना के तहत 10,000 रुपये की राशि आई, तो यह हमारे लिए बड़ा सहारा साबित हुई। मैंने पहले से ही 10 हजार रूपये कर्ज लिया हुआ था। दोनों राशि मिलाकर एक गाय खरीदी। गाय के दुग्ध का सेवन घर में करने लगी और साथ ही उसकी बिक्री से आमदनी होने लगी। जीविका स्वयं सहायता समूह से मुझे आर्थिक सहयोग मिला साथ ही आत्मविश्वास भी बढ़ा। 2 लाख रूपये की जो और सहायता राशि मिलेगी उससे सिलाई सेंटर खोलूंगी, महिलाओं को सिलाई भी सिखाऊंगी और अपनी आमदनी भी बढ़ाऊंगी। सभी जीविका दीदियां बहुत खुश हैं और जो 10,000 रूपये की राशि मिली है उससे अपना-अपना रोजगार कर रही हैं। बच्चों को आपने किताब, पोशाक सब कुछ दिया है। सभी बच्चे अच्छे से पढ़ रहे हैं। सभी लोगों को नल-जल, पक्की गली-नाली योजना का लाभ मिल रहा है। हमलोगों के घर में शौचालय बन गया। मुख्यमंत्री वृद्धजन पेंशन योजना की राशि 400 रुपये से बढ़ाकर 1100 रुपये कर दी गई है जिससे सभी वृद्धजन खुश हैं। जीविका दीदियों के लिए आपने बहुत कुछ किया है हमलोग इसके लिए हृदय से आभारी हैं। आपकी लम्बी आयु और स्वस्थ जीवन की कामना करती हूँ।</p><p>'मुख्यमंत्री महिला रोजगार योजना की लाभार्थी 'श्रीमती शबीना खातून' जो नालन्दा जिले की रहनेवाली हैं और मोहादिया जीविका स्वयं सहायता समूह से जुड़ी जीविका दीदी हैं, वो वीडियो कॉन्फ्रेंसिंग के माध्यम से जुड़ी हुई थीं। श्रीमती शबीना खातून ने मुख्यमंत्री के समक्ष अपना अनुभव साझा किया। उन्होंने कहा कि मेरी जिंदगी चहारदीवारी में बंद थी। घर से बाहर नहीं निकलती थी। जीविका स्वयं सहायता समूह से जुड़ने के बाद मेरे जीवन में नये अध्याय की शुरूआत हुयी है। मुख्यमंत्री महिला रोजगार योजना के तहत जो 10 हजार रूपये की राशि मिली है, उससे मैं अपना रोजगार कर रही हूँ। दो लाख रूपये की जो राशि और मिलेगी उससे गाय खरीदकर दूध का रोजगार करूंगी। आपने हमलोगों को आत्मनिर्भर बनाने के लिए काफी काम किया है। महिलाओं को सशक्त बनाने के लिये कई कदम उठाये गये हैं। मुख्यमंत्री वृद्धजन पेंशन योजना की राशि 400 रुपये से बढ़ाकर 1100 रुपये कर दी गई है जिससे सभी वृद्धजन खुश हैं और बेटा-बहू के मोहताज नहीं हैं। जीविका स्वयं सहायता समूह एक छोटा पौधा के रूप में लगा था आज वह एक बरगद का रूप ले चुका है। जीविका दीदियों के लिए आपने बहुत कुछ किया है। सभी जीविका दीदियां खुश हैं, हमलोग इसके लिए हृदय से आपके आभारी हैं। हमलोगें को जीविका दीदी के रूप में समाज में काफी सम्मान मिलता है। बड़ी संख्या में महिला पुलिस की बहाली की गयी है। महिला पुलिस के सभी जगह मौजूद रहने से हमलोगों का कॉन्फिडेंस बढ़ा है। हमलोगों के खिलाफ कोई कुछ नहीं बोलता है। सब लोग कहता है कि ये श्री नीतीश कुमार की जीविका दीदियां हैं। हमलोग भी आपके खिलाफ कुछ नहीं सुनते हैं। आपका दिल से शुक्रिया अदा करते हैं और आपके लिये दुआ करते हैं।</p><p>इस अवसर पर 'महिला रोजगार योजना' पर आधारित एक लघु फिल्म की प्रस्तुति की गई।</p><p>कार्यक्रम में उप मुख्यमंत्री श्री सम्राट चौधरी, उप मुख्यमंत्री श्री विजय कुमार सिन्हा, जल संसाधन सह संसदीय कार्य मंत्री श्री विजय कुमार चौधरी, ग्रामीण विकास मंत्री श्री श्रवण कुमार, मुख्यमंत्री के प्रधान सचिव श्री दीपक कुमार, मुख्य सचिव श्री प्रत्यय अमृत, ग्रामीण विकास विभाग के प्रधान सचिव श्री पंकज कुमार, नगर विकास एवं आवास विभाग के प्रधान सचिव श्री विनय कुमार, मुख्यमंत्री के सचिव श्री अनुपम कुमार, मुख्यमंत्री के सचिव श्री कुमार रवि, मुख्यमंत्री के विशेष कार्य पदाधिकारी श्री गोपाल सिंह, मुख्यमंत्री के सचिव डॉ० चन्द्रशेखर सिंह, जीविका के मुख्य कार्यपालक पदाधिकारी श्री हिमांशु शर्मा, जीविका की अपर मुख्य कार्यपालक पदाधिकारी श्रीमती अभिलाषा कुमारी शर्मा सहित अन्य वरीय अधिकारी उपस्थित थे जबकि वीडियो कॉन्फ्रेंसिंग के माध्यम से सभी जिलों के जिलाधिकारी, लाभार्थी एवं गणमान्य व्यक्ति जुड़े हुए थे।</p></div></div></div></div></div></article></div>
+                        </div>
+
+                        <div class="a2a_kit a2a_kit_size_32 a2a_floating_style a2a_vertical_style" style="left:30px; top:480px;">
+                            <a class="a2a_button_facebook"></a>   
+                            <a class="a2a_button_twitter"></a>
+	                        <a class="a2a_button_whatsapp"></a>			  
+                            <a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+                        </div>
+
+                        <script async src="https://static.addtoany.com/menu/page.js"></script>
+
+                        <br />
+                        
+                    </div>
+
+                    <div class="sidebar-outer col-sm-4">
+
+                        <aside class="sidebar">
+                            <div class="sidebar-widget news-widget">
+                        	    <div class="sidebar-title"><h3>Recent News</h3></div>
+                                <div class="widget-inner">
+                                    <a href='viewnews.aspx?id=4454'><div class='news-item'><figure class='post-thumb'><a href='viewnews.aspx?id=4454'><img src='../home_news.ashx?id=4454' alt=''></a></figure><h4><a href='viewnews.aspx?id=4454'>बिहार को ए०आई० और नई तकनीक के क्षेत्र में अग्रणी राज्य बनाने की दिशा में काम करें-  मुख्यमंत्री</a></h4></div></a><a href='viewnews.aspx?id=4453'><div class='news-item'><figure class='post-thumb'><a href='viewnews.aspx?id=4453'><img src='../home_news.ashx?id=4453' alt=''></a></figure><h4><a href='viewnews.aspx?id=4453'>अधर्म पर धर्म की जीत रावण वध समारोह में शामिल हुये श्री सम्राट चौधरी</a></h4></div></a><a href='viewnews.aspx?id=4452'><div class='news-item'><figure class='post-thumb'><a href='viewnews.aspx?id=4452'><img src='../home_news.ashx?id=4452' alt=''></a></figure><h4><a href='viewnews.aspx?id=4452'>मुख्यमंत्री ने महानवमी पर तारापुर विधानसभा क्षेत्र के विभिन्न दुर्गा मंदिरों एवं पूजा पंडालों में की पूजा-अर्चना राज्य की सुख-शांति समृद्धि एवं खुशहाली की कामना की</a></h4></div></a><a href='viewnews.aspx?id=4451'><div class='news-item'><figure class='post-thumb'><a href='viewnews.aspx?id=4451'><img src='../home_news.ashx?id=4451' alt=''></a></figure><h4><a href='viewnews.aspx?id=4451'>मुख्यमंत्री ने माँ दुर्गा की पूजा-अर्चना कर राज्य की सुख शांति एवं समृद्धि की कामना की</a></h4></div></a><a href='viewnews.aspx?id=4450'><div class='news-item'><figure class='post-thumb'><a href='viewnews.aspx?id=4450'><img src='../home_news.ashx?id=4450' alt=''></a></figure><h4><a href='viewnews.aspx?id=4450'>मुख्यमंत्री ने माँ दुर्गा की पूजा अर्चना कर राज्य की सुख शांति एवं समृद्धि की कामना की</a></h4></div></a><a href='viewnews.aspx?id=4449'><div class='news-item'><figure class='post-thumb'><a href='viewnews.aspx?id=4449'><img src='../home_news.ashx?id=4449' alt=''></a></figure><h4><a href='viewnews.aspx?id=4449'>मुख्यमंत्री ने माँ दुर्गा की पूजा अर्चना कर राज्य की सुख शांति एवं समृद्धि की कामना की</a></h4></div></a>
+                                </div>
+                            </div>
+                        </aside>
+                       
+                    </div>
+                </div>
+                
+            </section>
+        </div>
+    </section>
+
+    </div>
+        
+        <!-- page footer starts here -->
+        
+<style>
+.small
+{
+    font-size:12px !important;
+    letter-spacing:1px;
+}
+
+</style>
+<section id="sponsor">
+	<div id="sponsor-carousel" class="carousel slide" data-interval="false">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9">
+					<h2>Bihar Government</h2>			
+					
+					<div class="carousel-inner">
+						<div class="item active">
+							<ul>
+                                <li><a target='_blank' href="https://state.bihar.gov.in/"><img class="img-responsive" src="../users/images/bihargov.png" alt="" title="Government of Bihar"></a></li>
+								<li><a target='_blank' href="http://cmo.bihar.gov.in/"><img class="img-responsive" src="../users/images/cmsec.png" alt="" title="CM Secretariat, Bihar"></a></li>
+                                <li><a target='_blank' href="http://cmrf.bihar.gov.in/users/home.aspx"><img class="img-responsive" src="../users/images/cmrf.png" alt="" title="Chief Minister's Relief Fund"></a></li>
+								<li><a target='_blank' href="http://www.dashboard.bihar.gov.in"><img class="img-responsive" src="../users/images/e-dash.png" alt="" title="E-dashboard Bihar"></a></li>
+								<li><a target='_blank' href="https://bpsm.bihar.gov.in/assets/Home.aspx?P1=1&P2=4&P3=0&P4=0"><img class="img-responsive" src="../users/images/asse-dec.png" alt="" title="Assets Decleration"></a></li>
+								<li><a target='_blank' href="http://jaankari.bihar.gov.in"><img class="img-responsive" src="../users/images/jankari.png" alt="" title="Jaankari"></a></li>
+								<li><a target='_blank' href="http://loksamvad.bihar.gov.in/"><img class="img-responsive" src="../users/images/loksamvad.png" alt="" title="Lok Samvad Bihar"></a></li>
+								<li><a target='_blank' href="Cal2026.pdf"><img class="img-responsive" src="images/cal-2026.png" alt="" title="Bihar Calander"></a></li>
+								<li><a target='_blank' href="https://x.com/biharcmqrt/status/2107062262783692934?s=48&t=yn9JVsfgR9DRPU7rJKISSw"><img class="img-responsive" src="images/cm-QRT.png" alt="" title="Bihar Quick Response Team"></a></li>
+						  </ul>
+						</div>
+						<div class="item">
+							
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-3">
+				    <div class="row">
+                        <h2>Contact</h2>
+					    <div class="single-event">
+						    <p>
+                                Chief Minister Secretariat.<br />
+						        4, Deshratna Marg, Patna, <br />
+						        Bihar: 800001<br />
+                            </p>
+                            <p class="small">Email: cmbihar[at]nic[dot]in <br />
+                                FAX: +91 612 224129<br />
+                                TEL: +91 612 2215601, 2217289
+                            </p>
+					    </div>
+                    </div>
+				</div>
+			</div>				
+		</div>
+
+	</div>
+</section>
+    <footer id="footer">
+        <div class="container">
+           
+            <div class="col-sm-6">
+               <p><a target="_blank" href="#">Site Owned by Chief Minister Secretariat, Govt Of Bihar.</a> © 2026</p>
+            </div>
+            <div class="col-sm-3 ">
+			<p>Last Updated <span id="ctl00_foot_lblupd">22-Oct-2026</span></p>
+               <!-- <p class="pull-right"> Powered by <a target="_blank" href="http://misspl.co.in/">Mass Infosolutions Pvt Ltd</a></p> -->
+            </div>
+            <div class="col-sm-3">
+                <p class="partner pull-right">Total visitors :<span id="ctl00_foot_Label1">10373281</span></p>
+            </div>
+        </div>
+    </footer>
+    <!--/#footer-->
+        <!-- page footer ends here -->
+    </form>
+    <!-- scripts starts here -->
+    
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.7.1.js"></script>
+   
+    <script type="text/javascript" src="../users/scripts/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../users/scripts/jquery.parallax.js"></script>
+    <script type="text/javascript" src="../users/scripts/jquery.nav.js"></script>
+      
+
+    <script type="text/javascript" src="//code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+	<script type="text/javascript">
+	$(function() {
+	$("#btnright").click(function() {
+	$('#slidediv').toggle('slide', { direction: 'right' }, 700);
+	});
+	$("#btnleft").click(function() {
+	$('#slidediv').toggle('slide', { direction: 'left' }, 700);
+	});
+	});
+	</script>
+    <!-- scripts ends here -->
+     <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+    <script src="../users/scripts/underscore-min.js"></script>
+    <script src="../users/scripts/moment-2.2.1.js"></script>
+    <script src="../users/scripts/clndr.js"></script>
+    <!--<script src="../users/scripts/site.js"></script> -->
+    <link href="../users/styles/datatable.css" rel="stylesheet" />
+    <script src="../users/scripts/datatable.js"></script>
+    <script src="../users/scripts/datatablebootstrap.js"></script>
+    <script src="../users/scripts/jquery.nav.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#example').DataTable({
+                "ordering": false
+            });
+            $('#Table2').DataTable({
+                "ordering": false
+            });
+        });
+
+        // changing page url
+        $("#english1").click(function (e) {
+            var data = window.location.href;
+            //alert(data);
+            
+              var link = window.location.href;
+              var res = link.replace("users/", "users/");
+              window.location.href = res;
+            
+        });
+        $("#hindi1").click(function (e) {
+            var data = window.location.href;
+            
+              var link = window.location.href;
+              var res = link.replace("users/", "users/hi/");
+              window.location.href = res;
+        });
+          $("#urdu1").click(function (e) {
+              var data = window.location.href;
+
+              var link = window.location.href;
+              var res = link.replace("users/", "users/urdu/");
+              window.location.href = res;
+          });
+        $("#english").click(function (e) {
+            
+              var link = window.location.href;
+              var res = link.replace("users/", "users/");
+              window.location.href = res;
+        });
+        $("#hindi").click(function (e) {
+            var data = window.location.href;
+            
+              var link = window.location.href;
+              var res = link.replace("users/", "users/hi/");
+              window.location.href = res;
+        });
+        $("#urdu").click(function (e) {
+              var data = window.location.href;
+
+              var link = window.location.href;
+              var res = link.replace("users/", "users/urdu/");
+              window.location.href = res;
+          });
+        // till here
+    </script>
+    <script src="../users/scripts/main.js"></script>
+    <link href="../users/styles/swipebox.min.css" rel="stylesheet" />
+    <script src="../users/scripts/jquery.swipebox.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.swipebox').swipebox();
+        });
+    </script>
+    
+        <script>
+            $('.lke').click(function () {
+                // alert(this.id);
+                var p_id = this.id;
+                str += ' blah';
+                var res = p_id.replace("like", "");
+                //alert(res);
+                var new_id = res;
+                new_id +="#like"
+
+                $.ajax({
+                    type: 'POST',
+                    contentType: "application/json; charset=utf-8",
+                    url: 'process.aspx/pic_likes',
+                    data: JSON.stringify({ 'pic_id': res }),
+                    async: false,
+                    success: function (data) {
+                        $(new_id).text(data.d);
+                        //$('#lbl_cart').text(data.d);
+                        alert(new_id);
+                        return false;
+                    },
+                    error: function () {
+                        alert("Error");
+                    }
+                });
+            });
+        </script>
+		<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-87599918-3', 'auto');
+		  ga('send', 'pageview');
+		</script>
+</body>
+</html>

@@ -88,6 +88,98 @@ What is kept per scheme: name, state, FY, the benefit as PRS describes it (`bene
 
 News (below) then adds schemes and announcements PRS doesn't name, onto the same records. A news figure that can't be tied to one scheme no longer drops the scheme: it is kept without an amount.
 
+## Discovery: search first, official newsrooms alongside
+
+Fixed feeds and budget documents miss schemes launched mid-year (Bihar's Mukhyamantri Mahila Rojgar Yojana,
+September 2025, after the 2025-26 budget) and states with no feed configured. Every daily run therefore covers all
+31 states/UTs and the Union government with web search plus the official newsrooms in the shared registry
+(`run.discover_web`), incrementally, from a checkpoint.
+
+**Search providers and budget** (`config.yaml → search.providers`; a provider without its key is skipped and logged):
+
+| Provider | Key | Daily discovery | Verification | Notes |
+|---|---|---|---|---|
+| `brave` (primary) | `BRAVE_API_KEY` | 1 per jurisdiction (32/day) | 3/day | web index, `site:`, past-week freshness; `monthly_cap: 1000` for both |
+| `bing_news` | none | 1 per jurisdiction | – | recent news only, no `site:` |
+| `google_cse` | `GOOGLE_CSE_KEY` + `GOOGLE_CSE_CX` | 0 | 0 | existing keys only: closed to new customers, ends 1 Jan 2027 |
+
+Brave costs about $5 per 1,000 requests, so the starting budget (~32 + 3 a day, capped at 1,000 a month) is roughly
+Brave's monthly credit. Raise it only after reading `data/coverage.json`.
+
+**Queries are generated, never written per scheme.** Each jurisdiction gets *one broad query per provider per day*
+(`search.daily.templates`): a theme (new schemes, announcements, disbursements) in one of the jurisdiction's
+languages (`search.languages`), with its name in that language – "बिहार नई योजना शुरू लाभार्थी", "Union government
+announces welfare scheme crore". The (theme, language) pairs rotate daily and are staggered across jurisdictions, so
+each one cycles through every theme in every language. The same query on the same provider isn't repeated within
+`query_cache_days`. *Verification* searches, on their own budget, look for the largest still-unverified figures:
+`"<scheme name in the regional script>" site:<the jurisdiction's government domain>`, at most one per scheme per run
+and once per figure every `retry_days`.
+
+**What is read.** Government pages (`.gov.in`, `.nic.in`) and outlets on the registry's `credible_news` list; other
+results are counted as `untrusted_skipped`. A page already read (checkpoint) isn't read again. Text comes from
+generic main-content extraction (navigation, headers, footers, sidebars and widgets removed).
+
+**Shared registry** (`data/registry.yaml`): per jurisdiction, its government domains (which jurisdiction an official
+page belongs to, and `site:` targets) and its official newsrooms. A newsroom needs only its listing URL: the
+item-URL pattern is inferred from the listing's links, and items are read with the generic extractor. Site adapter
+keys (`item_url`, `content_selector`, …) are for sites where that fails. Newsrooms are monitored every run outside
+the search quota: new items above the highest id seen, and a one-time backfill of unlisted older items down to the
+FY start (≤ `max_backfill_requests` per run, resumed from the checkpoint). Bihar's CM site lists only the current
+CM's items, from 15 April 2026; the backfill reaches the February 2026 releases.
+
+**Checkpoint** (`data/discovery_state.json`, committed to main by every run – also when the rest of the update waits
+in a review PR): pages read, searches made, provider usage per day and month, newsroom progress, verification
+attempts, and which schemes search has surfaced. A second run on the same day makes no new searches.
+
+**Reliability.** Every request goes through Fetcher: robots.txt, ≥ 2 s per host, a per-run cap per host, retries for
+timeouts, connection errors and 500/502/504 (2 s, then 6 s; TLS errors are never retried or bypassed), and a host
+answering 429/503 is left alone for the run. Web discovery stops at `run.time_budget_min` (35 of the job's 45
+minutes); jurisdictions not reached are logged as `not_reached` and come first the next day.
+
+**Coverage log** (`data/coverage.json`): per jurisdiction – each query (provider, language, theme, results, trusted,
+new, or why it was skipped or failed), pages read and official pages, failures by reason, untrusted results skipped,
+newsroom progress, verification searches, new scheme records, claims added, verified figures, disbursements shown,
+and **missed by search**: welfare schemes on record for the FY (from PRS, newsrooms, feeds) that no search result has
+surfaced yet. A 60-run history of the per-jurisdiction counts is kept for judging the budget.
+
+**Extraction.** Every page goes through the scheme extractor (reports, allocations) and the claims extractor
+(`scraper/claims.py`), which types each ₹ crore figure:
+
+| `type` | Meaning | Shown |
+|---|---|---|
+| `budget_allocation` | set aside in a budget | via the allocation rules below |
+| `revised_allocation` | changed later (supplementary, revised) | stored |
+| `disbursement_event` | one transfer on one day | summed only when no cumulative total exists |
+| `cumulative_disbursement` | everything transferred so far, `as_of` a date | latest verified total in the FY |
+
+Cues are read around each figure, so "अब तक … ₹18,100 Cr" and "आज … ₹2,500 Cr" in one sentence get different types;
+a total for an earlier, unstated date ("इसके पूर्व … की जा चुकी है") is kept with `as_of: null`, never shown, and never
+creates a record. Each claim stores the amount, beneficiaries, `as_of` (dateline, else publication date),
+`published`, `period_start`, `fy`, the quoted sentence and its sources. Hindi compound numbers are read
+(18 हजार 100 करोड़ = ₹18,100 Cr; 1 करोड़ 81 लाख = 1.81 crore people). On a web page an amount becomes an allocation only
+when it is typed as one – a transfer or a project cost never is.
+
+**AI-assisted extraction** (`scraper/llm.py`, `ai_extraction`): optional; Claude (`claude-opus-5-5`, structured
+JSON output, server-side refusal fallback) reads the page in any language and returns schemes with typed claims.
+A claim is kept only if its quote is in the page and the amount parses from that quote. Needs the `anthropic`
+package and `ANTHROPIC_API_KEY`; without them the rule-based extractor works alone (logged).
+
+**One scheme, one record; history kept.** A Devanagari name and its romanisation are matched by consonant skeleton
+("महिला रोजगार" = "Mahila Rojgar" = "Mahila Rozgar"); page furniture before a CM/PM prefix is dropped; the romanised,
+cleanest name becomes the record's name and the others aliases. The same figure from several sources is one claim
+with several sources; one transfer reported on two days by two outlets is one transfer. Superseded figures are never
+deleted: every claim keeps `first_seen`, and the latest total is chosen for display.
+
+**Verification and display.** A claim is verified only when an official page read by the pipeline prints the same
+figure within 600 characters of one of the scheme's names. Two different amounts for one transfer date in the same
+official page (a typo in the source) are a conflict: left out and reported in `data/validation.json`. The site's
+*Disbursed* column shows, from verified claims only, the latest cumulative total dated in the FY (when it started
+inside the FY), else the sum of distinct verified transfers – never a total plus transfers – with its as-of date,
+beneficiaries and official source. A scheme is never dropped for lack of an allocation, and "Show all" lists every
+collected scheme.
+
+`python -m scraper.run --states BR` runs the pipeline for one jurisdiction; `--no-search` skips discovery.
+
 ## News discovery
 
 Feeds are listed in `config.yaml → news_feeds`:
@@ -183,6 +275,12 @@ scraper/              Python pipeline
   portal.py           National Portal of India discovery (secondary)
   catalog.py          one entry per scheme across names; funding type
   news.py             news + press-release discovery (RSS, regional languages)
+  search.py           search providers (Brave, Bing News RSS, Google Programmable Search) and daily query planning
+  newsroom.py         registry newsrooms: inferred item pattern, generic main-content text, incremental backfill
+  registry.py         shared registry of government domains, newsrooms, credible outlets (data/registry.yaml)
+  checkpoint.py       run-to-run state and search budgets (data/discovery_state.json)
+  claims.py           typed financial claims (allocation / revised / transfer / cumulative) with dates
+  llm.py              optional AI-assisted extraction (Claude, structured output, grounded quotes only)
   extract.py          finds state / scheme / amount / type / benefit / beneficiaries / department in text
   fetch.py            polite fetching (robots.txt, delays, cache), PDF + HTML text
   verify.py           matches a candidate against govt documents
@@ -197,6 +295,9 @@ data/
   schemes.json        schemes per FY with status, confirmed allocation, sources and news reports
   review_queue.json   items waiting for you
   validation.json     data-integrity findings from the last build (blocked comparisons, errors)
+  registry.yaml       trusted government domains, official newsrooms, credible news outlets
+  discovery_state.json  checkpoint: pages read, searches, budgets used, newsroom progress
+  coverage.json       last run's discovery per jurisdiction (queries, pages, failures, missed by search) + history
   rejected.json       items you rejected (never re-queued)
 tests/                unit tests (run in CI before every update)
 .github/workflows/    daily update + GitHub Pages deploy

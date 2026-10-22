@@ -88,3 +88,22 @@ def find_allocation(names: list[str], docs: list[GovtDoc], *, window: int = 400)
             if len(amounts) == 1:
                 return Verdict("review", amounts.pop(), doc.url, 100.0, around[:300])
     return Verdict("not_found")
+
+
+def verify_claim(amount: float, names: list[str], docs: list[GovtDoc], *, tol: float = 0.005,
+                 window: int = 600) -> GovtDoc | None:
+    """The official document that states this figure for this scheme: one of the scheme's names (any script,
+    case and spacing aside) with the same amount within `window` characters. Used for every financial claim,
+    including one read from an official page itself – the figure must really be printed next to the scheme."""
+    needles = {" ".join(n.lower().split()) for n in names if len(n.split()) >= 2}
+    for doc in docs:
+        flat = " ".join(doc.text.split())
+        low = flat.lower()
+        for needle in needles:
+            start = low.find(needle)
+            while start >= 0:
+                around = flat[max(0, start - window): start + len(needle) + window]
+                if any(_amount_matches(a, amount, tol) for _, a in find_amounts(around)):
+                    return doc
+                start = low.find(needle, start + 1)
+    return None

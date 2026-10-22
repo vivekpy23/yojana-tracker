@@ -64,6 +64,93 @@ announcement_pages:
   - {name: "Rajasthan DIPR", url: "https://dipr.rajasthan.gov.in/", state: RJ}
 announcement_keywords: ["press", "release", "yojana", "scheme", "प्रेस", "विज्ञप्ति", "योजना", "செய்தி", "ಪತ್ರಿಕಾ"]
 
+# Step 1c – search-first discovery (scraper/search.py), official newsrooms from the shared registry
+# (data/registry.yaml, scraper/newsroom.py), checkpointed between runs (data/discovery_state.json).
+# Start small and evaluate discovery quality (data/coverage.json) before raising budgets.
+search:
+  providers:                       # in order; a provider without its key is skipped and logged
+    - name: brave                  # primary: web index, site:, freshness. ~$5 per 1,000 requests
+      enabled: true
+      api_key_env: BRAVE_API_KEY
+      discovery_per_jurisdiction: 1   # per jurisdiction per day: 31 states/UTs + the Union = 32 a day
+      verification_per_day: 3         # targeted site: searches for unverified figures, separate budget
+      monthly_cap: 1000               # both purposes; roughly Brave's monthly free credit
+      freshness: pw                   # daily discovery looks at the past week only
+    - name: bing_news              # keyless supplement (recent news only, no site:), same daily rule
+      enabled: true
+      discovery_per_jurisdiction: 1
+      verification_per_day: 0
+      cache_h: 12
+    - name: google_cse             # only for an existing key (closed to new customers, ends 1 Jan 2027)
+      enabled: true
+      api_key_env: GOOGLE_CSE_KEY
+      cx_env: GOOGLE_CSE_CX
+      discovery_per_jurisdiction: 0
+      verification_per_day: 0
+  results_per_query: 10
+  max_pages_per_jurisdiction: 15   # new pages read per jurisdiction per run from search results
+  query_cache_days: 7              # the same query on the same provider is not repeated within this
+  languages:                       # query languages per jurisdiction ({name} is written in that language)
+    default: [en, hi]
+    MH: [en, mr, hi]
+    TN: [en, ta]
+    KA: [en, kn]
+    KL: [en]
+    WB: [en]
+    AS: [en]
+    OD: [en]
+    AP: [en]
+    TS: [en]
+    PB: [en, hi]
+    MN: [en]
+    ML: [en]
+    MZ: [en]
+    NL: [en]
+    SK: [en]
+    TR: [en]
+    AR: [en]
+    GA: [en]
+    PY: [en]
+    JK: [en, hi]
+  jurisdiction_names:
+    CENTRE: {en: "Union government", hi: "केंद्र सरकार"}
+  daily:
+    templates:                     # one is chosen per jurisdiction per day (theme × language, rotated)
+      new_schemes:
+        en: '{name} new scheme launched yojana beneficiaries'
+        hi: '{name} नई योजना शुरू लाभार्थी'
+        mr: '{name} नवीन योजना सुरू लाभार्थी'
+        ta: '{name} புதிய திட்டம் தொடக்கம் பயனாளிகள்'
+        kn: '{name} ಹೊಸ ಯೋಜನೆ ಆರಂಭ ಫಲಾನುಭವಿ'
+      announcements:
+        en: '{name} announces welfare scheme crore'
+        hi: '{name} सरकार योजना घोषणा करोड़'
+        mr: '{name} सरकार योजना घोषणा कोटी'
+        ta: '{name} அரசு திட்டம் அறிவிப்பு கோடி'
+        kn: '{name} ಸರ್ಕಾರ ಯೋಜನೆ ಘೋಷಣೆ ಕೋಟಿ'
+      disbursements:
+        en: '{name} scheme crore transferred to beneficiaries accounts'
+        hi: '{name} योजना करोड़ राशि खाते में अंतरित'
+        mr: '{name} योजना कोटी रक्कम खात्यात जमा'
+        ta: '{name} திட்டம் கோடி வங்கி கணக்கில் வரவு'
+        kn: '{name} ಯೋಜನೆ ಕೋಟಿ ಖಾತೆಗೆ ಜಮಾ'
+  verification:
+    template: '"{scheme}" site:{domain}'
+    min_amount_cr: 50              # figures below this aren't worth a paid search
+    retry_days: 14                 # the same figure is searched for at most every 14 days
+
+run:
+  time_budget_min: 35              # web discovery stops (checkpointed) after this; the job's limit is 45 min
+
+# AI-assisted extraction (scraper/llm.py) of schemes and typed financial claims from unstructured text. Needs the
+# `anthropic` package and credentials (ANTHROPIC_API_KEY or `ant auth login`). Every claim it returns must quote
+# the source verbatim and the amount must parse from that quote, or it is dropped. Rule-based extraction always runs.
+ai_extraction:
+  enabled: true
+  model: claude-opus-5-5
+  effort: medium
+  max_chars: 100000
+
 # Funding type of each scheme (catalog.py). A name matching one of these patterns is a Centrally Sponsored
 # Scheme (Centre + state share): the umbrella schemes in the Union Budget's statement of Centrally Sponsored
 # Schemes. Review when a new Union Budget changes the list.
@@ -236,6 +323,8 @@ http:
   user_agent: "YojanaTrackerBot/0.1 (+https://github.com/<you>/yojana-tracker; public-interest research)"
   timeout_s: 30
   delay_s: 2.0               # polite pause between requests to the same host (robots.txt Crawl-delay wins if longer)
+  retries: 2                 # timeouts, connection errors and 500/502/504 are retried, after 2 s then 6 s
+  retry_backoff_s: 2.0
   max_docs_per_source: 25
   max_articles_per_source: 40   # articles read per feed / announcement page per run
   max_requests_per_host: 300    # network requests to one host per run (cache hits don't count)

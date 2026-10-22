@@ -20,10 +20,13 @@ CACHE_DIR = Path(__file__).resolve().parent.parent / ".cache"
 class Fetcher:
     """`max_per_host` caps network requests to one host in a run (cache hits don't count); a host that
     answers 429 / 503 is left alone for the rest of the run. robots.txt Crawl-delay is honoured when it is
-    longer than `delay`."""
+    longer than `delay`. A timeout, connection error or 500 / 502 / 504 is retried `retries` times, waiting
+    `backoff`, then 3 × `backoff` seconds. `last_error` says why the last request returned nothing."""
+
+    RETRY_STATUS = (500, 502, 504)
 
     def __init__(self, user_agent: str, timeout: int = 30, delay: float = 2.0, cache_dir: Path = CACHE_DIR,
-                 max_per_host: int | None = None):
+                 max_per_host: int | None = None, retries: int = 2, backoff: float = 2.0):
         self.s = requests.Session()
         self.s.headers["User-Agent"] = user_agent
         self.ua = user_agent
@@ -36,6 +39,9 @@ class Fetcher:
         self._hits: dict[str, int] = {}
         self._backed_off: set[str] = set()
         self._robots: dict[str, urllib.robotparser.RobotFileParser | None] = {}
+        self.last_from_cache = False  # whether the last get() was served from the cache (no request made)
+        self.last_error = ""
+        self.retries, self.backoff = retries, backoff
 
     # ---------- politeness ----------
     def allowed(self, url: str) -> bool:
@@ -74,34 +80,78 @@ class Fetcher:
         if body_p.exists() and meta_p.exists():
             meta = json.loads(meta_p.read_text())
             if time.time() - meta["at"] < max_age_h * 3600:
+                self.last_from_cache = True
                 return body_p.read_bytes(), meta["ctype"]
-        host = urlparse(url).netloc
-        if host in self._backed_off:
-            return None
-        if self.max_per_host is not None and self._hits.get(host, 0) >= self.max_per_host:
-            if self._hits[host] == self.max_per_host:
-                log.info("per-run request cap (%d) reached for %s", self.max_per_host, host)
-                self._hits[host] += 1
-            return None
+        self.last_from_cache = False
         if not self.allowed(url):
+            self.last_error = "robots.txt disallows"
             log.info("robots.txt disallows %s", url)
             return None
-        self._wait(url)
-        self._hits[host] = self._hits.get(host, 0) + 1
-        try:
-            r = self.s.get(url, timeout=self.timeout, headers=headers)
-            if r.status_code in (429, 503):
-                self._backed_off.add(host)
-                log.warning("%s answered %d – no more requests to it this run", host, r.status_code)
-                return None
-            r.raise_for_status()
-        except requests.RequestException as e:
-            log.warning("fetch failed %s: %s", url, e)
+        r = self._request(url, headers=headers)
+        if r is None:
             return None
         ctype = r.headers.get("content-type", "").split(";")[0].strip().lower()
         body_p.write_bytes(r.content)
         meta_p.write_text(json.dumps({"url": url, "ctype": ctype, "at": time.time()}))
         return r.content, ctype
+
+
+    def get_api(self, url: str, *, params: dict | None = None, headers: dict | None = None) -> dict | None:
+        """A JSON API call (search providers). Not cached on disk, so keys in parameters or headers never reach
+        .cache/; the same per-host delay, cap and back-off apply."""
+        r = self._request(url, params=params, headers=headers)
+        if r is None:
+            return None
+        try:
+            return r.json()
+        except ValueError:
+            self.last_error = "invalid JSON"
+            return None
+
+    def _request(self, url: str, *, params: dict | None = None, headers: dict | None = None):
+        """One polite request with retries; None (and `last_error`) when it fails."""
+        host = urlparse(url).netloc
+        if host in self._backed_off:
+            self.last_error = "host backed off this run (429/503)"
+            return None
+        for attempt in range(self.retries + 1):
+            if self.max_per_host is not None and self._hits.get(host, 0) >= self.max_per_host:
+                self.last_error = f"per-run request cap ({self.max_per_host}) for host"
+                if self._hits[host] == self.max_per_host:
+                    log.info("per-run request cap (%d) reached for %s", self.max_per_host, host)
+                    self._hits[host] += 1
+                return None
+            self._wait(url)
+            self._hits[host] = self._hits.get(host, 0) + 1
+            try:
+                r = self.s.get(url, params=params, headers=headers, timeout=self.timeout)
+            except requests.exceptions.SSLError as e:  # never retried or bypassed
+                self.last_error = "TLS error"
+                log.warning("fetch failed %s: %s", url, e)
+                return None
+            except (requests.Timeout, requests.ConnectionError) as e:
+                self.last_error = type(e).__name__
+                retry = True
+            except requests.RequestException as e:  # TLS errors are never retried or bypassed
+                self.last_error = type(e).__name__
+                log.warning("fetch failed %s: %s", url, e)
+                return None
+            else:
+                if r.status_code in (429, 503):
+                    self._backed_off.add(host)
+                    self.last_error = f"HTTP {r.status_code}"
+                    log.warning("%s answered %d – no more requests to it this run", host, r.status_code)
+                    return None
+                if r.status_code < 400:
+                    self.last_error = ""
+                    return r
+                self.last_error = f"HTTP {r.status_code}"
+                retry = r.status_code in self.RETRY_STATUS
+            if not retry or attempt == self.retries:
+                log.warning("fetch failed %s: %s", url, self.last_error)
+                return None
+            time.sleep(self.backoff * (3 ** attempt))
+        return None
 
 
 def to_text(body: bytes, ctype: str, url: str = "") -> str:

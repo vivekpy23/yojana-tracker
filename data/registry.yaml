@@ -1,0 +1,94 @@
+# Shared source registry (scraper/registry.py). Data, not code: one entry shape for every jurisdiction.
+#
+#   domains    the jurisdiction's own government domains. A page on one of them (or a subdomain) is an official
+#              source for that jurisdiction: verification evidence, and `site:` targets for verification searches.
+#              Any .gov.in / .nic.in page also counts as official (config.yaml → govt_domains); these entries add
+#              which jurisdiction it belongs to.
+#   newsrooms  official press-release / news listings, monitored every run outside the search quota. Only the
+#              listing URL is needed: the item-URL pattern is inferred from the listing's links and the text is read
+#              with generic main-content extraction. Optional per-site adapter keys, only where the generic way fails:
+#              item_pattern, item_url, content_selector, backfill (default true), lang.
+#
+# Portal domains are the states' main government portals; check a newsroom URL in a browser before adding it.
+credible_news:   # outlets whose articles are read from search results (government pages always are)
+  - thehindu.com
+  - indianexpress.com
+  - hindustantimes.com
+  - livehindustan.com
+  - timesofindia.indiatimes.com
+  - navbharattimes.indiatimes.com
+  - economictimes.indiatimes.com
+  - business-standard.com
+  - livemint.com
+  - moneycontrol.com
+  - ndtv.com
+  - ndtv.in
+  - indiatoday.in
+  - aajtak.in
+  - news18.com
+  - indiatvnews.com
+  - indiatv.in
+  - jagran.com
+  - bhaskar.com
+  - amarujala.com
+  - prabhatkhabar.com
+  - jansatta.com
+  - zeenews.india.com
+  - abplive.com
+  - deccanherald.com
+  - newindianexpress.com
+  - telanganatoday.com
+  - tribuneindia.com
+  - thestatesman.com
+  - telegraphindia.com
+  - lokmat.com
+  - loksatta.com
+  - maharashtratimes.com
+  - dailythanthi.com
+  - dinamani.com
+  - prajavani.net
+  - vijaykarnataka.com
+  - mathrubhumi.com
+  - eenadu.net
+  - sakshi.com
+  - sambadenglish.com
+  - assamtribune.com
+  - ptinews.com
+  - newsonair.gov.in
+
+jurisdictions:
+  CENTRE: {domains: [pib.gov.in, india.gov.in, indiabudget.gov.in, myscheme.gov.in, mygov.in], newsrooms: []}
+  AP: {domains: [ap.gov.in], newsrooms: []}
+  AR: {domains: [arunachalpradesh.gov.in, arunachal.gov.in], newsrooms: []}
+  AS: {domains: [assam.gov.in], newsrooms: []}
+  BR:
+    domains: [bihar.gov.in, bih.nic.in]
+    newsrooms:
+      - {name: "Bihar CM – news", listing: "https://cm.bihar.gov.in/users/news.aspx", lang: hi}
+  CG: {domains: [cgstate.gov.in, cg.gov.in], newsrooms: []}
+  DL: {domains: [delhi.gov.in], newsrooms: []}
+  GA: {domains: [goa.gov.in], newsrooms: []}
+  GJ: {domains: [gujarat.gov.in], newsrooms: []}
+  HP: {domains: [himachal.gov.in, hp.gov.in, himachal.nic.in], newsrooms: []}
+  HR: {domains: [haryana.gov.in], newsrooms: []}
+  JH: {domains: [jharkhand.gov.in], newsrooms: []}
+  JK: {domains: [jk.gov.in, jammukashmir.nic.in], newsrooms: []}
+  KA: {domains: [karnataka.gov.in], newsrooms: []}
+  KL: {domains: [kerala.gov.in], newsrooms: []}
+  MH: {domains: [maharashtra.gov.in], newsrooms: []}
+  ML: {domains: [meghalaya.gov.in], newsrooms: []}
+  MN: {domains: [manipur.gov.in], newsrooms: []}
+  MP: {domains: [mp.gov.in], newsrooms: []}
+  MZ: {domains: [mizoram.gov.in], newsrooms: []}
+  NL: {domains: [nagaland.gov.in], newsrooms: []}
+  OD: {domains: [odisha.gov.in], newsrooms: []}
+  PB: {domains: [punjab.gov.in], newsrooms: []}
+  PY: {domains: [py.gov.in], newsrooms: []}
+  RJ: {domains: [rajasthan.gov.in], newsrooms: []}
+  SK: {domains: [sikkim.gov.in], newsrooms: []}
+  TN: {domains: [tn.gov.in], newsrooms: []}
+  TR: {domains: [tripura.gov.in], newsrooms: []}
+  TS: {domains: [telangana.gov.in], newsrooms: []}
+  UK: {domains: [uk.gov.in], newsrooms: []}
+  UP: {domains: [up.gov.in, up.nic.in], newsrooms: []}
+  WB: {domains: [wb.gov.in], newsrooms: []}

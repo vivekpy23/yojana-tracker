@@ -64,14 +64,58 @@ def name_core(name: str) -> tuple[str | None, list[str]]:
     return (prefixes.pop() if len(prefixes) == 1 else None), core
 
 
+# Consonant skeletons compare a Devanagari name with its romanisation: 'महिला रोजगार' and 'Mahila Rojgar'
+# (or 'Rozgar') are both 'mhl rjgr'. Vowels are dropped because romanisation spells them inconsistently.
+_DEVA = dict(zip("कखगघङचछजझञटठडढणतथदधनपफबभमयरलवशषसहळ",
+                 ["k", "kh", "g", "gh", "n", "ch", "chh", "j", "jh", "n", "t", "th", "d", "dh", "n", "t", "th", "d",
+                  "dh", "n", "p", "ph", "b", "bh", "m", "y", "r", "l", "v", "sh", "sh", "s", "h", "l"]))
+_DEVA.update({"ं": "n", "ृ": "r", "ड़": "r", "ढ़": "rh", "ज़": "j", "फ़": "ph",
+              "क़": "k", "ख़": "kh", "ग़": "g"})
+
+
+def skeleton(word: str) -> str:
+    if any("ऀ" <= ch <= "ॿ" for ch in word):
+        word = "".join(_DEVA.get(ch, "") for ch in word)
+    else:
+        word = word.lower().replace("z", "j").replace("w", "v").replace("f", "ph").replace("x", "ksh")
+        word = re.sub(r"[aeiou]", "", word)
+    word = word.replace("chh", "ch").replace("sh", "s")
+    return re.sub(r"(.)\1+", r"\1", word.replace("h", "") if len(word) > 2 else word)
+
+
+def _latin(name: str) -> bool:
+    return not re.search(r"[ऀ-෿]", name)
+
+
+def better_name(current: str, new: str) -> bool:
+    """Whether `new` should become a scheme's name: a romanised name over a regional-script one (the site is in
+    English), and a name whose distinctive words are a strict subset of the current one's ('Mukhyamantri Mahila
+    Rojgar Yojana' over 'Bihar Mahila Rojgar Yojana' or 'Mint View Market … Mahila Rojgar Yojana')."""
+    if _latin(new) != _latin(current):
+        return _latin(new)
+    (pc, cc), (pn, cn) = name_core(current), name_core(new)
+    return bool(cn) and set(cn) < set(cc) and (pn == pc or pn is not None)
+
+
 def name_score(a: str, b: str) -> float:
     """0–100 similarity of two scheme names, after generic words are removed. A one-word name only
-    matches the same word, so 'Pension Scheme' never swallows 'Destitute Women Pension Scheme'."""
+    matches the same word, so 'Pension Scheme' never swallows 'Destitute Women Pension Scheme'.
+    A Devanagari name and a romanised one are compared by consonant skeleton and need two distinctive words."""
     (pa, ca), (pb, cb) = name_core(a), name_core(b)
     if not ca or not cb or (pa and pb and pa != pb):
         return 0.0
     if ca == cb:
         return 100.0
+    if _latin(" ".join(ca)) != _latin(" ".join(cb)):
+        sa, sb = [skeleton(w) for w in ca], [skeleton(w) for w in cb]
+        small, big = sorted((sa, sb), key=len)
+        if sa == sb:  # one distinctive word is enough only when both carry the same CM / PM prefix
+            return 100.0 if len(sa) >= 2 or (pa and pa == pb and len(sa[0]) >= 3) else 0.0
+        if len(small) < 2:
+            return 0.0
+        if set(small) <= set(big):  # 'मुख्यमंत्री महिला रोजगार योजना' within 'Bihar Mahila Rojgar Yojana'
+            return 92.0
+        return float(fuzz.ratio(" ".join(sa), " ".join(sb))) * 0.95
     ja, jb = " ".join(ca), " ".join(cb)
     if min(len(ca), len(cb)) < 2:
         return float(fuzz.ratio(ja, jb))
@@ -123,7 +167,11 @@ def upsert(schemes: list[dict], *, state: str, name: str, fy: str, amount: float
     else:
         rec["last_checked"] = today()
         if name != rec["name"] and name not in rec.setdefault("aliases", []):
-            rec["aliases"].append(name)
+            if better_name(rec["name"], name):  # romanised / cleaner name wins; the old one stays an alias
+                rec["aliases"].append(rec["name"])
+                rec["name"] = name
+            else:
+                rec["aliases"].append(name)
     if status == "reported":
         if amount is not None:
             rec["reported_amount"] = amount
@@ -137,3 +185,90 @@ def upsert(schemes: list[dict], *, state: str, name: str, fy: str, amount: float
     if note:
         rec["note"] = note
     return rec
+
+
+# ---------------------------------------------------------------- financial claims (scheme records' `financials`)
+# One entry per distinct figure: the same figure reported by several sources is one entry with several sources.
+# A cumulative total is never added to transfers or to another total; see disbursement_summary.
+def _same_figure(a: float, b: float, tol: float = 0.005) -> bool:
+    return abs(a - b) <= max(tol * max(a, b), 0.5)
+
+
+def _days_apart(a: str | None, b: str | None) -> int | None:
+    if not a or not b:
+        return None if (a or b) else 0
+    return abs((dt.date.fromisoformat(a) - dt.date.fromisoformat(b)).days)
+
+
+def add_financial(rec: dict, claim: dict) -> bool:
+    """Add a typed claim (claims.py / llm.py) to the record; True when it is a new figure. Two claims are the
+    same figure when type and amount match and their dates are the same (a transfer reported a day later by
+    another outlet is the same transfer: within 2 days)."""
+    fin = rec.setdefault("financials", [])
+    src = claim.get("source") or {}
+    for f in fin:
+        gap = _days_apart(f.get("as_of"), claim.get("as_of"))
+        if f["type"] == claim["type"] and _same_figure(f["amount_cr"], claim["amount_cr"]) and \
+                gap is not None and gap <= (2 if claim["type"] == "disbursement_event" else 0):
+            if src.get("url") and not any(s.get("url") == src["url"] for s in f["sources"]):
+                f["sources"].append(src)
+            for k in ("beneficiaries", "period_start", "published"):
+                if f.get(k) is None and claim.get(k) is not None:
+                    f[k] = claim[k]
+            if claim.get("official"):
+                f["official"] = True
+            return False
+    entry = {k: claim.get(k) for k in ("type", "amount_cr", "beneficiaries", "fy", "as_of", "period_start",
+                                       "published", "quote", "extractor")}
+    entry.update(sources=[src] if src.get("url") else [], official=bool(claim.get("official")), verified=False,
+                 verified_against=None, first_seen=today())
+    fin.append(entry)
+    return True
+
+
+def _fy_start(fy: str) -> str:
+    return f"{fy[:4]}-04-01"
+
+
+def _fy_end(fy: str) -> str:
+    return f"{int(fy[:4]) + 1}-03-31"
+
+
+def disbursement_summary(rec: dict, fy: str) -> dict | None:
+    """The scheme's benefits disbursed in `fy`, from verified figures only, never double-counted:
+      1. the latest verified cumulative total dated inside the FY, when the total started inside the FY
+         (the scheme was launched, or the first transfer the source mentions was made, on/after 1 April);
+      2. otherwise the sum of verified one-day transfers inside the FY (each transfer once).
+    Returns None when neither exists."""
+    lo, hi = _fy_start(fy), _fy_end(fy)
+    fin = [f for f in rec.get("financials", []) if f.get("verified") and f.get("as_of") and lo <= f["as_of"] <= hi]
+    # Conflicting figures – two different amounts of one type, for one date, verified in the same official
+    # document (CM Bihar, 10 Aug 2025: '124734 करोड़' in the headline, '1247.34 करोड़' in the text) – are left out
+    # and listed in rec['financial_conflicts'] for a person to resolve; they are never summed or guessed between.
+    groups: dict[tuple, list[dict]] = {}
+    for f in fin:
+        if f["type"] in ("disbursement_event", "cumulative_disbursement"):
+            groups.setdefault((f["type"], f["as_of"], f.get("verified_against")), []).append(f)
+    clash = [g for g in groups.values() if len({round(f["amount_cr"], 2) for f in g}) > 1]
+    rec["financial_conflicts"] = [{"type": g[0]["type"], "as_of": g[0]["as_of"], "source": g[0]["verified_against"],
+                                   "amounts_cr": sorted({f["amount_cr"] for f in g})} for g in clash]
+    if not rec["financial_conflicts"]:
+        del rec["financial_conflicts"]
+    fin = [f for f in fin if not any(f in g for g in clash)]
+    totals = [f for f in fin if f["type"] == "cumulative_disbursement"
+              and (f.get("period_start") or rec.get("launched") or "") >= lo]
+    if totals:
+        best = max(totals, key=lambda f: (f["as_of"], f["amount_cr"]))
+        start = best.get("period_start") or rec.get("launched")
+        src = next((s for s in best["sources"] if s.get("url") == best.get("verified_against")), best["sources"][0])
+        return {"amount": best["amount_cr"], "basis": "actuals", "kind": "cumulative", "as_of": best["as_of"],
+                "period": f"{start} to {best['as_of']} (cumulative)", "beneficiaries": best.get("beneficiaries"),
+                "url": src["url"], "title": src.get("title", "")}
+    events = sorted((f for f in fin if f["type"] == "disbursement_event"), key=lambda f: f["as_of"])
+    if events:
+        src = events[-1]["sources"][0]
+        return {"amount": round(sum(f["amount_cr"] for f in events), 2), "basis": "actuals", "kind": "transfers",
+                "as_of": events[-1]["as_of"], "period": f"{events[0]['as_of']} to {events[-1]['as_of']} "
+                f"(sum of {len(events)} transfer{'s' if len(events) > 1 else ''})",
+                "beneficiaries": None, "url": src["url"], "title": src.get("title", "")}
+    return None

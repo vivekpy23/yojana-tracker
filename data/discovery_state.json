@@ -1,0 +1,2308 @@
+{
+  "version": 1,
+  "seen_urls": {
+    "https://www.thehindu.com/news/national/west-bengal/west-bengal-cm-announces-313-crore-for-tea-workers-under-central-scheme/article71185799.ece": [
+      "2026-10-22",
+      "CENTRE"
+    ],
+    "https://www.hindustantimes.com/cities/chandigarh-news/punjab-got-13l-under-pm-minority-welfare-scheme-in-2025-26-govt-in-rs-101785181604565.html": [
+      "2026-10-22",
+      "CENTRE"
+    ],
+    "https://economictimes.indiatimes.com/news/politics-and-nation/tamil-nadu-budget-2026-vijay-govt-announces-rs-44527-crore-for-school-education-gold-coins-silk-sarees-for-weddings-free-laptops-and-bicycles/articleshow/132892982.cms": [
+      "2026-10-22",
+      "CENTRE"
+    ],
+    "https://www.newindianexpress.com/states/andhra-pradesh/2026/Aug/21/andhra-pradesh-welfare-model-set-a-benchmark-for-nation": [
+      "2026-10-22",
+      "AP"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4435": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4436": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4437": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4438": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4439": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4440": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4441": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4442": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4443": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4444": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4445": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4446": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4447": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4448": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4449": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4450": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4451": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4452": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4453": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4454": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4434": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4433": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4432": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4431": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4430": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4429": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4428": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4427": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4426": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4425": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4424": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4423": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4422": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4421": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4420": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4419": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4418": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4417": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4416": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4415": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4414": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4413": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4412": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4411": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4410": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4409": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4408": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4407": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4406": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4405": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4404": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4403": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4402": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4401": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4400": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4399": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4398": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4397": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4396": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4395": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4394": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4393": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4392": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4391": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4390": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4389": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4388": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4387": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4386": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4385": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4384": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4383": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4382": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4381": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4380": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4379": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4378": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4377": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4376": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4375": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4374": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4373": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4372": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4371": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4370": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4369": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4368": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4367": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4366": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4365": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4364": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4363": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4362": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4361": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4360": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4359": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4358": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4357": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4356": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4355": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4354": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4353": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4352": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4351": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4350": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4349": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4348": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4347": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4346": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4345": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4344": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4343": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4342": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4341": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4340": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4339": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4338": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4337": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4336": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4335": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4334": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4333": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4332": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4331": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4330": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4329": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4328": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4327": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4326": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4325": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4324": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4323": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4322": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4321": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4320": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4319": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4318": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4317": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4316": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4315": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4314": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4313": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4312": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4311": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4310": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4309": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4308": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4307": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4306": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4305": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4304": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4303": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4302": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4301": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4300": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4299": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4298": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4297": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4296": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4295": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4294": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4293": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4292": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4291": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4290": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4289": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4288": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4287": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4286": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4285": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4284": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4283": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4282": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4281": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4280": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4279": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4278": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4277": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4276": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4275": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4274": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4273": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4272": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4271": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4270": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4269": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4268": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4267": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4266": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4265": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4264": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4263": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4262": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4261": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4260": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4259": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4258": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4257": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4256": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4255": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4254": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4253": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4252": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4251": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4250": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4249": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4248": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4247": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4246": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4245": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4244": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4243": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4242": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4241": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4240": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4239": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4238": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4237": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4236": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4235": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4234": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4233": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4232": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4231": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4230": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4229": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4228": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4227": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4226": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4225": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4224": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4223": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4222": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4221": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4220": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4219": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4218": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4217": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4216": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4215": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4214": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4213": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4212": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4211": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4210": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4209": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4208": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4207": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4206": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4205": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4204": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4203": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4202": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4201": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4200": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4199": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4198": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4197": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4196": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4195": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4194": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4193": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4192": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4191": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4190": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4189": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4188": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4187": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4186": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4185": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4184": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4183": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4182": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4181": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4180": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4179": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4178": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4177": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4176": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4175": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4174": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4173": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4172": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4171": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4170": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4169": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4168": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4167": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4166": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4165": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4164": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4163": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4162": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4161": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4160": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4159": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4158": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4157": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4156": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4155": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4154": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4153": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4152": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4151": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4150": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4149": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4148": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4147": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4146": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4145": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4144": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4143": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4142": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4141": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4140": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4139": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4138": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4137": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4136": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4135": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4134": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4133": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4132": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4131": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4130": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4129": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4128": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4127": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4126": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4125": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4124": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4123": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4122": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4121": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4120": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4119": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4118": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4117": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4116": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4115": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4114": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4113": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4112": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4111": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4110": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4109": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4108": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4107": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4106": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4105": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4104": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4103": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4102": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4101": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4100": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4099": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4098": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4097": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4096": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4095": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4094": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4093": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4092": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4091": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4090": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4089": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4088": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4087": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4086": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4085": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4084": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4083": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4082": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4081": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4080": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4079": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4078": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4077": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4076": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4075": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4074": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4073": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4072": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4071": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4070": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4069": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4068": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4067": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4066": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4065": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4064": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4063": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4062": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4061": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4060": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4059": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4058": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4057": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4056": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4055": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4054": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4053": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4052": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4051": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4050": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4049": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4048": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4047": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4046": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4045": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4044": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4043": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4042": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4041": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4040": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4039": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4038": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4037": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4036": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4035": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4034": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4033": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4032": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4031": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4030": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4029": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4028": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4027": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4026": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4025": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4024": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4023": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4022": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4021": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4020": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4019": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4018": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4017": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4016": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4015": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4014": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4013": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4012": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4011": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4010": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4009": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4008": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4007": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4006": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4005": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4004": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4003": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4002": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4001": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4000": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3999": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3998": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3997": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3996": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3995": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3994": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3993": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3992": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3991": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3990": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3989": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3988": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3987": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3986": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3985": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3984": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3983": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3982": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3981": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3980": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3979": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3978": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3977": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3976": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3975": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3974": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3973": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3972": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3971": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3970": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3969": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3968": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3967": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3966": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3965": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3964": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3963": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3962": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3961": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3960": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3959": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3958": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3957": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3956": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3955": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3954": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3953": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3952": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3951": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3950": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3949": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3948": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3947": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3946": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3945": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3944": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3943": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3942": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3941": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3940": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3939": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3938": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3937": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3936": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3935": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3934": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=3933": [
+      "2026-10-22",
+      "BR"
+    ],
+    "https://www.aajtak.in/topic/pm-suryoday-yojana": [
+      "2026-10-22",
+      "DL"
+    ],
+    "https://www.jagran.com/delhi/new-delhi-city-delhi-seeks-100-cr-from-centre-for-pmuday-scheme-40304422.html": [
+      "2026-10-22",
+      "DL"
+    ],
+    "https://timesofindia.indiatimes.com/city/thiruvananthapuram/social-security-pension-scheme-kerala-govt-approves-rs-1-09-crore-for-july/articleshow/132590118.cms": [
+      "2026-10-22",
+      "KL"
+    ],
+    "https://www.thestatesman.com/india/mp-cm-transfers-rs-1500-each-to-beneficiaries-of-laadli-behna-scheme-1503651240.html": [
+      "2026-10-22",
+      "MP"
+    ],
+    "https://www.livemint.com/money/personal-finance/mukhyamantri-ladli-behna-yogna-mp-cm-to-release-41st-installment-today-heres-how-to-check-payment-11791973457745.html": [
+      "2026-10-22",
+      "MP"
+    ],
+    "https://www.livemint.com/money/personal-finance/madhya-pradesh-ladli-behna-scheme-cm-mohan-yadav-disbursed-rs-1500-monthly-installment-did-you-receive-how-to-check-11787149037163.html": [
+      "2026-10-22",
+      "MP"
+    ],
+    "https://www.newindianexpress.com/states/odisha/2026/Oct/10/odishas-new-poultry-scheme-launched-to-produce-1k-crore-more-eggs": [
+      "2026-10-22",
+      "OD"
+    ],
+    "https://www.newindianexpress.com/states/odisha/2026/Oct/16/odisha-government-extends-antyodaya-gruha-yojana-till-2029": [
+      "2026-10-22",
+      "OD"
+    ],
+    "https://www.jagran.com/news/national-nine-hundred-crore-scam-in-rajasthan-government-health-scheme-40232590.html": [
+      "2026-10-22",
+      "RJ"
+    ],
+    "https://www.thehindu.com/news/national/telangana/every-household-benefiting-from-welfare-schemes-bhatti/article71584221.ece": [
+      "2026-10-22",
+      "TS"
+    ],
+    "https://realty.economictimes.indiatimes.com/news/residential/over-73100-new-houses-approved-under-pmay-urban-2-0-in-uttar-pradesh/133144027": [
+      "2026-10-22",
+      "UP"
+    ],
+    "https://economictimes.indiatimes.com/wealth/invest/annapurna-yojana-launched-who-will-get-rs-3000-monthly-financial-assistance-from-june-1-2026/articleshow/131349071.cms": [
+      "2026-10-22",
+      "WB"
+    ],
+    "https://www.moneycontrol.com/news/india/pm-modi-says-no-eligible-woman-in-west-bengal-will-be-left-out-of-annapurna-yojana-benefits-14032122.html": [
+      "2026-10-22",
+      "WB"
+    ],
+    "https://www.thehindu.com/news/national/west-bengal/west-bengal-government-faces-annapurna-challenge-to-verify-beneficiaries-before-rolling-out-cash-transfer-scheme/article71033504.ece": [
+      "2026-10-22",
+      "WB"
+    ],
+    "https://www.thehindu.com/news/national/west-bengal/1st-tranche-of-funds-under-annapurna-yojana-transferred-to-11-crore-women-beneficiaries-bengal-cm/article71169447.ece": [
+      "2026-10-22",
+      "WB"
+    ]
+  },
+  "queries": {
+    "bing_news|Union government announces welfare scheme crore": "2026-10-22",
+    "bing_news|Andhra Pradesh announces welfare scheme crore": "2026-10-22",
+    "bing_news|Arunachal Pradesh new scheme launched yojana beneficiaries": "2026-10-22",
+    "bing_news|Assam announces welfare scheme crore": "2026-10-22",
+    "bing_news|बिहार नई योजना शुरू लाभार्थी": "2026-10-22",
+    "bing_news|छत्तीसगढ़ सरकार योजना घोषणा करोड़": "2026-10-22",
+    "bing_news|दिल्ली सरकार योजना घोषणा करोड़": "2026-10-22",
+    "bing_news|Goa announces welfare scheme crore": "2026-10-22",
+    "bing_news|Gujarat scheme crore transferred to beneficiaries accounts": "2026-10-22",
+    "bing_news|हिमाचल प्रदेश योजना करोड़ राशि खाते में अंतरित": "2026-10-22",
+    "bing_news|हरियाणा नई योजना शुरू लाभार्थी": "2026-10-22",
+    "bing_news|झारखंड योजना करोड़ राशि खाते में अंतरित": "2026-10-22",
+    "bing_news|Jammu and Kashmir announces welfare scheme crore": "2026-10-22",
+    "bing_news|ಕರ್ನಾಟಕ ಯೋಜನೆ ಕೋಟಿ ಖಾತೆಗೆ ಜಮಾ": "2026-10-22",
+    "bing_news|Kerala announces welfare scheme crore": "2026-10-22",
+    "bing_news|महाराष्ट्र योजना करोड़ राशि खाते में अंतरित": "2026-10-22",
+    "bing_news|Meghalaya new scheme launched yojana beneficiaries": "2026-10-22",
+    "bing_news|Manipur scheme crore transferred to beneficiaries accounts": "2026-10-22",
+    "bing_news|Madhya Pradesh scheme crore transferred to beneficiaries accounts": "2026-10-22",
+    "bing_news|Mizoram scheme crore transferred to beneficiaries accounts": "2026-10-22",
+    "bing_news|Nagaland announces welfare scheme crore": "2026-10-22",
+    "bing_news|Odisha new scheme launched yojana beneficiaries": "2026-10-22",
+    "bing_news|पंजाब योजना करोड़ राशि खाते में अंतरित": "2026-10-22",
+    "bing_news|Puducherry announces welfare scheme crore": "2026-10-22",
+    "bing_news|राजस्थान सरकार योजना घोषणा करोड़": "2026-10-22",
+    "bing_news|Sikkim scheme crore transferred to beneficiaries accounts": "2026-10-22",
+    "bing_news|தமிழ்நாடு அரசு திட்டம் அறிவிப்பு கோடி": "2026-10-22",
+    "bing_news|Tripura announces welfare scheme crore": "2026-10-22",
+    "bing_news|Telangana scheme crore transferred to beneficiaries accounts": "2026-10-22",
+    "bing_news|उत्तराखंड नई योजना शुरू लाभार्थी": "2026-10-22",
+    "bing_news|Uttar Pradesh new scheme launched yojana beneficiaries": "2026-10-22",
+    "bing_news|West Bengal new scheme launched yojana beneficiaries": "2026-10-22"
+  },
+  "usage": {
+    "bing_news": {
+      "2026-10-22": {
+        "discovery": 32
+      }
+    }
+  },
+  "by_jurisdiction": {
+    "bing_news": {
+      "2026-10-22": {
+        "CENTRE": 1,
+        "AP": 1,
+        "AR": 1,
+        "AS": 1,
+        "BR": 1,
+        "CG": 1,
+        "DL": 1,
+        "GA": 1,
+        "GJ": 1,
+        "HP": 1,
+        "HR": 1,
+        "JH": 1,
+        "JK": 1,
+        "KA": 1,
+        "KL": 1,
+        "MH": 1,
+        "ML": 1,
+        "MN": 1,
+        "MP": 1,
+        "MZ": 1,
+        "NL": 1,
+        "OD": 1,
+        "PB": 1,
+        "PY": 1,
+        "RJ": 1,
+        "SK": 1,
+        "TN": 1,
+        "TR": 1,
+        "TS": 1,
+        "UK": 1,
+        "UP": 1,
+        "WB": 1
+      }
+    }
+  },
+  "newsrooms": {
+    "https://cm.bihar.gov.in/users/news.aspx": {
+      "template": "https://cm.bihar.gov.in/users/viewnews.aspx?id={id}",
+      "max_id": 4454,
+      "backfill_done": true,
+      "backfill_next": 3932
+    }
+  },
+  "verification": {},
+  "surfaced": {
+    "WB": [
+      "WB-annapurna",
+      "WB-cha-shramik-protsahan",
+      "WB-economic-times-annapurna",
+      "WB-et-online-annapurna",
+      "WB-lakshmi-bhandar",
+      "WB-paschim-banga-samagra-siksha-mission",
+      "WB-save-print-comment-synopsis-west-bengal-s-annapurna"
+    ],
+    "PB": [],
+    "TN": [
+      "TN-comprehensive-road-infrastructure-development-programme",
+      "TN-motilal-oswal-midcap-fund",
+      "TN-safe-roads-mission",
+      "TN-thaai-maaman-thanga-modhira-thittam",
+      "TN-uti-aggressive-hybrid-fund",
+      "TN-vetri-madikanini-thittam"
+    ],
+    "AP": [
+      "AP-stree-shakti"
+    ],
+    "DL": [
+      "DL-उदय",
+      "DL-करोड़-रुपये-जनजागरूकता-अभियान",
+      "DL-सुर्य-घर",
+      "DL-सूर्य-घर"
+    ],
+    "KL": [
+      "KL-indira-gandhi-national-old-age-pension",
+      "KL-national-social-assistance-programme"
+    ],
+    "MP": [
+      "MP-ladli-behna",
+      "MP-members-of-jan-abhiyan",
+      "MP-ujjwala"
+    ],
+    "OD": [
+      "OD-antyodaya-gruha",
+      "OD-awas",
+      "OD-commercial-layer-poultry-farming",
+      "OD-krushi-udyog",
+      "OD-livestock-prosperity"
+    ],
+    "RJ": [],
+    "TS": [
+      "TS-indiramma-life-insurance"
+    ],
+    "UP": []
+  },
+  "saved": "2026-10-22"
+}
