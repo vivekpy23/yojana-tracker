@@ -34,6 +34,9 @@ jobs:
       # A new URL per deploy, so browsers don't keep the previous app.js / styles.css (Pages caches 10 min).
       - name: Version asset URLs
         run: sed -i "s/\(app\.js\|styles\.css\)\"/\1?v=$(git rev-parse --short HEAD)\"/g" site/index.html
+      # site/api/ holds Vercel functions; GitHub Pages can't run them, so they aren't published there.
+      - name: Drop serverless functions
+        run: rm -rf site/api
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

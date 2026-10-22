@@ -269,6 +269,7 @@ TLS errors are never bypassed: a figure fetched that way can't be shown to come 
 
 ```
 site/                 static site (index.html, styles.css, app.js, data/site.json)
+  api/                Vercel functions: presence.js, feedback.js (Upstash Redis over REST; not deployed to Pages)
 scraper/              Python pipeline
   config.yaml         news feeds, govt source pages, thresholds, pilot states
   myscheme.py         myScheme discovery per State/UT (needs MYSCHEME_API_KEY)
@@ -321,6 +322,21 @@ tests/                unit tests (run in CI before every update)
 ## Reviewing uncertain figures
 
 When the daily run can't decide, it opens a pull request titled *"Data update: figures waiting for your review"* instead of publishing. In that PR, edit `data/review_queue.json`, set `"decision": "approve"` or `"reject"` per item (optionally `"use_amount"`), commit and merge. The next run applies your decisions.
+
+## On Vercel (live count and feedback form)
+
+Vercel deploys `site/` and runs `site/api/*.js` as serverless functions at `/api/presence` and `/api/feedback`, the
+same paths the page already calls, so no endpoint changes or cross-origin settings are needed. Serverless instances
+share no memory and keep no files, so both use one Redis:
+
+1. In the Vercel project: **Storage → Create / Connect → Upstash for Redis** (free tier is plenty), and connect it
+   to the project. That adds `KV_REST_API_URL` and `KV_REST_API_TOKEN` (`UPSTASH_REDIS_REST_URL` / `_TOKEN` also work).
+2. Redeploy. The green dot appears once the first heartbeat succeeds; without Redis the API answers 503 and the
+   indicator stays hidden.
+3. Feedback lands in the Redis list `yojana:feedback`, newest first – read it in the Upstash console with
+   `LRANGE yojana:feedback 0 -1`.
+
+The GitHub Pages copy stays static (the deploy drops `site/api/`), so it shows no count and the form there can't send.
 
 ## Feedback form
 
