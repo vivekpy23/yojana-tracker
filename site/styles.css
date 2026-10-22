@@ -15,6 +15,7 @@
   --warn-bg: #FFF4E5;
   --ok-ink: #1E5E3B;
   --ok-bg: #E7F4EC;
+  --live: #16A34A;        /* "people online now" dot */
   --sec-ink: #1F3A5F;
   --sec-bg: #E8EEF6;
   /* summary cards by kind: background, border, title/figure accent, estimate label (all ≥4.5:1) */
@@ -38,6 +39,7 @@
     --bg: #0F1115; --surface: #171A1F; --ink: #E8EAED; --muted: #9AA1AC; --line: #2A2F36;
     --line-strong: #3A404A; --head: #1C2026; --navy: #8FB3E0; --teal: #5FBFA9; --link: #9CC2EE;
     --track: #262A31; --hover: #1F2329; --warn-ink: #F2B66B; --warn-bg: #3A2A12; --ok-ink: #8FD9AE; --ok-bg: #16301F;
+    --live: #34D399;
     --sec-ink: #B7CDEA; --sec-bg: #1F2A3A;
     --rev-bg: #12261E; --rev-line: #1E3A2E; --rev-ink: #8FD9B6;
     --exp-bg: #142034; --exp-line: #22324D; --exp-ink: #A8C8F0;
@@ -52,6 +54,7 @@
     --bg: #0F1115; --surface: #171A1F; --ink: #E8EAED; --muted: #9AA1AC; --line: #2A2F36;
     --line-strong: #3A404A; --head: #1C2026; --navy: #8FB3E0; --teal: #5FBFA9; --link: #9CC2EE;
     --track: #262A31; --hover: #1F2329; --warn-ink: #F2B66B; --warn-bg: #3A2A12; --ok-ink: #8FD9AE; --ok-bg: #16301F;
+    --live: #34D399;
     --sec-ink: #B7CDEA; --sec-bg: #1F2A3A;
     --rev-bg: #12261E; --rev-line: #1E3A2E; --rev-ink: #8FD9B6;
     --exp-bg: #142034; --exp-line: #22324D; --exp-ink: #A8C8F0;
@@ -75,6 +78,9 @@ a { color: var(--link); }
 .updated { margin: 2px 0 0; font-family: var(--mono); font-size: 12.5px; color: var(--muted); }
 .meta { margin-left: auto; display: flex; align-items: center; padding-top: 8px; font-family: var(--mono); font-size: 12.5px; color: var(--muted); }
 .fy { border: 1px solid var(--line-strong); border-radius: var(--radius-sm); color: var(--ink); padding: 4px 9px; }
+.online { display: inline-flex; align-items: center; gap: 6px; margin-right: 12px; white-space: nowrap; }
+.online[hidden] { display: none; }
+.online .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--live); }
 
 main { display: flex; flex-direction: column; gap: var(--gap); }
 .stack { display: flex; flex-direction: column; gap: 10px; }

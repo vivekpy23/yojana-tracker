@@ -12,6 +12,8 @@
 <!-- Where the feedback form posts (server/feedback_server.py). Set an absolute URL when that server runs
      on another host than the site, e.g. https://feedback.example.org/api/feedback -->
 <meta name="feedback-endpoint" content="api/feedback">
+<!-- Live visitor count (same server, /api/presence). Hidden unless the server answers. -->
+<meta name="presence-endpoint" content="api/presence">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231F3A5F'/%3E%3Ctext x='16' y='22' font-size='17' text-anchor='middle' fill='white' font-family='sans-serif'%3E%E2%82%B9%3C/text%3E%3C/svg%3E">
 </head>
 <body>
@@ -23,6 +25,7 @@
       <p class="updated" id="updated">Loading…</p>
     </div>
     <div class="meta">
+      <span class="online" id="online" hidden><span class="dot" aria-hidden="true"></span><span id="online-n"></span></span>
       <span class="fy" id="fy">FY –</span>
     </div>
   </header>

@@ -335,6 +335,27 @@ python -m server.feedback_server          # http://127.0.0.1:8000
 - Concurrent posts are safe: writes are serialised (a lock in the process plus a lock file) and atomic (temp file + rename).
 - **GitHub Pages can't run this server.** Host it anywhere that runs Python (behind HTTPS), then set `<meta name="feedback-endpoint">` in `site/index.html` to its URL (e.g. `https://feedback.example.org/api/feedback`), and start it with `FEEDBACK_ALLOW_ORIGIN=https://vivekpy23.github.io` (and `TRUST_PROXY=1` behind your own reverse proxy). Until then, the form on the live site says the message couldn't be sent.
 
+## Live visitor count
+
+The header shows a green dot and "X people online now": browser sessions with a heartbeat in the last 5 minutes
+(`server/presence.py`, served by the same `server/feedback_server.py`).
+
+- **Browser:** a random 128-bit session id in `sessionStorage` (kept across refreshes, gone when the tab closes); a
+  heartbeat to `POST /api/presence` every 45 s while the page is visible, none while it's hidden. The reply carries the
+  count, so the display updates with each heartbeat. Each open tab counts as one session.
+- **Stored:** only `{session id: last heartbeat time}`, in a Redis sorted set (`yojana:presence`) that drops entries
+  older than 5 minutes on every request and expires as a whole after 10 idle minutes. Times come from Redis's own
+  clock, so any number of server instances share one count. No IP address, user agent or history is stored, and
+  `/api/` requests aren't logged; the client address is used in memory only, to cap heartbeats at 120 per address per
+  minute.
+- **Honest by default:** if the server or Redis can't be reached, the API answers 503 and the indicator stays hidden –
+  it never shows a made-up number. No analytics service is involved.
+- **Run it:** `pip install -r server/requirements.txt`, then `REDIS_URL=redis://… python -m server.feedback_server`.
+  Without `REDIS_URL` the count is kept in that one process (fine locally; a warning is logged). On another host than
+  the site, set `<meta name="presence-endpoint">` in `site/index.html` to its URL and start the server with
+  `FEEDBACK_ALLOW_ORIGIN=https://vivekpy23.github.io`. GitHub Pages alone can't run it, so until a server is
+  deployed the live site shows no indicator.
+
 ## Run locally
 
 ```bash

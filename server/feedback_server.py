@@ -1,16 +1,24 @@
-"""Feedback endpoint for the Yojana Tracker homepage – Python standard library only.
+"""Feedback and live-visitor endpoints for the Yojana Tracker site.
 
-    python -m server.feedback_server                 # http://127.0.0.1:8000  (site + POST /api/feedback)
-    PORT=8080 HOST=0.0.0.0 python -m server.feedback_server
+    python -m server.feedback_server                 # http://127.0.0.1:8000  (site + the API below)
+    PORT=8080 HOST=0.0.0.0 REDIS_URL=redis://... python -m server.feedback_server
 
-Serves site/ and accepts POST /api/feedback with JSON {"message": "..."}. Each submission is appended to
-data/feedback.json (outside site/, so never published) as {"id", "message", "timestamp"}.
+Serves site/ and:
+  POST /api/feedback   JSON {"message": "..."}; appended to data/feedback.json (outside site/, never published)
+                       as {"id", "message", "timestamp"}
+  POST /api/presence   JSON {"sid": "<32 hex>"}: a heartbeat from an open, visible page -> {"online": n}
+  GET  /api/presence   -> {"online": n}, sessions with a heartbeat in the last 5 minutes (server/presence.py)
 
 Settings (environment):
   FEEDBACK_FILE          where submissions go (default data/feedback.json)
   FEEDBACK_ALLOW_ORIGIN  the site's origin when it is served from elsewhere (e.g. https://<user>.github.io),
-                         so the browser may post here; unset = same origin only
+                         so the browser may call this API; unset = same origin only
+  REDIS_URL              shared store for the online count - required when more than one instance runs; without
+                         it the count lives in this process only (needs the `redis` package: server/requirements.txt)
   TRUST_PROXY=1          take the client address from X-Forwarded-For (only behind your own reverse proxy)
+
+Presence stores only {random session id: last heartbeat time}, for 5 minutes. The client address is used in
+memory for rate limiting only - never stored or logged.
 
 Safety: body ≤ 4 KB, JSON only; message 3–1000 characters after trimming, control characters removed;
 5 submissions per client per 10 minutes; writes are serialised (a lock in this process plus a lock file
@@ -31,6 +39,8 @@ from functools import partial
 from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 
+from . import presence
+
 ROOT = Path(__file__).resolve().parent.parent
 SITE = ROOT / "site"
 FEEDBACK_FILE = Path(os.environ.get("FEEDBACK_FILE", ROOT / "data" / "feedback.json"))
@@ -38,6 +48,9 @@ FEEDBACK_FILE = Path(os.environ.get("FEEDBACK_FILE", ROOT / "data" / "feedback.j
 MAX_BODY = 4096
 MIN_LEN, MAX_LEN = 3, 1000
 RATE_LIMIT, RATE_WINDOW_S = 5, 600
+# Heartbeats per client address per minute: generous, since many visitors can share one address (offices, mobile
+# carriers), but enough to stop one script from inventing thousands of sessions.
+PRESENCE_LIMIT, PRESENCE_WINDOW_S = 120, 60
 _CONTROL = re.compile(r"[\x00-\x08\x0b-\x1f\x7f]")
 
 
@@ -124,6 +137,8 @@ def append_feedback(message: str, path: Path | None = None) -> dict:
 # ---------------------------------------------------------------- HTTP
 class Handler(SimpleHTTPRequestHandler):
     limiter = RateLimiter()
+    presence_limiter = RateLimiter(PRESENCE_LIMIT, PRESENCE_WINDOW_S)
+    presence_store = None  # set by serve(): presence.from_env() unless given
     feedback_file: Path | None = None
     allow_origin = os.environ.get("FEEDBACK_ALLOW_ORIGIN", "")
     trust_proxy = os.environ.get("TRUST_PROXY") == "1"
@@ -148,31 +163,65 @@ class Handler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(data)
 
+    def _route(self) -> str:
+        return self.path.split("?", 1)[0]
+
     def do_OPTIONS(self):  # CORS preflight
-        if self.path != "/api/feedback":
+        if self._route() not in ("/api/feedback", "/api/presence"):
             return self._json(404, {"error": "Not found."})
         self.send_response(204)
         self._cors()
-        self.send_header("Access-Control-Allow-Methods", "POST")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST")
         self.send_header("Access-Control-Allow-Headers", "Content-Type")
         self.send_header("Access-Control-Max-Age", "86400")
         self.end_headers()
 
-    def do_POST(self):
-        if self.path != "/api/feedback":
-            return self._json(404, {"error": "Not found."})
+    def do_GET(self):
+        if self._route() == "/api/presence":
+            return self._presence(None)
+        super().do_GET()
+
+    def _read_json(self):
+        """The request's JSON body, or None after an error response was sent."""
         if "application/json" not in (self.headers.get("Content-Type") or ""):
-            return self._json(415, {"error": "Send JSON."})
+            self._json(415, {"error": "Send JSON."})
+            return None
         try:
             length = int(self.headers.get("Content-Length") or 0)
         except ValueError:
             length = -1
         if length <= 0 or length > MAX_BODY:
-            return self._json(413 if length > MAX_BODY else 400, {"error": "Message too long or empty."})
+            self._json(413 if length > MAX_BODY else 400, {"error": "Message too long or empty."})
+            return None
         try:
-            payload = json.loads(self.rfile.read(length).decode("utf-8"))
+            return json.loads(self.rfile.read(length).decode("utf-8"))
         except (UnicodeDecodeError, json.JSONDecodeError):
-            return self._json(400, {"error": "Send JSON."})
+            self._json(400, {"error": "Send JSON."})
+            return None
+
+    def _presence(self, payload):
+        """Heartbeat (POST with a session id) or count (GET). Only the random session id and the time are stored."""
+        try:
+            if payload is None:
+                return self._json(200, {"online": self.presence_store.count()})
+            sid = payload.get("sid") if isinstance(payload, dict) else None
+            if not presence.valid_session(sid):
+                return self._json(400, {"error": "Bad session id."})
+            if not self.presence_limiter.allow(self._client()):
+                return self._json(429, {"error": "Too many requests."})
+            return self._json(200, {"online": self.presence_store.heartbeat(sid)})
+        except Exception:  # store unreachable: say so, never make a number up
+            return self._json(503, {"error": "Count unavailable."})
+
+    def do_POST(self):
+        route = self._route()
+        if route not in ("/api/feedback", "/api/presence"):
+            return self._json(404, {"error": "Not found."})
+        payload = self._read_json()
+        if payload is None:
+            return None
+        if route == "/api/presence":
+            return self._presence(payload)
         msg, why = clean_message(payload.get("message") if isinstance(payload, dict) else None)
         if why:
             return self._json(400, {"error": why})
@@ -186,12 +235,14 @@ class Handler(SimpleHTTPRequestHandler):
             super().log_message(fmt, *args)
 
 
-def serve(host: str = "127.0.0.1", port: int = 8000) -> ThreadingHTTPServer:
+def serve(host: str = "127.0.0.1", port: int = 8000, store=None) -> ThreadingHTTPServer:
+    if store is not None or Handler.presence_store is None:
+        Handler.presence_store = store or presence.from_env()
     return ThreadingHTTPServer((host, port), partial(Handler, directory=str(SITE)))
 
 
 if __name__ == "__main__":
     srv = serve(os.environ.get("HOST", "127.0.0.1"), int(os.environ.get("PORT", "8000")))
-    print(f"Serving site/ and POST /api/feedback on http://{srv.server_address[0]}:{srv.server_address[1]}"
-          f", saving to {FEEDBACK_FILE}")
+    print(f"Serving site/, /api/feedback and /api/presence on http://{srv.server_address[0]}:{srv.server_address[1]}"
+          f", feedback to {FEEDBACK_FILE}, online count in {type(Handler.presence_store).__name__}")
     srv.serve_forever()

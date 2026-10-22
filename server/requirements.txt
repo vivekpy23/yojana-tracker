@@ -1,0 +1,1 @@
+redis>=5.0   # shared store for the live visitor count (REDIS_URL); only the server needs it

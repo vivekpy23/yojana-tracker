@@ -336,6 +336,41 @@
     else { home(); document.title = "Yojana Tracker"; }
   }
 
+  // ---------- live visitor count (server/presence.py via /api/presence) ----------
+  // An anonymous random id per browser session (sessionStorage: kept across refreshes, gone with the tab) and a
+  // heartbeat every 45 s while the page is visible; the reply carries the count. Shown only when the server
+  // answers – never a made-up number.
+  (function () {
+    var meta = document.querySelector('meta[name="presence-endpoint"]');
+    var box = document.getElementById("online"), label = document.getElementById("online-n");
+    var rng = window.crypto || window.msCrypto;
+    if (!meta || !box || !label || !window.fetch || !rng) return;
+    var EVERY = 45000, timer = null, sid = null;
+    try { sid = sessionStorage.getItem("yt-sid"); } catch (e) {}
+    if (!/^[0-9a-f]{32}$/.test(sid || "")) {
+      var bytes = new Uint8Array(16);
+      rng.getRandomValues(bytes);
+      sid = Array.prototype.map.call(bytes, function (b) { return ("0" + b.toString(16)).slice(-2); }).join("");
+      try { sessionStorage.setItem("yt-sid", sid); } catch (e) {}
+    }
+    function beat() {
+      if (document.hidden) return;
+      fetch(meta.content, { method: "POST", headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ sid: sid }), cache: "no-store" })
+        .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+        .then(function (d) {
+          if (typeof d.online !== "number" || d.online < 1) { box.hidden = true; return; }
+          label.textContent = d.online.toLocaleString("en-IN") + (d.online === 1 ? " person" : " people") + " online now";
+          box.hidden = false;
+        })
+        .catch(function () { box.hidden = true; });
+    }
+    function stop() { if (timer) clearInterval(timer); timer = null; }
+    function start() { stop(); beat(); timer = setInterval(beat, EVERY); }
+    document.addEventListener("visibilitychange", function () { if (document.hidden) stop(); else start(); });
+    start();
+  })();
+
   fetch("data/site.json", { cache: "no-cache" })
     .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(function (d) {
