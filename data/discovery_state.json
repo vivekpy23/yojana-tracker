@@ -2268,6 +2268,82 @@
     "https://www.thehindu.com/news/national/west-bengal/west-bengal-state-budget-live-swapan-dasgupta-present-bengals-first-bjp-budget-june-22-2026/article71131719.ece": [
       "2026-10-23",
       "WB"
+    ],
+    "https://www.thehindu.com/news/national/bihar/bihar-cm-transfers-1237-crore-to-over-18-crore-beneficiaries-under-social-security-pension-scheme/article71568191.ece": [
+      "2026-10-24",
+      "CENTRE"
+    ],
+    "https://realty.economictimes.indiatimes.com/news/residential/andhra-pradesh-government-sanctions-17912-houses-under-pmay-urban-2-0/133654705": [
+      "2026-10-24",
+      "AP"
+    ],
+    "https://www.jagran.com/bihar/patna-city-bihar-news-one-crore-families-entrepreneurs-made-in-bihar-government-purchase-50-crore-tenders-40398210.html": [
+      "2026-10-24",
+      "BR"
+    ],
+    "https://hindi.news18.com/news/bihar/patna-bihar-pm-surya-ghar-subsidy-20000-for-solar-panel-by-bihar-government-cm-samrat-choudhary-local18-ws-n-10856587.html": [
+      "2026-10-24",
+      "BR"
+    ],
+    "https://www.prabhatkhabar.com/state/bihar/bihar-flood-relief-7000-rupees-transferred-160000-families-farmer-aid-october-2026": [
+      "2026-10-24",
+      "BR"
+    ],
+    "https://www.jagran.com/bihar/patna-city-bihar-student-credit-card-scheme-extended-5-years-950-crore-rupees-approved-40338548.html": [
+      "2026-10-24",
+      "BR"
+    ],
+    "https://www.newindianexpress.com/states/gujarat/2026/Sep/02/gujarat-over-15-lakh-women-face-technical-hurdles-in-receiving-pm-matru-vandana-yojana-benefits": [
+      "2026-10-24",
+      "GJ"
+    ],
+    "https://timesofindia.indiatimes.com/real-estate/news/dr-ambedkar-awas-yojana-gujarats-housing-assistance-scheme-gor-scheduled-caste-families/articleshow/134372849.cms": [
+      "2026-10-24",
+      "GJ"
+    ],
+    "https://www.jagran.com/himachal-pradesh/shimla-himachal-rural-works-restart-under-vbg-ram-ji-scheme-state-saves-40292615.html": [
+      "2026-10-24",
+      "HP"
+    ],
+    "https://www.jagran.com/himachal-pradesh/shimla-himachals-new-health-insurance-scheme-offers-10-lakh-cover-40368769.html": [
+      "2026-10-24",
+      "HP"
+    ],
+    "https://www.jagran.com/haryana/panchkula-nayab-saini-credited-1890-crore-to-accounts-of-50-lakh-people-in-haryana-lado-lakshmi-yojana-installment-released-40369238.html": [
+      "2026-10-24",
+      "HR"
+    ],
+    "https://www.newindianexpress.com/states/madhya-pradesh/2026/Jul/02/madhya-pradesh-govt-to-provide-cows-at-subsidised-rates-to-ladli-behna-beneficiaries": [
+      "2026-10-24",
+      "MP"
+    ],
+    "https://www.livemint.com/money/personal-finance/subhadra-scheme-5th-installment-disbursed-to-1-03-crore-women-by-odisha-cm-did-you-receive-it-heres-how-to-check-11787923266898.html": [
+      "2026-10-24",
+      "OD"
+    ],
+    "https://www.thehindu.com/news/national/odisha/odisha-transfers-833-crore-to-accounts-of-4136-lakh-farmers/article71427980.ece": [
+      "2026-10-24",
+      "OD"
+    ],
+    "https://www.newindianexpress.com/states/odisha/2026/Aug/28/in-odisha-over-one-crore-beneficiaries-to-receive-subhadra-scheme-instalment-today": [
+      "2026-10-24",
+      "OD"
+    ],
+    "https://www.thehindu.com/news/national/telangana/telanganas-electric-conversion-scheme-for-autos-takes-shape/article71352162.ece": [
+      "2026-10-24",
+      "TS"
+    ],
+    "https://www.thehindu.com/news/national/telangana/telangana-launches-200-crore-scheme-to-convert-autos-to-evs/article71396583.ece": [
+      "2026-10-24",
+      "TS"
+    ],
+    "https://www.livemint.com/money/personal-finance/annapurna-scheme-in-west-bengal-who-are-eligible-for-rs-3000-monthly-assistance-check-new-criteria-announced-by-cm-11786626392380.html": [
+      "2026-10-24",
+      "WB"
+    ],
+    "https://www.moneycontrol.com/city/annapurna-yojana-portal-how-rejected-applicants-can-reclaim-rs-3-000-monthly-benefit-article-14009596.html": [
+      "2026-10-24",
+      "WB"
     ]
   },
   "queries": {
@@ -2334,7 +2410,39 @@
     "bing_news|Telangana new scheme launched yojana beneficiaries": "2026-10-23",
     "bing_news|Uttarakhand announces welfare scheme crore": "2026-10-23",
     "bing_news|उत्तर प्रदेश नई योजना शुरू लाभार्थी": "2026-10-23",
-    "bing_news|West Bengal announces welfare scheme crore": "2026-10-23"
+    "bing_news|West Bengal announces welfare scheme crore": "2026-10-23",
+    "bing_news|Union government scheme crore transferred to beneficiaries accounts": "2026-10-24",
+    "bing_news|Andhra Pradesh new scheme launched yojana beneficiaries": "2026-10-24",
+    "bing_news|Arunachal Pradesh scheme crore transferred to beneficiaries accounts": "2026-10-24",
+    "bing_news|Assam new scheme launched yojana beneficiaries": "2026-10-24",
+    "bing_news|बिहार सरकार योजना घोषणा करोड़": "2026-10-24",
+    "bing_news|छत्तीसगढ़ योजना करोड़ राशि खाते में अंतरित": "2026-10-24",
+    "bing_news|दिल्ली योजना करोड़ राशि खाते में अंतरित": "2026-10-24",
+    "bing_news|Goa new scheme launched yojana beneficiaries": "2026-10-24",
+    "bing_news|Gujarat new scheme launched yojana beneficiaries": "2026-10-24",
+    "bing_news|हिमाचल प्रदेश नई योजना शुरू लाभार्थी": "2026-10-24",
+    "bing_news|हरियाणा सरकार योजना घोषणा करोड़": "2026-10-24",
+    "bing_news|झारखंड नई योजना शुरू लाभार्थी": "2026-10-24",
+    "bing_news|Jammu and Kashmir scheme crore transferred to beneficiaries accounts": "2026-10-24",
+    "bing_news|ಕರ್ನಾಟಕ ಹೊಸ ಯೋಜನೆ ಆರಂಭ ಫಲಾನುಭವಿ": "2026-10-24",
+    "bing_news|Kerala new scheme launched yojana beneficiaries": "2026-10-24",
+    "bing_news|महाराष्ट्र नवीन योजना सुरू लाभार्थी": "2026-10-24",
+    "bing_news|Meghalaya scheme crore transferred to beneficiaries accounts": "2026-10-24",
+    "bing_news|Manipur announces welfare scheme crore": "2026-10-24",
+    "bing_news|Madhya Pradesh new scheme launched yojana beneficiaries": "2026-10-24",
+    "bing_news|Mizoram announces welfare scheme crore": "2026-10-24",
+    "bing_news|Nagaland new scheme launched yojana beneficiaries": "2026-10-24",
+    "bing_news|Odisha scheme crore transferred to beneficiaries accounts": "2026-10-24",
+    "bing_news|पंजाब नई योजना शुरू लाभार्थी": "2026-10-24",
+    "bing_news|Puducherry new scheme launched yojana beneficiaries": "2026-10-24",
+    "bing_news|राजस्थान योजना करोड़ राशि खाते में अंतरित": "2026-10-24",
+    "bing_news|Sikkim announces welfare scheme crore": "2026-10-24",
+    "bing_news|தமிழ்நாடு திட்டம் கோடி வங்கி கணக்கில் வரவு": "2026-10-24",
+    "bing_news|Tripura new scheme launched yojana beneficiaries": "2026-10-24",
+    "bing_news|Telangana announces welfare scheme crore": "2026-10-24",
+    "bing_news|उत्तराखंड सरकार योजना घोषणा करोड़": "2026-10-24",
+    "bing_news|Uttar Pradesh announces welfare scheme crore": "2026-10-24",
+    "bing_news|West Bengal scheme crore transferred to beneficiaries accounts": "2026-10-24"
   },
   "usage": {
     "bing_news": {
@@ -2342,6 +2450,9 @@
         "discovery": 32
       },
       "2026-10-23": {
+        "discovery": 32
+      },
+      "2026-10-24": {
         "discovery": 32
       }
     }
@@ -2415,6 +2526,40 @@
         "UK": 1,
         "UP": 1,
         "WB": 1
+      },
+      "2026-10-24": {
+        "CENTRE": 1,
+        "AP": 1,
+        "AR": 1,
+        "AS": 1,
+        "BR": 1,
+        "CG": 1,
+        "DL": 1,
+        "GA": 1,
+        "GJ": 1,
+        "HP": 1,
+        "HR": 1,
+        "JH": 1,
+        "JK": 1,
+        "KA": 1,
+        "KL": 1,
+        "MH": 1,
+        "ML": 1,
+        "MN": 1,
+        "MP": 1,
+        "MZ": 1,
+        "NL": 1,
+        "OD": 1,
+        "PB": 1,
+        "PY": 1,
+        "RJ": 1,
+        "SK": 1,
+        "TN": 1,
+        "TR": 1,
+        "TS": 1,
+        "UK": 1,
+        "UP": 1,
+        "WB": 1
       }
     }
   },
@@ -2429,6 +2574,7 @@
   "verification": {},
   "surfaced": {
     "WB": [
+      "WB-amir-shokeen-tukaram-mundhe-annapurna",
       "WB-annapurna",
       "WB-cha-shramik-protsahan",
       "WB-economic-times-annapurna",
@@ -2452,6 +2598,7 @@
       "TN-vetri-madikanini-thittam"
     ],
     "AP": [
+      "AP-awas",
       "AP-stree-shakti"
     ],
     "DL": [
@@ -2475,14 +2622,21 @@
       "OD-antyodaya-gruha",
       "OD-awas",
       "OD-commercial-layer-poultry-farming",
+      "OD-home-money-personal-finance-subhadra",
+      "OD-kisan",
       "OD-krushi-udyog",
       "OD-livestock-prosperity",
-      "OD-nirman-shramik-kalyan"
+      "OD-mint-subhadra",
+      "OD-nirman-shramik-kalyan",
+      "OD-samrudha-krushak",
+      "OD-since-subhadra",
+      "OD-subhadra"
     ],
     "RJ": [],
     "TS": [
       "TS-employees-health",
-      "TS-indiramma-life-insurance"
+      "TS-indiramma-life-insurance",
+      "TS-telangana-autorickshaw-electric-conversion"
     ],
     "UP": [
       "UP-अवध-विहार",
@@ -2492,14 +2646,28 @@
       "UP-प्रस्तावित-सौमित्र-विहार",
       "UP-सौमित्र-विहार-आवासीय"
     ],
-    "GJ": [],
-    "BR": [],
+    "GJ": [
+      "GJ-ambedkar-awas",
+      "GJ-matru-vandana"
+    ],
+    "BR": [
+      "BR-उद्यमी",
+      "BR-कौशल-विकास-मिशन",
+      "BR-पीएम-सूर्य-घर-मुफ्त-बिजली",
+      "BR-बिहार-निःशक्तता-पेंशन",
+      "BR-सोलर-प्रोत्साहन",
+      "BR-सोलर-मिशन",
+      "BR-स्टूडेंट-क्रेडिट-कार्ड"
+    ],
     "CG": [
       "CG-khanij-kshetra-kalyan"
     ],
     "HP": [
       "HP-machhuara-samman-nidhi",
-      "HP-swaran-jayanti-ashray"
+      "HP-swaran-jayanti-ashray",
+      "HP-जी-राम-जी",
+      "HP-स्वास्थ्य-बीमा",
+      "HP-हिमकेयर"
     ],
     "JH": [
       "JH-maiya-samman"
@@ -2511,7 +2679,12 @@
     ],
     "UK": [
       "UK-national-social-assistance-programme"
+    ],
+    "HR": [
+      "HR-lado-laxmi",
+      "HR-अलावा-प्लग-एंड-प्ले",
+      "HR-दयालु"
     ]
   },
-  "saved": "2026-10-23"
+  "saved": "2026-10-24"
 }
