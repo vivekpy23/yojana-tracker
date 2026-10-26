@@ -2452,6 +2452,30 @@
     "https://navbharattimes.indiatimes.com/metro/lucknow/other-news/yogi-government-decision-farmers-and-livestock-owners-to-get-financial-security/articleshow/132216757.cms": [
       "2026-10-25",
       "UP"
+    ],
+    "https://www.jagran.com/bihar/patna-city-bihar-crop-aid-104-crore-rupees-transferred-to-1-lakh-17-thousand-farmers-40370153.html": [
+      "2026-10-26",
+      "BR"
+    ],
+    "https://ddnews.gov.in/a-major-gift-for-himachal-pradesh-from-the-central-government-320-new-postgraduate-medical-seats-approved/": [
+      "2026-10-26",
+      "HP"
+    ],
+    "https://www.abplive.com/states/himachal-pradesh/cm-sukhvinder-singh-sukhu-announce-500-crores-to-lahaul-spiti-roads-health-infrastructure-ann-3202125": [
+      "2026-10-26",
+      "HP"
+    ],
+    "https://navbharattimes.indiatimes.com/government-schemes/haryana/deen-dayal-lado-lakshmi-yojana-11-kist-transferred-to-10-lakh-women-beneficiaries-account/articleshow/134004864.cms": [
+      "2026-10-26",
+      "HR"
+    ],
+    "https://www.jagran.com/haryana/panchkula-changes-in-lado-laxmi-yojana-after-cabinet-approval-cm-naib-released-the-12th-installment-money-reached-the-accounts-of-10-lakh-women-40400987.html": [
+      "2026-10-26",
+      "HR"
+    ],
+    "https://www.jagran.com/punjab/chandigarh-raja-warring-questions-punjab-500-crore-free-flour-scheme-tender-40414768.html": [
+      "2026-10-26",
+      "PB"
     ]
   },
   "queries": {
@@ -2567,7 +2591,24 @@
     "bing_news|Rajasthan new scheme launched yojana beneficiaries": "2026-10-25",
     "bing_news|Tamil Nadu new scheme launched yojana beneficiaries": "2026-10-25",
     "bing_news|Uttarakhand scheme crore transferred to beneficiaries accounts": "2026-10-25",
-    "bing_news|उत्तर प्रदेश सरकार योजना घोषणा करोड़": "2026-10-25"
+    "bing_news|उत्तर प्रदेश सरकार योजना घोषणा करोड़": "2026-10-25",
+    "bing_news|Union government new scheme launched yojana beneficiaries": "2026-10-26",
+    "bing_news|बिहार योजना करोड़ राशि खाते में अंतरित": "2026-10-26",
+    "bing_news|छत्तीसगढ़ नई योजना शुरू लाभार्थी": "2026-10-26",
+    "bing_news|दिल्ली नई योजना शुरू लाभार्थी": "2026-10-26",
+    "bing_news|Gujarat announces welfare scheme crore": "2026-10-26",
+    "bing_news|हिमाचल प्रदेश सरकार योजना घोषणा करोड़": "2026-10-26",
+    "bing_news|हरियाणा योजना करोड़ राशि खाते में अंतरित": "2026-10-26",
+    "bing_news|झारखंड सरकार योजना घोषणा करोड़": "2026-10-26",
+    "bing_news|Jammu and Kashmir new scheme launched yojana beneficiaries": "2026-10-26",
+    "bing_news|ಕರ್ನಾಟಕ ಸರ್ಕಾರ ಯೋಜನೆ ಘೋಷಣೆ ಕೋಟಿ": "2026-10-26",
+    "bing_news|Maharashtra announces welfare scheme crore": "2026-10-26",
+    "bing_news|Madhya Pradesh announces welfare scheme crore": "2026-10-26",
+    "bing_news|पंजाब सरकार योजना घोषणा करोड़": "2026-10-26",
+    "bing_news|राजस्थान नई योजना शुरू लाभार्थी": "2026-10-26",
+    "bing_news|தமிழ்நாடு புதிய திட்டம் தொடக்கம் பயனாளிகள்": "2026-10-26",
+    "bing_news|उत्तराखंड योजना करोड़ राशि खाते में अंतरित": "2026-10-26",
+    "bing_news|Uttar Pradesh scheme crore transferred to beneficiaries accounts": "2026-10-26"
   },
   "usage": {
     "bing_news": {
@@ -2581,6 +2622,9 @@
         "discovery": 32
       },
       "2026-10-25": {
+        "discovery": 17
+      },
+      "2026-10-26": {
         "discovery": 17
       }
     }
@@ -2707,6 +2751,25 @@
         "TN": 1,
         "UK": 1,
         "UP": 1
+      },
+      "2026-10-26": {
+        "CENTRE": 1,
+        "BR": 1,
+        "CG": 1,
+        "DL": 1,
+        "GJ": 1,
+        "HP": 1,
+        "HR": 1,
+        "JH": 1,
+        "JK": 1,
+        "KA": 1,
+        "MH": 1,
+        "MP": 1,
+        "PB": 1,
+        "RJ": 1,
+        "TN": 1,
+        "UK": 1,
+        "UP": 1
       }
     }
   },
@@ -2733,7 +2796,8 @@
     ],
     "PB": [
       "PB-mukh-mantri-mawan-dheeyan-satkar",
-      "PB-punjab-s-mawan-dheeyan-satkar"
+      "PB-punjab-s-mawan-dheeyan-satkar",
+      "PB-जब-लोग-मौजूदा-गेहूं-वितरण"
     ],
     "TN": [
       "TN-ai-industry-development-program",
@@ -2812,6 +2876,7 @@
       "BR-उद्यमी",
       "BR-कौशल-विकास-मिशन",
       "BR-पीएम-सूर्य-घर-मुफ्त-बिजली",
+      "BR-फसल-सहायता",
       "BR-बिहार-निःशक्तता-पेंशन",
       "BR-सोलर-प्रोत्साहन",
       "BR-सोलर-मिशन",
@@ -2828,7 +2893,9 @@
       "HP-marriage-assistance",
       "HP-paternity-assistance",
       "HP-swaran-jayanti-ashray",
+      "HP-इसी",
       "HP-जी-राम-जी",
+      "HP-पुरानी-पेंशन",
       "HP-स्वास्थ्य-बीमा",
       "HP-हिमकेयर"
     ],
@@ -2854,12 +2921,22 @@
     ],
     "HR": [
       "HR-lado-laxmi",
+      "HR-अगले-महीने",
       "HR-अलावा-प्लग-एंड-प्ले",
-      "HR-दयालु"
+      "HR-इनमें-दयालु",
+      "HR-गृहिणी",
+      "HR-दयालु",
+      "HR-प्लग-एंड-प्ले",
+      "HR-भरपाई",
+      "HR-भावांतर-भरपाई",
+      "HR-मी",
+      "HR-रुपये",
+      "HR-लाभ-मिला-दयालु",
+      "HR-सरकारी"
     ],
     "KA": [
       "KA-guarantee-for-rozgar-and-ajeevika-mission"
     ]
   },
-  "saved": "2026-10-25"
+  "saved": "2026-10-26"
 }
