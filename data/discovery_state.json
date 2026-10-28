@@ -2556,6 +2556,38 @@
     "https://www.jagran.com/uttar-pradesh/lucknow-city-up-old-age-pension-scheme-hiked-to-1500-rupees-per-month-by-yogi-government-know-eligibility-and-details-40394971.html": [
       "2026-10-27",
       "UP"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4461": [
+      "2026-10-28",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4462": [
+      "2026-10-28",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4463": [
+      "2026-10-28",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4464": [
+      "2026-10-28",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4465": [
+      "2026-10-28",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4466": [
+      "2026-10-28",
+      "BR"
+    ],
+    "https://navbharattimes.indiatimes.com/metro/mumbai/politics/maharashtra-government-waiving-loans-worth-36585-crore-rupee-for-56-lakh-farmers/articleshow/131476269.cms": [
+      "2026-10-28",
+      "MH"
+    ],
+    "https://www.jagran.com/maharashtra/mumbai-maharashtra-govt-loan-waiver-up-to-2-lakhs-approved-56-lakh-farmers-to-benefit-40260588.html": [
+      "2026-10-28",
+      "MH"
     ]
   },
   "queries": {
@@ -2705,7 +2737,8 @@
     "bing_news|Rajasthan announces welfare scheme crore": "2026-10-27",
     "bing_news|Tamil Nadu announces welfare scheme crore": "2026-10-27",
     "bing_news|Uttarakhand new scheme launched yojana beneficiaries": "2026-10-27",
-    "bing_news|उत्तर प्रदेश योजना करोड़ राशि खाते में अंतरित": "2026-10-27"
+    "bing_news|उत्तर प्रदेश योजना करोड़ राशि खाते में अंतरित": "2026-10-27",
+    "bing_news|महाराष्ट्र सरकार योजना घोषणा करोड़": "2026-10-28"
   },
   "usage": {
     "bing_news": {
@@ -2726,6 +2759,9 @@
       },
       "2026-10-27": {
         "discovery": 17
+      },
+      "2026-10-28": {
+        "discovery": 1
       }
     }
   },
@@ -2889,13 +2925,16 @@
         "TN": 1,
         "UK": 1,
         "UP": 1
+      },
+      "2026-10-28": {
+        "MH": 1
       }
     }
   },
   "newsrooms": {
     "https://cm.bihar.gov.in/users/news.aspx": {
       "template": "https://cm.bihar.gov.in/users/viewnews.aspx?id={id}",
-      "max_id": 4460,
+      "max_id": 4466,
       "backfill_done": true,
       "backfill_next": 3932
     }
@@ -3033,7 +3072,8 @@
     "MH": [
       "MH-lek-ladki",
       "MH-mazi-ladki-bahin",
-      "MH-sanjay-gandhi-niradhar"
+      "MH-sanjay-gandhi-niradhar",
+      "MH-पुण्यश्लोक-अहिल्यादेवी-होल्कर-शेतकरी-कर्जमाफी"
     ],
     "UK": [
       "UK-abandoned-women-s-pension",
@@ -3073,5 +3113,5 @@
     ],
     "CENTRE": []
   },
-  "saved": "2026-10-27"
+  "saved": "2026-10-28"
 }
