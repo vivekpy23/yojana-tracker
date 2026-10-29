@@ -2588,6 +2588,30 @@
     "https://www.jagran.com/maharashtra/mumbai-maharashtra-govt-loan-waiver-up-to-2-lakhs-approved-56-lakh-farmers-to-benefit-40260588.html": [
       "2026-10-28",
       "MH"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4467": [
+      "2026-10-29",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4468": [
+      "2026-10-29",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4469": [
+      "2026-10-29",
+      "BR"
+    ],
+    "https://www.news18.com/india/maharashtra-govt-to-pay-5000-advance-aid-to-eligible-drought-hit-farmers-before-diwali-ws-l-10400370.html": [
+      "2026-10-29",
+      "MH"
+    ],
+    "https://www.thehindu.com/news/national/maharashtra/5000-crore-credited-to-622-lakh-maharashtra-farmers-so-far-under-loan-waiver-scheme-fadnavis/article71317394.ece": [
+      "2026-10-29",
+      "MH"
+    ],
+    "https://www.thehindu.com/news/national/maharashtra/maharashtra-begins-rollout-of-farmer-loan-waiver-scheme-first-500-beneficiaries-announced/article71254933.ece": [
+      "2026-10-29",
+      "MH"
     ]
   },
   "queries": {
@@ -2738,7 +2762,8 @@
     "bing_news|Tamil Nadu announces welfare scheme crore": "2026-10-27",
     "bing_news|Uttarakhand new scheme launched yojana beneficiaries": "2026-10-27",
     "bing_news|उत्तर प्रदेश योजना करोड़ राशि खाते में अंतरित": "2026-10-27",
-    "bing_news|महाराष्ट्र सरकार योजना घोषणा करोड़": "2026-10-28"
+    "bing_news|महाराष्ट्र सरकार योजना घोषणा करोड़": "2026-10-28",
+    "bing_news|Maharashtra scheme crore transferred to beneficiaries accounts": "2026-10-29"
   },
   "usage": {
     "bing_news": {
@@ -2761,6 +2786,9 @@
         "discovery": 17
       },
       "2026-10-28": {
+        "discovery": 1
+      },
+      "2026-10-29": {
         "discovery": 1
       }
     }
@@ -2928,13 +2956,16 @@
       },
       "2026-10-28": {
         "MH": 1
+      },
+      "2026-10-29": {
+        "MH": 1
       }
     }
   },
   "newsrooms": {
     "https://cm.bihar.gov.in/users/news.aspx": {
       "template": "https://cm.bihar.gov.in/users/viewnews.aspx?id={id}",
-      "max_id": 4466,
+      "max_id": 4469,
       "backfill_done": true,
       "backfill_next": 3932
     }
@@ -3072,6 +3103,8 @@
     "MH": [
       "MH-lek-ladki",
       "MH-mazi-ladki-bahin",
+      "MH-punyashlok-ahilyadevi-holkar-farmer-loan-waiver",
+      "MH-punyashlok-ahilyadevi-holkar-shetkari-karjmukti",
       "MH-sanjay-gandhi-niradhar",
       "MH-पुण्यश्लोक-अहिल्यादेवी-होल्कर-शेतकरी-कर्जमाफी"
     ],
@@ -3113,5 +3146,5 @@
     ],
     "CENTRE": []
   },
-  "saved": "2026-10-28"
+  "saved": "2026-10-29"
 }
