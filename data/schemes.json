@@ -26,7 +26,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "catalog_id": "MH-majhi-ladki-bahin",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme",
@@ -56,7 +56,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "catalog_id": "KA-five-guarantee-schemes",
     "funding": "state",
     "funding_evidence": "Karnataka's own guarantee schemes, funded from the state budget",
@@ -89,7 +89,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "catalog_id": "TN-kalaignar-magalir-urimai-thogai",
     "funding": "state",
     "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget",
@@ -119,7 +119,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Integrated Child Development|\\bICDS\\b|Saksham Anganwadi|Poshan 2\\.0)",
     "category": "welfare"
@@ -141,7 +141,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "catalog_id": "TN-vidiyal-payanam",
     "funding": "state",
     "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget",
@@ -169,7 +169,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "catalog_id": "TN-breakfast",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme",
@@ -199,7 +199,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "catalog_id": "TN-pudhumai-penn-thittam",
     "funding": "state",
     "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget",
@@ -222,7 +222,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "funding": "unknown",
     "funding_evidence": "",
     "category": "welfare"
@@ -244,7 +244,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "funding": "unknown",
     "funding_evidence": "",
     "category": "policy"
@@ -266,7 +266,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "funding": "unknown",
     "funding_evidence": "",
     "category": "welfare"
@@ -288,7 +288,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "catalog_id": "UP-kanya-sumangala",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme",
@@ -311,7 +311,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "catalog_id": "UP-samuhik-vivah",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme",
@@ -334,7 +334,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "funding": "unknown",
     "funding_evidence": "",
     "category": "welfare"
@@ -356,7 +356,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "funding": "unknown",
     "funding_evidence": "",
     "category": "welfare"
@@ -378,7 +378,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "funding": "unknown",
     "funding_evidence": "",
     "category": "policy"
@@ -400,7 +400,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "funding": "unknown",
     "funding_evidence": "",
     "category": "welfare"
@@ -427,7 +427,7 @@
       }
     ],
     "first_seen": "2026-10-18",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "funding": "unknown",
     "funding_evidence": "",
     "category": "welfare",
@@ -454,7 +454,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "Financial relief during fishing ban period will be increased from Rs 10,000 to Rs 20,000.",
@@ -481,7 +481,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Talliki Vandanam scheme will be implemented to provide financial assistance of Rs 15,000 annually to every school going child between class 1 and class 12 from 2025-26. It will cover children in both private and government schools. Free electricity will be provided to all government schools.",
@@ -508,7 +508,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "An innovation hub will be established in Amaravati to mentor start-ups in the region. It will be linked with five other zonal centres, each supported by a prominent business group, and facilitate technology and skill upgradation in emerging sectors.",
@@ -535,7 +535,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 6,300 crore allocated for Annadatta Sukhibhava scheme",
@@ -562,7 +562,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 900 crore allocated towards Bala Sanjeevani scheme",
@@ -589,7 +589,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "A new College of Science and Skill Development as a national-level University will be established.",
@@ -616,7 +616,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "policy",
     "kind": "scheme",
     "benefit": "A new Chief Minister’s Comprehensive State Power Development Programme with an outlay of Rs 2,000 crore over the next three years has been announced.",
@@ -643,7 +643,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Self Help Groups (SHGs) will be provided an Entrepreneurship fund of Rs 10,000 as seed capital. Post utilisation of this fund, SHGs will be provided subsidised loans worth Rs 25,000 through bank linkage.",
@@ -670,7 +670,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "Students graduating from government colleges and universities of Assam will be provided monthly financial assistance of Rs 2,500 up to one year. Research scholars of state and central government universities will be provided one-time grant of Rs 25,000.",
@@ -697,7 +697,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "To ensure essential nutrition, under the National Food Security Act, 2013, the state government will provide masur dal, sugar and salt at subsidised rates to beneficiaries. Rs 370 crore has been allocated for this purpose for 2025-26.",
@@ -724,7 +724,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 5,000 crore has been allocated for Orunodoi scheme.",
@@ -751,7 +751,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "Establishment of a mahila haat (women's marketplace) in Patna, the implementation of pink toilets across all districts, and the introduction of pink buses in major urban areas, staffed by female drivers and conductors has been announced.",
@@ -783,7 +783,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 4,320 crore is allocated towards Pradhan Mantri Awas Yojana.",
@@ -825,7 +825,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 828 crore has been allocated towards the Mukhyamantri Vriddhhajan Pension Yojana.",
@@ -880,7 +880,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "policy",
     "kind": "scheme",
     "benefit": "Mukhya Mantri Mobile Tower Scheme will be launched to provide mobile network connectivity in remote areas.",
@@ -912,7 +912,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 10,000 crore has been allocated towards the Krishak Unnati Yojana.",
@@ -944,7 +944,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "policy",
     "kind": "scheme",
     "benefit": "Rs 1,850 crore has been allocated towards the National Health Mission.",
@@ -976,7 +976,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 1,500 crore has been allocated towards Shahid Veernarayan Singh Ayushman Swasthya Yojana.",
@@ -1008,7 +1008,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 5,500 crore has been allocated for the Mahatari Vandan Yojana.",
@@ -1040,7 +1040,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 8,500 crore has been allocated towards Pradhan Mantri Awas Yojana – Gramin.",
@@ -1072,7 +1072,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 2,800 crore has been allocated towards National Rural Employment Guarantee Scheme.",
@@ -1099,7 +1099,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "The Mahila Samridhi Yojana will be launched to provide financial assistance of Rs 2,500 per month to poor women of Delhi. Rs 5,100 crore has been allocated towards the scheme.",
@@ -1131,7 +1131,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "The Ayushman Bharat scheme will be implemented in the state. Under the insurance component of the scheme, beneficiaries will receive an additional coverage of five lakh rupees over the existing coverage of the same amount. Rs 2,144 crore has been allocated towards Ayushman Bharat.",
@@ -1158,7 +1158,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "A Traders’ Welfare Board will be set up to identify and address problems faced by traders.",
@@ -1185,7 +1185,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "Financial assistance to women in distress and persons with disabilities will be increased from Rs 2,500 to Rs 3,000 per month. Assistance to senior citizens will also be increased.",
@@ -1212,7 +1212,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Under this scheme, students who complete certified courses in areas such as apparel, automobiles, and beauty and wellness will be provided accessory kit grants of Rs 20,000.",
@@ -1239,7 +1239,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "policy",
     "kind": "scheme",
     "benefit": "The Unified Pension Scheme will be implemented from 2025-26 onwards. Assured pension will be provided to government employees, funded by a retirement corpus with the government meeting any shortfall.",
@@ -1266,7 +1266,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "Rs 207 crore for rural water supply. The Freedom from Hunger scheme has been allocated",
@@ -1293,7 +1293,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Shramik Annapurna Yojana will be expanded to cover construction and industrial workers. The scheme provides food to labourers at affordable rates.",
@@ -1320,7 +1320,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "Currently, persons with 80% or higher disability are eligible for assistance of Rs 12,000 annually. This will be expanded to include persons with 60% or higher disability.",
@@ -1347,7 +1347,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "A non-agricultural permit will no longer be required for fishing on farm land.",
@@ -1379,7 +1379,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "Rs 12,846 crore has been allocated towards Swarnim Mukhya Mantri Shaheri Vikas Yojana",
@@ -1411,7 +1411,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "Rs 5,002 crore has been allocated towards Mukhya Mantri Gram Sadak Yojana",
@@ -1443,7 +1443,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 3,491 crore has been allocated towards Aarogya Suraksha Yojana.",
@@ -1475,7 +1475,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 2,952 crore has been allocated towards Special Nutrition Programme",
@@ -1507,7 +1507,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 1,108 crore has been allocated towards Pradhan Mantri Awas Yojana (Grameen)",
@@ -1534,7 +1534,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "The Lado Laxmi Yojana will be launched to provide financial assistance of Rs 2,100 per month to women. Rs 5,000 crore has been allocated to the scheme in 2025-26.",
@@ -1561,7 +1561,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Mukhyamantri Yuva Kaushal Samman Yojana will be launched to provide 2,000 final year students with internship opportunities. They will receive an honorarium of Rs 10,000 per month.",
@@ -1588,7 +1588,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "policy",
     "kind": "scheme",
     "benefit": "The Haryana AI Mission will be launched. One AI hub will be built in Gurugram and Panchkula, each. These hubs will train over 50,000 professionals from Haryana in latest technologies.",
@@ -1615,7 +1615,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Under the Mera Pani, Meri Viraasat Yojana, subsidy for farmers giving up paddy cultivation will be increased from Rs 7,000 to Rs 8,000 per acre. Subsidy for direct sowing of paddy will be raised from Rs 4,000 to Rs 4,500 per acre.",
@@ -1647,7 +1647,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 892 crore has been allocated towards grants under National Rural Health Mission.",
@@ -1674,7 +1674,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Farmers with agricultural loans up to three lakh rupees will be offered a one-time settlement policy to repay their loans. Under the policy, the state government will bear 50% of the total interest accrued on the principal amount.",
@@ -1701,7 +1701,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "Young persons will be provided interest subvention of 4%-5% on loans to construct home stay units and hotels. The scheme has an outlay of Rs 50 crore.",
@@ -1728,7 +1728,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 25,000 will be deposited in an insurance company when a girl child is born in a below-poverty line family. The parents will also be provided life insurance benefits.",
@@ -1755,7 +1755,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Under the newly announced Indira Gandhi Matri Shishu Sankalp Yojana, supplementary nutrition will be provided to all Anganwadi Centres in the state. Patients will be provided up to 20 types of diagnostic tests and 150 AYUSH medicines for free under the Acharya Charak Yojana.",
@@ -1782,7 +1782,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Under the newly announced Indira Gandhi Matri Shishu Sankalp Yojana, supplementary nutrition will be provided to all Anganwadi Centres in the state. Patients will be provided up to 20 types of diagnostic tests and 150 AYUSH medicines for free under the Acharya Charak Yojana.",
@@ -1814,7 +1814,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "policy",
     "kind": "scheme",
     "benefit": "Rs 951 crore has been allocated towards the Samagra Shiksha Abhiyan.",
@@ -1846,7 +1846,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 399 crore has been allocated for the National Rural Health Mission.",
@@ -1878,7 +1878,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 460 crore has been allocated towards the National Rural Employment Guarantee Scheme.",
@@ -1910,7 +1910,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 128 crore has been allocated for PM Awas Yojana – Gramin.",
@@ -1937,7 +1937,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "SEHAT app will be rolled out to provide online teleconsultation services and doctor appointments in government hospitals. The app will provide a digital health records system integrated with Pradhan Mantri Jan Arogya Yojana-SEHAT insurance.",
@@ -1964,7 +1964,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "Mission YUVA, aiming to create 1,37,000 enterprises and 4,25,000 jobs over five years, will be launched. This will also include initiating skill development programmes and organising job fairs.",
@@ -1991,7 +1991,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "All women in Jammu & Kashmir will be granted free ridership on government-owned public transport, including e-Buses from April 2025.",
@@ -2018,7 +2018,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "All Antyodaya Anna Yojana (AAY) beneficiaries will be provided with an enhanced free ration of 10 kg to ensure nutritional support.",
@@ -2045,7 +2045,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "To promote research in higher education the government will introduce the Jharkhand Student Research and Innovation Policy, 2025. Two universities for skill and fin-tech will also be established.",
@@ -2072,7 +2072,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 585 crore has been allocated for Skill Development Mission to promote skill training among youth in the state.",
@@ -2099,7 +2099,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Mukhyamantri Pashudhan Vikas Yojana has been allocated Rs 255 crore to promote animal husbandry which will cover 79,000 beneficiaries.",
@@ -2131,7 +2131,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "policy",
     "kind": "scheme",
     "benefit": "Rs 2,057 crore has been allocated towards Sarva Siksha Abhiyan.",
@@ -2163,7 +2163,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 3,000 crore has been allocated for Abua Aawas Yojana. National Health Mission has been allocated",
@@ -2190,7 +2190,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 3,000 crore has been allocated for Abua Aawas Yojana. National Health Mission has been allocated",
@@ -2222,7 +2222,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 168 crore has been allocated for the National Ayush Mission.",
@@ -2249,7 +2249,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "Rs 5,300 crore has been allocated as capital outlay on roads and bridges. The State Horticulture Development Scheme has been allocated",
@@ -2276,7 +2276,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "The Chief Minister’s Infrastructure Development Program has been announced with an allocation of Rs 8,000 crore. It will focus on minor irrigation, roads, and urban infrastructure across the state.",
@@ -2303,7 +2303,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "The honorarium for ASHA workers has been increased by Rs 1,000, and for guest teachers in government schools and colleges by Rs 2,000. Honorariums have also been increased for anganwadi workers and helpers, school cooks, Jain priests, Sikh grantis, Pesh-Imams, and Muezzins.",
@@ -2330,7 +2330,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "An additional Rs 450 will be provided over the Rs 7,550 per quintal minimum support price for toor dal procurement, with a total allocation of Rs 138 crore.",
@@ -2357,7 +2357,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "A cooperative housing project to create affordable housing in rural and urban areas has been announced. At least one lakh houses are aimed to be built in the next two years.",
@@ -2384,7 +2384,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "Madhya Pradesh Institute of Technology will be set up in each division of the state in the next five years. A skill development program will be launched in the state.",
@@ -2411,7 +2411,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Families below the poverty line will be provided a package of schemes under the new Mukhya Mantri Samriddha Pariwar Yojana. The scheme has been allocated Rs 100 crore in 2025-26.",
@@ -2438,7 +2438,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 850 crore has been allocated for the Mukhya Mantri Krishak Unnati Yojana. Under this scheme, farmers will be offered incentives to adopt crop diversification.",
@@ -2470,7 +2470,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 18,669 crore has been allocated towards the Mukhya Mantri Ladli Behna Yojana.",
@@ -2502,7 +2502,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 7,132 crore has been allocated for the Atal Griha Jyoti Scheme.",
@@ -2534,7 +2534,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 13,909 crore has been allocated towards the Atal Kisan Jyoti Scheme.",
@@ -2566,7 +2566,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "Rs 17,136 crore has been allocated for the Jal Jeevan Mission – National Rural Drinking Water Mission.",
@@ -2593,7 +2593,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "Rs 17,136 crore has been allocated for the Jal Jeevan Mission – National Rural Drinking Water Mission.",
@@ -2625,7 +2625,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 4,050 crore has been allocated towards the National Rural Employment Guarantee Scheme.",
@@ -2652,7 +2652,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "A long-term road development plan will be prepared to connect tourist centres, pilgrimage sites, and national parks by 2047. Under the Mukhya Mantri Gram Sadak Yojana, 3,582 villages will be connected to major roads and highways at a cost of Rs 30,100 crore.",
@@ -2684,7 +2684,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 6,060 crore are allocated to Namo Shetkari Mahasanman Nidhi Yojana.",
@@ -2716,7 +2716,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 15,138 crore has been allocated to Pradhan Mantri Awas Yojana.",
@@ -2748,7 +2748,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 943 crore has been allocated for Mahatma Jyotiba Phule Jan Arogya Yojana.",
@@ -2775,7 +2775,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "A comprehensive skilling initiative called the Chief Minister’s Skills Mission will be implemented from 2025-26. This mission aims to skill one lakh youth for the local economy, 10,000 youth for the national economy, and 5,000 youth for the global economy over the next three years.",
@@ -2802,7 +2802,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "A new flagship program, the Chief Minister’s Scholarship Scheme, will be launched, benefiting 80,000 youth. A grant of Rs 6,000 per annum will be provided to all post matriculate students to help cover educational expenses.",
@@ -2829,7 +2829,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "The policy provides financial assistance to people engaged in agriculture and industry. Rs 350 crore has been allocated under this scheme for 2025-26.",
@@ -2856,7 +2856,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "Mizoram Agriculture Marketing Board has been allocated Rs 110 crore for 2025-26. This fund will be utilised to guarantee a minimum support price for crops such as broom grass, ginger, turmeric, Mizo chillies, and locally grown paddy.",
@@ -2883,7 +2883,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "Government will introduce a universal healthcare scheme from April to provide health insurance of up to five lakh rupees cover per year to beneficiaries.",
@@ -2910,7 +2910,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Under the Nagaland Skill Mission, the government will train and provide employment to 5,000 young persons of the state in sectors such as hospitality, tourism, healthcare and logistics. To promote financial independence, young persons will be provided loans backed by government guarantees. Under the Nagaland Tourism, Hospitality, and Transport Scheme concessional loans will be given to entrepreneurs to set up 500 homestays and 200 tourist transport vehicles. The scheme has been allocated an outlay of five crore rupees. Rs 2.5 crore has also been allocated to the Drone Training and Logistics Programme, to skill young persons in drone operations.",
@@ -2937,7 +2937,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Under the Nagaland Skill Mission, the government will train and provide employment to 5,000 young persons of the state in sectors such as hospitality, tourism, healthcare and logistics. To promote financial independence, young persons will be provided loans backed by government guarantees. Under the Nagaland Tourism, Hospitality, and Transport Scheme concessional loans will be given to entrepreneurs to set up 500 homestays and 200 tourist transport vehicles. The scheme has been allocated an outlay of five crore rupees. Rs 2.5 crore has also been allocated to the Drone Training and Logistics Programme, to skill young persons in drone operations.",
@@ -2964,7 +2964,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Under the Nagaland Skill Mission, the government will train and provide employment to 5,000 young persons of the state in sectors such as hospitality, tourism, healthcare and logistics. To promote financial independence, young persons will be provided loans backed by government guarantees. Under the Nagaland Tourism, Hospitality, and Transport Scheme concessional loans will be given to entrepreneurs to set up 500 homestays and 200 tourist transport vehicles. The scheme has been allocated an outlay of five crore rupees. Rs 2.5 crore has also been allocated to the Drone Training and Logistics Programme, to skill young persons in drone operations.",
@@ -2991,7 +2991,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "policy",
     "kind": "scheme",
     "benefit": "The government has allocated Rs 2.5 crore towards this programme, to build a cadre of development professionals for Nagaland. Further, two crore rupees have been allocated for capacity development of public servants and officials of local bodies.",
@@ -3018,7 +3018,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "To encourage rooftop solar installations, the government has launched the Nagaland Solar Power Mission with an allocation of Rs 10 crore. Consumers will be given a state subsidy of Rs 20,000 per kW (up to a maximum of Rs 50,000).",
@@ -3045,7 +3045,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "A scheme to provide concrete houses to poor families has been announced with an outlay of Rs 7,550 crore over three years. This will benefit families living below the poverty line, affected by disasters and displaced by government projects. Rs 2,603 crore has been allocated for construction of 75,000 houses under this scheme in 2025-26.",
@@ -3072,7 +3072,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "For improvement of existing rural roads and to connect unconnected rural habitations, Rs 3,470 crore has been allocated for Mukhya Mantri Sadak Yojana.",
@@ -3099,7 +3099,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "Rs 1,100 crore has been earmarked under Mukhyamantri Sahari Bikas Yojana for the construction of civic amenities across cities. Rs 200 crore has been allocated to develop 322 hectares in Bhubaneswar for the services, IT, and research and development sectors.",
@@ -3126,7 +3126,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "policy",
     "kind": "scheme",
     "benefit": "Annual allocation for each constituency under the Member of Legislative Assembly Local Area Development Scheme has been enhanced from Rs three crore to Rs five crore. An amount of Rs 735 crore has been allocated for this purpose.",
@@ -3153,7 +3153,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "State health insurance scheme will be made universal to cover 65 lakh families in Punjab. Families covered under the Mukh Mantri Sarbat Sehat Bima Yojana will receive a Sehat Card through which they can avail cashless treatment of up to Rs 10 lakh at private and government hospitals in the state.",
@@ -3185,7 +3185,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 615 crore has been allocated for the National Rural Employment Guarantee Scheme.",
@@ -3217,7 +3217,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "Rs 485 crore has been allocated for the Rural Water Supply Programme.",
@@ -3244,7 +3244,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Additional 1.25 lakh posts will be created for youth in government departments and public undertakings. A new Gig and Unorganised Workers Development Fund of Rs 350 crore will be set up to offer social security to gig workers/online platform workers and unorganised workers.",
@@ -3271,7 +3271,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 25 crore has been allocated for the provision of nutri-kits to pregnant women reaching about 2.35 lakh women in the state. About Rs 200 crore will be spent on offering milk to Anganwadi children between the age of three to six years under CM Amrut Aahar Yojana.",
@@ -3298,7 +3298,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "Millets will be introduced on a pilot base in the Mid-day meal program and Maa-Badi centres. Millet product outlets will also be established in every district to promote accessibility and availability of millets. Works worth Rs 9,300 crore will be carried out under the Ram Han Setu Link Project.",
@@ -3330,7 +3330,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 6,053 crore has been allocated towards the Rural Employment Guarantee Scheme.",
@@ -3357,7 +3357,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "Under the Sikkim Power Sector Development Project, the Sikkim government will provide 24*7 power to all households, industries, and commercial establishments in the state. Rs 1,608 crore has been allocated for this initiative. It aims to make the state renewable power ready.",
@@ -3384,7 +3384,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "A new city featuring IT parks, fin-tech trade zones, research and development centres, banking and insurance firms, along educational and healthcare facilities will be developed over an area of 2,000 acres near Chennai.",
@@ -3411,7 +3411,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "policy",
     "kind": "scheme",
     "benefit": "The ‘Tamil Nadu Semiconductor Mission – 2030’ will be implemented over the next five years at a cost of Rs 500 crore. Semiconductor design companies and domestic start-ups will be encouraged to establish their design centres in Tamil Nadu.",
@@ -3443,7 +3443,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "policy",
     "kind": "scheme",
     "benefit": "Rs 2,000 crore allocated towards implementation of Kalaignar Nagarpura Membattu Thittam",
@@ -3470,7 +3470,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "58 Young India integrated residential schools will be built at a total cost of Rs 11,600 crore to provide holistic education to students. These schools will contain facilities such as auditoriums, dining halls, digital classrooms, and sports fields. Students in these schools will be provided with accommodation, meals, uniforms, notebooks, textbooks, and all other essential items free of cost. These schools will predominantly be powered by solar and wind energy.",
@@ -3497,7 +3497,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rajeev Youth Development Scheme has been launched with an initial funding of Rs 6,000 crore to provide self-employment schemes for youth belonging to SC, ST, OBC, and minorities. Under this scheme, every eligible unemployed person will be provided financial assistance of up to four lakh rupees.",
@@ -3524,7 +3524,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "Establishment and maintenance of solar power plants is being entrusted to women self-help groups. This project is expected to generate 1000 MW of power and create job opportunities for women in the state.",
@@ -3551,7 +3551,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "Five percent of plots in new industrial parks will be allocated for women entrepreneurs and 15% to SC/ST entrepreneurs. SC/ST entrepreneurs will also receive land cost subsidy of up to 50%, up to a maximum limit of Rs 50 lakh. Stamp duty reductions, electricity tariff concessions, and land cost subsidies are also being offered for private factory complexes.",
@@ -3578,7 +3578,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Rs 1,000 crore allocated towards Telangana Dalit Bandhu scheme",
@@ -3605,7 +3605,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Under the Chief Minister’s Scheme for Mentally Challenged Persons, beneficiaries will be given monthly pension of Rs 5,000. Beneficiaries already receiving Rs 3,000 per month as disability pension will receive an additional Rs 3,000 per month.",
@@ -3632,7 +3632,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Under this scheme, an investment of Rs 50,000 will be made for each newborn girl child from an Antodyaya family. The amount can be encashed along with its maturity value when the girl attains 18 years of age. Rs 15 crore has been allocated for the scheme in 2025-26.",
@@ -3659,7 +3659,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "Four new expressways will be constructed at the cost of Rs 1,050 crore. These include: (i) Agra-Lucknow expressway, (ii) Ganga expressway, (iii) Vindhya express way, and (iv) Bundelkhand-Riwa express way. To improve connectivity, new village roads will be constructed and existing roads will be repaired under the Mukhya Mantri Gram Yojana. Rs 200 crore has been allocated for this.",
@@ -3686,7 +3686,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "Enrolment capacity of Atal Residential Schools will be increased from 360 to 1,000. These schools provide free education to children of construction workers.",
@@ -3718,7 +3718,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "policy",
     "kind": "scheme",
     "benefit": "Rs 18,657 crore is allocated towards primary education under Samagra Shiksha Abhiyan.",
@@ -3750,7 +3750,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "Rs 18,810 crore has been allocated under Jal Jeevan Mission.",
@@ -3782,7 +3782,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "Rs 1,138 crore allocated towards Pradhan Mantri Gram Sadak Yojana.",
@@ -3814,7 +3814,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "infrastructure",
     "kind": "scheme",
     "benefit": "Rs 1,843 crore has been allocated towards Jal Jeevan Mission. District police has been allocated",
@@ -3841,7 +3841,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "200 procurement centres will be set up in regulated market committee markets and haats for purchase of vegetable and other agricultural produce. Financial assistance will be provided for processing, sorting, and packaging of perishable agricultural produce. Assistance will be provided at 50% of project cost with a cap of five lakh rupees.",
@@ -3868,7 +3868,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "Rs 200 crore has been allocated for providing smart phones to 70,000 ASHA workers and over one lakh Anganwadi workers.",
@@ -3895,7 +3895,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "Under the second phase of Banglar Bari (Gramin) scheme, assistance will be provided to 16 lakh eligible families for building houses. The first instalment of Rs 60,000 per family will be provided by December 2025.",
@@ -3960,7 +3960,7 @@
       }
     ],
     "first_seen": "2026-10-21",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "reports": [
       {
         "url": "https://indianexpress.com/article/india/aatmanirbharta-in-pulses-mission-research-cabinet-secretariat-flags-delay-10927323/",
@@ -4532,7 +4532,7 @@
       }
     ],
     "first_seen": "2026-10-22",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "announcement",
     "benefit": "A venture capital fund of Rs 200 crore will be set up, to fund start-ups.",
@@ -4599,7 +4599,7 @@
       }
     ],
     "first_seen": "2026-10-22",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "category": "welfare",
     "kind": "scheme",
     "benefit": "The Mukhyamantri Mahila Rojgar Yojana was launched in September 2025. The Scheme aims to provide self-employment and livelihood opportunities to women. Under the scheme, financial support is being provided to one woman from each family. An initial grant of Rs 10,000 has been provided to 1.56 crore women. Financial support of up to two lakh rupees may be provided upon starting an enterprise.",
@@ -12133,10 +12133,25 @@
         "kind": "news",
         "title": "First tranche of funds under Annapurna Yojana transferred to 1.1 crore women beneficiaries: Bengal CM",
         "url": "https://www.thehindu.com/news/national/west-bengal/1st-tranche-of-funds-under-annapurna-yojana-transferred-to-11-crore-women-beneficiaries-bengal-cm/article71169447.ece"
+      },
+      {
+        "kind": "news",
+        "title": "West Bengal government rolls out benefits to 28 lakh women under Annapurna Yojana",
+        "url": "https://www.thehindu.com/news/cities/kolkata/west-bengal-government-rolls-out-benefits-to-28-lakh-women-under-annapurna-yojana/article71058102.ece"
+      },
+      {
+        "kind": "news",
+        "title": "Annapurna Yojana: Unable to fill enrolment form online or offline? Here's how beneficiaries will get help",
+        "url": "https://www.livemint.com/money/personal-finance/annapurna-yojana-unable-to-fill-enrolment-form-online-or-offline-heres-how-how-beneficiaries-will-get-help-11779935538610.html"
+      },
+      {
+        "kind": "news",
+        "title": "West Bengal Annapurna Yojana: Rs 3,000 September installment released; check eligibility and payment status",
+        "url": "https://www.moneycontrol.com/news/business/personal-finance/west-bengal-annapurna-yojana-rs-3-000-september-installment-released-check-eligibility-and-payment-status-14031915.html"
       }
     ],
     "first_seen": "2026-10-22",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "reports": [
       {
         "url": "https://www.moneycontrol.com/news/india/pm-modi-says-no-eligible-woman-in-west-bengal-will-be-left-out-of-annapurna-yojana-benefits-14032122.html",
@@ -12155,6 +12170,19 @@
         "department": null
       },
       {
+        "url": "https://www.moneycontrol.com/news/business/personal-finance/west-bengal-annapurna-yojana-rs-3-000-september-installment-released-check-eligibility-and-payment-status-14031915.html",
+        "title": "West Bengal Annapurna Yojana: Rs 3,000 September installment released; check eligibility and payment status",
+        "outlet": "moneycontrol.com",
+        "published": "2026-09-17",
+        "lang": "en",
+        "kind": "disbursement_update",
+        "fy": "2026-27",
+        "amount_cr": null,
+        "benefit": null,
+        "beneficiaries": 4100000,
+        "department": null
+      },
+      {
         "url": "https://www.thehindu.com/news/national/west-bengal/1st-tranche-of-funds-under-annapurna-yojana-transferred-to-11-crore-women-beneficiaries-bengal-cm/article71169447.ece",
         "title": "First tranche of funds under Annapurna Yojana transferred to 1.1 crore women beneficiaries: Bengal CM",
         "outlet": "thehindu.com",
@@ -12165,6 +12193,22 @@
         "amount_cr": null,
         "benefit": null,
         "beneficiaries": 11000000,
+        "department": null
+      },
+      {
+        "url": "https://www.thehindu.com/news/cities/kolkata/west-bengal-government-rolls-out-benefits-to-28-lakh-women-under-annapurna-yojana/article71058102.ece",
+        "title": "West Bengal government rolls out benefits to 28 lakh women under Annapurna Yojana",
+        "outlet": "thehindu.com",
+        "published": "2026-06-03",
+        "lang": "en",
+        "kind": "new_scheme",
+        "fy": "2026-27",
+        "amount_cr": null,
+        "benefit": {
+          "amount_rs": 3000,
+          "per": "month"
+        },
+        "beneficiaries": 2800000,
         "department": null
       },
       {
@@ -12198,6 +12242,22 @@
         },
         "beneficiaries": null,
         "department": "Finance Department"
+      },
+      {
+        "url": "https://www.livemint.com/money/personal-finance/annapurna-yojana-unable-to-fill-enrolment-form-online-or-offline-heres-how-how-beneficiaries-will-get-help-11779935538610.html",
+        "title": "Annapurna Yojana: Unable to fill enrolment form online or offline? Here's how beneficiaries will get help",
+        "outlet": "livemint.com",
+        "published": "2026-05-27",
+        "lang": "en",
+        "kind": "new_scheme",
+        "fy": "2026-27",
+        "amount_cr": null,
+        "benefit": {
+          "amount_rs": 3000,
+          "per": "month"
+        },
+        "beneficiaries": null,
+        "department": null
       }
     ],
     "category": "welfare",
@@ -12285,11 +12345,29 @@
         "kind": "news",
         "title": "Annapurna Yojana launched: Who will get Rs 3,000 monthly financial assistance from June 1, 2026",
         "url": "https://economictimes.indiatimes.com/wealth/invest/annapurna-yojana-launched-who-will-get-rs-3000-monthly-financial-assistance-from-june-1-2026/articleshow/131349071.cms"
+      },
+      {
+        "kind": "news",
+        "title": "West Bengal Annapurna Yojana: Rs 3,000 September installment released; check eligibility and payment status",
+        "url": "https://www.moneycontrol.com/news/business/personal-finance/west-bengal-annapurna-yojana-rs-3-000-september-installment-released-check-eligibility-and-payment-status-14031915.html"
       }
     ],
     "first_seen": "2026-10-22",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "reports": [
+      {
+        "url": "https://www.moneycontrol.com/news/business/personal-finance/west-bengal-annapurna-yojana-rs-3-000-september-installment-released-check-eligibility-and-payment-status-14031915.html",
+        "title": "West Bengal Annapurna Yojana: Rs 3,000 September installment released; check eligibility and payment status",
+        "outlet": "moneycontrol.com",
+        "published": "2026-09-17",
+        "lang": "en",
+        "kind": "disbursement_update",
+        "fy": "2026-27",
+        "amount_cr": null,
+        "benefit": null,
+        "beneficiaries": null,
+        "department": "Department of Women & Child Development and Social Welfare"
+      },
       {
         "url": "https://economictimes.indiatimes.com/wealth/invest/annapurna-yojana-launched-who-will-get-rs-3000-monthly-financial-assistance-from-june-1-2026/articleshow/131349071.cms",
         "title": "Annapurna Yojana launched: Who will get Rs 3,000 monthly financial assistance from June 1, 2026",
@@ -12310,7 +12388,8 @@
     "category": "welfare",
     "catalog_id": "WB-save-print-comment-synopsis-west-bengal-s-annapurna",
     "funding": "unknown",
-    "funding_evidence": ""
+    "funding_evidence": "",
+    "department": "Department of Women & Child Development and Social Welfare"
   },
   {
     "id": "WB-et-online-annapurna",
@@ -12369,11 +12448,29 @@
         "kind": "news",
         "title": "West Bengal government faces Annapurna challenge, to verify beneficiaries before rolling out cash transfer scheme",
         "url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-government-faces-annapurna-challenge-to-verify-beneficiaries-before-rolling-out-cash-transfer-scheme/article71033504.ece"
+      },
+      {
+        "kind": "news",
+        "title": "West Bengal Annapurna Yojana: Rs 3,000 September installment released; check eligibility and payment status",
+        "url": "https://www.moneycontrol.com/news/business/personal-finance/west-bengal-annapurna-yojana-rs-3-000-september-installment-released-check-eligibility-and-payment-status-14031915.html"
       }
     ],
     "first_seen": "2026-10-22",
-    "last_checked": "2026-10-22",
+    "last_checked": "2026-10-31",
     "reports": [
+      {
+        "url": "https://www.moneycontrol.com/news/business/personal-finance/west-bengal-annapurna-yojana-rs-3-000-september-installment-released-check-eligibility-and-payment-status-14031915.html",
+        "title": "West Bengal Annapurna Yojana: Rs 3,000 September installment released; check eligibility and payment status",
+        "outlet": "moneycontrol.com",
+        "published": "2026-09-17",
+        "lang": "en",
+        "kind": "disbursement_update",
+        "fy": "2026-27",
+        "amount_cr": null,
+        "benefit": null,
+        "beneficiaries": null,
+        "department": null
+      },
       {
         "url": "https://www.thehindu.com/news/national/west-bengal/west-bengal-government-faces-annapurna-challenge-to-verify-beneficiaries-before-rolling-out-cash-transfer-scheme/article71033504.ece",
         "title": "West Bengal government faces Annapurna challenge, to verify beneficiaries before rolling out cash transfer scheme",
@@ -12403,6 +12500,516 @@
     ],
     "category": "welfare",
     "catalog_id": "WB-lakshmi-bhandar",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "GJ-agriculture-infrastructure-fund",
+    "state": "GJ",
+    "fy": "2026-27",
+    "name": "Agriculture Infrastructure Fund",
+    "announced": null,
+    "reported_amount": 4950.0,
+    "despatched": null,
+    "status": "reported",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "PM Modi holds roadshow in Gujarat's Banaskantha ahead of unveiling projects worth over  ₹14,000 crore",
+        "url": "https://www.hindustantimes.com/india-news/pm-modi-holds-roadshow-in-gujarats-banaskantha-ahead-of-unveiling-projects-worth-over-rs-14-000-crore-101793339713410.html"
+      }
+    ],
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31",
+    "reports": [
+      {
+        "url": "https://www.hindustantimes.com/india-news/pm-modi-holds-roadshow-in-gujarats-banaskantha-ahead-of-unveiling-projects-worth-over-rs-14-000-crore-101793339713410.html",
+        "title": "PM Modi holds roadshow in Gujarat's Banaskantha ahead of unveiling projects worth over  ₹14,000 crore",
+        "outlet": "Hindustan Times – India",
+        "published": "2026-10-30",
+        "lang": "en",
+        "kind": "new_scheme",
+        "fy": "2026-27",
+        "amount_cr": 4950.0,
+        "benefit": null,
+        "beneficiaries": null,
+        "department": null
+      }
+    ],
+    "category": "welfare",
+    "catalog_id": "GJ-agriculture-infrastructure-fund",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "GJ-फसल-बीमा",
+    "state": "GJ",
+    "fy": "2026-27",
+    "name": "फसल बीमा योजना",
+    "announced": null,
+    "reported_amount": 200000.0,
+    "despatched": null,
+    "status": "reported",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "'आलू से सोना' पर मोदी का तंज:कहा- बनासकांठा का आलू विश्व प्रसिद्ध, यहां आकर कोई नहीं कहता कि इससे सोना बनाएंगे",
+        "url": "https://www.bhaskar.com/g/national/news/pm-modi-gujarat-visit-inauguration-kisan-yojana-narmada-aarti-139527562.html"
+      }
+    ],
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31",
+    "reports": [
+      {
+        "url": "https://www.bhaskar.com/g/national/news/pm-modi-gujarat-visit-inauguration-kisan-yojana-narmada-aarti-139527562.html",
+        "title": "'आलू से सोना' पर मोदी का तंज:कहा- बनासकांठा का आलू विश्व प्रसिद्ध, यहां आकर कोई नहीं कहता कि इससे सोना बनाएंगे",
+        "outlet": "Dainik Bhaskar – Desh",
+        "published": "2026-10-30",
+        "lang": "hi",
+        "kind": "existing_scheme",
+        "fy": "2026-27",
+        "amount_cr": 200000.0,
+        "benefit": null,
+        "beneficiaries": null,
+        "department": null
+      }
+    ],
+    "category": "welfare",
+    "catalog_id": "GJ-फसल-बीमा",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "GJ-किसान",
+    "state": "GJ",
+    "fy": "2026-27",
+    "name": "किसान योजना",
+    "announced": null,
+    "reported_amount": null,
+    "despatched": null,
+    "status": "reported",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "'आलू से सोना' पर मोदी का तंज:कहा- बनासकांठा का आलू विश्व प्रसिद्ध, यहां आकर कोई नहीं कहता कि इससे सोना बनाएंगे",
+        "url": "https://www.bhaskar.com/g/national/news/pm-modi-gujarat-visit-inauguration-kisan-yojana-narmada-aarti-139527562.html"
+      }
+    ],
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31",
+    "reports": [
+      {
+        "url": "https://www.bhaskar.com/g/national/news/pm-modi-gujarat-visit-inauguration-kisan-yojana-narmada-aarti-139527562.html",
+        "title": "'आलू से सोना' पर मोदी का तंज:कहा- बनासकांठा का आलू विश्व प्रसिद्ध, यहां आकर कोई नहीं कहता कि इससे सोना बनाएंगे",
+        "outlet": "Dainik Bhaskar – Desh",
+        "published": "2026-10-30",
+        "lang": "hi",
+        "kind": "disbursement_update",
+        "fy": "2026-27",
+        "amount_cr": 14000.0,
+        "benefit": null,
+        "beneficiaries": null,
+        "department": null
+      }
+    ],
+    "category": "infrastructure",
+    "catalog_id": "GJ-किसान",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "TN-mahalir-thittam",
+    "state": "TN",
+    "fy": "2026-27",
+    "name": "Mahalir Thittam",
+    "announced": null,
+    "reported_amount": null,
+    "despatched": null,
+    "status": "reported",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "Loans to the tune of ₹584.67 crore disbursed to MSMEs in Cuddalore",
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/loans-to-the-tune-of-58467-crore-disbursed-to-msmes-in-cuddalore/article71639899.ece"
+      }
+    ],
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31",
+    "reports": [
+      {
+        "url": "https://www.thehindu.com/news/national/tamil-nadu/loans-to-the-tune-of-58467-crore-disbursed-to-msmes-in-cuddalore/article71639899.ece",
+        "title": "Loans to the tune of ₹584.67 crore disbursed to MSMEs in Cuddalore",
+        "outlet": "The Hindu – Tamil Nadu",
+        "published": "2026-10-29",
+        "lang": "en",
+        "kind": "disbursement_update",
+        "fy": "2026-27",
+        "amount_cr": null,
+        "benefit": null,
+        "beneficiaries": null,
+        "department": null
+      }
+    ],
+    "category": "welfare",
+    "catalog_id": "TN-mahalir-thittam",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "DL-तब-विवाह-सहायता",
+    "state": "DL",
+    "fy": "2026-10",
+    "name": "तब विवाह सहायता योजना",
+    "announced": null,
+    "reported_amount": null,
+    "despatched": null,
+    "status": "reported",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "ईडी: लॉकडाउन में जब शादियों पर थी रोक, तब विवाह सहायता योजना चलाई, सरकारी खजाने को 30 करोड़ की चपत",
+        "url": "https://www.amarujala.com/india-news/ed-marriage-assistance-scheme-run-during-lockdown-despite-ban-on-weddings-causing-rs-30-crore-loss-to-excheq-2026-10-30"
+      }
+    ],
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31",
+    "reports": [
+      {
+        "url": "https://www.amarujala.com/india-news/ed-marriage-assistance-scheme-run-during-lockdown-despite-ban-on-weddings-causing-rs-30-crore-loss-to-excheq-2026-10-30",
+        "title": "ईडी: लॉकडाउन में जब शादियों पर थी रोक, तब विवाह सहायता योजना चलाई, सरकारी खजाने को 30 करोड़ की चपत",
+        "outlet": "Amar Ujala – India",
+        "published": "2026-10-30",
+        "lang": "hi",
+        "kind": "disbursement_update",
+        "fy": "2026-10",
+        "amount_cr": 30.0,
+        "benefit": null,
+        "beneficiaries": null,
+        "department": null
+      }
+    ],
+    "category": "policy",
+    "catalog_id": "DL-तब-विवाह-सहायता",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "DL-marriage-assistance",
+    "state": "DL",
+    "fy": "2026-10",
+    "name": "Marriage Assistance Scheme",
+    "announced": null,
+    "reported_amount": null,
+    "despatched": null,
+    "status": "reported",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "ईडी: लॉकडाउन में जब शादियों पर थी रोक, तब विवाह सहायता योजना चलाई, सरकारी खजाने को 30 करोड़ की चपत",
+        "url": "https://www.amarujala.com/india-news/ed-marriage-assistance-scheme-run-during-lockdown-despite-ban-on-weddings-causing-rs-30-crore-loss-to-excheq-2026-10-30"
+      }
+    ],
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31",
+    "reports": [
+      {
+        "url": "https://www.amarujala.com/india-news/ed-marriage-assistance-scheme-run-during-lockdown-despite-ban-on-weddings-causing-rs-30-crore-loss-to-excheq-2026-10-30",
+        "title": "ईडी: लॉकडाउन में जब शादियों पर थी रोक, तब विवाह सहायता योजना चलाई, सरकारी खजाने को 30 करोड़ की चपत",
+        "outlet": "Amar Ujala – India",
+        "published": "2026-10-30",
+        "lang": "hi",
+        "kind": "disbursement_update",
+        "fy": "2026-10",
+        "amount_cr": 30.0,
+        "benefit": null,
+        "beneficiaries": null,
+        "department": null
+      }
+    ],
+    "category": "policy",
+    "catalog_id": "DL-marriage-assistance",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "GJ-प्रधानमंत्री-किसान-सम्मान-निधि",
+    "state": "GJ",
+    "fy": "2026-27",
+    "name": "प्रधानमंत्री किसान सम्मान निधि योजना",
+    "announced": null,
+    "reported_amount": null,
+    "despatched": null,
+    "status": "reported",
+    "sources": [
+      {
+        "kind": "govt",
+        "title": "Read News Read News on 30-10-26 मुख्यमंत्री श्री सम्राट चौधरी सम्राट अशोक कन्वेंशन केंद्र परिसर स्थित ज्ञान भवन पटना से गुजरात के बनासकांठा में आयोजित प्रधानमंत्री किसान उत्सव दिवस कार्यक्रम में वीडियो कॉन्फ्रेंसिंग के माध्यम से हुए शामिल।",
+        "url": "https://cm.bihar.gov.in/users/viewnews.aspx?id=4471"
+      }
+    ],
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31",
+    "reports": [
+      {
+        "url": "https://cm.bihar.gov.in/users/viewnews.aspx?id=4471",
+        "title": "Read News Read News on 30-10-26 मुख्यमंत्री श्री सम्राट चौधरी सम्राट अशोक कन्वेंशन केंद्र परिसर स्थित ज्ञान भवन पटना से गुजरात के बनासकांठा में आयोजित प्रधानमंत्री किसान उत्सव दिवस कार्यक्रम में वीडियो कॉन्फ्रेंसिंग के माध्यम से हुए शामिल।",
+        "outlet": "Bihar CM – news",
+        "published": "2026-10-30",
+        "lang": "hi",
+        "kind": "disbursement_update",
+        "fy": "2026-27",
+        "amount_cr": null,
+        "benefit": null,
+        "beneficiaries": null,
+        "department": null
+      }
+    ],
+    "category": "welfare",
+    "catalog_id": "GJ-प्रधानमंत्री-किसान-सम्मान-निधि",
+    "funding": "unknown",
+    "funding_evidence": "",
+    "financials": [
+      {
+        "type": "disbursement_event",
+        "amount_cr": 18690.0,
+        "beneficiaries": null,
+        "fy": "2026-27",
+        "as_of": "2026-10-30",
+        "period_start": null,
+        "published": "2026-10-30",
+        "quote": "इस अवसर पर गुजरात के बनासकांठा में आयोजित मुख्य कार्यक्रम में प्रधानमंत्री श्री नरेंद्र मोदी ने प्रधानमंत्री किसान सम्मान निधि योजना की 24वीं किस्त के तहत देशभर के 9.34 करोड़ से अधिक किसानों के बैंक खातों में डीबीटी के माध्यम से 18,690 करोड़ रुपये से अधिक की राशि हस्तांतरित की।",
+        "extractor": "rules",
+        "sources": [
+          {
+            "kind": "govt",
+            "title": "Read News Read News on 30-10-26 मुख्यमंत्री श्री सम्राट चौधरी सम्राट अशोक कन्वेंशन केंद्र परिसर स्थित ज्ञान भवन पटना से गुजरात के बनासकांठा में आयोजित प्रधानमंत्री किसान उत्सव दिवस कार्यक्रम में वीडियो कॉन्फ्रेंसिंग के माध्यम से हुए शामिल।",
+            "url": "https://cm.bihar.gov.in/users/viewnews.aspx?id=4471"
+          }
+        ],
+        "official": true,
+        "verified": false,
+        "verified_against": null,
+        "first_seen": "2026-10-31"
+      },
+      {
+        "type": "disbursement_event",
+        "amount_cr": 1476.0,
+        "beneficiaries": null,
+        "fy": "2026-27",
+        "as_of": "2026-10-30",
+        "period_start": null,
+        "published": "2026-10-30",
+        "quote": "इसके तहत बिहार के 73 लाख से अधिक किसान परिवारों के खाते में 1,476 करोड़ रुपये की सम्मान राशि सीधे भेजी गई।",
+        "extractor": "rules",
+        "sources": [
+          {
+            "kind": "govt",
+            "title": "Read News Read News on 30-10-26 मुख्यमंत्री श्री सम्राट चौधरी सम्राट अशोक कन्वेंशन केंद्र परिसर स्थित ज्ञान भवन पटना से गुजरात के बनासकांठा में आयोजित प्रधानमंत्री किसान उत्सव दिवस कार्यक्रम में वीडियो कॉन्फ्रेंसिंग के माध्यम से हुए शामिल।",
+            "url": "https://cm.bihar.gov.in/users/viewnews.aspx?id=4471"
+          }
+        ],
+        "official": true,
+        "verified": false,
+        "verified_against": null,
+        "first_seen": "2026-10-31"
+      },
+      {
+        "type": "revised_allocation",
+        "amount_cr": 5500.0,
+        "beneficiaries": null,
+        "fy": "2026-27",
+        "as_of": "2026-10-30",
+        "period_start": null,
+        "published": "2026-10-30",
+        "quote": "कृषि फीडरों के लिए सरकार को प्रतिवर्ष लगभग 5,500 करोड़ रुपये की अतिरिक्त सब्सिडी देनी पड़ती है।",
+        "extractor": "rules",
+        "sources": [
+          {
+            "kind": "govt",
+            "title": "Read News Read News on 30-10-26 मुख्यमंत्री श्री सम्राट चौधरी सम्राट अशोक कन्वेंशन केंद्र परिसर स्थित ज्ञान भवन पटना से गुजरात के बनासकांठा में आयोजित प्रधानमंत्री किसान उत्सव दिवस कार्यक्रम में वीडियो कॉन्फ्रेंसिंग के माध्यम से हुए शामिल।",
+            "url": "https://cm.bihar.gov.in/users/viewnews.aspx?id=4471"
+          }
+        ],
+        "official": true,
+        "verified": false,
+        "verified_against": null,
+        "first_seen": "2026-10-31"
+      }
+    ]
+  },
+  {
+    "id": "GJ-सामाजिक-सुरक्षा-पेंशन",
+    "state": "GJ",
+    "fy": "2026-27",
+    "name": "सामाजिक सुरक्षा पेंशन योजना",
+    "announced": null,
+    "reported_amount": null,
+    "despatched": null,
+    "status": "reported",
+    "sources": [
+      {
+        "kind": "govt",
+        "title": "Read News Read News on 30-10-26 मुख्यमंत्री श्री सम्राट चौधरी सम्राट अशोक कन्वेंशन केंद्र परिसर स्थित ज्ञान भवन पटना से गुजरात के बनासकांठा में आयोजित प्रधानमंत्री किसान उत्सव दिवस कार्यक्रम में वीडियो कॉन्फ्रेंसिंग के माध्यम से हुए शामिल।",
+        "url": "https://cm.bihar.gov.in/users/viewnews.aspx?id=4471"
+      }
+    ],
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31",
+    "reports": [
+      {
+        "url": "https://cm.bihar.gov.in/users/viewnews.aspx?id=4471",
+        "title": "Read News Read News on 30-10-26 मुख्यमंत्री श्री सम्राट चौधरी सम्राट अशोक कन्वेंशन केंद्र परिसर स्थित ज्ञान भवन पटना से गुजरात के बनासकांठा में आयोजित प्रधानमंत्री किसान उत्सव दिवस कार्यक्रम में वीडियो कॉन्फ्रेंसिंग के माध्यम से हुए शामिल।",
+        "outlet": "Bihar CM – news",
+        "published": "2026-10-30",
+        "lang": "hi",
+        "kind": "disbursement_update",
+        "fy": "2026-27",
+        "amount_cr": null,
+        "benefit": null,
+        "beneficiaries": null,
+        "department": null
+      }
+    ],
+    "category": "welfare",
+    "catalog_id": "GJ-सामाजिक-सुरक्षा-पेंशन",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "WB-annapurna-bhandar",
+    "state": "WB",
+    "fy": "2026-27",
+    "name": "Annapurna Bhandar Scheme",
+    "announced": null,
+    "reported_amount": null,
+    "despatched": null,
+    "status": "reported",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "West Bengal government rolls out benefits to 28 lakh women under Annapurna Yojana",
+        "url": "https://www.thehindu.com/news/cities/kolkata/west-bengal-government-rolls-out-benefits-to-28-lakh-women-under-annapurna-yojana/article71058102.ece"
+      },
+      {
+        "kind": "news",
+        "title": "Annapurna Yojana: Unable to fill enrolment form online or offline? Here's how beneficiaries will get help",
+        "url": "https://www.livemint.com/money/personal-finance/annapurna-yojana-unable-to-fill-enrolment-form-online-or-offline-heres-how-how-beneficiaries-will-get-help-11779935538610.html"
+      }
+    ],
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31",
+    "reports": [
+      {
+        "url": "https://www.thehindu.com/news/cities/kolkata/west-bengal-government-rolls-out-benefits-to-28-lakh-women-under-annapurna-yojana/article71058102.ece",
+        "title": "West Bengal government rolls out benefits to 28 lakh women under Annapurna Yojana",
+        "outlet": "thehindu.com",
+        "published": "2026-06-03",
+        "lang": "en",
+        "kind": "new_scheme",
+        "fy": "2026-27",
+        "amount_cr": null,
+        "benefit": {
+          "amount_rs": 3000,
+          "per": "month"
+        },
+        "beneficiaries": null,
+        "department": null
+      },
+      {
+        "url": "https://www.livemint.com/money/personal-finance/annapurna-yojana-unable-to-fill-enrolment-form-online-or-offline-heres-how-how-beneficiaries-will-get-help-11779935538610.html",
+        "title": "Annapurna Yojana: Unable to fill enrolment form online or offline? Here's how beneficiaries will get help",
+        "outlet": "livemint.com",
+        "published": "2026-05-27",
+        "lang": "en",
+        "kind": "new_scheme",
+        "fy": "2026-27",
+        "amount_cr": null,
+        "benefit": {
+          "amount_rs": 3000,
+          "per": "month"
+        },
+        "beneficiaries": null,
+        "department": null
+      }
+    ],
+    "category": "welfare",
+    "catalog_id": "WB-annapurna-bhandar",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "WB-rate-income-tax-calulator-west-bengal-annapurna",
+    "state": "WB",
+    "fy": "2026-27",
+    "name": "Rate Income Tax Calulator West Bengal Annapurna Yojana",
+    "announced": null,
+    "reported_amount": null,
+    "despatched": null,
+    "status": "reported",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "West Bengal Annapurna Yojana: Rs 3,000 September installment released; check eligibility and payment status",
+        "url": "https://www.moneycontrol.com/news/business/personal-finance/west-bengal-annapurna-yojana-rs-3-000-september-installment-released-check-eligibility-and-payment-status-14031915.html"
+      }
+    ],
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31",
+    "reports": [
+      {
+        "url": "https://www.moneycontrol.com/news/business/personal-finance/west-bengal-annapurna-yojana-rs-3-000-september-installment-released-check-eligibility-and-payment-status-14031915.html",
+        "title": "West Bengal Annapurna Yojana: Rs 3,000 September installment released; check eligibility and payment status",
+        "outlet": "moneycontrol.com",
+        "published": "2026-09-17",
+        "lang": "en",
+        "kind": "disbursement_update",
+        "fy": "2026-27",
+        "amount_cr": null,
+        "benefit": null,
+        "beneficiaries": null,
+        "department": null
+      }
+    ],
+    "category": "welfare",
+    "catalog_id": "WB-rate-income-tax-calulator-west-bengal-annapurna",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "WB-sept-annapurna",
+    "state": "WB",
+    "fy": "2026-27",
+    "name": "Sept Annapurna Yojana",
+    "announced": null,
+    "reported_amount": null,
+    "despatched": null,
+    "status": "reported",
+    "sources": [
+      {
+        "kind": "news",
+        "title": "West Bengal Annapurna Yojana: Rs 3,000 September installment released; check eligibility and payment status",
+        "url": "https://www.moneycontrol.com/news/business/personal-finance/west-bengal-annapurna-yojana-rs-3-000-september-installment-released-check-eligibility-and-payment-status-14031915.html"
+      }
+    ],
+    "first_seen": "2026-10-31",
+    "last_checked": "2026-10-31",
+    "reports": [
+      {
+        "url": "https://www.moneycontrol.com/news/business/personal-finance/west-bengal-annapurna-yojana-rs-3-000-september-installment-released-check-eligibility-and-payment-status-14031915.html",
+        "title": "West Bengal Annapurna Yojana: Rs 3,000 September installment released; check eligibility and payment status",
+        "outlet": "moneycontrol.com",
+        "published": "2026-09-17",
+        "lang": "en",
+        "kind": "disbursement_update",
+        "fy": "2026-27",
+        "amount_cr": null,
+        "benefit": null,
+        "beneficiaries": null,
+        "department": null
+      }
+    ],
+    "category": "welfare",
+    "catalog_id": "WB-sept-annapurna",
     "funding": "unknown",
     "funding_evidence": ""
   }
