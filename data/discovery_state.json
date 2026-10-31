@@ -2616,41 +2616,65 @@
     "https://cm.bihar.gov.in/users/viewnews.aspx?id=4470": [
       "2026-10-30",
       "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4471": [
+      "2026-10-31",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4472": [
+      "2026-10-31",
+      "BR"
+    ],
+    "https://timesofindia.indiatimes.com/city/hyderabad/bhatti-says-1-64l-cr-reached-beneficiaries-through-welfare-schemes/articleshow/134949730.cms": [
+      "2026-10-31",
+      "TS"
+    ],
+    "https://www.thehindu.com/news/cities/kolkata/west-bengal-government-rolls-out-benefits-to-28-lakh-women-under-annapurna-yojana/article71058102.ece": [
+      "2026-10-31",
+      "WB"
+    ],
+    "https://www.livemint.com/money/personal-finance/annapurna-yojana-unable-to-fill-enrolment-form-online-or-offline-heres-how-how-beneficiaries-will-get-help-11779935538610.html": [
+      "2026-10-31",
+      "WB"
+    ],
+    "https://www.moneycontrol.com/news/business/personal-finance/west-bengal-annapurna-yojana-rs-3-000-september-installment-released-check-eligibility-and-payment-status-14031915.html": [
+      "2026-10-31",
+      "WB"
     ]
   },
   "queries": {
     "bing_news|Union government announces welfare scheme crore": "2026-10-22",
-    "bing_news|Andhra Pradesh announces welfare scheme crore": "2026-10-22",
-    "bing_news|Arunachal Pradesh new scheme launched yojana beneficiaries": "2026-10-22",
-    "bing_news|Assam announces welfare scheme crore": "2026-10-22",
+    "bing_news|Andhra Pradesh announces welfare scheme crore": "2026-10-31",
+    "bing_news|Arunachal Pradesh new scheme launched yojana beneficiaries": "2026-10-31",
+    "bing_news|Assam announces welfare scheme crore": "2026-10-31",
     "bing_news|बिहार नई योजना शुरू लाभार्थी": "2026-10-22",
     "bing_news|छत्तीसगढ़ सरकार योजना घोषणा करोड़": "2026-10-22",
     "bing_news|दिल्ली सरकार योजना घोषणा करोड़": "2026-10-22",
-    "bing_news|Goa announces welfare scheme crore": "2026-10-22",
+    "bing_news|Goa announces welfare scheme crore": "2026-10-31",
     "bing_news|Gujarat scheme crore transferred to beneficiaries accounts": "2026-10-22",
     "bing_news|हिमाचल प्रदेश योजना करोड़ राशि खाते में अंतरित": "2026-10-22",
     "bing_news|हरियाणा नई योजना शुरू लाभार्थी": "2026-10-22",
     "bing_news|झारखंड योजना करोड़ राशि खाते में अंतरित": "2026-10-22",
     "bing_news|Jammu and Kashmir announces welfare scheme crore": "2026-10-22",
     "bing_news|ಕರ್ನಾಟಕ ಯೋಜನೆ ಕೋಟಿ ಖಾತೆಗೆ ಜಮಾ": "2026-10-22",
-    "bing_news|Kerala announces welfare scheme crore": "2026-10-22",
-    "bing_news|महाराष्ट्र योजना करोड़ राशि खाते में अंतरित": "2026-10-22",
-    "bing_news|Meghalaya new scheme launched yojana beneficiaries": "2026-10-22",
-    "bing_news|Manipur scheme crore transferred to beneficiaries accounts": "2026-10-22",
+    "bing_news|Kerala announces welfare scheme crore": "2026-10-31",
+    "bing_news|महाराष्ट्र योजना करोड़ राशि खाते में अंतरित": "2026-10-31",
+    "bing_news|Meghalaya new scheme launched yojana beneficiaries": "2026-10-31",
+    "bing_news|Manipur scheme crore transferred to beneficiaries accounts": "2026-10-31",
     "bing_news|Madhya Pradesh scheme crore transferred to beneficiaries accounts": "2026-10-22",
-    "bing_news|Mizoram scheme crore transferred to beneficiaries accounts": "2026-10-22",
-    "bing_news|Nagaland announces welfare scheme crore": "2026-10-22",
-    "bing_news|Odisha new scheme launched yojana beneficiaries": "2026-10-22",
+    "bing_news|Mizoram scheme crore transferred to beneficiaries accounts": "2026-10-31",
+    "bing_news|Nagaland announces welfare scheme crore": "2026-10-31",
+    "bing_news|Odisha new scheme launched yojana beneficiaries": "2026-10-31",
     "bing_news|पंजाब योजना करोड़ राशि खाते में अंतरित": "2026-10-22",
-    "bing_news|Puducherry announces welfare scheme crore": "2026-10-22",
+    "bing_news|Puducherry announces welfare scheme crore": "2026-10-31",
     "bing_news|राजस्थान सरकार योजना घोषणा करोड़": "2026-10-22",
-    "bing_news|Sikkim scheme crore transferred to beneficiaries accounts": "2026-10-22",
+    "bing_news|Sikkim scheme crore transferred to beneficiaries accounts": "2026-10-31",
     "bing_news|தமிழ்நாடு அரசு திட்டம் அறிவிப்பு கோடி": "2026-10-22",
-    "bing_news|Tripura announces welfare scheme crore": "2026-10-22",
-    "bing_news|Telangana scheme crore transferred to beneficiaries accounts": "2026-10-22",
+    "bing_news|Tripura announces welfare scheme crore": "2026-10-31",
+    "bing_news|Telangana scheme crore transferred to beneficiaries accounts": "2026-10-31",
     "bing_news|उत्तराखंड नई योजना शुरू लाभार्थी": "2026-10-22",
     "bing_news|Uttar Pradesh new scheme launched yojana beneficiaries": "2026-10-22",
-    "bing_news|West Bengal new scheme launched yojana beneficiaries": "2026-10-22",
+    "bing_news|West Bengal new scheme launched yojana beneficiaries": "2026-10-31",
     "bing_news|केंद्र सरकार सरकार योजना घोषणा करोड़": "2026-10-23",
     "bing_news|Andhra Pradesh scheme crore transferred to beneficiaries accounts": "2026-10-23",
     "bing_news|Arunachal Pradesh announces welfare scheme crore": "2026-10-23",
@@ -2798,6 +2822,9 @@
       },
       "2026-10-30": {
         "discovery": 1
+      },
+      "2026-10-31": {
+        "discovery": 16
       }
     }
   },
@@ -2970,13 +2997,31 @@
       },
       "2026-10-30": {
         "MH": 1
+      },
+      "2026-10-31": {
+        "AP": 1,
+        "AR": 1,
+        "AS": 1,
+        "GA": 1,
+        "KL": 1,
+        "MH": 1,
+        "ML": 1,
+        "MN": 1,
+        "MZ": 1,
+        "NL": 1,
+        "OD": 1,
+        "PY": 1,
+        "SK": 1,
+        "TR": 1,
+        "TS": 1,
+        "WB": 1
       }
     }
   },
   "newsrooms": {
     "https://cm.bihar.gov.in/users/news.aspx": {
       "template": "https://cm.bihar.gov.in/users/viewnews.aspx?id={id}",
-      "max_id": 4470,
+      "max_id": 4472,
       "backfill_done": true,
       "backfill_next": 3932
     }
@@ -2986,12 +3031,15 @@
     "WB": [
       "WB-amir-shokeen-tukaram-mundhe-annapurna",
       "WB-annapurna",
+      "WB-annapurna-bhandar",
       "WB-cha-shramik-protsahan",
       "WB-economic-times-annapurna",
       "WB-et-online-annapurna",
       "WB-lakshmi-bhandar",
       "WB-paschim-banga-samagra-siksha-mission",
+      "WB-rate-income-tax-calulator-west-bengal-annapurna",
       "WB-save-print-comment-synopsis-west-bengal-s-annapurna",
+      "WB-sept-annapurna",
       "WB-west-bengal-s-paschim-banga-awas"
     ],
     "PB": [
@@ -3157,5 +3205,5 @@
     ],
     "CENTRE": []
   },
-  "saved": "2026-10-30"
+  "saved": "2026-10-31"
 }
