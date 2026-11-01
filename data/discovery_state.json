@@ -2640,6 +2640,26 @@
     "https://www.moneycontrol.com/news/business/personal-finance/west-bengal-annapurna-yojana-rs-3-000-september-installment-released-check-eligibility-and-payment-status-14031915.html": [
       "2026-10-31",
       "WB"
+    ],
+    "https://www.thehindu.com/news/national/andhra-pradesh/ap-depts-told-to-speed-up-reforms-to-claim-over-3500-cr-under-a-central-scheme/article71451549.ece": [
+      "2026-11-01",
+      "AP"
+    ],
+    "https://www.news18.com/business/economy/pm-kisan-22nd-installment-date-pm-modi-releases-over-rs-18000-crore-for-over-9-crore-farmers-9959160.html": [
+      "2026-11-01",
+      "AS"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4473": [
+      "2026-11-01",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4474": [
+      "2026-11-01",
+      "BR"
+    ],
+    "https://www.newindianexpress.com/states/telangana/2026/Oct/05/telangana-rs-10463-crore-spent-so-far-under-new-employees-health-scheme": [
+      "2026-11-01",
+      "TS"
     ]
   },
   "queries": {
@@ -2676,37 +2696,37 @@
     "bing_news|Uttar Pradesh new scheme launched yojana beneficiaries": "2026-10-22",
     "bing_news|West Bengal new scheme launched yojana beneficiaries": "2026-10-31",
     "bing_news|केंद्र सरकार सरकार योजना घोषणा करोड़": "2026-10-23",
-    "bing_news|Andhra Pradesh scheme crore transferred to beneficiaries accounts": "2026-10-23",
-    "bing_news|Arunachal Pradesh announces welfare scheme crore": "2026-10-23",
-    "bing_news|Assam scheme crore transferred to beneficiaries accounts": "2026-10-23",
+    "bing_news|Andhra Pradesh scheme crore transferred to beneficiaries accounts": "2026-11-01",
+    "bing_news|Arunachal Pradesh announces welfare scheme crore": "2026-11-01",
+    "bing_news|Assam scheme crore transferred to beneficiaries accounts": "2026-11-01",
     "bing_news|Bihar announces welfare scheme crore": "2026-10-23",
     "bing_news|Chhattisgarh scheme crore transferred to beneficiaries accounts": "2026-10-23",
     "bing_news|Delhi scheme crore transferred to beneficiaries accounts": "2026-10-23",
-    "bing_news|Goa scheme crore transferred to beneficiaries accounts": "2026-10-23",
+    "bing_news|Goa scheme crore transferred to beneficiaries accounts": "2026-11-01",
     "bing_news|गुजरात योजना करोड़ राशि खाते में अंतरित": "2026-10-23",
     "bing_news|Himachal Pradesh new scheme launched yojana beneficiaries": "2026-10-23",
     "bing_news|Haryana announces welfare scheme crore": "2026-10-23",
     "bing_news|Jharkhand new scheme launched yojana beneficiaries": "2026-10-23",
     "bing_news|Jammu and Kashmir सरकार योजना घोषणा करोड़": "2026-10-23",
     "bing_news|Karnataka new scheme launched yojana beneficiaries": "2026-10-23",
-    "bing_news|Kerala scheme crore transferred to beneficiaries accounts": "2026-10-23",
-    "bing_news|Maharashtra new scheme launched yojana beneficiaries": "2026-10-23",
-    "bing_news|Meghalaya announces welfare scheme crore": "2026-10-23",
-    "bing_news|Manipur new scheme launched yojana beneficiaries": "2026-10-23",
+    "bing_news|Kerala scheme crore transferred to beneficiaries accounts": "2026-11-01",
+    "bing_news|Maharashtra new scheme launched yojana beneficiaries": "2026-11-01",
+    "bing_news|Meghalaya announces welfare scheme crore": "2026-11-01",
+    "bing_news|Manipur new scheme launched yojana beneficiaries": "2026-11-01",
     "bing_news|मध्य प्रदेश योजना करोड़ राशि खाते में अंतरित": "2026-10-23",
-    "bing_news|Mizoram new scheme launched yojana beneficiaries": "2026-10-23",
-    "bing_news|Nagaland scheme crore transferred to beneficiaries accounts": "2026-10-23",
-    "bing_news|Odisha announces welfare scheme crore": "2026-10-23",
+    "bing_news|Mizoram new scheme launched yojana beneficiaries": "2026-11-01",
+    "bing_news|Nagaland scheme crore transferred to beneficiaries accounts": "2026-11-01",
+    "bing_news|Odisha announces welfare scheme crore": "2026-11-01",
     "bing_news|Punjab new scheme launched yojana beneficiaries": "2026-10-23",
-    "bing_news|Puducherry scheme crore transferred to beneficiaries accounts": "2026-10-23",
+    "bing_news|Puducherry scheme crore transferred to beneficiaries accounts": "2026-11-01",
     "bing_news|Rajasthan scheme crore transferred to beneficiaries accounts": "2026-10-23",
-    "bing_news|Sikkim new scheme launched yojana beneficiaries": "2026-10-23",
+    "bing_news|Sikkim new scheme launched yojana beneficiaries": "2026-11-01",
     "bing_news|Tamil Nadu scheme crore transferred to beneficiaries accounts": "2026-10-23",
-    "bing_news|Tripura scheme crore transferred to beneficiaries accounts": "2026-10-23",
-    "bing_news|Telangana new scheme launched yojana beneficiaries": "2026-10-23",
+    "bing_news|Tripura scheme crore transferred to beneficiaries accounts": "2026-11-01",
+    "bing_news|Telangana new scheme launched yojana beneficiaries": "2026-11-01",
     "bing_news|Uttarakhand announces welfare scheme crore": "2026-10-23",
     "bing_news|उत्तर प्रदेश नई योजना शुरू लाभार्थी": "2026-10-23",
-    "bing_news|West Bengal announces welfare scheme crore": "2026-10-23",
+    "bing_news|West Bengal announces welfare scheme crore": "2026-11-01",
     "bing_news|Union government scheme crore transferred to beneficiaries accounts": "2026-10-24",
     "bing_news|Andhra Pradesh new scheme launched yojana beneficiaries": "2026-10-24",
     "bing_news|Arunachal Pradesh scheme crore transferred to beneficiaries accounts": "2026-10-24",
@@ -2824,6 +2844,9 @@
         "discovery": 1
       },
       "2026-10-31": {
+        "discovery": 16
+      },
+      "2026-11-01": {
         "discovery": 16
       }
     }
@@ -3015,13 +3038,31 @@
         "TR": 1,
         "TS": 1,
         "WB": 1
+      },
+      "2026-11-01": {
+        "AP": 1,
+        "AR": 1,
+        "AS": 1,
+        "GA": 1,
+        "KL": 1,
+        "MH": 1,
+        "ML": 1,
+        "MN": 1,
+        "MZ": 1,
+        "NL": 1,
+        "OD": 1,
+        "PY": 1,
+        "SK": 1,
+        "TR": 1,
+        "TS": 1,
+        "WB": 1
       }
     }
   },
   "newsrooms": {
     "https://cm.bihar.gov.in/users/news.aspx": {
       "template": "https://cm.bihar.gov.in/users/viewnews.aspx?id={id}",
-      "max_id": 4472,
+      "max_id": 4474,
       "backfill_done": true,
       "backfill_next": 3932
     }
@@ -3203,7 +3244,11 @@
       "KA-guarantee-for-rozgar-and-ajeevika-mission",
       "KA-karnataka-state-guarantee"
     ],
-    "CENTRE": []
+    "CENTRE": [],
+    "AS": [
+      "AS-kisan",
+      "AS-kisan-samman-nidhi"
+    ]
   },
-  "saved": "2026-10-31"
+  "saved": "2026-11-01"
 }
