@@ -2804,6 +2804,30 @@
     "https://hindi.news18.com/news/uttar-pradesh/lucknow-up-yogi-government-diwali-lpg-cylinder-refill-subsidy-1500-crore-local18-10959274.html": [
       "2026-11-06",
       "UP"
+    ],
+    "https://www.jagran.com/himachal-pradesh/shimla-himachal-doubles-milk-incentive-for-dairy-farmers-to-6l-40420910.html": [
+      "2026-11-07",
+      "HP"
+    ],
+    "https://www.abplive.com/states/himachal-pradesh/himachal-cm-sukhvinder-sukhu-announces-rs-1-500-monthly-aid-for-women-under-new-scheme-ann-3210686": [
+      "2026-11-07",
+      "HP"
+    ],
+    "https://www.livehindustan.com/jharkhand/simdega/story-simdega-kelaghagh-dam-eco-resort-plan-gets-5-crore-push-201793555416028.html": [
+      "2026-11-07",
+      "JH"
+    ],
+    "https://www.jagran.com/punjab/chandigarh-punjab-gets-1331-crore-rupees-for-vb-g-ram-ji-scheme-gets-40-crore-rupees-as-first-installment-by-center-govt-40337836.html": [
+      "2026-11-07",
+      "PB"
+    ],
+    "https://www.moneycontrol.com/news/business/over-2-24-cr-up-farmers-receive-rs-4-482-cr-in-fresh-instalment-under-pm-kisan-scheme-14064679.html": [
+      "2026-11-07",
+      "UP"
+    ],
+    "https://www.indiatoday.in/india/story/pm-kisan-23rd-installment-2026-uttar-pradesh-farmers-benefit-utrith-2992247-2026-09-11": [
+      "2026-11-07",
+      "UP"
     ]
   },
   "queries": {
@@ -2920,23 +2944,23 @@
     "bing_news|Tamil Nadu new scheme launched yojana beneficiaries": "2026-11-06",
     "bing_news|Uttarakhand scheme crore transferred to beneficiaries accounts": "2026-11-06",
     "bing_news|उत्तर प्रदेश सरकार योजना घोषणा करोड़": "2026-11-06",
-    "bing_news|Union government new scheme launched yojana beneficiaries": "2026-10-26",
-    "bing_news|बिहार योजना करोड़ राशि खाते में अंतरित": "2026-10-26",
-    "bing_news|छत्तीसगढ़ नई योजना शुरू लाभार्थी": "2026-10-26",
-    "bing_news|दिल्ली नई योजना शुरू लाभार्थी": "2026-10-26",
-    "bing_news|Gujarat announces welfare scheme crore": "2026-10-26",
-    "bing_news|हिमाचल प्रदेश सरकार योजना घोषणा करोड़": "2026-10-26",
-    "bing_news|हरियाणा योजना करोड़ राशि खाते में अंतरित": "2026-10-26",
-    "bing_news|झारखंड सरकार योजना घोषणा करोड़": "2026-10-26",
-    "bing_news|Jammu and Kashmir new scheme launched yojana beneficiaries": "2026-10-26",
-    "bing_news|ಕರ್ನಾಟಕ ಸರ್ಕಾರ ಯೋಜನೆ ಘೋಷಣೆ ಕೋಟಿ": "2026-10-26",
+    "bing_news|Union government new scheme launched yojana beneficiaries": "2026-11-07",
+    "bing_news|बिहार योजना करोड़ राशि खाते में अंतरित": "2026-11-07",
+    "bing_news|छत्तीसगढ़ नई योजना शुरू लाभार्थी": "2026-11-07",
+    "bing_news|दिल्ली नई योजना शुरू लाभार्थी": "2026-11-07",
+    "bing_news|Gujarat announces welfare scheme crore": "2026-11-07",
+    "bing_news|हिमाचल प्रदेश सरकार योजना घोषणा करोड़": "2026-11-07",
+    "bing_news|हरियाणा योजना करोड़ राशि खाते में अंतरित": "2026-11-07",
+    "bing_news|झारखंड सरकार योजना घोषणा करोड़": "2026-11-07",
+    "bing_news|Jammu and Kashmir new scheme launched yojana beneficiaries": "2026-11-07",
+    "bing_news|ಕರ್ನಾಟಕ ಸರ್ಕಾರ ಯೋಜನೆ ಘೋಷಣೆ ಕೋಟಿ": "2026-11-07",
     "bing_news|Maharashtra announces welfare scheme crore": "2026-11-04",
-    "bing_news|Madhya Pradesh announces welfare scheme crore": "2026-10-26",
-    "bing_news|पंजाब सरकार योजना घोषणा करोड़": "2026-10-26",
-    "bing_news|राजस्थान नई योजना शुरू लाभार्थी": "2026-10-26",
-    "bing_news|தமிழ்நாடு புதிய திட்டம் தொடக்கம் பயனாளிகள்": "2026-10-26",
-    "bing_news|उत्तराखंड योजना करोड़ राशि खाते में अंतरित": "2026-10-26",
-    "bing_news|Uttar Pradesh scheme crore transferred to beneficiaries accounts": "2026-10-26",
+    "bing_news|Madhya Pradesh announces welfare scheme crore": "2026-11-07",
+    "bing_news|पंजाब सरकार योजना घोषणा करोड़": "2026-11-07",
+    "bing_news|राजस्थान नई योजना शुरू लाभार्थी": "2026-11-07",
+    "bing_news|தமிழ்நாடு புதிய திட்டம் தொடக்கம் பயனாளிகள்": "2026-11-07",
+    "bing_news|उत्तराखंड योजना करोड़ राशि खाते में अंतरित": "2026-11-07",
+    "bing_news|Uttar Pradesh scheme crore transferred to beneficiaries accounts": "2026-11-07",
     "bing_news|केंद्र सरकार नई योजना शुरू लाभार्थी": "2026-10-27",
     "bing_news|Bihar new scheme launched yojana beneficiaries": "2026-10-27",
     "bing_news|Chhattisgarh announces welfare scheme crore": "2026-10-27",
@@ -2955,7 +2979,7 @@
     "bing_news|Uttarakhand new scheme launched yojana beneficiaries": "2026-10-27",
     "bing_news|उत्तर प्रदेश योजना करोड़ राशि खाते में अंतरित": "2026-10-27",
     "bing_news|महाराष्ट्र सरकार योजना घोषणा करोड़": "2026-11-06",
-    "bing_news|Maharashtra scheme crore transferred to beneficiaries accounts": "2026-10-29",
+    "bing_news|Maharashtra scheme crore transferred to beneficiaries accounts": "2026-11-07",
     "bing_news|महाराष्ट्र योजना कोटी रक्कम खात्यात जमा": "2026-10-30"
   },
   "usage": {
@@ -3006,6 +3030,9 @@
         "discovery": 17
       },
       "2026-11-06": {
+        "discovery": 17
+      },
+      "2026-11-07": {
         "discovery": 17
       }
     }
@@ -3309,6 +3336,25 @@
         "TN": 1,
         "UK": 1,
         "UP": 1
+      },
+      "2026-11-07": {
+        "CENTRE": 1,
+        "BR": 1,
+        "CG": 1,
+        "DL": 1,
+        "GJ": 1,
+        "HP": 1,
+        "HR": 1,
+        "JH": 1,
+        "JK": 1,
+        "KA": 1,
+        "MH": 1,
+        "MP": 1,
+        "PB": 1,
+        "RJ": 1,
+        "TN": 1,
+        "UK": 1,
+        "UP": 1
       }
     }
   },
@@ -3339,7 +3385,10 @@
     "PB": [
       "PB-mukh-mantri-mawan-dheeyan-satkar",
       "PB-punjab-s-mawan-dheeyan-satkar",
-      "PB-जब-लोग-मौजूदा-गेहूं-वितरण"
+      "PB-गारंटी-फॉर-रोजगार-एवं-आजीविका-मिशन",
+      "PB-जब-लोग-मौजूदा-गेहूं-वितरण",
+      "PB-जी-राम-जी",
+      "PB-पूर्ववर्ती-मनरेगा"
     ],
     "TN": [
       "TN-ai-industry-development-program",
@@ -3460,11 +3509,17 @@
       "HP-indira-gandhi-matri-shishu-sankalp",
       "HP-machhuara-samman-nidhi",
       "HP-marriage-assistance",
+      "HP-monthly-aid-for-women-under-new",
       "HP-paternity-assistance",
       "HP-swaran-jayanti-ashray",
+      "HP-अपना-परिवार-सुखी-परिवार",
+      "HP-आश्रय",
       "HP-इसी",
+      "HP-ग्रीन-पंचायत",
       "HP-जी-राम-जी",
+      "HP-दूध-प्रोत्साहन",
       "HP-पुरानी-पेंशन",
+      "HP-शुरू-होगी",
       "HP-स्वास्थ्य-बीमा",
       "HP-हिमकेयर"
     ],
@@ -3521,5 +3576,5 @@
       "AS-kisan-samman-nidhi"
     ]
   },
-  "saved": "2026-11-06"
+  "saved": "2026-11-07"
 }
