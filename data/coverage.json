@@ -1,5 +1,5 @@
 {
-  "run": "2026-11-07",
+  "run": "2026-11-08",
   "fy": "2025-26",
   "providers": [
     "bing_news"
@@ -14,22 +14,22 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Union government new scheme launched yojana beneficiaries",
-          "lang": "en",
+          "query": "केंद्र सरकार नई योजना शुरू लाभार्थी",
+          "lang": "hi",
           "theme": "new_schemes",
-          "results": 3,
-          "trusted": 1,
-          "new": 1
+          "results": 9,
+          "trusted": 5,
+          "new": 4
         }
       ],
-      "pages_read": 0,
-      "official_pages": 0,
-      "failures": {
-        "HTTP 403": 1
-      },
-      "untrusted_skipped": 2,
-      "already_seen": 0,
-      "schemes_touched": [],
+      "pages_read": 4,
+      "official_pages": 1,
+      "failures": {},
+      "untrusted_skipped": 4,
+      "already_seen": 1,
+      "schemes_touched": [
+        "DL-ईपीएफ"
+      ],
       "new_schemes": [],
       "claims_added": 0,
       "newsrooms": {},
@@ -48,9 +48,9 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Andhra Pradesh scheme crore transferred to beneficiaries accounts",
+          "query": "Andhra Pradesh new scheme launched yojana beneficiaries",
           "lang": "en",
-          "theme": "disbursements",
+          "theme": "new_schemes",
           "skipped": "same query ran recently"
         }
       ],
@@ -100,9 +100,9 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Arunachal Pradesh announces welfare scheme crore",
+          "query": "Arunachal Pradesh scheme crore transferred to beneficiaries accounts",
           "lang": "en",
-          "theme": "announcements",
+          "theme": "disbursements",
           "skipped": "same query ran recently"
         }
       ],
@@ -130,9 +130,9 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Assam scheme crore transferred to beneficiaries accounts",
+          "query": "Assam new scheme launched yojana beneficiaries",
           "lang": "en",
-          "theme": "disbursements",
+          "theme": "new_schemes",
           "skipped": "same query ran recently"
         }
       ],
@@ -175,22 +175,24 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "बिहार योजना करोड़ राशि खाते में अंतरित",
-          "lang": "hi",
-          "theme": "disbursements",
-          "results": 2,
-          "trusted": 1,
-          "new": 0
+          "query": "Bihar new scheme launched yojana beneficiaries",
+          "lang": "en",
+          "theme": "new_schemes",
+          "results": 4,
+          "trusted": 2,
+          "new": 2
         }
       ],
-      "pages_read": 0,
+      "pages_read": 2,
       "official_pages": 0,
       "failures": {},
-      "untrusted_skipped": 1,
-      "already_seen": 1,
-      "schemes_touched": [],
+      "untrusted_skipped": 2,
+      "already_seen": 0,
+      "schemes_touched": [
+        "BR-awas"
+      ],
       "new_schemes": [],
-      "claims_added": 0,
+      "claims_added": 1,
       "newsrooms": {
         "Bihar CM – news": {
           "template": "https://cm.bihar.gov.in/users/viewnews.aspx?id={id}",
@@ -202,17 +204,10 @@
       "verification_searches": [],
       "not_reached": false,
       "schemes_on_record": 30,
-      "surfaced_by_search": 4,
+      "surfaced_by_search": 5,
       "missed_by_search": {
-        "count": 26,
+        "count": 25,
         "examples": [
-          {
-            "id": "BR-awas",
-            "name": "Pradhan Mantri Awas Yojana",
-            "found_via": [
-              "prs"
-            ]
-          },
           {
             "id": "BR-vriddhhajan-pension",
             "name": "Mukhyamantri Vriddhhajan Pension Yojana",
@@ -311,6 +306,13 @@
             "found_via": [
               "govt"
             ]
+          },
+          {
+            "id": "BR-निश्चय-स्वयं-सहायता-भत्ता",
+            "name": "मुख्यमंत्री निश्चय स्वयं सहायता भत्ता योजना",
+            "found_via": [
+              "govt"
+            ]
           }
         ]
       },
@@ -321,10 +323,10 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "छत्तीसगढ़ नई योजना शुरू लाभार्थी",
-          "lang": "hi",
-          "theme": "new_schemes",
-          "results": 0,
+          "query": "Chhattisgarh announces welfare scheme crore",
+          "lang": "en",
+          "theme": "announcements",
+          "results": 2,
           "trusted": 0,
           "new": 0
         }
@@ -332,7 +334,7 @@
       "pages_read": 0,
       "official_pages": 0,
       "failures": {},
-      "untrusted_skipped": 0,
+      "untrusted_skipped": 2,
       "already_seen": 0,
       "schemes_touched": [],
       "new_schemes": [],
@@ -382,19 +384,21 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "दिल्ली नई योजना शुरू लाभार्थी",
-          "lang": "hi",
-          "theme": "new_schemes",
-          "results": 1,
-          "trusted": 0,
-          "new": 0
+          "query": "Delhi announces welfare scheme crore",
+          "lang": "en",
+          "theme": "announcements",
+          "results": 3,
+          "trusted": 2,
+          "new": 1
         }
       ],
       "pages_read": 0,
       "official_pages": 0,
-      "failures": {},
+      "failures": {
+        "HTTP 403": 1
+      },
       "untrusted_skipped": 1,
-      "already_seen": 0,
+      "already_seen": 1,
       "schemes_touched": [],
       "new_schemes": [],
       "claims_added": 0,
@@ -422,9 +426,9 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Goa scheme crore transferred to beneficiaries accounts",
+          "query": "Goa new scheme launched yojana beneficiaries",
           "lang": "en",
-          "theme": "disbursements",
+          "theme": "new_schemes",
           "skipped": "same query ran recently"
         }
       ],
@@ -460,21 +464,27 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Gujarat announces welfare scheme crore",
-          "lang": "en",
+          "query": "गुजरात सरकार योजना घोषणा करोड़",
+          "lang": "hi",
           "theme": "announcements",
-          "results": 1,
-          "trusted": 0,
-          "new": 0
+          "results": 10,
+          "trusted": 7,
+          "new": 5
         }
       ],
-      "pages_read": 0,
+      "pages_read": 3,
       "official_pages": 0,
       "failures": {},
-      "untrusted_skipped": 1,
-      "already_seen": 0,
-      "schemes_touched": [],
-      "new_schemes": [],
+      "untrusted_skipped": 3,
+      "already_seen": 2,
+      "schemes_touched": [
+        "GJ-क्रांतिकारी-कन्या-केलवणी",
+        "GJ-फसल-बीमा"
+      ],
+      "new_schemes": [
+        "GJ-क्रांतिकारी-कन्या-केलवणी",
+        "GJ-फसल-बीमा"
+      ],
       "claims_added": 0,
       "newsrooms": {},
       "verification_searches": [],
@@ -521,36 +531,22 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "हिमाचल प्रदेश सरकार योजना घोषणा करोड़",
-          "lang": "hi",
-          "theme": "announcements",
-          "results": 10,
-          "trusted": 3,
-          "new": 2
+          "query": "Himachal Pradesh scheme crore transferred to beneficiaries accounts",
+          "lang": "en",
+          "theme": "disbursements",
+          "results": 7,
+          "trusted": 0,
+          "new": 0
         }
       ],
-      "pages_read": 2,
+      "pages_read": 0,
       "official_pages": 0,
       "failures": {},
       "untrusted_skipped": 7,
-      "already_seen": 1,
-      "schemes_touched": [
-        "HP-monthly-aid-for-women-under-new",
-        "HP-अपना-परिवार-सुखी-परिवार",
-        "HP-आश्रय",
-        "HP-ग्रीन-पंचायत",
-        "HP-दूध-प्रोत्साहन",
-        "HP-शुरू-होगी"
-      ],
-      "new_schemes": [
-        "HP-monthly-aid-for-women-under-new",
-        "HP-अपना-परिवार-सुखी-परिवार",
-        "HP-आश्रय",
-        "HP-ग्रीन-पंचायत",
-        "HP-दूध-प्रोत्साहन",
-        "HP-शुरू-होगी"
-      ],
-      "claims_added": 2,
+      "already_seen": 0,
+      "schemes_touched": [],
+      "new_schemes": [],
+      "claims_added": 0,
       "newsrooms": {},
       "verification_searches": [],
       "not_reached": false,
@@ -603,22 +599,29 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "हरियाणा योजना करोड़ राशि खाते में अंतरित",
-          "lang": "hi",
-          "theme": "disbursements",
-          "results": 2,
-          "trusted": 2,
-          "new": 0
+          "query": "Haryana new scheme launched yojana beneficiaries",
+          "lang": "en",
+          "theme": "new_schemes",
+          "results": 6,
+          "trusted": 4,
+          "new": 3
         }
       ],
-      "pages_read": 0,
+      "pages_read": 3,
       "official_pages": 0,
       "failures": {},
-      "untrusted_skipped": 0,
-      "already_seen": 2,
-      "schemes_touched": [],
-      "new_schemes": [],
-      "claims_added": 0,
+      "untrusted_skipped": 2,
+      "already_seen": 1,
+      "schemes_touched": [
+        "HR-har-ghar-har-grihini",
+        "HR-lado-laxmi",
+        "HR-old-age-samman"
+      ],
+      "new_schemes": [
+        "HR-har-ghar-har-grihini",
+        "HR-old-age-samman"
+      ],
+      "claims_added": 4,
       "newsrooms": {},
       "verification_searches": [],
       "not_reached": false,
@@ -657,18 +660,18 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "झारखंड सरकार योजना घोषणा करोड़",
-          "lang": "hi",
-          "theme": "announcements",
-          "results": 3,
-          "trusted": 3,
-          "new": 3
+          "query": "Jharkhand scheme crore transferred to beneficiaries accounts",
+          "lang": "en",
+          "theme": "disbursements",
+          "results": 1,
+          "trusted": 0,
+          "new": 0
         }
       ],
-      "pages_read": 1,
+      "pages_read": 0,
       "official_pages": 0,
       "failures": {},
-      "untrusted_skipped": 0,
+      "untrusted_skipped": 1,
       "already_seen": 0,
       "schemes_touched": [],
       "new_schemes": [],
@@ -725,8 +728,8 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Jammu and Kashmir new scheme launched yojana beneficiaries",
-          "lang": "en",
+          "query": "Jammu and Kashmir नई योजना शुरू लाभार्थी",
+          "lang": "hi",
           "theme": "new_schemes",
           "results": 0,
           "trusted": 0,
@@ -772,19 +775,19 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "ಕರ್ನಾಟಕ ಸರ್ಕಾರ ಯೋಜನೆ ಘೋಷಣೆ ಕೋಟಿ",
-          "lang": "kn",
-          "theme": "announcements",
-          "results": 1,
-          "trusted": 0,
-          "new": 0
+          "query": "Karnataka scheme crore transferred to beneficiaries accounts",
+          "lang": "en",
+          "theme": "disbursements",
+          "results": 9,
+          "trusted": 2,
+          "new": 1
         }
       ],
-      "pages_read": 0,
+      "pages_read": 1,
       "official_pages": 0,
       "failures": {},
-      "untrusted_skipped": 1,
-      "already_seen": 0,
+      "untrusted_skipped": 7,
+      "already_seen": 1,
       "schemes_touched": [],
       "new_schemes": [],
       "claims_added": 0,
@@ -812,9 +815,9 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Kerala scheme crore transferred to beneficiaries accounts",
+          "query": "Kerala new scheme launched yojana beneficiaries",
           "lang": "en",
-          "theme": "disbursements",
+          "theme": "new_schemes",
           "skipped": "same query ran recently"
         }
       ],
@@ -842,21 +845,19 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Maharashtra scheme crore transferred to beneficiaries accounts",
-          "lang": "en",
+          "query": "महाराष्ट्र योजना कोटी रक्कम खात्यात जमा",
+          "lang": "mr",
           "theme": "disbursements",
-          "results": 10,
-          "trusted": 4,
-          "new": 1
+          "results": 3,
+          "trusted": 0,
+          "new": 0
         }
       ],
       "pages_read": 0,
       "official_pages": 0,
-      "failures": {
-        "HTTP 403": 1
-      },
-      "untrusted_skipped": 6,
-      "already_seen": 3,
+      "failures": {},
+      "untrusted_skipped": 3,
+      "already_seen": 0,
       "schemes_touched": [],
       "new_schemes": [],
       "claims_added": 0,
@@ -906,9 +907,9 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Meghalaya announces welfare scheme crore",
+          "query": "Meghalaya scheme crore transferred to beneficiaries accounts",
           "lang": "en",
-          "theme": "announcements",
+          "theme": "disbursements",
           "skipped": "same query ran recently"
         }
       ],
@@ -951,9 +952,9 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Manipur new scheme launched yojana beneficiaries",
+          "query": "Manipur announces welfare scheme crore",
           "lang": "en",
-          "theme": "new_schemes",
+          "theme": "announcements",
           "skipped": "same query ran recently"
         }
       ],
@@ -981,24 +982,43 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Madhya Pradesh announces welfare scheme crore",
-          "lang": "en",
+          "query": "मध्य प्रदेश सरकार योजना घोषणा करोड़",
+          "lang": "hi",
           "theme": "announcements",
-          "results": 4,
-          "trusted": 1,
-          "new": 1
+          "results": 10,
+          "trusted": 4,
+          "new": 3
         }
       ],
-      "pages_read": 0,
+      "pages_read": 2,
       "official_pages": 0,
       "failures": {
         "HTTP 403": 1
       },
-      "untrusted_skipped": 3,
-      "already_seen": 0,
-      "schemes_touched": [],
-      "new_schemes": [],
-      "claims_added": 0,
+      "untrusted_skipped": 6,
+      "already_seen": 1,
+      "schemes_touched": [
+        "MP-ladli-behna",
+        "MP-अन्य-सरकारी",
+        "MP-आवंटन",
+        "MP-आहार-अनुदान",
+        "MP-कवच",
+        "MP-जब",
+        "MP-फंसा",
+        "MP-बावजूद-केवल-दूसरी",
+        "MP-विश्वास-अभियान"
+      ],
+      "new_schemes": [
+        "MP-अन्य-सरकारी",
+        "MP-आवंटन",
+        "MP-आहार-अनुदान",
+        "MP-कवच",
+        "MP-जब",
+        "MP-फंसा",
+        "MP-बावजूद-केवल-दूसरी",
+        "MP-विश्वास-अभियान"
+      ],
+      "claims_added": 4,
       "newsrooms": {},
       "verification_searches": [],
       "not_reached": false,
@@ -1051,9 +1071,9 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Mizoram new scheme launched yojana beneficiaries",
+          "query": "Mizoram announces welfare scheme crore",
           "lang": "en",
-          "theme": "new_schemes",
+          "theme": "announcements",
           "skipped": "same query ran recently"
         }
       ],
@@ -1081,9 +1101,9 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Nagaland scheme crore transferred to beneficiaries accounts",
+          "query": "Nagaland new scheme launched yojana beneficiaries",
           "lang": "en",
-          "theme": "disbursements",
+          "theme": "new_schemes",
           "skipped": "same query ran recently"
         }
       ],
@@ -1140,9 +1160,9 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Odisha announces welfare scheme crore",
+          "query": "Odisha scheme crore transferred to beneficiaries accounts",
           "lang": "en",
-          "theme": "announcements",
+          "theme": "disbursements",
           "skipped": "same query ran recently"
         }
       ],
@@ -1170,45 +1190,41 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "पंजाब सरकार योजना घोषणा करोड़",
-          "lang": "hi",
-          "theme": "announcements",
-          "results": 9,
-          "trusted": 1,
-          "new": 1
+          "query": "Punjab scheme crore transferred to beneficiaries accounts",
+          "lang": "en",
+          "theme": "disbursements",
+          "results": 10,
+          "trusted": 5,
+          "new": 4
         }
       ],
-      "pages_read": 1,
+      "pages_read": 4,
       "official_pages": 0,
       "failures": {},
-      "untrusted_skipped": 8,
-      "already_seen": 0,
+      "untrusted_skipped": 5,
+      "already_seen": 1,
       "schemes_touched": [
-        "PB-गारंटी-फॉर-रोजगार-एवं-आजीविका-मिशन",
-        "PB-जी-राम-जी",
-        "PB-पूर्ववर्ती-मनरेगा"
+        "PB-bhagwant-mann-mawan-dhiyan-satkar",
+        "PB-crore-under-mawan-dheeyan-satkar",
+        "PB-mukh-mantri-mawan-dheeyan-satkar",
+        "PB-mukh-mantri-sarbat-sehat-bima",
+        "PB-satkar"
       ],
       "new_schemes": [
-        "PB-गारंटी-फॉर-रोजगार-एवं-आजीविका-मिशन",
-        "PB-जी-राम-जी",
-        "PB-पूर्ववर्ती-मनरेगा"
+        "PB-bhagwant-mann-mawan-dhiyan-satkar",
+        "PB-crore-under-mawan-dheeyan-satkar",
+        "PB-mukh-mantri-mawan-dheeyan-satkar",
+        "PB-satkar"
       ],
-      "claims_added": 5,
+      "claims_added": 20,
       "newsrooms": {},
       "verification_searches": [],
       "not_reached": false,
       "schemes_on_record": 2,
-      "surfaced_by_search": 0,
+      "surfaced_by_search": 1,
       "missed_by_search": {
-        "count": 2,
+        "count": 1,
         "examples": [
-          {
-            "id": "PB-mukh-mantri-sarbat-sehat-bima",
-            "name": "Mukh Mantri Sarbat Sehat Bima Yojana",
-            "found_via": [
-              "prs"
-            ]
-          },
           {
             "id": "PB-national-rural-employment-guarantee",
             "name": "National Rural Employment Guarantee Scheme",
@@ -1225,9 +1241,9 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Puducherry scheme crore transferred to beneficiaries accounts",
+          "query": "Puducherry new scheme launched yojana beneficiaries",
           "lang": "en",
-          "theme": "disbursements",
+          "theme": "new_schemes",
           "skipped": "same query ran recently"
         }
       ],
@@ -1255,18 +1271,18 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "राजस्थान नई योजना शुरू लाभार्थी",
-          "lang": "hi",
-          "theme": "new_schemes",
-          "results": 0,
-          "trusted": 0,
-          "new": 0
+          "query": "Rajasthan announces welfare scheme crore",
+          "lang": "en",
+          "theme": "announcements",
+          "results": 5,
+          "trusted": 1,
+          "new": 1
         }
       ],
-      "pages_read": 0,
+      "pages_read": 1,
       "official_pages": 0,
       "failures": {},
-      "untrusted_skipped": 0,
+      "untrusted_skipped": 4,
       "already_seen": 0,
       "schemes_touched": [],
       "new_schemes": [],
@@ -1338,9 +1354,9 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Sikkim new scheme launched yojana beneficiaries",
+          "query": "Sikkim announces welfare scheme crore",
           "lang": "en",
-          "theme": "new_schemes",
+          "theme": "announcements",
           "skipped": "same query ran recently"
         }
       ],
@@ -1368,22 +1384,31 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "தமிழ்நாடு புதிய திட்டம் தொடக்கம் பயனாளிகள்",
-          "lang": "ta",
-          "theme": "new_schemes",
-          "results": 0,
-          "trusted": 0,
-          "new": 0
+          "query": "Tamil Nadu announces welfare scheme crore",
+          "lang": "en",
+          "theme": "announcements",
+          "results": 10,
+          "trusted": 5,
+          "new": 3
         }
       ],
-      "pages_read": 0,
+      "pages_read": 2,
       "official_pages": 0,
-      "failures": {},
-      "untrusted_skipped": 0,
-      "already_seen": 0,
-      "schemes_touched": [],
-      "new_schemes": [],
-      "claims_added": 0,
+      "failures": {
+        "HTTP 403": 1
+      },
+      "untrusted_skipped": 5,
+      "already_seen": 2,
+      "schemes_touched": [
+        "TN-maternal-uncle-gold-ring",
+        "TN-motilal-oswal-midcap-fund",
+        "TN-thaaimaman-thanga-mothiram-thittam"
+      ],
+      "new_schemes": [
+        "TN-maternal-uncle-gold-ring",
+        "TN-thaaimaman-thanga-mothiram-thittam"
+      ],
+      "claims_added": 5,
       "newsrooms": {},
       "verification_searches": [],
       "not_reached": false,
@@ -1431,9 +1456,9 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Tripura scheme crore transferred to beneficiaries accounts",
+          "query": "Tripura new scheme launched yojana beneficiaries",
           "lang": "en",
-          "theme": "disbursements",
+          "theme": "new_schemes",
           "skipped": "same query ran recently"
         }
       ],
@@ -1476,9 +1501,9 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Telangana new scheme launched yojana beneficiaries",
+          "query": "Telangana announces welfare scheme crore",
           "lang": "en",
-          "theme": "new_schemes",
+          "theme": "announcements",
           "skipped": "same query ran recently"
         }
       ],
@@ -1521,19 +1546,19 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "उत्तराखंड योजना करोड़ राशि खाते में अंतरित",
-          "lang": "hi",
-          "theme": "disbursements",
-          "results": 0,
-          "trusted": 0,
-          "new": 0
+          "query": "Uttarakhand new scheme launched yojana beneficiaries",
+          "lang": "en",
+          "theme": "new_schemes",
+          "results": 6,
+          "trusted": 3,
+          "new": 1
         }
       ],
-      "pages_read": 0,
+      "pages_read": 1,
       "official_pages": 0,
       "failures": {},
-      "untrusted_skipped": 0,
-      "already_seen": 0,
+      "untrusted_skipped": 3,
+      "already_seen": 2,
       "schemes_touched": [],
       "new_schemes": [],
       "claims_added": 0,
@@ -1553,26 +1578,35 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "Uttar Pradesh scheme crore transferred to beneficiaries accounts",
-          "lang": "en",
+          "query": "उत्तर प्रदेश योजना करोड़ राशि खाते में अंतरित",
+          "lang": "hi",
           "theme": "disbursements",
-          "results": 5,
-          "trusted": 2,
-          "new": 2
+          "results": 10,
+          "trusted": 5,
+          "new": 3
         }
       ],
-      "pages_read": 2,
+      "pages_read": 3,
       "official_pages": 0,
       "failures": {},
-      "untrusted_skipped": 3,
-      "already_seen": 0,
+      "untrusted_skipped": 5,
+      "already_seen": 2,
       "schemes_touched": [
-        "UP-kisan-samman-nidhi"
+        "BR-उन्हें-आवास",
+        "UP-ist-ujjwala",
+        "UP-kisan-samman-nidhi",
+        "UP-अधिक-प्रधानमंत्री-उज्ज्वला",
+        "UP-पहुंची-अग्निपथ",
+        "UP-महत्वाकांक्षी"
       ],
       "new_schemes": [
-        "UP-kisan-samman-nidhi"
+        "UP-ist-ujjwala",
+        "UP-kisan-samman-nidhi",
+        "UP-अधिक-प्रधानमंत्री-उज्ज्वला",
+        "UP-पहुंची-अग्निपथ",
+        "UP-महत्वाकांक्षी"
       ],
-      "claims_added": 9,
+      "claims_added": 5,
       "newsrooms": {},
       "verification_searches": [],
       "not_reached": false,
@@ -1611,9 +1645,9 @@
       "queries": [
         {
           "provider": "bing_news",
-          "query": "West Bengal announces welfare scheme crore",
+          "query": "West Bengal scheme crore transferred to beneficiaries accounts",
           "lang": "en",
-          "theme": "announcements",
+          "theme": "disbursements",
           "skipped": "same query ran recently"
         }
       ],
@@ -1652,7 +1686,7 @@
         "discovery": 17,
         "verification": 0
       },
-      "month": 117
+      "month": 134
     }
   },
   "ai_extraction_stats": {
@@ -1660,10 +1694,10 @@
     "cached": 0,
     "claims": 0,
     "rejected": 0,
-    "errors": 5
+    "errors": 22
   },
   "verification": {
-    "claims": 91,
+    "claims": 111,
     "verified": 25,
     "disbursed_set": 6
   },
@@ -6603,6 +6637,297 @@
         "surfaced_by_search": 0,
         "schemes_on_record": 3,
         "new_schemes": 1,
+        "queries": 1
+      },
+      "WB": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 1,
+        "new_schemes": 0,
+        "queries": 1
+      }
+    },
+    {
+      "run": "2026-11-08",
+      "CENTRE": {
+        "pages_read": 4,
+        "official_pages": 1,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "AP": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 3,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "AR": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "AS": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 2,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "BR": {
+        "pages_read": 2,
+        "official_pages": 0,
+        "claims_added": 1,
+        "surfaced_by_search": 5,
+        "schemes_on_record": 30,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "CG": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 1,
+        "schemes_on_record": 5,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "DL": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 1,
+        "schemes_on_record": 2,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "GA": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 1,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "GJ": {
+        "pages_read": 3,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 4,
+        "new_schemes": 2,
+        "queries": 1
+      },
+      "HP": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 2,
+        "schemes_on_record": 7,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "HR": {
+        "pages_read": 3,
+        "official_pages": 0,
+        "claims_added": 4,
+        "surfaced_by_search": 1,
+        "schemes_on_record": 4,
+        "new_schemes": 2,
+        "queries": 1
+      },
+      "JH": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 5,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "JK": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 2,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "KA": {
+        "pages_read": 1,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 1,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "KL": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "MH": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 4,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "ML": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 2,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "MN": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "MP": {
+        "pages_read": 2,
+        "official_pages": 0,
+        "claims_added": 4,
+        "surfaced_by_search": 1,
+        "schemes_on_record": 6,
+        "new_schemes": 8,
+        "queries": 1
+      },
+      "MZ": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "NL": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 4,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "OD": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 1,
+        "schemes_on_record": 1,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "PB": {
+        "pages_read": 4,
+        "official_pages": 0,
+        "claims_added": 20,
+        "surfaced_by_search": 1,
+        "schemes_on_record": 2,
+        "new_schemes": 4,
+        "queries": 1
+      },
+      "PY": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "RJ": {
+        "pages_read": 1,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 7,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "SK": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "TN": {
+        "pages_read": 2,
+        "official_pages": 0,
+        "claims_added": 5,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 4,
+        "new_schemes": 2,
+        "queries": 1
+      },
+      "TR": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 2,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "TS": {
+        "pages_read": 0,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 2,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "UK": {
+        "pages_read": 1,
+        "official_pages": 0,
+        "claims_added": 0,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 0,
+        "new_schemes": 0,
+        "queries": 1
+      },
+      "UP": {
+        "pages_read": 3,
+        "official_pages": 0,
+        "claims_added": 5,
+        "surfaced_by_search": 0,
+        "schemes_on_record": 3,
+        "new_schemes": 5,
         "queries": 1
       },
       "WB": {
