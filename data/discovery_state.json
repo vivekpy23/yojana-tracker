@@ -3036,6 +3036,34 @@
     "https://www.livemint.com/news/india/not-eligible-for-ayushman-bharat-card-west-bengal-announces-new-health-insurance-scheme-check-if-you-can-apply-11785320983687.html": [
       "2026-11-09",
       "WB"
+    ],
+    "https://www.hindustantimes.com/india-news/west-bengal-launches-annapurna-yojana-over-28-lakh-women-to-receive-rs-3-000-monthly-aid-in-first-phase-101780479127655.html": [
+      "2026-11-10",
+      "MN"
+    ],
+    "https://www.moneycontrol.com/city/telangana-launches-indiramma-indlu-housing-scheme-check-eligibility-subsidy-application-process-article-13978858.html": [
+      "2026-11-10",
+      "TS"
+    ],
+    "https://www.thehindu.com/news/national/telangana/telangana-government-to-launch-family-insurance-scheme-on-november-19/article71671295.ece": [
+      "2026-11-10",
+      "TS"
+    ],
+    "https://www.newindianexpress.com/states/telangana/2026/Oct/05/telangana-indiramma-housing-scheme-beneficiaries-urged-to-pay-rs-1l-by-oct-9": [
+      "2026-11-10",
+      "TS"
+    ],
+    "https://timesofindia.indiatimes.com/city/hyderabad/telanganas-new-health-scheme-gets-15k-treatment-requests-worth-rs-104cr/articleshow/134679484.cms": [
+      "2026-11-10",
+      "TS"
+    ],
+    "https://realty.economictimes.indiatimes.com/news/residential/centre-to-approve-two-lakh-houses-for-telangana-under-pmay-union-minister/134325199": [
+      "2026-11-10",
+      "TS"
+    ],
+    "https://www.newindianexpress.com/states/telangana/2026/Oct/13/two-telangana-districts-bag-pm-dhan-dhaanya-krishi-yojana-awards": [
+      "2026-11-10",
+      "TS"
     ]
   },
   "queries": {
@@ -3072,37 +3100,37 @@
     "bing_news|Uttar Pradesh new scheme launched yojana beneficiaries": "2026-11-03",
     "bing_news|West Bengal new scheme launched yojana beneficiaries": "2026-11-09",
     "bing_news|केंद्र सरकार सरकार योजना घोषणा करोड़": "2026-11-04",
-    "bing_news|Andhra Pradesh scheme crore transferred to beneficiaries accounts": "2026-11-01",
-    "bing_news|Arunachal Pradesh announces welfare scheme crore": "2026-11-01",
-    "bing_news|Assam scheme crore transferred to beneficiaries accounts": "2026-11-01",
+    "bing_news|Andhra Pradesh scheme crore transferred to beneficiaries accounts": "2026-11-10",
+    "bing_news|Arunachal Pradesh announces welfare scheme crore": "2026-11-10",
+    "bing_news|Assam scheme crore transferred to beneficiaries accounts": "2026-11-10",
     "bing_news|Bihar announces welfare scheme crore": "2026-11-04",
     "bing_news|Chhattisgarh scheme crore transferred to beneficiaries accounts": "2026-11-04",
     "bing_news|Delhi scheme crore transferred to beneficiaries accounts": "2026-11-04",
-    "bing_news|Goa scheme crore transferred to beneficiaries accounts": "2026-11-01",
+    "bing_news|Goa scheme crore transferred to beneficiaries accounts": "2026-11-10",
     "bing_news|गुजरात योजना करोड़ राशि खाते में अंतरित": "2026-11-04",
     "bing_news|Himachal Pradesh new scheme launched yojana beneficiaries": "2026-11-04",
     "bing_news|Haryana announces welfare scheme crore": "2026-11-04",
     "bing_news|Jharkhand new scheme launched yojana beneficiaries": "2026-11-04",
     "bing_news|Jammu and Kashmir सरकार योजना घोषणा करोड़": "2026-11-04",
     "bing_news|Karnataka new scheme launched yojana beneficiaries": "2026-11-04",
-    "bing_news|Kerala scheme crore transferred to beneficiaries accounts": "2026-11-01",
-    "bing_news|Maharashtra new scheme launched yojana beneficiaries": "2026-11-01",
-    "bing_news|Meghalaya announces welfare scheme crore": "2026-11-01",
-    "bing_news|Manipur new scheme launched yojana beneficiaries": "2026-11-01",
+    "bing_news|Kerala scheme crore transferred to beneficiaries accounts": "2026-11-10",
+    "bing_news|Maharashtra new scheme launched yojana beneficiaries": "2026-11-10",
+    "bing_news|Meghalaya announces welfare scheme crore": "2026-11-10",
+    "bing_news|Manipur new scheme launched yojana beneficiaries": "2026-11-10",
     "bing_news|मध्य प्रदेश योजना करोड़ राशि खाते में अंतरित": "2026-11-04",
-    "bing_news|Mizoram new scheme launched yojana beneficiaries": "2026-11-01",
-    "bing_news|Nagaland scheme crore transferred to beneficiaries accounts": "2026-11-01",
-    "bing_news|Odisha announces welfare scheme crore": "2026-11-01",
+    "bing_news|Mizoram new scheme launched yojana beneficiaries": "2026-11-10",
+    "bing_news|Nagaland scheme crore transferred to beneficiaries accounts": "2026-11-10",
+    "bing_news|Odisha announces welfare scheme crore": "2026-11-10",
     "bing_news|Punjab new scheme launched yojana beneficiaries": "2026-11-04",
-    "bing_news|Puducherry scheme crore transferred to beneficiaries accounts": "2026-11-01",
+    "bing_news|Puducherry scheme crore transferred to beneficiaries accounts": "2026-11-10",
     "bing_news|Rajasthan scheme crore transferred to beneficiaries accounts": "2026-11-04",
-    "bing_news|Sikkim new scheme launched yojana beneficiaries": "2026-11-01",
+    "bing_news|Sikkim new scheme launched yojana beneficiaries": "2026-11-10",
     "bing_news|Tamil Nadu scheme crore transferred to beneficiaries accounts": "2026-11-04",
-    "bing_news|Tripura scheme crore transferred to beneficiaries accounts": "2026-11-01",
-    "bing_news|Telangana new scheme launched yojana beneficiaries": "2026-11-01",
+    "bing_news|Tripura scheme crore transferred to beneficiaries accounts": "2026-11-10",
+    "bing_news|Telangana new scheme launched yojana beneficiaries": "2026-11-10",
     "bing_news|Uttarakhand announces welfare scheme crore": "2026-11-04",
     "bing_news|उत्तर प्रदेश नई योजना शुरू लाभार्थी": "2026-11-04",
-    "bing_news|West Bengal announces welfare scheme crore": "2026-11-01",
+    "bing_news|West Bengal announces welfare scheme crore": "2026-11-10",
     "bing_news|Union government scheme crore transferred to beneficiaries accounts": "2026-11-05",
     "bing_news|Andhra Pradesh new scheme launched yojana beneficiaries": "2026-11-02",
     "bing_news|Arunachal Pradesh scheme crore transferred to beneficiaries accounts": "2026-11-02",
@@ -3247,6 +3275,9 @@
         "discovery": 17
       },
       "2026-11-09": {
+        "discovery": 16
+      },
+      "2026-11-10": {
         "discovery": 16
       }
     }
@@ -3606,6 +3637,24 @@
         "TR": 1,
         "TS": 1,
         "WB": 1
+      },
+      "2026-11-10": {
+        "AP": 1,
+        "AR": 1,
+        "AS": 1,
+        "GA": 1,
+        "KL": 1,
+        "MH": 1,
+        "ML": 1,
+        "MN": 1,
+        "MZ": 1,
+        "NL": 1,
+        "OD": 1,
+        "PY": 1,
+        "SK": 1,
+        "TR": 1,
+        "TS": 1,
+        "WB": 1
       }
     }
   },
@@ -3868,7 +3917,8 @@
     "PY": [],
     "TR": [
       "TR-surya-ghar-muft-bijli"
-    ]
+    ],
+    "MN": []
   },
-  "saved": "2026-11-09"
+  "saved": "2026-11-10"
 }
