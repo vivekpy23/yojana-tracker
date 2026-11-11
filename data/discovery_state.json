@@ -3064,6 +3064,66 @@
     "https://www.newindianexpress.com/states/telangana/2026/Oct/13/two-telangana-districts-bag-pm-dhan-dhaanya-krishi-yojana-awards": [
       "2026-11-10",
       "TS"
+    ],
+    "https://timesofindia.indiatimes.com/education/news/andhra-pradesh-launches-generic-pharmacy-scheme-for-bc-youth-offers-4-lakh-subsidy-for-self-employment/articleshow/133735388.cms": [
+      "2026-11-11",
+      "AP"
+    ],
+    "https://www.newindianexpress.com/states/andhra-pradesh/2026/Sep/10/andhra-pradeshs-first-in-situ-slum-project-launched-in-vizag": [
+      "2026-11-11",
+      "AP"
+    ],
+    "https://www.thehindu.com/news/national/andhra-pradesh/jal-jeevan-mission-20-30156-crore-to-give-drinking-water-to-90-lakh-homes-in-two-years-says-naidu/article71546407.ece": [
+      "2026-11-11",
+      "AP"
+    ],
+    "https://www.news18.com/india/ap-pensions-news-govt-launches-verification-drive-to-identify-ineligible-beneficiaries-ws-ab-9149663.html": [
+      "2026-11-11",
+      "AP"
+    ],
+    "https://www.livemint.com/money/personal-finance/orunodoi-3-financial-assistance-scheme-assam-cm-social-security-women-family-rs-1250-direct-bank-transfer-beneficiaries-11786201316315.html": [
+      "2026-11-11",
+      "AS"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4493": [
+      "2026-11-11",
+      "BR"
+    ],
+    "https://timesofindia.indiatimes.com/city/goa/sawant-urges-ujjwala-scheme-form-submissions-says-dsss-griha-aadhar-amounts-to-be-hiked-soon/articleshow/133981254.cms": [
+      "2026-11-11",
+      "GA"
+    ],
+    "https://realty.economictimes.indiatimes.com/news/residential/kerala-30000-beneficiaries-to-get-houses-under-pmay-urban-2-0/133238974": [
+      "2026-11-11",
+      "KL"
+    ],
+    "https://timesofindia.indiatimes.com/real-estate/news/pmay-u-2-0-keralas-30000-beneficiaries-may-get-rs-4-lakh-housing-assistance/articleshow/133270013.cms": [
+      "2026-11-11",
+      "KL"
+    ],
+    "https://www.news18.com/india/pm-modi-launches-svanidhi-card-in-kerala-what-is-this-credit-scheme-for-street-vendors-ws-l-9851033.html": [
+      "2026-11-11",
+      "KL"
+    ],
+    "https://navbharattimes.indiatimes.com/government-schemes/others/maharashtra-government-is-set-to-roll-out-an-amnesty-scheme-for-one-time-settlement-of-pending-traffic-challan/articleshow/123367444.cms": [
+      "2026-11-11",
+      "MH"
+    ],
+    "https://timesofindia.indiatimes.com/city/guwahati/manipur-cm-disburses-rs-91-66-crore-welfare-aid-to-2-41l-beneficiaries/articleshow/132565265.cms": [
+      "2026-11-11",
+      "MN"
+    ],
+    "https://timesofindia.indiatimes.com/city/guwahati/mizoram-yet-to-get-funds-under-centres-scheme-for-2026-2027-says-mnf/articleshow/134663819.cms": [
+      "2026-11-11",
+      "MZ"
+    ],
+    "https://timesofindia.indiatimes.com/real-estate/news/tripuras-housing-scheme-explained-all-you-need-to-know-about-scheme-for-loan-and-advances-to-the-beneficiary-for-construction-of-house/articleshow/131458094.cms": [
+      "2026-11-11",
+      "TR"
+    ],
+    "https://www.news18.com/business/economy/pm-kisan-23rd-installment-date-and-time-2026-live-updates-pm-kisan-yojana-samman-niddhi-status-check-online-rs-2000-pm-kisan-gov-in-beneficiary-list-liveblog-10162187.html": [
+      "2026-11-11",
+      "WB"
     ]
   },
   "queries": {
@@ -3132,37 +3192,37 @@
     "bing_news|उत्तर प्रदेश नई योजना शुरू लाभार्थी": "2026-11-04",
     "bing_news|West Bengal announces welfare scheme crore": "2026-11-10",
     "bing_news|Union government scheme crore transferred to beneficiaries accounts": "2026-11-05",
-    "bing_news|Andhra Pradesh new scheme launched yojana beneficiaries": "2026-11-02",
-    "bing_news|Arunachal Pradesh scheme crore transferred to beneficiaries accounts": "2026-11-02",
-    "bing_news|Assam new scheme launched yojana beneficiaries": "2026-11-02",
+    "bing_news|Andhra Pradesh new scheme launched yojana beneficiaries": "2026-11-11",
+    "bing_news|Arunachal Pradesh scheme crore transferred to beneficiaries accounts": "2026-11-11",
+    "bing_news|Assam new scheme launched yojana beneficiaries": "2026-11-11",
     "bing_news|बिहार सरकार योजना घोषणा करोड़": "2026-11-05",
     "bing_news|छत्तीसगढ़ योजना करोड़ राशि खाते में अंतरित": "2026-11-05",
     "bing_news|दिल्ली योजना करोड़ राशि खाते में अंतरित": "2026-11-05",
-    "bing_news|Goa new scheme launched yojana beneficiaries": "2026-11-02",
+    "bing_news|Goa new scheme launched yojana beneficiaries": "2026-11-11",
     "bing_news|Gujarat new scheme launched yojana beneficiaries": "2026-11-05",
     "bing_news|हिमाचल प्रदेश नई योजना शुरू लाभार्थी": "2026-11-05",
     "bing_news|हरियाणा सरकार योजना घोषणा करोड़": "2026-11-05",
     "bing_news|झारखंड नई योजना शुरू लाभार्थी": "2026-11-05",
     "bing_news|Jammu and Kashmir scheme crore transferred to beneficiaries accounts": "2026-11-05",
     "bing_news|ಕರ್ನಾಟಕ ಹೊಸ ಯೋಜನೆ ಆರಂಭ ಫಲಾನುಭವಿ": "2026-11-05",
-    "bing_news|Kerala new scheme launched yojana beneficiaries": "2026-11-02",
-    "bing_news|महाराष्ट्र नवीन योजना सुरू लाभार्थी": "2026-11-02",
-    "bing_news|Meghalaya scheme crore transferred to beneficiaries accounts": "2026-11-02",
-    "bing_news|Manipur announces welfare scheme crore": "2026-11-02",
+    "bing_news|Kerala new scheme launched yojana beneficiaries": "2026-11-11",
+    "bing_news|महाराष्ट्र नवीन योजना सुरू लाभार्थी": "2026-11-11",
+    "bing_news|Meghalaya scheme crore transferred to beneficiaries accounts": "2026-11-11",
+    "bing_news|Manipur announces welfare scheme crore": "2026-11-11",
     "bing_news|Madhya Pradesh new scheme launched yojana beneficiaries": "2026-11-05",
-    "bing_news|Mizoram announces welfare scheme crore": "2026-11-02",
-    "bing_news|Nagaland new scheme launched yojana beneficiaries": "2026-11-02",
-    "bing_news|Odisha scheme crore transferred to beneficiaries accounts": "2026-11-02",
+    "bing_news|Mizoram announces welfare scheme crore": "2026-11-11",
+    "bing_news|Nagaland new scheme launched yojana beneficiaries": "2026-11-11",
+    "bing_news|Odisha scheme crore transferred to beneficiaries accounts": "2026-11-11",
     "bing_news|पंजाब नई योजना शुरू लाभार्थी": "2026-11-05",
-    "bing_news|Puducherry new scheme launched yojana beneficiaries": "2026-11-02",
+    "bing_news|Puducherry new scheme launched yojana beneficiaries": "2026-11-11",
     "bing_news|राजस्थान योजना करोड़ राशि खाते में अंतरित": "2026-11-05",
-    "bing_news|Sikkim announces welfare scheme crore": "2026-11-02",
+    "bing_news|Sikkim announces welfare scheme crore": "2026-11-11",
     "bing_news|தமிழ்நாடு திட்டம் கோடி வங்கி கணக்கில் வரவு": "2026-11-05",
-    "bing_news|Tripura new scheme launched yojana beneficiaries": "2026-11-02",
-    "bing_news|Telangana announces welfare scheme crore": "2026-11-02",
+    "bing_news|Tripura new scheme launched yojana beneficiaries": "2026-11-11",
+    "bing_news|Telangana announces welfare scheme crore": "2026-11-11",
     "bing_news|उत्तराखंड सरकार योजना घोषणा करोड़": "2026-11-05",
     "bing_news|Uttar Pradesh announces welfare scheme crore": "2026-11-05",
-    "bing_news|West Bengal scheme crore transferred to beneficiaries accounts": "2026-11-02",
+    "bing_news|West Bengal scheme crore transferred to beneficiaries accounts": "2026-11-11",
     "bing_news|केंद्र सरकार योजना करोड़ राशि खाते में अंतरित": "2026-11-06",
     "bing_news|Bihar scheme crore transferred to beneficiaries accounts": "2026-11-06",
     "bing_news|Chhattisgarh new scheme launched yojana beneficiaries": "2026-11-06",
@@ -3278,6 +3338,9 @@
         "discovery": 16
       },
       "2026-11-10": {
+        "discovery": 16
+      },
+      "2026-11-11": {
         "discovery": 16
       }
     }
@@ -3655,13 +3718,31 @@
         "TR": 1,
         "TS": 1,
         "WB": 1
+      },
+      "2026-11-11": {
+        "AP": 1,
+        "AR": 1,
+        "AS": 1,
+        "GA": 1,
+        "KL": 1,
+        "MH": 1,
+        "ML": 1,
+        "MN": 1,
+        "MZ": 1,
+        "NL": 1,
+        "OD": 1,
+        "PY": 1,
+        "SK": 1,
+        "TR": 1,
+        "TS": 1,
+        "WB": 1
       }
     }
   },
   "newsrooms": {
     "https://cm.bihar.gov.in/users/news.aspx": {
       "template": "https://cm.bihar.gov.in/users/viewnews.aspx?id={id}",
-      "max_id": 4492,
+      "max_id": 4493,
       "backfill_done": true,
       "backfill_next": 3932
     }
@@ -3677,12 +3758,19 @@
       "WB-central-government-health",
       "WB-cha-shramik-protsahan",
       "WB-cr-for-annapurna",
+      "WB-dhan-dhaanya-krishi",
+      "WB-digital-agriculture-mission",
       "WB-economic-times-annapurna",
       "WB-et-online-annapurna",
       "WB-hindu-annapurna",
       "WB-home-news-india-annapurna",
       "WB-ist-annapurna",
+      "WB-kisan",
+      "WB-kisan-samman-nidhi",
       "WB-lakshmi-bhandar",
+      "WB-modi-s-programme",
+      "WB-national-mission",
+      "WB-odisha-programme",
       "WB-paschim-banga-samagra-siksha-mission",
       "WB-rate-income-tax-calulator-west-bengal-annapurna",
       "WB-save-print-comment-synopsis-west-bengal-s-annapurna",
@@ -3724,7 +3812,10 @@
     ],
     "AP": [
       "AP-awas",
-      "AP-stree-shakti"
+      "AP-generic-pharmacy",
+      "AP-jal-jeevan-mission",
+      "AP-stree-shakti",
+      "AP-velampeta-lakshmi"
     ],
     "DL": [
       "DL-delhi-lakshmi",
@@ -3741,6 +3832,8 @@
       "DL-स्वच्छ-भारत-मिशन"
     ],
     "KL": [
+      "KL-awas",
+      "KL-credit",
       "KL-indira-gandhi-national-old-age-pension",
       "KL-national-social-assistance-programme",
       "KL-state-support-mission"
@@ -3868,7 +3961,8 @@
       "MH-punyashlok-ahilyadevi-holkar-shetkari-karjmukti",
       "MH-sanjay-gandhi-niradhar",
       "MH-पीएम-किसान",
-      "MH-पुण्यश्लोक-अहिल्यादेवी-होल्कर-शेतकरी-कर्जमाफी"
+      "MH-पुण्यश्लोक-अहिल्यादेवी-होल्कर-शेतकरी-कर्जमाफी",
+      "MH-माफी"
     ],
     "UK": [
       "UK-abandoned-women-s-pension",
@@ -3918,7 +4012,13 @@
     "TR": [
       "TR-surya-ghar-muft-bijli"
     ],
-    "MN": []
+    "MN": [
+      "MN-integrated-monthly-pension"
+    ],
+    "GA": [
+      "GA-beneficiaries-of-goa-ujjwala"
+    ],
+    "MZ": []
   },
-  "saved": "2026-11-10"
+  "saved": "2026-11-11"
 }
