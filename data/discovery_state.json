@@ -3124,6 +3124,42 @@
     "https://www.news18.com/business/economy/pm-kisan-23rd-installment-date-and-time-2026-live-updates-pm-kisan-yojana-samman-niddhi-status-check-online-rs-2000-pm-kisan-gov-in-beneficiary-list-liveblog-10162187.html": [
       "2026-11-11",
       "WB"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4494": [
+      "2026-11-12",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4495": [
+      "2026-11-12",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4496": [
+      "2026-11-12",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4497": [
+      "2026-11-12",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4498": [
+      "2026-11-12",
+      "BR"
+    ],
+    "https://www.jagran.com/maharashtra/mumbai-cm-devendra-fadnavis-laadki-cleanup-14k-were-men-10-lakh-income-tax-payers-40259820.html": [
+      "2026-11-12",
+      "MH"
+    ],
+    "https://navbharattimes.indiatimes.com/metro/mumbai/other-news/ladki-bahin-yojana-maharashtra-removes-92-lakh-beneficiaries-after-kyc-verification/articleshow/132356714.cms": [
+      "2026-11-12",
+      "MH"
+    ],
+    "https://navbharattimes.indiatimes.com/metro/mumbai/politics/maharashtra-ladki-bahin-yojana-kyc-many-beneficiary-out-govt-to-save-12000-crore/articleshow/130222384.cms": [
+      "2026-11-12",
+      "MH"
+    ],
+    "https://www.jagran.com/maharashtra/mumbai-maharashtras-ladki-bahin-yojana-65-lakh-ineligible-removed-40230973.html": [
+      "2026-11-12",
+      "MH"
     ]
   },
   "queries": {
@@ -3233,7 +3269,7 @@
     "bing_news|Jharkhand announces welfare scheme crore": "2026-11-06",
     "bing_news|Jammu and Kashmir योजना करोड़ राशि खाते में अंतरित": "2026-11-06",
     "bing_news|Karnataka announces welfare scheme crore": "2026-11-06",
-    "bing_news|महाराष्ट्र नई योजना शुरू लाभार्थी": "2026-11-03",
+    "bing_news|महाराष्ट्र नई योजना शुरू लाभार्थी": "2026-11-12",
     "bing_news|मध्य प्रदेश नई योजना शुरू लाभार्थी": "2026-11-06",
     "bing_news|Punjab announces welfare scheme crore": "2026-11-06",
     "bing_news|Rajasthan new scheme launched yojana beneficiaries": "2026-11-06",
@@ -3342,6 +3378,9 @@
       },
       "2026-11-11": {
         "discovery": 16
+      },
+      "2026-11-12": {
+        "discovery": 1
       }
     }
   },
@@ -3736,13 +3775,16 @@
         "TR": 1,
         "TS": 1,
         "WB": 1
+      },
+      "2026-11-12": {
+        "MH": 1
       }
     }
   },
   "newsrooms": {
     "https://cm.bihar.gov.in/users/news.aspx": {
       "template": "https://cm.bihar.gov.in/users/viewnews.aspx?id={id}",
-      "max_id": 4493,
+      "max_id": 4498,
       "backfill_done": true,
       "backfill_next": 3932
     }
@@ -3960,9 +4002,17 @@
       "MH-punyashlok-ahilyadevi-holkar-farmer-loan-waiver",
       "MH-punyashlok-ahilyadevi-holkar-shetkari-karjmukti",
       "MH-sanjay-gandhi-niradhar",
+      "MH-कटौती",
+      "MH-कि",
+      "MH-क्योंकि-वे",
+      "MH-जांच",
       "MH-पीएम-किसान",
       "MH-पुण्यश्लोक-अहिल्यादेवी-होल्कर-शेतकरी-कर्जमाफी",
-      "MH-माफी"
+      "MH-माफी",
+      "MH-लाख-महिलाएं-अपात्र-होकर",
+      "MH-लाडली",
+      "MH-लाडली-बहन",
+      "MH-सत्यापन-अभियान"
     ],
     "UK": [
       "UK-abandoned-women-s-pension",
@@ -4020,5 +4070,5 @@
     ],
     "MZ": []
   },
-  "saved": "2026-11-11"
+  "saved": "2026-11-12"
 }
