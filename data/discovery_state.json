@@ -3160,6 +3160,18 @@
     "https://www.jagran.com/maharashtra/mumbai-maharashtras-ladki-bahin-yojana-65-lakh-ineligible-removed-40230973.html": [
       "2026-11-12",
       "MH"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4499": [
+      "2026-11-13",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4500": [
+      "2026-11-13",
+      "BR"
+    ],
+    "https://www.moneycontrol.com/news/business/maharashtra-sets-aside-rs-6-728-crore-under-employment-guarantee-scheme-amid-drought-minister-14041552.html": [
+      "2026-11-13",
+      "MH"
     ]
   },
   "queries": {
@@ -3286,7 +3298,7 @@
     "bing_news|झारखंड सरकार योजना घोषणा करोड़": "2026-11-07",
     "bing_news|Jammu and Kashmir new scheme launched yojana beneficiaries": "2026-11-07",
     "bing_news|ಕರ್ನಾಟಕ ಸರ್ಕಾರ ಯೋಜನೆ ಘೋಷಣೆ ಕೋಟಿ": "2026-11-07",
-    "bing_news|Maharashtra announces welfare scheme crore": "2026-11-04",
+    "bing_news|Maharashtra announces welfare scheme crore": "2026-11-13",
     "bing_news|Madhya Pradesh announces welfare scheme crore": "2026-11-07",
     "bing_news|पंजाब सरकार योजना घोषणा करोड़": "2026-11-07",
     "bing_news|राजस्थान नई योजना शुरू लाभार्थी": "2026-11-07",
@@ -3380,6 +3392,9 @@
         "discovery": 16
       },
       "2026-11-12": {
+        "discovery": 1
+      },
+      "2026-11-13": {
         "discovery": 1
       }
     }
@@ -3778,13 +3793,16 @@
       },
       "2026-11-12": {
         "MH": 1
+      },
+      "2026-11-13": {
+        "MH": 1
       }
     }
   },
   "newsrooms": {
     "https://cm.bihar.gov.in/users/news.aspx": {
       "template": "https://cm.bihar.gov.in/users/viewnews.aspx?id={id}",
-      "max_id": 4498,
+      "max_id": 4500,
       "backfill_done": true,
       "backfill_next": 3932
     }
@@ -3998,6 +4016,7 @@
     "MH": [
       "MH-kisan",
       "MH-lek-ladki",
+      "MH-maharashtra-employment-guarantee",
       "MH-mazi-ladki-bahin",
       "MH-punyashlok-ahilyadevi-holkar-farmer-loan-waiver",
       "MH-punyashlok-ahilyadevi-holkar-shetkari-karjmukti",
@@ -4070,5 +4089,5 @@
     ],
     "MZ": []
   },
-  "saved": "2026-11-12"
+  "saved": "2026-11-13"
 }
