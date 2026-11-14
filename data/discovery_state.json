@@ -3172,6 +3172,30 @@
     "https://www.moneycontrol.com/news/business/maharashtra-sets-aside-rs-6-728-crore-under-employment-guarantee-scheme-amid-drought-minister-14041552.html": [
       "2026-11-13",
       "MH"
+    ],
+    "https://navbharattimes.indiatimes.com/metro/mumbai/politics/ladki-bahin-yojana-big-update-devendra-fadnavis-maharashtra-govt-likely-to-decide-extend-deadline-for-e-kyc-for-scheme/articleshow/125383872.cms": [
+      "2026-11-14",
+      "MH"
+    ],
+    "https://navbharattimes.indiatimes.com/metro/mumbai/other-news/ladli-bahna-yojana-e-maharashtra-cm-devendra-fadnavis-annauncement-kyc-for-26-million-beneficiaries/articleshow/123487622.cms": [
+      "2026-11-14",
+      "MH"
+    ],
+    "https://www.livemint.com/hindi/money/ladki-bahin-yojana-update-will-scheme-really-shut-down-maharashtra-govt-clears-241777615824605.html": [
+      "2026-11-14",
+      "MH"
+    ],
+    "https://www.livemint.com/hindi/money/maharashtra-kanyadan-yojana-rs-25000-marriage-assistance-scheme-know-how-to-apply-241778486140853.html": [
+      "2026-11-14",
+      "MH"
+    ],
+    "https://www.jagran.com/news/national-eligible-farmers-in-maharashtra-will-get-waiver-benefits-before-june-30-40247550.html": [
+      "2026-11-14",
+      "MH"
+    ],
+    "https://www.jagran.com/maharashtra/mumbai-maharashtra-ladki-bahin-yojana-73-lakh-beneficiaries-removed-40258725.html": [
+      "2026-11-14",
+      "MH"
     ]
   },
   "queries": {
@@ -3315,7 +3339,7 @@
     "bing_news|Jharkhand scheme crore transferred to beneficiaries accounts": "2026-11-08",
     "bing_news|Jammu and Kashmir नई योजना शुरू लाभार्थी": "2026-11-08",
     "bing_news|Karnataka scheme crore transferred to beneficiaries accounts": "2026-11-08",
-    "bing_news|महाराष्ट्र सरकार योजना घोषणा कोटी": "2026-11-05",
+    "bing_news|महाराष्ट्र सरकार योजना घोषणा कोटी": "2026-11-14",
     "bing_news|मध्य प्रदेश सरकार योजना घोषणा करोड़": "2026-11-08",
     "bing_news|Punjab scheme crore transferred to beneficiaries accounts": "2026-11-08",
     "bing_news|Rajasthan announces welfare scheme crore": "2026-11-08",
@@ -3395,6 +3419,9 @@
         "discovery": 1
       },
       "2026-11-13": {
+        "discovery": 1
+      },
+      "2026-11-14": {
         "discovery": 1
       }
     }
@@ -3796,6 +3823,9 @@
       },
       "2026-11-13": {
         "MH": 1
+      },
+      "2026-11-14": {
+        "MH": 1
       }
     }
   },
@@ -4023,12 +4053,15 @@
       "MH-sanjay-gandhi-niradhar",
       "MH-कटौती",
       "MH-कि",
+      "MH-केवाईसी-अभियान",
       "MH-क्योंकि-वे",
       "MH-जांच",
       "MH-पीएम-किसान",
       "MH-पुण्यश्लोक-अहिल्यादेवी-होल्कर-शेतकरी-कर्जमाफी",
+      "MH-प्रमुख",
       "MH-माफी",
       "MH-लाख-महिलाएं-अपात्र-होकर",
+      "MH-लाख-महिलाएं-नमो-शेतकरी",
       "MH-लाडली",
       "MH-लाडली-बहन",
       "MH-सत्यापन-अभियान"
@@ -4089,5 +4122,5 @@
     ],
     "MZ": []
   },
-  "saved": "2026-11-13"
+  "saved": "2026-11-14"
 }
