@@ -3852,6 +3852,74 @@
     "https://www.hindustantimes.com/india-news/west-bengal-budget-100kjobs-da-hike-doles-101782155601490.html": [
       "2026-11-19",
       "WB"
+    ],
+    "https://www.abplive.com/utility-news/government-started-pm-shram-yogi-maan-dhan-yojana-for-labours-to-get-pension-benefits-of-3000-rs-after-60-years-of-age-3213376": [
+      "2026-11-20",
+      "CENTRE"
+    ],
+    "https://navbharattimes.indiatimes.com/government-schemes/central/what-is-gobardhan-scheme-government-giving-money-and-subsidy-to-install-plant/articleshow/133023374.cms": [
+      "2026-11-20",
+      "CENTRE"
+    ],
+    "https://www.thehindu.com/news/national/andhra-pradesh/andhra-pradesh-ranks-fourth-in-installation-of-rooftop-solar-systems-nationally/article71711726.ece": [
+      "2026-11-20",
+      "AP"
+    ],
+    "https://www.news18.com/business/economy/pm-kisan-22nd-installment-date-and-time-2026-live-updates-pm-kisan-yojana-samman-niddhi-status-check-online-rs-2000-pm-kisan-gov-in-beneficiary-list-liveblog-ws-l-9958133.html": [
+      "2026-11-20",
+      "AS"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4509": [
+      "2026-11-20",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4510": [
+      "2026-11-20",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4511": [
+      "2026-11-20",
+      "BR"
+    ],
+    "https://www.newindianexpress.com/india/2026/Nov/18/dhami-governments-baini-bhuli-scheme-targets-more-than-five-lakh-women-ahead-of-2027-polls": [
+      "2026-11-20",
+      "BR"
+    ],
+    "https://www.newindianexpress.com/india/2026/Nov/18/chhattisgarh-govts-welfare-development-push-bridges-divide-with-tribal-heartland": [
+      "2026-11-20",
+      "CG"
+    ],
+    "https://www.hindustantimes.com/cities/delhi-news/centre-clears-65-crore-project-to-modernise-property-surveys-in-delhi-colonies-101791400498245.html": [
+      "2026-11-20",
+      "DL"
+    ],
+    "https://www.indiatvnews.com/news/india/goa-to-provide-3-free-lpg-cylinders-annually-how-much-beneficiaries-will-receive-as-part-of-scheme-2026-09-04-1053339": [
+      "2026-11-20",
+      "GA"
+    ],
+    "https://indianexpress.com/article/business/india-state-cash-transfers-rs-4-lakh-crore-prs-report-10966911/": [
+      "2026-11-20",
+      "JH"
+    ],
+    "https://www.moneycontrol.com/news/india/karnataka-cabinet-approves-waiving-interest-on-loans-to-backward-communities-but-there-s-a-catch-14085384.html": [
+      "2026-11-20",
+      "KA"
+    ],
+    "https://www.newindianexpress.com/states/rajasthan/2026/Nov/14/rajasthan-government-announces-rs-9321-crore-drought-relief-package": [
+      "2026-11-20",
+      "RJ"
+    ],
+    "https://www.indiatvnews.com/tamil-nadu/news-tamil-nadu-cm-vijay-approves-rs-2-000-crore-free-laptop-scheme-for-college-students-2026-11-07-1058899": [
+      "2026-11-20",
+      "TN"
+    ],
+    "https://telanganatoday.com/brides-in-tamil-nadu-to-get-gold-coin-silk-saree-under-new-welfare-scheme": [
+      "2026-11-20",
+      "TN"
+    ],
+    "https://www.jagran.com/uttar-pradesh/lucknow-city-up-mukhyamantri-samuhik-vivah-yojana-2026-registration-64-thousand-direct-to-brides-account-40415042.html": [
+      "2026-11-20",
+      "UP"
     ]
   },
   "queries": {
@@ -3920,37 +3988,37 @@
     "bing_news|उत्तर प्रदेश नई योजना शुरू लाभार्थी": "2026-11-16",
     "bing_news|West Bengal announces welfare scheme crore": "2026-11-19",
     "bing_news|Union government scheme crore transferred to beneficiaries accounts": "2026-11-17",
-    "bing_news|Andhra Pradesh new scheme launched yojana beneficiaries": "2026-11-11",
-    "bing_news|Arunachal Pradesh scheme crore transferred to beneficiaries accounts": "2026-11-11",
-    "bing_news|Assam new scheme launched yojana beneficiaries": "2026-11-11",
+    "bing_news|Andhra Pradesh new scheme launched yojana beneficiaries": "2026-11-20",
+    "bing_news|Arunachal Pradesh scheme crore transferred to beneficiaries accounts": "2026-11-20",
+    "bing_news|Assam new scheme launched yojana beneficiaries": "2026-11-20",
     "bing_news|बिहार सरकार योजना घोषणा करोड़": "2026-11-17",
     "bing_news|छत्तीसगढ़ योजना करोड़ राशि खाते में अंतरित": "2026-11-17",
     "bing_news|दिल्ली योजना करोड़ राशि खाते में अंतरित": "2026-11-17",
-    "bing_news|Goa new scheme launched yojana beneficiaries": "2026-11-11",
+    "bing_news|Goa new scheme launched yojana beneficiaries": "2026-11-20",
     "bing_news|Gujarat new scheme launched yojana beneficiaries": "2026-11-17",
     "bing_news|हिमाचल प्रदेश नई योजना शुरू लाभार्थी": "2026-11-17",
     "bing_news|हरियाणा सरकार योजना घोषणा करोड़": "2026-11-17",
     "bing_news|झारखंड नई योजना शुरू लाभार्थी": "2026-11-17",
     "bing_news|Jammu and Kashmir scheme crore transferred to beneficiaries accounts": "2026-11-17",
     "bing_news|ಕರ್ನಾಟಕ ಹೊಸ ಯೋಜನೆ ಆರಂಭ ಫಲಾನುಭವಿ": "2026-11-17",
-    "bing_news|Kerala new scheme launched yojana beneficiaries": "2026-11-11",
-    "bing_news|महाराष्ट्र नवीन योजना सुरू लाभार्थी": "2026-11-11",
-    "bing_news|Meghalaya scheme crore transferred to beneficiaries accounts": "2026-11-11",
-    "bing_news|Manipur announces welfare scheme crore": "2026-11-11",
+    "bing_news|Kerala new scheme launched yojana beneficiaries": "2026-11-20",
+    "bing_news|महाराष्ट्र नवीन योजना सुरू लाभार्थी": "2026-11-20",
+    "bing_news|Meghalaya scheme crore transferred to beneficiaries accounts": "2026-11-20",
+    "bing_news|Manipur announces welfare scheme crore": "2026-11-20",
     "bing_news|Madhya Pradesh new scheme launched yojana beneficiaries": "2026-11-17",
-    "bing_news|Mizoram announces welfare scheme crore": "2026-11-11",
-    "bing_news|Nagaland new scheme launched yojana beneficiaries": "2026-11-11",
-    "bing_news|Odisha scheme crore transferred to beneficiaries accounts": "2026-11-11",
+    "bing_news|Mizoram announces welfare scheme crore": "2026-11-20",
+    "bing_news|Nagaland new scheme launched yojana beneficiaries": "2026-11-20",
+    "bing_news|Odisha scheme crore transferred to beneficiaries accounts": "2026-11-20",
     "bing_news|पंजाब नई योजना शुरू लाभार्थी": "2026-11-17",
-    "bing_news|Puducherry new scheme launched yojana beneficiaries": "2026-11-11",
+    "bing_news|Puducherry new scheme launched yojana beneficiaries": "2026-11-20",
     "bing_news|राजस्थान योजना करोड़ राशि खाते में अंतरित": "2026-11-17",
-    "bing_news|Sikkim announces welfare scheme crore": "2026-11-11",
+    "bing_news|Sikkim announces welfare scheme crore": "2026-11-20",
     "bing_news|தமிழ்நாடு திட்டம் கோடி வங்கி கணக்கில் வரவு": "2026-11-17",
-    "bing_news|Tripura new scheme launched yojana beneficiaries": "2026-11-11",
-    "bing_news|Telangana announces welfare scheme crore": "2026-11-11",
+    "bing_news|Tripura new scheme launched yojana beneficiaries": "2026-11-20",
+    "bing_news|Telangana announces welfare scheme crore": "2026-11-20",
     "bing_news|उत्तराखंड सरकार योजना घोषणा करोड़": "2026-11-17",
     "bing_news|Uttar Pradesh announces welfare scheme crore": "2026-11-17",
-    "bing_news|West Bengal scheme crore transferred to beneficiaries accounts": "2026-11-11",
+    "bing_news|West Bengal scheme crore transferred to beneficiaries accounts": "2026-11-20",
     "bing_news|केंद्र सरकार योजना करोड़ राशि खाते में अंतरित": "2026-11-18",
     "bing_news|Bihar scheme crore transferred to beneficiaries accounts": "2026-11-18",
     "bing_news|Chhattisgarh new scheme launched yojana beneficiaries": "2026-11-18",
@@ -3985,23 +4053,23 @@
     "bing_news|தமிழ்நாடு புதிய திட்டம் தொடக்கம் பயனாளிகள்": "2026-11-19",
     "bing_news|उत्तराखंड योजना करोड़ राशि खाते में अंतरित": "2026-11-19",
     "bing_news|Uttar Pradesh scheme crore transferred to beneficiaries accounts": "2026-11-19",
-    "bing_news|केंद्र सरकार नई योजना शुरू लाभार्थी": "2026-11-08",
-    "bing_news|Bihar new scheme launched yojana beneficiaries": "2026-11-08",
-    "bing_news|Chhattisgarh announces welfare scheme crore": "2026-11-08",
-    "bing_news|Delhi announces welfare scheme crore": "2026-11-08",
-    "bing_news|गुजरात सरकार योजना घोषणा करोड़": "2026-11-08",
-    "bing_news|Himachal Pradesh scheme crore transferred to beneficiaries accounts": "2026-11-08",
-    "bing_news|Haryana new scheme launched yojana beneficiaries": "2026-11-08",
-    "bing_news|Jharkhand scheme crore transferred to beneficiaries accounts": "2026-11-08",
-    "bing_news|Jammu and Kashmir नई योजना शुरू लाभार्थी": "2026-11-08",
-    "bing_news|Karnataka scheme crore transferred to beneficiaries accounts": "2026-11-08",
+    "bing_news|केंद्र सरकार नई योजना शुरू लाभार्थी": "2026-11-20",
+    "bing_news|Bihar new scheme launched yojana beneficiaries": "2026-11-20",
+    "bing_news|Chhattisgarh announces welfare scheme crore": "2026-11-20",
+    "bing_news|Delhi announces welfare scheme crore": "2026-11-20",
+    "bing_news|गुजरात सरकार योजना घोषणा करोड़": "2026-11-20",
+    "bing_news|Himachal Pradesh scheme crore transferred to beneficiaries accounts": "2026-11-20",
+    "bing_news|Haryana new scheme launched yojana beneficiaries": "2026-11-20",
+    "bing_news|Jharkhand scheme crore transferred to beneficiaries accounts": "2026-11-20",
+    "bing_news|Jammu and Kashmir नई योजना शुरू लाभार्थी": "2026-11-20",
+    "bing_news|Karnataka scheme crore transferred to beneficiaries accounts": "2026-11-20",
     "bing_news|महाराष्ट्र सरकार योजना घोषणा कोटी": "2026-11-14",
-    "bing_news|मध्य प्रदेश सरकार योजना घोषणा करोड़": "2026-11-08",
-    "bing_news|Punjab scheme crore transferred to beneficiaries accounts": "2026-11-08",
-    "bing_news|Rajasthan announces welfare scheme crore": "2026-11-08",
-    "bing_news|Tamil Nadu announces welfare scheme crore": "2026-11-08",
-    "bing_news|Uttarakhand new scheme launched yojana beneficiaries": "2026-11-08",
-    "bing_news|उत्तर प्रदेश योजना करोड़ राशि खाते में अंतरित": "2026-11-08",
+    "bing_news|मध्य प्रदेश सरकार योजना घोषणा करोड़": "2026-11-20",
+    "bing_news|Punjab scheme crore transferred to beneficiaries accounts": "2026-11-20",
+    "bing_news|Rajasthan announces welfare scheme crore": "2026-11-20",
+    "bing_news|Tamil Nadu announces welfare scheme crore": "2026-11-20",
+    "bing_news|Uttarakhand new scheme launched yojana beneficiaries": "2026-11-20",
+    "bing_news|उत्तर प्रदेश योजना करोड़ राशि खाते में अंतरित": "2026-11-20",
     "bing_news|महाराष्ट्र सरकार योजना घोषणा करोड़": "2026-11-15",
     "bing_news|Maharashtra scheme crore transferred to beneficiaries accounts": "2026-11-16",
     "bing_news|महाराष्ट्र योजना कोटी रक्कम खात्यात जमा": "2026-11-17"
@@ -4093,6 +4161,9 @@
         "discovery": 32
       },
       "2026-11-19": {
+        "discovery": 32
+      },
+      "2026-11-20": {
         "discovery": 32
       }
     }
@@ -4622,13 +4693,47 @@
         "UK": 1,
         "UP": 1,
         "WB": 1
+      },
+      "2026-11-20": {
+        "CENTRE": 1,
+        "AP": 1,
+        "AR": 1,
+        "AS": 1,
+        "BR": 1,
+        "CG": 1,
+        "DL": 1,
+        "GA": 1,
+        "GJ": 1,
+        "HP": 1,
+        "HR": 1,
+        "JH": 1,
+        "JK": 1,
+        "KA": 1,
+        "KL": 1,
+        "MH": 1,
+        "ML": 1,
+        "MN": 1,
+        "MP": 1,
+        "MZ": 1,
+        "NL": 1,
+        "OD": 1,
+        "PB": 1,
+        "PY": 1,
+        "RJ": 1,
+        "SK": 1,
+        "TN": 1,
+        "TR": 1,
+        "TS": 1,
+        "UK": 1,
+        "UP": 1,
+        "WB": 1
       }
     }
   },
   "newsrooms": {
     "https://cm.bihar.gov.in/users/news.aspx": {
       "template": "https://cm.bihar.gov.in/users/viewnews.aspx?id={id}",
-      "max_id": 4508,
+      "max_id": 4511,
       "backfill_done": true,
       "backfill_next": 3932
     }
@@ -4712,6 +4817,7 @@
       "TN-thaaimaman-thanga-mothiram-thittam",
       "TN-thaimaman-thanga-mothiram-thittam",
       "TN-uti-aggressive-hybrid-fund",
+      "TN-vetri-laptop",
       "TN-vetri-madikanini-thittam",
       "TN-vetri-skill-training",
       "TN-vettri-payanam",
@@ -4727,6 +4833,7 @@
       "AP-awas",
       "AP-generic-pharmacy",
       "AP-jal-jeevan-mission",
+      "AP-muft-bijli",
       "AP-stree-shakti",
       "AP-velampeta-lakshmi"
     ],
@@ -4835,7 +4942,9 @@
       "UP-kisan-samman-nidhi",
       "UP-krishak-durghatna-kalyan",
       "UP-old-age",
+      "UP-samuhik-vivah",
       "UP-shikshak-cashless-chikitsa-suvidha",
+      "UP-shram-yogi-maan-dhan",
       "UP-up-old-pension",
       "UP-अग्निपथ-सैन्य-भर्ती",
       "UP-अधिक-प्रधानमंत्री-उज्ज्वला",
@@ -4848,7 +4957,9 @@
       "UP-उत्तर-प्रदेश-ब्याज-माफी",
       "UP-उन्हें-आवास",
       "UP-ऑक्शन",
+      "UP-करनी-होगी-निर्धारित-राशि-ये",
       "UP-किसान",
+      "UP-खास",
       "UP-गाजियाबाद-इंदिरापुरम-विकास",
       "UP-जिसमें-लैंड-पूलिंग",
       "UP-जोखिम-प्रबंधन-एवं-पशुधन-बीमा",
@@ -4867,6 +4978,7 @@
       "UP-लाई-ब्याज-माफी",
       "UP-विकास",
       "UP-वृद्धावस्था-पेंशन",
+      "UP-सबसे-खास-बात-कि",
       "UP-सरकारी",
       "UP-सौमित्र-विहार-आवासीय",
       "UP-स्वामी-विवेकानंद-युवा-सशक्तीकरण"
@@ -4994,9 +5106,11 @@
       "MH-lek-ladki",
       "MH-maharashtra-employment-guarantee",
       "MH-mazi-ladki-bahin",
+      "MH-odisha-s-subhadra",
       "MH-punyashlok-ahilyadevi-holkar-farmer-loan-waiver",
       "MH-punyashlok-ahilyadevi-holkar-shetkari-karjmukti",
       "MH-sanjay-gandhi-niradhar",
+      "MH-subhadra",
       "MH-कटौती",
       "MH-कि",
       "MH-किसान-कर्ज-माफी",
@@ -5026,6 +5140,7 @@
       "UK-ekal-mahila-swarozgar",
       "UK-farmer-pension",
       "UK-jan-dhan",
+      "UK-mahila-rojgar",
       "UK-mahila-self-help-group-empowerment",
       "UK-nanda-gaura",
       "UK-national-social-assistance-programme",
@@ -5104,5 +5219,5 @@
     "JK": [],
     "AR": []
   },
-  "saved": "2026-11-19"
+  "saved": "2026-11-20"
 }
