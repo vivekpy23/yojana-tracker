@@ -20,7 +20,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -45,7 +45,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -70,7 +70,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -95,7 +95,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -139,7 +139,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -164,7 +164,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -189,7 +189,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -214,7 +214,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -239,7 +239,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -264,7 +264,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -289,7 +289,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -314,7 +314,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-22",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -339,7 +339,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -364,9 +364,28 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
+  },
+  {
+    "id": "BR-revamped-distribution-sector",
+    "state": "BR",
+    "name": "Revamped Distribution Sector Scheme (RDSS)",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
+    "funding": "unknown",
+    "funding_evidence": ""
   },
   {
     "id": "BR-women-welfare",
@@ -389,7 +408,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2143,7 +2162,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2168,7 +2187,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2193,7 +2212,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -2218,7 +2237,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (National Health Mission|\\bNHM\\b)"
   },
@@ -2243,7 +2262,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2268,7 +2287,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
   },
@@ -2293,7 +2312,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2337,7 +2356,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Ayushman Bharat|PM-?JAY\\b)"
   },
@@ -2362,7 +2381,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2387,7 +2406,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2431,7 +2450,26 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
+    "funding": "unknown",
+    "funding_evidence": ""
+  },
+  {
+    "id": "DL-vistar",
+    "state": "DL",
+    "name": "VISTAR Scheme",
+    "aliases": [],
+    "department": null,
+    "description": null,
+    "level": null,
+    "official_url": null,
+    "sources": [],
+    "discovered_via": [
+      "news"
+    ],
+    "meta_from": "news",
+    "first_seen": "2026-11-21",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2570,7 +2608,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2595,7 +2633,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -2620,7 +2658,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2645,7 +2683,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2670,7 +2708,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2695,7 +2733,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2720,7 +2758,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -2745,7 +2783,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
   },
@@ -2770,7 +2808,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2795,7 +2833,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2820,7 +2858,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -2845,7 +2883,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2870,7 +2908,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2895,7 +2933,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -2920,7 +2958,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2945,7 +2983,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2970,7 +3008,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -2995,7 +3033,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3020,7 +3058,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
   },
@@ -3045,7 +3083,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Samagra Shiksha)"
   },
@@ -3070,7 +3108,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3095,7 +3133,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3120,7 +3158,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3145,7 +3183,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -3170,7 +3208,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3195,7 +3233,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3220,7 +3258,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3245,7 +3283,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -3270,7 +3308,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3295,7 +3333,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (National Health Mission|\\bNHM\\b)"
   },
@@ -3320,7 +3358,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3345,7 +3383,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3370,7 +3408,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3395,7 +3433,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3420,7 +3458,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3445,7 +3483,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3470,7 +3508,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3495,7 +3533,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3520,7 +3558,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3545,7 +3583,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -3567,7 +3605,7 @@
     ],
     "meta_from": "config",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "Karnataka's own guarantee schemes, funded from the state budget"
   },
@@ -3592,7 +3630,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3693,7 +3731,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3718,7 +3756,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -3752,7 +3790,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -3777,7 +3815,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3821,7 +3859,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Awas|\\bPMAY|PM Awas)"
   },
@@ -3903,7 +3941,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -3928,7 +3966,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -3953,7 +3991,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -3978,7 +4016,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4003,7 +4041,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Jal Jeevan Mission)"
   },
@@ -4047,7 +4085,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -4072,7 +4110,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -4097,7 +4135,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -4122,7 +4160,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4147,7 +4185,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4191,7 +4229,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4216,7 +4254,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4241,7 +4279,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4266,7 +4304,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4291,7 +4329,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -4316,7 +4354,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4341,7 +4379,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4366,7 +4404,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4391,7 +4429,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4416,7 +4454,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4479,7 +4517,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4504,7 +4542,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -4548,7 +4586,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -4592,7 +4630,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4617,7 +4655,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4642,7 +4680,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4667,7 +4705,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (\\bAMRUT\\b|Atal Mission for Rejuvenation)"
   },
@@ -4692,7 +4730,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4717,7 +4755,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4742,7 +4780,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4767,7 +4805,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4792,7 +4830,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4822,7 +4860,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -4904,7 +4942,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -4937,7 +4975,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget"
   },
@@ -4978,7 +5016,7 @@
     ],
     "meta_from": "config",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget"
   },
@@ -5022,7 +5060,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -5104,7 +5142,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -5145,7 +5183,7 @@
     ],
     "meta_from": "config",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "Tamil Nadu's own scheme, funded from the state budget"
   },
@@ -5170,7 +5208,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -5195,7 +5233,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -5220,7 +5258,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -5264,7 +5302,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -5289,7 +5327,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -5314,7 +5352,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -5339,7 +5377,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -5364,7 +5402,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-22",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -5389,7 +5427,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Jal Jeevan Mission)"
   },
@@ -5414,7 +5452,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Pradhan Mantri Gram Sadak|\\bPMGSY\\b)"
   },
@@ -5439,7 +5477,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Jal Jeevan Mission)"
   },
@@ -5464,7 +5502,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -5487,7 +5525,7 @@
     ],
     "meta_from": "config",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -5509,7 +5547,7 @@
     ],
     "meta_from": "config",
     "first_seen": "2026-10-19",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "state",
     "funding_evidence": "named as a Chief Minister's scheme"
   },
@@ -5534,7 +5572,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -5559,7 +5597,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "centrally_sponsored",
     "funding_evidence": "name matches the Union Budget's Centrally Sponsored Scheme list (Samagra Shiksha)"
   },
@@ -5584,7 +5622,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -5628,7 +5666,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
@@ -5691,7 +5729,7 @@
     ],
     "meta_from": "prs",
     "first_seen": "2026-10-21",
-    "last_seen": "2026-10-22",
+    "last_seen": "2026-11-21",
     "funding": "unknown",
     "funding_evidence": ""
   },
