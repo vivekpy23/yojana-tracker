@@ -3920,6 +3920,10 @@
     "https://www.jagran.com/uttar-pradesh/lucknow-city-up-mukhyamantri-samuhik-vivah-yojana-2026-registration-64-thousand-direct-to-brides-account-40415042.html": [
       "2026-11-20",
       "UP"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4512": [
+      "2026-11-21",
+      "BR"
     ]
   },
   "queries": {
@@ -4029,7 +4033,7 @@
     "bing_news|Jharkhand announces welfare scheme crore": "2026-11-18",
     "bing_news|Jammu and Kashmir योजना करोड़ राशि खाते में अंतरित": "2026-11-18",
     "bing_news|Karnataka announces welfare scheme crore": "2026-11-18",
-    "bing_news|महाराष्ट्र नई योजना शुरू लाभार्थी": "2026-11-12",
+    "bing_news|महाराष्ट्र नई योजना शुरू लाभार्थी": "2026-11-21",
     "bing_news|मध्य प्रदेश नई योजना शुरू लाभार्थी": "2026-11-18",
     "bing_news|Punjab announces welfare scheme crore": "2026-11-18",
     "bing_news|Rajasthan new scheme launched yojana beneficiaries": "2026-11-18",
@@ -4165,6 +4169,9 @@
       },
       "2026-11-20": {
         "discovery": 32
+      },
+      "2026-11-21": {
+        "discovery": 1
       }
     }
   },
@@ -4727,13 +4734,16 @@
         "UK": 1,
         "UP": 1,
         "WB": 1
+      },
+      "2026-11-21": {
+        "MH": 1
       }
     }
   },
   "newsrooms": {
     "https://cm.bihar.gov.in/users/news.aspx": {
       "template": "https://cm.bihar.gov.in/users/viewnews.aspx?id={id}",
-      "max_id": 4511,
+      "max_id": 4512,
       "backfill_done": true,
       "backfill_next": 3932
     }
@@ -5219,5 +5229,5 @@
     "JK": [],
     "AR": []
   },
-  "saved": "2026-11-20"
+  "saved": "2026-11-21"
 }
