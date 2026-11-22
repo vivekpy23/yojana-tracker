@@ -4050,7 +4050,7 @@
     "bing_news|झारखंड सरकार योजना घोषणा करोड़": "2026-11-19",
     "bing_news|Jammu and Kashmir new scheme launched yojana beneficiaries": "2026-11-19",
     "bing_news|ಕರ್ನಾಟಕ ಸರ್ಕಾರ ಯೋಜನೆ ಘೋಷಣೆ ಕೋಟಿ": "2026-11-19",
-    "bing_news|Maharashtra announces welfare scheme crore": "2026-11-13",
+    "bing_news|Maharashtra announces welfare scheme crore": "2026-11-22",
     "bing_news|Madhya Pradesh announces welfare scheme crore": "2026-11-19",
     "bing_news|पंजाब सरकार योजना घोषणा करोड़": "2026-11-19",
     "bing_news|राजस्थान नई योजना शुरू लाभार्थी": "2026-11-19",
@@ -4171,6 +4171,9 @@
         "discovery": 32
       },
       "2026-11-21": {
+        "discovery": 1
+      },
+      "2026-11-22": {
         "discovery": 1
       }
     }
@@ -4737,6 +4740,9 @@
       },
       "2026-11-21": {
         "MH": 1
+      },
+      "2026-11-22": {
+        "MH": 1
       }
     }
   },
@@ -5229,5 +5235,5 @@
     "JK": [],
     "AR": []
   },
-  "saved": "2026-11-21"
+  "saved": "2026-11-22"
 }
