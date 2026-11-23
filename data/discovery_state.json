@@ -3924,6 +3924,30 @@
     "https://cm.bihar.gov.in/users/viewnews.aspx?id=4512": [
       "2026-11-21",
       "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4513": [
+      "2026-11-23",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4514": [
+      "2026-11-23",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4515": [
+      "2026-11-23",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4516": [
+      "2026-11-23",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4517": [
+      "2026-11-23",
+      "BR"
+    ],
+    "https://navbharattimes.indiatimes.com/metro/mumbai/politics/maharashtra-government-minister-admitted-difficulty-ladli-behan-yojana-increased-budget/articleshow/119094961.cms": [
+      "2026-11-23",
+      "MH"
     ]
   },
   "queries": {
@@ -4067,7 +4091,7 @@
     "bing_news|Jharkhand scheme crore transferred to beneficiaries accounts": "2026-11-20",
     "bing_news|Jammu and Kashmir नई योजना शुरू लाभार्थी": "2026-11-20",
     "bing_news|Karnataka scheme crore transferred to beneficiaries accounts": "2026-11-20",
-    "bing_news|महाराष्ट्र सरकार योजना घोषणा कोटी": "2026-11-14",
+    "bing_news|महाराष्ट्र सरकार योजना घोषणा कोटी": "2026-11-23",
     "bing_news|मध्य प्रदेश सरकार योजना घोषणा करोड़": "2026-11-20",
     "bing_news|Punjab scheme crore transferred to beneficiaries accounts": "2026-11-20",
     "bing_news|Rajasthan announces welfare scheme crore": "2026-11-20",
@@ -4174,6 +4198,9 @@
         "discovery": 1
       },
       "2026-11-22": {
+        "discovery": 1
+      },
+      "2026-11-23": {
         "discovery": 1
       }
     }
@@ -4743,13 +4770,16 @@
       },
       "2026-11-22": {
         "MH": 1
+      },
+      "2026-11-23": {
+        "MH": 1
       }
     }
   },
   "newsrooms": {
     "https://cm.bihar.gov.in/users/news.aspx": {
       "template": "https://cm.bihar.gov.in/users/viewnews.aspx?id={id}",
-      "max_id": 4512,
+      "max_id": 4517,
       "backfill_done": true,
       "backfill_next": 3932
     }
@@ -5235,5 +5265,5 @@
     "JK": [],
     "AR": []
   },
-  "saved": "2026-11-22"
+  "saved": "2026-11-23"
 }
