@@ -3948,6 +3948,18 @@
     "https://navbharattimes.indiatimes.com/metro/mumbai/politics/maharashtra-government-minister-admitted-difficulty-ladli-behan-yojana-increased-budget/articleshow/119094961.cms": [
       "2026-11-23",
       "MH"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4518": [
+      "2026-11-24",
+      "BR"
+    ],
+    "https://hindi.news18.com/news/maharashtra/mumbai-maharashtra-cm-devendra-fadanvis-big-announcement-farmers-will-get-5000-rupees-this-week-in-account-for-drought-aid-ws-l-10940830.html": [
+      "2026-11-24",
+      "MH"
+    ],
+    "https://www.jagran.com/maharashtra/mumbai-maharashtra-drought-relief-mission-murghas-for-farmers-news-in-hindi-40415832.html": [
+      "2026-11-24",
+      "MH"
     ]
   },
   "queries": {
@@ -4098,7 +4110,7 @@
     "bing_news|Tamil Nadu announces welfare scheme crore": "2026-11-20",
     "bing_news|Uttarakhand new scheme launched yojana beneficiaries": "2026-11-20",
     "bing_news|उत्तर प्रदेश योजना करोड़ राशि खाते में अंतरित": "2026-11-20",
-    "bing_news|महाराष्ट्र सरकार योजना घोषणा करोड़": "2026-11-15",
+    "bing_news|महाराष्ट्र सरकार योजना घोषणा करोड़": "2026-11-24",
     "bing_news|Maharashtra scheme crore transferred to beneficiaries accounts": "2026-11-16",
     "bing_news|महाराष्ट्र योजना कोटी रक्कम खात्यात जमा": "2026-11-17"
   },
@@ -4201,6 +4213,9 @@
         "discovery": 1
       },
       "2026-11-23": {
+        "discovery": 1
+      },
+      "2026-11-24": {
         "discovery": 1
       }
     }
@@ -4773,13 +4788,16 @@
       },
       "2026-11-23": {
         "MH": 1
+      },
+      "2026-11-24": {
+        "MH": 1
       }
     }
   },
   "newsrooms": {
     "https://cm.bihar.gov.in/users/news.aspx": {
       "template": "https://cm.bihar.gov.in/users/viewnews.aspx?id={id}",
-      "max_id": 4517,
+      "max_id": 4518,
       "backfill_done": true,
       "backfill_next": 3932
     }
@@ -5168,6 +5186,7 @@
       "MH-पीएम-किसान",
       "MH-पुण्यश्लोक-अहिल्यादेवी-होल्कर-शेतकरी-कर्जमाफी",
       "MH-प्रमुख",
+      "MH-बता-दें-कि",
       "MH-माफी",
       "MH-लाख-महिलाएं-अपात्र-होकर",
       "MH-लाख-महिलाएं-नमो-शेतकरी",
@@ -5265,5 +5284,5 @@
     "JK": [],
     "AR": []
   },
-  "saved": "2026-11-23"
+  "saved": "2026-11-24"
 }
