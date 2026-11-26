@@ -3968,6 +3968,18 @@
     "https://www.moneycontrol.com/news/india/ladki-bahin-verification-wipes-out-92-lakh-names-nearly-4-in-10-beneficiaries-removed-13972124.html": [
       "2026-11-25",
       "MH"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4520": [
+      "2026-11-26",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4521": [
+      "2026-11-26",
+      "BR"
+    ],
+    "https://cm.bihar.gov.in/users/viewnews.aspx?id=4522": [
+      "2026-11-26",
+      "BR"
     ]
   },
   "queries": {
@@ -4120,7 +4132,7 @@
     "bing_news|उत्तर प्रदेश योजना करोड़ राशि खाते में अंतरित": "2026-11-20",
     "bing_news|महाराष्ट्र सरकार योजना घोषणा करोड़": "2026-11-24",
     "bing_news|Maharashtra scheme crore transferred to beneficiaries accounts": "2026-11-25",
-    "bing_news|महाराष्ट्र योजना कोटी रक्कम खात्यात जमा": "2026-11-17"
+    "bing_news|महाराष्ट्र योजना कोटी रक्कम खात्यात जमा": "2026-11-26"
   },
   "usage": {
     "bing_news": {
@@ -4227,6 +4239,9 @@
         "discovery": 1
       },
       "2026-11-25": {
+        "discovery": 1
+      },
+      "2026-11-26": {
         "discovery": 1
       }
     }
@@ -4805,13 +4820,16 @@
       },
       "2026-11-25": {
         "MH": 1
+      },
+      "2026-11-26": {
+        "MH": 1
       }
     }
   },
   "newsrooms": {
     "https://cm.bihar.gov.in/users/news.aspx": {
       "template": "https://cm.bihar.gov.in/users/viewnews.aspx?id={id}",
-      "max_id": 4519,
+      "max_id": 4522,
       "backfill_done": true,
       "backfill_next": 3932
     }
@@ -5298,5 +5316,5 @@
     "JK": [],
     "AR": []
   },
-  "saved": "2026-11-25"
+  "saved": "2026-11-26"
 }
